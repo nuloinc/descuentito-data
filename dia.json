@@ -1,61 +1,1080 @@
 [
   {
-    "title": "20% de descuento con Naranja X",
+    "title": "20% Dto. + 10% adicional para clientes Plan Sueldo y Jubilados",
     "discount": {
       "type": "porcentaje",
       "value": 20
     },
     "validFrom": "2025-01-01",
-    "validUntil": "2025-03-31",
+    "validUntil": "2025-06-30",
+    "weekdays": [
+      "Lunes"
+    ],
+    "restrictions": [
+      "Válido para clientes Plan Sueldo y Jubilados: 10% de descuento adicional con tope de $10.000 por cuenta, por cliente, por mes.",
+      "Deberá tener asociada a MODO la cuenta del Banco Ciudad.",
+      "Para compras realizadas por titulares de tarjetas adicionales, el tarjeta habiente adicional deberá poseer una caja de ahorro del Banco Ciudad asociada a MODO.",
+      "Se excluye el rubro electro, carnes, aceite de fideicomiso, kit esenciales, bodegas Chandon, La Rural, Terrazas de los Andes Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de los 7, Rutini, Escorihuela Gascon y Brik y todo el rubro alcohol.",
+      "Válido en comercios adheridos."
+    ],
+    "paymentMethods": [
+      [
+        "Banco Ciudad",
+        "Tarjeta de crédito VISA",
+        "MODO"
+      ]
+    ],
+    "limits": {
+      "maxDiscount": 20000
+    },
+    "where": [
+      "Jumbo"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "18, 12 y 6 cuotas sin interés",
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 18
+    },
+    "validFrom": "2023-08-01",
+    "validUntil": "2023-08-31",
+    "restrictions": [
+      "No aplica para pagos con saldo en cuenta",
+      "Válido en productos seleccionados de electrodomésticos"
+    ],
+    "paymentMethods": [
+      [
+        "Banco Nación",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Nación",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "3 Cuotas Sin Interés",
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-02-01",
+    "validUntil": "2025-02-28",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles"
+    ],
+    "restrictions": [
+      "Excluye electrodomésticos",
+      "Válido en Córdoba, Cuyo y NOA"
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta Carrefour Crédito"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "3 Cuotas sin interés en Librería, Rodados, Parrillas y más",
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-02-01",
+    "validUntil": "2025-02-28",
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados.",
+      "No aplica para compras realizadas en locales Vea Express y Disco Express.",
+      "Válido en librería, rodados, monopatines con motor, parrillas, herramientas eléctricas y muebles de interior."
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta Carrefour Crédito"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "10% de descuento con Tarjeta Clarín 365",
+    "discount": {
+      "type": "porcentaje",
+      "value": 10
+    },
+    "validFrom": "2025-01-01",
+    "validUntil": "2025-12-31",
+    "weekdays": [
+      "Lunes",
+      "Jueves"
+    ],
+    "restrictions": [
+      "Debe presentar la Tarjeta Clarín 365 o 365 Plus y ser socio del programa Jumbo Más o Vea Ahorro",
+      "No acumulable con otras promociones o descuentos.",
+      "No acumulable los días de emisión ni redención de Pesoscheck.",
+      "No incluye electrodomésticos, rodados, librería, carnes, leches, mayoristas de fiambrería, bodegas (La Rural, Trumpeter, Rutini, Chandon, 33 Sur, Terrazas de los Andes, Latitud 33, Mercier y Baron B.Y Los Generosos).",
+      "No incluye productos de marcas propias (C&CO, Home Care, Family Care, Pet Fun, Jumbo y Vea), compras realizadas en locales Vea Express ni aceites de fideicomiso.",
+      "No aplica en cajas de autoservicio.",
+      "No aplica para clientes en mora o inhabilitados."
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta Carrefour Crédito"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "25% de descuento con Tarjeta Cencopay",
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2025-02-01",
+    "validUntil": "2025-02-28",
     "weekdays": [
       "Martes"
     ],
     "restrictions": [
-      "El descuento se verá reflejado en el resumen de cuenta dentro de los 60 días de realizada la compra.",
-      "No aplica para compras realizadas con Naranja Visa, Naranja MasterCard, Naranja Amex, ni para transacciones realizadas en agrupadores y billeteras virtuales."
+      "No incluye electrodomésticos, rodados, librería, carnes, leches, mayoristas de fiambrería, productos de marcas propias (C&CO, Home Care, Family Care, Pet Fun, Jumbo y Vea), productos incluidos en los listados de precios convenientes, ni bodegas (Chandon, Terrazas de los Andes, La Rural, Rutini, Catena Zapata, Leoncio Arizu, Valmont, Latitud 33, Terrazas, Clos de los Siete, Barón B, Escorihuela Gascón, Mercier, Monteviejo, La Posta, Trumpeter, Luca, Luigi Bosca, 33 Sur, El Enemigo, Álamos ni Brik).",
+      "No aplica para compras realizadas en los locales Vea Express y Disco Express."
     ],
     "paymentMethods": [
       [
-        "NaranjaX"
+        "Tarjeta Carrefour Prepaga"
+      ],
+      [
+        "Tarjeta Carrefour Prepaga",
+        "Cuenta DNI"
       ]
     ],
     "limits": {
       "maxDiscount": 8000
     },
     "where": [
+      "Jumbo",
       "Online"
     ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
   },
   {
-    "title": "25% de ahorro pagando con MODO",
+    "title": "18, 12 y 6 cuotas sin interés",
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 18
+    },
+    "validFrom": "2023-08-01",
+    "validUntil": "2023-08-31",
+    "restrictions": [
+      "No aplica para pagos con saldo en cuenta",
+      "Válido en productos seleccionados de electrodomésticos"
+    ],
+    "paymentMethods": [
+      [
+        "Banco Nación",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Nación",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "20% de descuento con Tarjetas de Débito del Banco Supervielle",
+    "discount": {
+      "type": "porcentaje",
+      "value": 20
+    },
+    "validFrom": "2025-01-01",
+    "validUntil": "2025-02-28",
+    "weekdays": [
+      "Martes"
+    ],
+    "restrictions": [
+      "Válido para clientes que perciban su jubilación en el Banco Supervielle",
+      "Válido en supermercados adheridos",
+      "Válido exclusivamente pagando a través de la App Supervielle"
+    ],
+    "paymentMethods": [
+      [
+        "Banco Supervielle",
+        "Tarjeta de débito VISA"
+      ]
+    ],
+    "limits": {
+      "maxDiscount": 8000
+    },
+    "where": [
+      "Jumbo"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "20% de descuento con MODO",
+    "discount": {
+      "type": "porcentaje",
+      "value": 20
+    },
+    "validFrom": "2025-01-01",
+    "validUntil": "2025-02-28",
+    "weekdays": [
+      "Martes"
+    ],
+    "restrictions": [
+      "Válido para pagos realizados con código QR a través de MODO desde la App de Modo, la App Supervielle o la App Supervielle Jubilados del Banco.",
+      "Tope mensual por cuenta.",
+      "No aplica a pagos realizados a través de billeteras virtuales o 'proveedores de servicios de pago', excepto MODO.",
+      "Es condición necesaria tener una cuenta Supervielle adherida a MODO.",
+      "La aplicación de este beneficio es de exclusiva responsabilidad de MODO."
+    ],
+    "paymentMethods": [
+      [
+        "MODO",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "MODO",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "MODO",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "maxDiscount": 8000
+    },
+    "where": [
+      "Jumbo"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "3 Cuotas Sin Interés",
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-02-01",
+    "validUntil": "2025-02-28",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles"
+    ],
+    "restrictions": [
+      "Excluye electrodomésticos",
+      "Válido en Córdoba, Cuyo y NOA"
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta Carrefour Crédito"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "3 Cuotas sin interés en Librería, Rodados, Parrillas y más",
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-02-01",
+    "validUntil": "2025-02-28",
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados.",
+      "No aplica para compras realizadas en locales Vea Express y Disco Express.",
+      "Válido en librería, rodados, monopatines con motor, parrillas, herramientas eléctricas y muebles de interior."
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta Carrefour Crédito"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "25% de descuento",
     "discount": {
       "type": "porcentaje",
       "value": 25
     },
     "validFrom": "2024-12-01",
-    "validUntil": "2025-03-31",
+    "validUntil": "2025-05-31",
+    "weekdays": [
+      "Martes"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones.",
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash.",
+      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago.",
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS Móvil, Botón de Pago y Billetera Electrónica).",
+      "Válido pagando con código QR a través de MODO desde App BH o App Modo.",
+      "Válido para tarjetas Visa emitidas por Banco Hipotecario que no registren mora."
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "limits": {
+      "maxDiscount": 10000
+    },
+    "where": [
+      "Jumbo"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "30% de descuento hasta 3 cuotas sin interés",
+    "discount": {
+      "type": "porcentaje",
+      "value": 30
+    },
+    "validFrom": "2025-01-01",
+    "validUntil": "2025-06-30",
+    "weekdays": [
+      "Martes"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones y/o descuentos vigentes.",
+      "Tope de reintegro $10.000 semanal por cuenta.",
+      "No válido para compras realizadas en comercios que procesen sus ventas a través de plataforma única de pago en la cual no se individualice ni identifiquen comercio, tales como Mercado de Pago, Todo Pago, Pagos PEI, Botón de pago, etc.",
+      "No valido para promociones propias del comercio.",
+      "Se excluye el rubro electro, carnes, bodegas Chandon, La Rural, Terrazas de los Andes Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de los 7, Rutini, Escorihuela Gascon y Brik."
+    ],
+    "paymentMethods": [
+      [
+        "Banco Santander",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Santander",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "maxDiscount": 10000
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "30% de descuento",
+    "discount": {
+      "type": "porcentaje",
+      "value": 30
+    },
+    "validFrom": "2025-01-01",
+    "validUntil": "2025-02-28",
+    "weekdays": [
+      "Miercoles"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones.",
+      "Válido para consumidor final.",
+      "No incluye el rubro electro, carnes, productos acordados con el gobierno como el programa de precios cuidados, kit esenciales, bodegas Chandon, La Rural, Terrazas de los Andes Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de los 7, Rutini, Escorihuela Gascon y Brik."
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Santander",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Santander",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Santander",
+        "Tarjeta de débito VISA"
+      ]
+    ],
+    "limits": {
+      "maxDiscount": 20000
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "30% de descuento con Tarjetas Nativa Visa y Nativa Mastercard",
+    "discount": {
+      "type": "porcentaje",
+      "value": 30
+    },
+    "validFrom": "2025-01-01",
+    "validUntil": "2025-02-28",
+    "weekdays": [
+      "Miercoles"
+    ],
+    "restrictions": [
+      "Válido en 1 pago",
+      "No acumulable con otras promociones",
+      "Tope de reintegro $10.000 por usuario por mes",
+      "Excluye el rubro electro, carnes y aceites de fideicomiso, kits esenciales",
+      "Excluye vinos en brick, moscato, oporto, mistela, ni bodegas La Rural, Trumpeter, Rutini, Luca, La Posta, Luigi Bosca, Chandon, 33 Sur, Terrazas de los Andes, Valmont, Latitud 33, Catena Zapata, Mercier, Baron B, Escorihuela Gascón, Clos de los Siete, El Enemigo, Álamos, Monteviejo"
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "maxDiscount": 10000
+    },
+    "where": [
+      "Jumbo"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "18, 12 y 6 cuotas sin interés",
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 18
+    },
+    "validFrom": "2023-08-01",
+    "validUntil": "2023-08-31",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "Válido en productos seleccionados de electrodomésticos."
+    ],
+    "paymentMethods": [
+      [
+        "Banco Nación",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Nación",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "20% de descuento",
+    "discount": {
+      "type": "porcentaje",
+      "value": 20
+    },
+    "validFrom": "2024-12-01",
+    "validUntil": "2025-02-28",
+    "weekdays": [
+      "Miercoles"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones y/o descuentos.",
+      "No incluye electrodomésticos, rodados, librería, carnes, leches, mayoristas de fiambrería, productos de marcas propias (C&CO, Home Care, Family Care, Pet Fun, Jumbo y Vea), productos incluidos en los listados de precios convenientes, ni bodegas (Chandon, Terrazas de los Andes, La Rural, Rutini, Catena Zapata, Leoncio Arizu, Valmont, Latitud 33, Terrazas, Clos de los Siete, Barón B, Escorihuela Gascón, Mercier, Monteviejo, La Posta, Trumpeter, Luca, Luigi Bosca, 33 Sur, El Enemigo, Alamos ni Brik).",
+      "No aplica para clientes en mora o inhabilitados.",
+      "No aplica para compras realizadas en locales Vea Express."
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta Carrefour Crédito"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "3 Cuotas Sin Interés",
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-02-01",
+    "validUntil": "2025-02-28",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles"
+    ],
+    "restrictions": [
+      "Excluye electrodomésticos",
+      "Válido en Córdoba, Cuyo y NOA"
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta Carrefour Crédito"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "15% de descuento para jubilados y pensionados",
+    "discount": {
+      "type": "porcentaje",
+      "value": 15
+    },
+    "validFrom": "2023-08-02",
+    "validUntil": "2023-08-30",
+    "weekdays": [
+      "Miercoles"
+    ],
+    "restrictions": [
+      "Deberá presentar DNI, LC, LE, CI, documentación de ANSES o PAMI.",
+      "Para menores de 60 años, presentar un recibo de haberes.",
+      "Válido para jubilados y pensionados mayores de 60 años.",
+      "Debe ser socio Jumbo.",
+      "No acumulable con otras promociones.",
+      "No incluye electro, bodegas La Rural, Rutini Wines, Leoncio Arizu, Chandon, Terrazas de los Andes, Valmont, Latitud 33, Catena Zapata, Mercier y Baron B, Escorihuela Gascon y Brik, kits esenciales, yerbas, fideos, yogures, aceites y leches."
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "Tarjeta American Express"
+      ],
+      [
+        "Tarjeta Prepaga Mastercard"
+      ],
+      [
+        "Dinero en cuenta"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "10% de descuento para jubilados y mayores de 60 años",
+    "discount": {
+      "type": "porcentaje",
+      "value": 10
+    },
+    "validFrom": "2023-08-01",
+    "validUntil": "2023-08-31",
+    "restrictions": [
+      "Deberán presentar DNI, LC, LE, CI, documentación de ANSES o PAMI.",
+      "Para menores de 60 años: presentar un recibo de haberes.",
+      "Válido para jubilados y pensionados.",
+      "Debés ser socio Jumbo.",
+      "No acumulable con otras promociones y/o descuentos vigentes.",
+      "No incluye electro, bodegas La Rural, Rutini Wines, Leoncio Arizu, Chandon, Terrazas de los Andes, Valmont, Latitud 33, Catena Zapata, Mercier y Baron B, Escorihuela Gascon y Brik, kits esenciales, Yerbas, Fideos, yogures, aceites y leches."
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "Tarjeta American Express"
+      ],
+      [
+        "Tarjeta Prepaga Mastercard"
+      ],
+      [
+        "Dinero en cuenta"
+      ],
+      [
+        "MODO"
+      ],
+      [
+        "Ualá"
+      ],
+      [
+        "Uilo"
+      ],
+      [
+        "NaranjaX"
+      ],
+      [
+        "Cuenta DNI"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "3 Cuotas sin interés en Librería, Rodados, Parrillas y más",
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-02-01",
+    "validUntil": "2025-02-28",
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados.",
+      "No aplica para compras realizadas en locales Vea Express y Disco Express.",
+      "Válido en librería, rodados, monopatines con motor, parrillas, herramientas eléctricas y muebles de interior."
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta Carrefour Crédito"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "30% Dto. con tarjetas Visa y Mastercard del Banco San Juan",
+    "discount": {
+      "type": "porcentaje",
+      "value": 30
+    },
+    "validFrom": "2025-01-01",
+    "validUntil": "2025-06-30",
+    "weekdays": [
+      "Miercoles"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones.",
+      "No válido para promociones propias del comercio.",
+      "No aplica para compras con tarjetas a través de MPOS y botón de pago ni planes de financiación del gobierno.",
+      "Válido para consumidor final.",
+      "Se excluye el rubro electro, carnes, kit esenciales, bodegas Chandon, La Rural, Terrazas de los Andes Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de los 7, Rutini, Escorihuela Gascon y Brik, vinos en cartón, yerbas, fideos, yogures, aceites y leches, harinas, azúcar y productos mayorista del sector fiambrería."
+    ],
+    "paymentMethods": [
+      [
+        "Banco Santander",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Santander",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "maxDiscount": 10000
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "25% de descuento",
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2025-02-01",
+    "validUntil": "2025-02-28",
     "weekdays": [
       "Jueves"
     ],
     "restrictions": [
-      "No acumulable con otras promociones vigentes.",
-      "No aplica a las categorías: Tecnología, Bazar, Textil y Electro.",
-      "No aplica a pagos a través de billeteras virtuales (excepto MODO), MPOS y/o plataformas de pago online.",
-      "Válido en compras realizadas en un pago.",
-      "El cliente debe tener una caja de ahorro común en el banco para que se acredite el monto del reintegro.",
-      "Válido para compras realizadas en el país."
+      "No acumulable con otras promociones.",
+      "No válido para productos de electro, carnes, aceites de fideicomiso, kits esenciales.",
+      "No válido para bodegas La Rural, Trumpeter, Rutini, Monteviejo, La Posta, Luca, Luigui Bosca, Chandon, 33 Sur, Terrazas de los Andes, Valmont, Latitud 33, Catena Zapata, Mercier, Baron B, Escorihuela Gascón, Clos de los Siete, El Enemigo, Álamos."
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta American Express"
+      ]
+    ],
+    "limits": {
+      "maxDiscount": 12000
+    },
+    "where": [
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "18, 12 y 6 cuotas sin interés",
+    "category": "Electrodomésticos",
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 18
+    },
+    "validFrom": "2023-08-01",
+    "validUntil": "2023-08-31",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No aplica para pagos con saldo en cuenta.",
+      "Válido en productos seleccionados de electrodomésticos."
+    ],
+    "paymentMethods": [
+      [
+        "Banco Nación",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Nación",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "25% en un pago en electrodomésticos",
+    "category": "Electrodomésticos",
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2025-01-01",
+    "validUntil": "2025-02-28",
+    "weekdays": [
+      "Jueves"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones y/o descuentos.",
+      "No aplica para clientes en mora o inhabilitados.",
+      "No aplica para compras realizadas en locales Vea Express."
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta Carrefour Crédito"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "25% de descuento con American Express",
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2025-02-27",
+    "validUntil": "2025-02-27",
+    "weekdays": [
+      "Jueves"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones",
+      "Válido para compras de tipo familiar",
+      "No válido para productos de electro, carnes, aceites de fideicomiso, kits esenciales",
+      "No válido para bodegas La Rural, Trumpeter, Rutini, Monteviejo, La Posta, Luca, Luigui Bosca, Chandon, 33 Sur, Terrazas de los Andes, Valmont, Latitud 33, Catena Zapata, Mercier, Baron B, Escorihuela Gascón, Clos de los Siete, El Enemigo, Álamos",
+      "Tope de reintegro de $12.000 para clientes premium"
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta American Express"
+      ]
+    ],
+    "limits": {
+      "maxDiscount": 8000
+    },
+    "where": [
+      "Jumbo"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "3 cuotas sin interés",
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-02-14",
+    "validUntil": "2025-03-30",
+    "weekdays": [
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones vigentes",
+      "Válido únicamente en los comercios adheridos"
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "3 Cuotas sin interés en Librería, Rodados, Parrillas y más",
+    "category": "Electro y Tecnología",
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-02-01",
+    "validUntil": "2025-02-28",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Tarjeta Carrefour Crédito"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "10% de descuento con Tarjeta Clarín 365",
+    "discount": {
+      "type": "porcentaje",
+      "value": 10
+    },
+    "validFrom": "2025-01-01",
+    "validUntil": "2025-12-31",
+    "weekdays": [
+      "Lunes",
+      "Jueves"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones o descuentos.",
+      "No aplica a electrodomésticos, rodados, librería, carnes, leches, mayoristas de fiambres, bodegas (La Rural, Trumpeter, Rutini, Chandon, 33 Sur, Terrazas de los Andes, Latitud 33, Mercier y Baron B.Y Los Generosos).",
+      "No incluye productos de marcas propias (C&CO, Home Care, Family Care, Pet Fun, Jumbo y Vea), compras realizadas en locales Vea Express ni aceites de fideicomiso.",
+      "No acumulable los días de emisión ni redención de PesosCheck.",
+      "No aplica en cajas de autoservicio.",
+      "Para mayores de 18 años que al momento del pago de su compra acrediten su identidad y presenten la Tarjeta Clarín 365 o 365 Plus y sean socios del programa Jumbo Más o Vea Ahorro.",
+      "El descuento se efectivizará en la línea de cajas.",
+      "Esta promoción no aplica para clientes en mora o inhabilitados."
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Tarjeta de débito Mastercard"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "25% Dto. con QR de MODO y Tarjetas Galicia VISA",
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2024-12-01",
+    "validUntil": "2025-02-28",
+    "weekdays": [
+      "Jueves"
+    ],
+    "restrictions": [
+      "Válido para consumidor final.",
+      "No acumulable con otras promociones.",
+      "Válido únicamente en los comercios adheridos.",
+      "Excluye el rubro electro, carnes.",
+      "No aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online."
     ],
     "paymentMethods": [
       [
         "Banco Galicia",
-        "Tarjeta de crédito VISA",
+        "Tarjeta de débito VISA",
         "MODO"
       ],
       [
         "Banco Galicia",
-        "Tarjeta de débito VISA",
+        "Tarjeta de crédito VISA",
         "MODO"
       ]
     ],
@@ -63,576 +1082,71 @@
       "maxDiscount": 15000
     },
     "where": [
-      "Online"
+      "Jumbo"
     ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
   },
   {
-    "title": "30% de ahorro para clientes Eminent",
+    "title": "30% Dto. para clientes Eminent",
+    "category": "Supermercado",
     "discount": {
       "type": "porcentaje",
       "value": 30
     },
     "validFrom": "2024-12-01",
-    "validUntil": "2025-03-31",
+    "validUntil": "2025-02-28",
     "weekdays": [
       "Jueves"
     ],
     "restrictions": [
-      "Válido únicamente para compras realizadas en 1 pago.",
-      "No acumulable con otras promociones vigentes.",
-      "No aplica a las categorías: Tecnología, Bazar, Textil y Electro.",
-      "No aplica a pagos a través de billeteras virtuales (excepto MODO), MPOS y/o plataformas de pago online.",
-      "Sólo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos.",
+      "Aplica solo a pagos realizados a través de QR de Modo desde app Galicia y app Modo.",
+      "Válido solo en comercios adheridos.",
       "El importe ahorrado se acreditará dentro de los 10 días hábiles posteriores a la compra en la caja de ahorro común.",
-      "El participante deberá tener abierta una caja de ahorro común en el banco, en donde se acreditará el monto del reintegro."
+      "Para acceder a la promoción, el participante deberá tener abierta una caja de ahorro común en el Banco, en donde se acreditará el monto del reintegro.",
+      "Si el cliente tuviera más de una cuenta, el crédito se realizará en cualquiera de ellas a elección del Banco.",
+      "No acumulable con otras promociones.",
+      "Válido para consumidor final.",
+      "No aplica para compras con tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
+      "No aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
+      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos.",
+      "Banco Galicia solo es el medio de pago para la adquisición del producto/servicio."
     ],
     "paymentMethods": [
       [
         "Banco Galicia - Eminent",
-        "Tarjeta de crédito VISA",
-        "MODO"
-      ],
-      [
-        "Banco Galicia - Eminent",
-        "Tarjeta de débito VISA",
-        "MODO"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 20000
-    },
-    "where": [
-      "Online"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "title": "25% de descuento",
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2025-01-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Martes"
-    ],
-    "restrictions": [
-      "Válido únicamente para la primera transacción del día",
-      "Válido una vez por usuario, por día martes",
-      "Debe elegir \"Tarjeta de débito\" como forma de pago al momento de pagar con la tarjeta Mastercard Prex en el sitio web"
-    ],
-    "paymentMethods": [
-      [
-        "Tarjeta de débito Mastercard",
-        "Tarjeta Prepaga Mastercard"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 6000
-    },
-    "where": [
-      "Online"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "title": "15% de descuento",
-    "discount": {
-      "type": "porcentaje",
-      "value": 15
-    },
-    "validFrom": "2025-02-12",
-    "validUntil": "2025-02-19",
-    "weekdays": [
-      "Miercoles"
-    ],
-    "restrictions": [
-      "Válido un cupón por usuario por miércoles",
-      "No aplica en Jujuy"
-    ],
-    "paymentMethods": [
-      [
-        "Mercado Pago"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 999999
-    },
-    "where": [
-      "Online"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "title": "25% de descuento pagando con MODO",
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2025-01-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Sabado"
-    ],
-    "restrictions": [
-      "No acumulable con otras promociones",
-      "El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta asociada del cliente",
-      "Es necesario que previo a realizarse el reintegro tengas asociada a MODO la cuenta que sea del mismo banco que la tarjeta con la que realizaste la compra",
-      "Tope: Suma de las compras realizadas por el titular de tarjeta de crédito y sus adicionales y las efectuadas con todas las tarjetas de débito asociadas a la cuenta del titular de la misma",
-      "No aplica a tarjetas de débito vinculadas a cajas de ahorro pesos gratuitas"
-    ],
-    "paymentMethods": [
-      [
-        "Banco Santander",
-        "Tarjeta de crédito VISA",
-        "MODO"
-      ],
-      [
-        "Banco Santander",
-        "Tarjeta de débito VISA",
-        "MODO"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 20000
-    },
-    "where": [
-      "Dia",
-      "Online"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "title": "30% de descuento con Banco Nación MODO",
-    "discount": {
-      "type": "porcentaje",
-      "value": 30
-    },
-    "validFrom": "2025-01-01",
-    "validUntil": "2025-02-28",
-    "weekdays": [
-      "Miercoles"
-    ],
-    "restrictions": [
-      "Válido en la primera transacción realizable durante la vigencia de la promoción.",
-      "No aplica para pagos con saldo en cuenta.",
-      "Si se utiliza más de un medio de pago se reintegrará hasta llegar al tope.",
-      "En caso de compras realizadas por adicionales deberán contar con una cuenta monetaria en el BNA para recibir el reintegro.",
-      "Excluye el rubro electro."
-    ],
-    "paymentMethods": [
-      [
-        "Banco Nación",
-        "MODO",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Nación",
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 10000
-    },
-    "where": [
-      "Dia",
-      "Online"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "title": "20% de descuento",
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2024-10-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Lunes",
-      "Viernes"
-    ],
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Columbia",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Columbia",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 7000
-    },
-    "where": [
-      "Dia"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "title": "25% de descuento",
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2024-10-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Martes"
-    ],
-    "restrictions": [
-      "No acumulable con otros beneficios y/o promociones vigentes.",
-      "No aplica sobre productos incluidos en programas gubernamentales.",
-      "No aplica a pagos a través de billeteras virtuales, plataformas de pago y/o portales de pago online.",
-      "Exclusivo para clientes de Banco del Sol registrados a través de la aplicación del banco.",
-      "No aplica para clientes con cuentas en mora y/o bloqueadas por cualquier motivo."
-    ],
-    "paymentMethods": [
-      [
         "Tarjeta de débito VISA"
       ],
       [
-        "Tarjeta de débito Mastercard"
+        "Banco Galicia - Eminent",
+        "Tarjeta de crédito VISA"
       ]
     ],
     "limits": {
-      "maxDiscount": 5000
+      "maxDiscount": 20000
     },
     "where": [
-      "Dia",
-      "Online"
+      "Jumbo"
     ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
   },
   {
-    "title": "25% de descuento",
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2024-08-09",
-    "validUntil": "2025-02-28",
-    "weekdays": [
-      "Viernes"
-    ],
-    "restrictions": [
-      "No acumulable con otras promociones y/o beneficios vigentes."
-    ],
-    "paymentMethods": [
-      [
-        "Tarjeta de crédito Mastercard",
-        "Ualá"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 10000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Dia",
-      "Online"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "title": "3 cuotas sin interés",
+    "title": "12 cuotas sin interés en Electro",
+    "category": "Electro",
     "discount": {
       "type": "cuotas sin intereses",
-      "value": 3
+      "value": 12
     },
-    "validFrom": "2024-09-05",
-    "validUntil": "2025-03-30",
+    "validFrom": "2025-02-14",
+    "validUntil": "2025-02-28",
     "restrictions": [
-      "Válido únicamente en los comercios adheridos y en productos seleccionados.",
+      "Válido únicamente en los comercios adheridos.",
       "No acumulable con otras promociones vigentes.",
-      "Sólo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos.",
-      "No aplica para compras realizadas con Tarjetas de Crédito Visa Business, Visa Rural y Tarjetas de Débito.",
-      "No aplica a pagos a través de billeteras virtuales (excepto MODO, Google Pay y Apple Pay), MPOS y/o plataformas de pago online."
-    ],
-    "paymentMethods": [
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "limits": {
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Dia",
-      "Online"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "title": "30% de descuento pagando con MODO",
-    "discount": {
-      "type": "porcentaje",
-      "value": 30
-    },
-    "validFrom": "2024-12-12",
-    "validUntil": "2025-06-30",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [
-      "Tope de reintegro $10.000 por cuenta por semana.",
-      "El reintegro se realizará en la cuenta asociada del cliente dentro de los 30 días de realizada la compra.",
-      "No aplica para pagos en cuotas.",
-      "Es necesario que previo a realizar el pago el usuario tenga asociada a MODO la cuenta y tarjeta del Nuevo Banco de Entre Ríos S.A. con la que realizará la compra.",
-      "Los beneficios informados no aplican a otras billeteras o plataformas de pago."
-    ],
-    "paymentMethods": [
-      [
-        "MODO",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 10000
-    },
-    "where": [
-      "Dia",
-      "Online"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "title": "30% de reintegro con MODO",
-    "discount": {
-      "type": "porcentaje",
-      "value": 30
-    },
-    "validFrom": "2024-12-17",
-    "validUntil": "2025-06-30",
-    "weekdays": [
-      "Martes"
-    ],
-    "restrictions": [
-      "No aplica para compras en cuotas",
-      "El reintegro se realizará dentro de los 30 días de realizada la compra",
-      "Es necesario tener asociada a MODO la cuenta y tarjeta del Nuevo Banco Santa Fe S.A. con la que se realizará la compra",
-      "Los beneficios informados no aplican a otras billeteras o plataformas de pago"
-    ],
-    "paymentMethods": [
-      [
-        "MODO",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 10000
-    },
-    "where": [
-      "Dia",
-      "Online"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "title": "15% de descuento",
-    "discount": {
-      "type": "porcentaje",
-      "value": 15
-    },
-    "validFrom": "2025-02-05",
-    "validUntil": "2025-02-26",
-    "weekdays": [
-      "Miercoles"
-    ],
-    "restrictions": [
-      "Un cupón por usuario por miércoles",
-      "Excluye Jujuy",
-      "Descuento acumulable con otras promociones"
-    ],
-    "paymentMethods": [
-      [
-        "Mercado Pago"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 999999
-    },
-    "where": [
-      "Dia"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "title": "20% de descuento",
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2024-10-26",
-    "validUntil": "2025-02-28",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [
-      "Tope de reintegro de $3.000 por semana."
-    ],
-    "paymentMethods": [
-      [
-        "Tarjeta de crédito VISA",
-        "Mercado Pago"
-      ],
-      [
-        "Tarjeta de débito VISA",
-        "Mercado Pago"
-      ],
-      [
-        "Cuenta DNI",
-        "Mercado Pago"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 3000
-    },
-    "where": [
-      "Dia"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "title": "20% de descuento",
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2024-07-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [
-      "Válido únicamente para la primera transacción del día",
-      "Válido una vez por usuario, por día"
-    ],
-    "paymentMethods": [
-      [
-        "Tarjeta Prepaga Mastercard"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 6000
-    },
-    "where": [
-      "Dia"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "title": "10% de descuento con Beneficios ANSES",
-    "discount": {
-      "type": "porcentaje",
-      "value": 10
-    },
-    "validFrom": "2023-03-01",
-    "validUntil": "2025-03-31",
-    "restrictions": [
-      "No acumulable con otros descuentos, excepto los de fidelización.",
-      "Válido en todas las tiendas DIA del país, excepto las franquicias tradicionales."
-    ],
-    "paymentMethods": [
-      [
-        "Tarjeta de débito VISA",
-        "Tarjeta de crédito VISA",
-        "Tarjeta de débito Mastercard",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 1000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Dia"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "title": "Promoción Domingos en Tiendas Dia con Sidecreer",
-    "discount": {
-      "type": "porcentaje",
-      "value": 10
-    },
-    "validFrom": "2024-04-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Domingo"
-    ],
-    "restrictions": [
-      "Válido solo para clientes Sidecreer que se encuentren al día con sus productos.",
-      "Válido solo para compras realizadas en 2 o 3 cuotas.",
-      "No acumulable con otras promociones."
-    ],
-    "paymentMethods": [
-      [
-        "Tarjeta de crédito VISA",
-        "Tarjeta de débito VISA"
-      ],
-      [
-        "Tarjeta de crédito Mastercard",
-        "Tarjeta de débito Mastercard"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 1500
-    },
-    "where": [
-      "Dia"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "title": "3 cuotas sin interés",
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2024-09-01",
-    "validUntil": "2025-02-28",
-    "weekdays": [
-      "Sabado"
-    ],
-    "restrictions": [
-      "Excluye tarjetas Mastercard Cencosud",
-      "Válido para compras con tarjeta física"
+      "No aplica para compras realizadas con tarjetas de Crédito Visa Business, Visa Rural y Tarjetas de Débito.",
+      "No aplica a pagos a través de billeteras virtuales (excepto Modo, Google Pay y Apple Pay), mPos y/o plataformas de pago online.",
+      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos.",
+      "Banco Galicia solo es el medio de pago para la adquisición del producto/servicio."
     ],
     "paymentMethods": [
       [
@@ -645,16 +1159,259 @@
         "Tarjeta American Express"
       ],
       [
-        "Tarjeta de Crédito Coto TCI"
+        "MODO",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "MODO",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Tarjeta American Express"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "18, 12 y 6 Cuotas sin Interés en Banco Nación",
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 18
+    },
+    "validFrom": "2023-01-01",
+    "validUntil": "2023-12-31",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No aplica para pagos con saldo en cuenta",
+      "Válido en productos seleccionados de electrodomésticos",
+      "Válido en comercios adheridos"
+    ],
+    "paymentMethods": [
+      [
+        "Banco Nación",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Nación",
+        "Tarjeta de crédito Mastercard"
       ]
     ],
     "limits": {
       "explicitlyHasNoLimit": false
     },
     "where": [
-      "Dia"
+      "Online"
     ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "3 cuotas sin interés",
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-02-14",
+    "validUntil": "2025-03-30",
+    "weekdays": [
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones vigentes",
+      "Válido únicamente en los comercios adheridos"
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "3 Cuotas sin interés en Librería, Rodados, Parrillas y más",
+    "category": "Hogar y Jardin",
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-02-01",
+    "validUntil": "2025-02-28",
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados",
+      "No aplica para compras realizadas en locales Vea Express y Disco Express"
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito VISA",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "18, 12 y 6 cuotas sin interés",
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 18
+    },
+    "validFrom": "2023-08-01",
+    "validUntil": "2023-08-31",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No aplica para pagos con saldo en cuenta",
+      "Válido en productos seleccionados de electrodomésticos"
+    ],
+    "paymentMethods": [
+      [
+        "Banco Nación",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Nación",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "3 cuotas sin interés",
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-02-14",
+    "validUntil": "2025-03-30",
+    "weekdays": [
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones vigentes",
+      "Válido únicamente en los comercios adheridos"
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "MODO",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "title": "3 Cuotas sin interés en Librería, Rodados, Parrillas y más",
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-02-01",
+    "validUntil": "2025-02-28",
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados.",
+      "No aplica para compras realizadas en locales Vea Express y Disco Express.",
+      "Válido en librería, rodados, monopatinetes con motor, parrillas, herramientas eléctricas y muebles de interior."
+    ],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito VISA",
+        "Tarjeta de crédito Mastercard",
+        "Tarjeta Carrefour Crédito"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
   }
 ]
