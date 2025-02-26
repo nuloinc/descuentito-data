@@ -356,7 +356,7 @@
     ],
     "paymentMethods": [
       [
-        "Banco Supervielle",
+        "Banco Supervielle - Jubilados",
         "Tarjeta de débito VISA"
       ]
     ],
@@ -434,54 +434,15 @@
       "La aplicación de este beneficio es de exclusiva responsabilidad de MODO"
     ],
     "paymentMethods": [
-      [
-        "MODO",
-        "Banco Supervielle",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "MODO",
-        "Banco Supervielle",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "MODO",
-        "Banco Supervielle",
-        "Tarjeta de débito VISA"
-      ]
+      ["Banco Supervielle - Identité", "MODO", "Tarjeta de crédito Mastercard"],
+      ["Banco Supervielle - Identité", "MODO", "Tarjeta de crédito VISA"],
+      ["Banco Supervielle - Identité", "MODO", "Tarjeta de débito VISA"],
+      ["Banco Supervielle - Plan Sueldo", "MODO", "Tarjeta de crédito Mastercard"],
+      ["Banco Supervielle - Plan Sueldo", "MODO", "Tarjeta de crédito VISA"],
+      ["Banco Supervielle - Plan Sueldo", "MODO", "Tarjeta de débito VISA"]
     ],
     "limits": {
       "maxDiscount": 15000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Jumbo"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2025-01-01",
-    "validUntil": "2025-02-28",
-    "weekdays": [
-      "Martes"
-    ],
-    "restrictions": [
-      "Válido para pagos con Tarjeta de Débito de jubilados",
-      "Tope mensual por cuenta de $8.000"
-    ],
-    "paymentMethods": [
-      [
-        "Banco Supervielle",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 8000,
       "explicitlyHasNoLimit": false
     },
     "where": [
