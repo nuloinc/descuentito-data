@@ -9,13 +9,16 @@
     "restrictions": [],
     "paymentMethods": [
       [
-        "Tarjeta American Express"
+        "Banco Galicia",
+        "Tarjeta de crédito VISA"
       ],
       [
+        "Banco Galicia",
         "Tarjeta de crédito Mastercard"
       ],
       [
-        "Tarjeta de crédito VISA"
+        "Banco Galicia",
+        "Tarjeta American Express"
       ]
     ],
     "limits": {
@@ -36,14 +39,6 @@
     "validUntil": "2025-12-31",
     "restrictions": [],
     "paymentMethods": [
-      [
-        "Banco Ciudad",
-        "Tarjeta de crédito Cabal"
-      ],
-      [
-        "Banco Ciudad",
-        "Tarjeta de crédito Mastercard"
-      ],
       [
         "Banco Ciudad",
         "Tarjeta de crédito VISA"
@@ -69,22 +64,49 @@
     "restrictions": [],
     "paymentMethods": [
       [
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
         "Tarjeta American Express"
       ],
       [
         "Tarjeta de crédito Cabal"
       ],
       [
-        "Tarjeta de crédito Mastercard"
+        "Tarjeta de crédito Coto TCI"
       ],
       [
         "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Tarjeta American Express"
+      ],
+      [
+        "Tarjeta de crédito Cabal"
       ],
       [
         "Tarjeta de crédito Coto TCI"
       ],
       [
         "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Tarjeta American Express"
+      ],
+      [
+        "Tarjeta de crédito Cabal"
+      ],
+      [
+        "Tarjeta de crédito Coto TCI"
       ]
     ],
     "limits": {
@@ -108,15 +130,15 @@
     "paymentMethods": [
       [
         "Banco Nación",
-        "Tarjeta de crédito Mastercard"
+        "Tarjeta de crédito VISA"
       ],
       [
         "Banco Nación",
-        "Tarjeta de crédito VISA"
+        "Tarjeta de crédito Mastercard"
       ]
     ],
     "unknownPaymentMethods": [
-      "www.cotodigital.com.ar"
+      "Electrodomésticos"
     ],
     "limits": {
       "explicitlyHasNoLimit": false
@@ -161,10 +183,13 @@
     "restrictions": [],
     "paymentMethods": [
       [
-        "Tarjeta de crédito Coto TCI"
+        "Tarjeta de débito VISA"
       ],
       [
-        "Tarjeta de débito VISA"
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "Tarjeta de crédito Coto TCI"
       ]
     ],
     "limits": {
@@ -178,66 +203,245 @@
   },
   {
     "discount": {
-      "type": "porcentaje",
-      "value": 20
+      "type": "cuotas sin intereses",
+      "value": 6
     },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-02",
-    "restrictions": [
-      "No válido para compras por Internet en Coto Digital",
-      "Operatoria de MODO no válida en cajas de autoservicio"
-    ],
+    "validFrom": "2025-02-28",
+    "validUntil": "2025-03-06",
+    "restrictions": [],
     "paymentMethods": [
       [
-        "Banco Supervielle",
-        "MODO",
+        "Tarjeta de crédito VISA"
+      ],
+      [
         "Tarjeta de crédito Mastercard"
       ],
       [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de crédito VISA"
+        "Tarjeta American Express"
+      ],
+      [
+        "Tarjeta de crédito Cabal"
+      ],
+      [
+        "Tarjeta de crédito Coto TCI"
       ]
     ],
     "limits": {
-      "maxDiscount": 10000,
       "explicitlyHasNoLimit": false
     },
     "where": [
-      "Coto"
+      "Coto",
+      "Online"
     ],
     "url": "https://www.coto.com.ar/legales/",
     "source": "coto"
   },
   {
     "discount": {
-      "type": "porcentaje",
-      "value": 25
+      "type": "cuotas sin intereses",
+      "value": 12
     },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-02",
-    "restrictions": [
-      "No válido para compras por Internet en Coto Digital",
-      "Operatoria de MODO no válida en cajas de autoservicio"
-    ],
+    "validFrom": "2025-02-28",
+    "validUntil": "2025-03-06",
+    "restrictions": [],
     "paymentMethods": [
       [
-        "Banco Supervielle",
-        "MODO",
+        "Tarjeta de crédito VISA"
+      ],
+      [
         "Tarjeta de crédito Mastercard"
       ],
       [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de crédito VISA"
+        "Tarjeta American Express"
+      ],
+      [
+        "Tarjeta de crédito Cabal"
+      ],
+      [
+        "Tarjeta de crédito Coto TCI"
       ]
     ],
     "limits": {
-      "maxDiscount": 15000,
       "explicitlyHasNoLimit": false
     },
     "where": [
-      "Coto"
+      "Coto",
+      "Online"
+    ],
+    "url": "https://www.coto.com.ar/legales/",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 6
+    },
+    "validFrom": "2025-02-28",
+    "validUntil": "2025-03-06",
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Tarjeta American Express"
+      ],
+      [
+        "Tarjeta de crédito Cabal"
+      ],
+      [
+        "Tarjeta de crédito Coto TCI"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto",
+      "Online"
+    ],
+    "url": "https://www.coto.com.ar/legales/",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 12
+    },
+    "validFrom": "2025-02-28",
+    "validUntil": "2025-03-06",
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Tarjeta American Express"
+      ],
+      [
+        "Tarjeta de crédito Cabal"
+      ],
+      [
+        "Tarjeta de crédito Coto TCI"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto",
+      "Online"
+    ],
+    "url": "https://www.coto.com.ar/legales/",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-02-28",
+    "validUntil": "2025-02-28",
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Tarjeta American Express"
+      ],
+      [
+        "Tarjeta de crédito Cabal"
+      ],
+      [
+        "Tarjeta de crédito Coto TCI"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto",
+      "Online"
+    ],
+    "url": "https://www.coto.com.ar/legales/",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 6
+    },
+    "validFrom": "2025-02-28",
+    "validUntil": "2025-03-06",
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Tarjeta American Express"
+      ],
+      [
+        "Tarjeta de crédito Cabal"
+      ],
+      [
+        "Tarjeta de crédito Coto TCI"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto",
+      "Online"
+    ],
+    "url": "https://www.coto.com.ar/legales/",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-02-01",
+    "validUntil": "2025-02-28",
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Tarjeta American Express"
+      ],
+      [
+        "Tarjeta de crédito Cabal"
+      ],
+      [
+        "Tarjeta de crédito Coto TCI"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto",
+      "Online"
     ],
     "url": "https://www.coto.com.ar/legales/",
     "source": "coto"
@@ -247,22 +451,21 @@
       "type": "porcentaje",
       "value": 30
     },
-    "validFrom": "2025-02-01",
-    "validUntil": "2025-03-04",
-    "restrictions": [
-      "Promoción válida únicamente para compras realizadas en sucursales 049 (Mar de Ajó), 178 (Madariaga), 204 (Mar del Tuyú) y 248 (Mar del Plata)",
-      "No válido para compras por Internet en Coto Digital",
-      "Operatoria de MODO no válida en cajas de autoservicio"
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "weekdays": [
+      "Lunes"
     ],
+    "restrictions": [],
     "paymentMethods": [
       [
-        "Banco Santander",
         "MODO",
+        "Banco Santander",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Santander",
         "MODO",
+        "Banco Santander",
         "Tarjeta de débito VISA"
       ]
     ],
@@ -283,9 +486,13 @@
     },
     "validFrom": "2025-03-01",
     "validUntil": "2025-03-31",
+    "weekdays": [
+      "Lunes"
+    ],
     "restrictions": [],
     "paymentMethods": [
       [
+        "Ualá",
         "Tarjeta Prepaga Mastercard"
       ]
     ],
@@ -307,10 +514,13 @@
     },
     "validFrom": "2025-03-01",
     "validUntil": "2025-03-31",
+    "weekdays": [
+      "Lunes"
+    ],
     "restrictions": [],
     "paymentMethods": [
       [
-        "Uilo",
+        "Ualá",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -338,13 +548,13 @@
     "restrictions": [],
     "paymentMethods": [
       [
-        "Banco Credicoop",
         "MODO",
+        "Banco Credicoop",
         "Tarjeta de crédito Cabal"
       ],
       [
-        "Banco Credicoop",
         "MODO",
+        "Banco Credicoop",
         "Tarjeta de débito Cabal"
       ]
     ],
@@ -372,13 +582,13 @@
     "restrictions": [],
     "paymentMethods": [
       [
-        "Banco Credicoop",
         "MODO",
+        "Banco Credicoop",
         "Tarjeta de crédito Cabal"
       ],
       [
-        "Banco Credicoop",
         "MODO",
+        "Banco Credicoop",
         "Tarjeta de débito Cabal"
       ]
     ],
@@ -406,13 +616,13 @@
     "restrictions": [],
     "paymentMethods": [
       [
-        "Banco Credicoop",
         "MODO",
+        "Banco Credicoop",
         "Tarjeta de crédito Cabal"
       ],
       [
-        "Banco Credicoop",
         "MODO",
+        "Banco Credicoop",
         "Tarjeta de débito Cabal"
       ]
     ],
@@ -436,24 +646,21 @@
     "weekdays": [
       "Martes"
     ],
-    "restrictions": [
-      "No válido para compras por Internet en Coto Digital",
-      "Operatoria de MODO no válida en cajas de autoservicio"
-    ],
+    "restrictions": [],
     "paymentMethods": [
       [
-        "Banco Supervielle",
         "MODO",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
         "Banco Supervielle",
-        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Supervielle",
         "MODO",
+        "Banco Supervielle",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco Supervielle",
         "Tarjeta de débito VISA"
       ]
     ],
@@ -477,29 +684,94 @@
     "weekdays": [
       "Martes"
     ],
-    "restrictions": [
-      "No válido para compras por Internet en Coto Digital",
-      "Operatoria de MODO no válida en cajas de autoservicio"
-    ],
+    "restrictions": [],
     "paymentMethods": [
       [
-        "Banco Supervielle",
         "MODO",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
         "Banco Supervielle",
-        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Supervielle",
         "MODO",
+        "Banco Supervielle",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco Supervielle",
         "Tarjeta de débito VISA"
       ]
     ],
     "limits": {
       "maxDiscount": 7000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/legales/",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 20
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-02",
+    "weekdays": [
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "MODO",
+        "Banco Supervielle",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "MODO",
+        "Banco Supervielle",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "maxDiscount": 10000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/legales/",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 5
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-02",
+    "weekdays": [
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "MODO",
+        "Banco Supervielle",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "MODO",
+        "Banco Supervielle",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "maxDiscount": 5000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -542,46 +814,11 @@
       "value": 30
     },
     "validFrom": "2025-03-11",
-    "validUntil": "2025-03-11",
-    "weekdays": [
-      "Martes"
-    ],
-    "restrictions": [
-      "No válido para compras por Internet en Coto Digital"
-    ],
-    "paymentMethods": [
-      [
-        "Banco Santander",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Santander",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 20000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/legales/",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 30
-    },
-    "validFrom": "2025-03-25",
     "validUntil": "2025-03-25",
     "weekdays": [
       "Martes"
     ],
-    "restrictions": [
-      "No válido para compras por Internet en Coto Digital"
-    ],
+    "restrictions": [],
     "paymentMethods": [
       [
         "Banco Santander",
@@ -594,42 +831,6 @@
     ],
     "limits": {
       "maxDiscount": 20000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/legales/",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 30
-    },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Miercoles"
-    ],
-    "restrictions": [
-      "No válido para compras por Internet en Coto Digital",
-      "Operatoria de MODO no válida en cajas de autoservicio"
-    ],
-    "paymentMethods": [
-      [
-        "Banco Nación",
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Nación",
-        "MODO",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 12000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -648,23 +849,54 @@
     "weekdays": [
       "Miercoles"
     ],
-    "restrictions": [
-      "No válido para compras por Internet en Coto Digital",
-      "Operatoria de MODO no válida en cajas de autoservicio"
-    ],
+    "restrictions": [],
     "paymentMethods": [
       [
-        "Banco Nación",
         "MODO",
-        "Tarjeta de crédito Mastercard"
+        "Banco Nación",
+        "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Nación",
         "MODO",
-        "Tarjeta de crédito VISA"
+        "Banco Nación",
+        "Tarjeta de crédito Mastercard"
       ]
     ],
     "limits": {
+      "maxDiscount": 12000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/legales/",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 30
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "weekdays": [
+      "Miercoles"
+    ],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "MODO",
+        "Banco Nación",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "MODO",
+        "Banco Nación",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "maxDiscount": 12000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -683,10 +915,7 @@
     "weekdays": [
       "Jueves"
     ],
-    "restrictions": [
-      "No válido para compras por Internet en Coto Digital",
-      "Operatoria de MODO no válida en cajas de autoservicio"
-    ],
+    "restrictions": [],
     "paymentMethods": [
       [
         "Banco ICBC",
@@ -709,58 +938,19 @@
       "value": 25
     },
     "validFrom": "2025-03-06",
-    "validUntil": "2025-03-06",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [
-      "No válido para compras por Internet en Coto Digital"
-    ],
-    "paymentMethods": [
-      [
-        "Banco ICBC",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco ICBC",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco ICBC",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 15000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/legales/",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2025-03-20",
     "validUntil": "2025-03-20",
     "weekdays": [
       "Jueves"
     ],
-    "restrictions": [
-      "No válido para compras por Internet en Coto Digital"
-    ],
+    "restrictions": [],
     "paymentMethods": [
       [
         "Banco ICBC",
-        "Tarjeta de crédito Mastercard"
+        "Tarjeta de crédito VISA"
       ],
       [
         "Banco ICBC",
-        "Tarjeta de crédito VISA"
+        "Tarjeta de crédito Mastercard"
       ],
       [
         "Banco ICBC",
@@ -789,18 +979,16 @@
       "Domingo"
     ],
     "restrictions": [
-      "No incluye el rubro electrodomésticos",
-      "No válido para compras por Internet en Coto Digital",
-      "Operatoria de MODO no válida en cajas de autoservicio"
+      "No incluye el rubro electrodomésticos"
     ],
     "paymentMethods": [
       [
         "Banco ICBC",
-        "Tarjeta de crédito Mastercard"
+        "Tarjeta de crédito VISA"
       ],
       [
         "Banco ICBC",
-        "Tarjeta de crédito VISA"
+        "Tarjeta de crédito Mastercard"
       ]
     ],
     "limits": {
@@ -822,10 +1010,7 @@
     "weekdays": [
       "Jueves"
     ],
-    "restrictions": [
-      "No válido para compras por Internet en Coto Digital",
-      "Operatoria de MODO no válida en cajas de autoservicio"
-    ],
+    "restrictions": [],
     "paymentMethods": [
       [
         "Banco Comafi",
@@ -853,10 +1038,7 @@
     "weekdays": [
       "Jueves"
     ],
-    "restrictions": [
-      "No válido para compras por Internet en Coto Digital",
-      "Operatoria de MODO no válida en cajas de autoservicio"
-    ],
+    "restrictions": [],
     "paymentMethods": [
       [
         "Banco Columbia",
@@ -883,17 +1065,15 @@
     "weekdays": [
       "Jueves"
     ],
-    "restrictions": [
-      "No válido para compras por Internet en Coto Digital"
-    ],
+    "restrictions": [],
     "paymentMethods": [
       [
         "Banco Columbia",
-        "Tarjeta de crédito Mastercard"
+        "Tarjeta de crédito VISA"
       ],
       [
         "Banco Columbia",
-        "Tarjeta de crédito VISA"
+        "Tarjeta de crédito Mastercard"
       ]
     ],
     "limits": {
@@ -913,11 +1093,11 @@
     },
     "validFrom": "2025-03-15",
     "validUntil": "2025-03-16",
-    "restrictions": [
-      "Operatoria de MODO no válida en cajas de autoservicio",
-      "Promociones no válidas para Tarjetas de Crédito y Tarjeta ANSES",
-      "No válido para compras por Internet en Coto Digital"
+    "weekdays": [
+      "Sabado",
+      "Domingo"
     ],
+    "restrictions": [],
     "paymentMethods": [
       [
         "Banco Galicia Más",
@@ -941,20 +1121,19 @@
     },
     "validFrom": "2025-02-01",
     "validUntil": "2025-03-04",
-    "restrictions": [
-      "Promoción válida únicamente para compras realizadas en sucursales 049 (Mar de Ajó), 178 (Madariaga), 204 (Mar del Tuyú) y 248 (Mar del Plata)",
-      "No válido para compras por Internet en Coto Digital",
-      "Operatoria de MODO no válida en cajas de autoservicio"
+    "weekdays": [
+      "Lunes"
     ],
+    "restrictions": [],
     "paymentMethods": [
       [
-        "Banco Santander",
         "MODO",
+        "Banco Santander",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Santander",
         "MODO",
+        "Banco Santander",
         "Tarjeta de débito VISA"
       ]
     ],
@@ -975,6 +1154,10 @@
     },
     "validFrom": "2025-03-01",
     "validUntil": "2025-03-31",
+    "weekdays": [
+      "Lunes",
+      "Miercoles"
+    ],
     "restrictions": [],
     "limits": {
       "explicitlyHasNoLimit": true
@@ -1013,6 +1196,30 @@
   },
   {
     "discount": {
+      "type": "porcentaje",
+      "value": 15
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "weekdays": [
+      "Miercoles",
+      "Jueves"
+    ],
+    "restrictions": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "membership": [
+      "Comunidad Coto"
+    ],
+    "url": "https://www.coto.com.ar/legales/",
+    "source": "coto"
+  },
+  {
+    "discount": {
       "type": "cuotas sin intereses",
       "value": 24
     },
@@ -1037,44 +1244,96 @@
   },
   {
     "discount": {
-      "type": "porcentaje",
-      "value": 20
+      "type": "cuotas sin intereses",
+      "value": 18
     },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-02",
+    "validFrom": "2025-02-01",
+    "validUntil": "2025-03-31",
     "restrictions": [],
     "paymentMethods": [
       [
-        "Mercado Pago"
+        "Banco del Sol",
+        "Tarjeta de crédito Mastercard"
       ]
     ],
     "limits": {
-      "explicitlyHasNoLimit": true
+      "explicitlyHasNoLimit": false
     },
     "where": [
-      "Coto"
+      "Coto",
+      "Online"
     ],
     "url": "https://www.coto.com.ar/legales/",
     "source": "coto"
   },
   {
     "discount": {
-      "type": "porcentaje",
-      "value": 30
+      "type": "cuotas sin intereses",
+      "value": 15
     },
-    "validFrom": "2025-02-28",
-    "validUntil": "2025-02-28",
+    "validFrom": "2025-02-01",
+    "validUntil": "2025-03-31",
     "restrictions": [],
     "paymentMethods": [
       [
-        "Mercado Pago"
+        "Banco del Sol",
+        "Tarjeta de crédito Mastercard"
       ]
     ],
     "limits": {
-      "explicitlyHasNoLimit": true
+      "explicitlyHasNoLimit": false
     },
     "where": [
-      "Coto"
+      "Coto",
+      "Online"
+    ],
+    "url": "https://www.coto.com.ar/legales/",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 12
+    },
+    "validFrom": "2025-02-01",
+    "validUntil": "2025-03-31",
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Banco del Sol",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto",
+      "Online"
+    ],
+    "url": "https://www.coto.com.ar/legales/",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 9
+    },
+    "validFrom": "2025-02-01",
+    "validUntil": "2025-03-31",
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Banco del Sol",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto",
+      "Online"
     ],
     "url": "https://www.coto.com.ar/legales/",
     "source": "coto"
@@ -1084,92 +1343,21 @@
       "type": "cuotas sin intereses",
       "value": 6
     },
-    "validFrom": "2025-02-28",
-    "validUntil": "2025-03-06",
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Tarjeta American Express"
-      ],
-      [
-        "Tarjeta de crédito Cabal"
-      ],
-      [
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Tarjeta de crédito Coto TCI"
-      ],
-      [
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "limits": {
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Online"
-    ],
-    "url": "https://www.coto.com.ar/legales/",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2025-02-28",
-    "validUntil": "2025-03-06",
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Tarjeta American Express"
-      ],
-      [
-        "Tarjeta de crédito Cabal"
-      ],
-      [
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Tarjeta de crédito Coto TCI"
-      ],
-      [
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "limits": {
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Online"
-    ],
-    "url": "https://www.coto.com.ar/legales/",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 15
-    },
-    "validFrom": "2025-03-01",
+    "validFrom": "2025-02-01",
     "validUntil": "2025-03-31",
-    "weekdays": [
-      "Martes",
-      "Jueves"
-    ],
     "restrictions": [],
+    "paymentMethods": [
+      [
+        "Banco del Sol",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
     "limits": {
       "explicitlyHasNoLimit": false
     },
     "where": [
-      "Coto"
+      "Coto",
+      "Online"
     ],
     "url": "https://www.coto.com.ar/legales/",
     "source": "coto"
