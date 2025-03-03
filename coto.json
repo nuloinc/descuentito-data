@@ -11,23 +11,14 @@
       "Jueves"
     ],
     "restrictions": [],
-    "paymentMethods": [
-      [
-        "Tarjeta de débito VISA",
-        "Tarjeta de crédito VISA",
-        "Tarjeta de crédito Mastercard",
-        "Tarjeta de débito Mastercard",
-        "Tarjeta de crédito Cabal",
-        "Tarjeta de débito Cabal",
-        "Tarjeta American Express"
-      ]
-    ],
+    "paymentMethods": [],
+    "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": false,
       "jubilados": true
     },
     "limits": {
-      "explicitlyHasNoLimit": true
+      "explicitlyHasNoLimit": false
     },
     "where": [
       "Coto"
@@ -38,59 +29,25 @@
   {
     "discount": {
       "type": "porcentaje",
-      "value": 25
+      "value": 20
     },
     "validFrom": "2025-03-01",
     "validUntil": "2025-03-31",
     "weekdays": [
       "Lunes"
     ],
-    "restrictions": [
-      "Exclusivo para usuarios con caja de ahorro a través de la app Ualá"
-    ],
+    "restrictions": [],
     "paymentMethods": [
       [
-        "Ualá",
-        "Tarjeta de crédito Mastercard"
+        "Tarjeta de crédito Coto TCI"
       ]
     ],
+    "unknownPaymentMethods": [],
     "limits": {
-      "maxDiscount": 15000,
       "explicitlyHasNoLimit": false
     },
     "where": [
-      "Coto",
-      "Online"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Lunes"
-    ],
-    "restrictions": [
-      "Exclusivo para usuarios con caja de ahorro a través de la app Ualá"
-    ],
-    "paymentMethods": [
-      [
-        "Ualá",
-        "Tarjeta Prepaga Mastercard"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 10000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto",
-      "Online"
+      "Coto"
     ],
     "url": "https://www.coto.com.ar/descuentos/index.asp",
     "source": "coto"
@@ -120,13 +77,13 @@
         "Tarjeta de crédito Cabal"
       ]
     ],
+    "unknownPaymentMethods": [],
     "limits": {
       "maxDiscount": 10000,
       "explicitlyHasNoLimit": false
     },
     "where": [
-      "Coto",
-      "Online"
+      "Coto"
     ],
     "url": "https://www.coto.com.ar/descuentos/index.asp",
     "source": "coto"
@@ -146,14 +103,15 @@
       [
         "Banco Credicoop",
         "MODO",
-        "Tarjeta de crédito Cabal"
+        "Tarjeta de débito Cabal"
       ],
       [
         "Banco Credicoop",
         "MODO",
-        "Tarjeta de débito Cabal"
+        "Tarjeta de crédito Cabal"
       ]
     ],
+    "unknownPaymentMethods": [],
     "limits": {
       "maxDiscount": 15000,
       "explicitlyHasNoLimit": false
@@ -167,401 +125,27 @@
   {
     "discount": {
       "type": "porcentaje",
-      "value": 35
+      "value": 30
     },
-    "validFrom": "2025-03-15",
-    "validUntil": "2025-03-16",
+    "validFrom": "2025-02-01",
+    "validUntil": "2025-03-04",
     "weekdays": [
-      "Sabado",
-      "Domingo"
+      "Lunes"
     ],
     "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Credicoop",
-        "MODO",
-        "Tarjeta de crédito Cabal"
-      ],
-      [
-        "Banco Credicoop",
-        "MODO",
-        "Tarjeta de débito Cabal"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 14000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 45
-    },
-    "validFrom": "2025-03-15",
-    "validUntil": "2025-03-16",
-    "weekdays": [
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "Excluye jubilaciones y pensiones",
-      "Debe cobrar haberes en el banco"
-    ],
-    "paymentMethods": [
-      [
-        "Banco Credicoop",
-        "MODO",
-        "Tarjeta de crédito Cabal"
-      ],
-      [
-        "Banco Credicoop",
-        "MODO",
-        "Tarjeta de débito Cabal"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 18000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Martes"
-    ],
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de débito VISA"
-      ],
-      [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 8000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 5
-    },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Martes"
-    ],
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de débito VISA"
-      ],
-      [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 7000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-02",
-    "weekdays": [
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 10000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 5
-    },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-02",
-    "weekdays": [
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 5000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [
-      "Exclusivamente para clientes que perciban sus haberes jubilatorios en Santander"
-    ],
     "paymentMethods": [
       [
         "Banco Santander",
+        "MODO",
         "Tarjeta de débito VISA"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 20000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto",
-      "Online"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 30
-    },
-    "validFrom": "2025-03-11",
-    "validUntil": "2025-03-25",
-    "weekdays": [
-      "Martes"
-    ],
-    "restrictions": [
-      "Promoción exclusiva para tarjetas Santander Visa adheridos al programa Women"
-    ],
-    "paymentMethods": [
-      [
-        "Banco Santander - Women",
-        "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Santander - Women",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 20000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 30
-    },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Miercoles"
-    ],
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Nación",
+        "Banco Santander",
         "MODO",
         "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Nación",
-        "MODO",
-        "Tarjeta de crédito Mastercard"
       ]
     ],
-    "limits": {
-      "maxDiscount": 12000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Miercoles"
-    ],
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Nación",
-        "MODO",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Nación",
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 12000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco ICBC",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 10000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2025-03-06",
-    "validUntil": "2025-03-20",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [
-      "Exclusivo para clientes que depositen su sueldo en ICBC"
-    ],
-    "paymentMethods": [
-      [
-        "Banco ICBC – Cliente Payroll",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco ICBC – Cliente Payroll",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco ICBC – Cliente Payroll",
-        "Tarjeta de débito VISA"
-      ]
-    ],
+    "unknownPaymentMethods": [],
     "limits": {
       "maxDiscount": 15000,
       "explicitlyHasNoLimit": false
@@ -575,178 +159,31 @@
   {
     "discount": {
       "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2025-03-22",
-    "validUntil": "2025-03-23",
-    "weekdays": [
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No incluye electrodomésticos"
-    ],
-    "paymentMethods": [
-      [
-        "Banco ICBC",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco ICBC",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
       "value": 25
     },
     "validFrom": "2025-03-01",
     "validUntil": "2025-03-31",
     "weekdays": [
-      "Jueves"
+      "Lunes"
     ],
     "restrictions": [
-      "Clientes Comafi Ahorro, Global, Classic Premium y/o Platinum"
+      "Exclusivo para usuarios con caja de ahorro a través de la app Ualá"
     ],
     "paymentMethods": [
       [
-        "Banco Comafi",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 10000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto",
-      "Online"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [
-      "Clientes Comafi Único"
-    ],
-    "paymentMethods": [
-      [
-        "Banco Comafi",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 12000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto",
-      "Online"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Columbia",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 8000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Columbia",
-        "Tarjeta de crédito VISA"
+        "Tarjeta Prepaga Mastercard"
       ],
       [
-        "Banco Columbia",
         "Tarjeta de crédito Mastercard"
       ]
     ],
+    "unknownPaymentMethods": [],
     "limits": {
-      "maxDiscount": 18000,
+      "maxDiscount": 15000,
       "explicitlyHasNoLimit": false
     },
     "where": [
       "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2025-03-15",
-    "validUntil": "2025-03-16",
-    "weekdays": [
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Galicia Más",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Coto",
-      "Online"
     ],
     "url": "https://www.coto.com.ar/descuentos/index.asp",
     "source": "coto"
@@ -757,47 +194,21 @@
       "value": 15
     },
     "validFrom": "2025-03-01",
-    "validUntil": "2025-03-31",
+    "validUntil": "2025-03-09",
     "weekdays": [
-      "Martes",
+      "Miercoles",
       "Jueves"
     ],
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Tarjeta de crédito Coto TCI"
-      ]
+    "restrictions": [
+      "No válido para venta online"
     ],
+    "paymentMethods": [],
+    "unknownPaymentMethods": [],
     "limits": {
       "explicitlyHasNoLimit": true
     },
     "where": [
       "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 24
-    },
-    "validFrom": "2025-02-01",
-    "validUntil": "2025-03-31",
-    "restrictions": [],
-    "onlyForProducts": "Electrodomesticos",
-    "paymentMethods": [
-      [
-        "Banco del Sol",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "limits": {
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto",
-      "Online"
     ],
     "url": "https://www.coto.com.ar/descuentos/index.asp",
     "source": "coto"
@@ -816,23 +227,52 @@
     "restrictions": [],
     "paymentMethods": [
       [
-        "Tarjeta de débito VISA",
-        "Tarjeta de crédito VISA",
-        "Tarjeta de crédito Mastercard",
-        "Tarjeta de débito Mastercard",
-        "Tarjeta de crédito Cabal",
-        "Tarjeta de débito Cabal",
-        "Tarjeta American Express"
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
       ]
     ],
+    "unknownPaymentMethods": [],
     "limits": {
-      "explicitlyHasNoLimit": true
+      "explicitlyHasNoLimit": false
     },
     "where": [
       "Coto"
     ],
-    "membership": [
-      "Club La Nacion"
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 30
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "weekdays": [
+      "Miercoles"
+    ],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Banco Nación",
+        "MODO",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Nación",
+        "MODO",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 12000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
     ],
     "url": "https://www.coto.com.ar/descuentos/index.asp",
     "source": "coto"
@@ -842,22 +282,94 @@
       "type": "porcentaje",
       "value": 20
     },
-    "validFrom": "2025-03-12",
-    "validUntil": "2025-03-12",
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
     "weekdays": [
-      "Miercoles"
+      "Martes"
     ],
     "restrictions": [],
     "paymentMethods": [
       [
-        "Tarjeta de débito VISA",
-        "Tarjeta de crédito VISA",
-        "Tarjeta de crédito Mastercard",
-        "Tarjeta de débito Mastercard",
-        "Tarjeta de crédito Cabal",
-        "Tarjeta de débito Cabal",
-        "Tarjeta American Express"
+        "Banco Supervielle",
+        "MODO",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Supervielle",
+        "MODO",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Banco Supervielle",
+        "MODO",
+        "Tarjeta de crédito Mastercard"
       ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 8000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "weekdays": [
+      "Martes"
+    ],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Banco Supervielle",
+        "MODO",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Supervielle",
+        "MODO",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Banco Supervielle",
+        "MODO",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 15000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 15
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "weekdays": [
+      "Martes",
+      "Jueves"
+    ],
+    "restrictions": [],
+    "paymentMethods": [],
+    "unknownPaymentMethods": [
+      "Tarjeta Ciudadania Porteña"
     ],
     "limits": {
       "explicitlyHasNoLimit": true
@@ -865,8 +377,232 @@
     "where": [
       "Coto"
     ],
-    "membership": [
-      "Club La Nacion"
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 10
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-06",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves"
+    ],
+    "restrictions": [],
+    "paymentMethods": [],
+    "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": true,
+      "jubilados": false
+    },
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 20
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "weekdays": [
+      "Jueves"
+    ],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Banco ICBC",
+        "Tarjeta de débito VISA"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 10000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 20
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "weekdays": [
+      "Jueves"
+    ],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Banco Columbia",
+        "Tarjeta de débito VISA"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 8000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "weekdays": [
+      "Jueves"
+    ],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Banco Comafi",
+        "Tarjeta de débito VISA"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 10000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 20
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "weekdays": [
+      "Jueves"
+    ],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Banco Columbia",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Columbia",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 18000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 20
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "weekdays": [
+      "Jueves"
+    ],
+    "restrictions": [
+      "Exclusivo jubilados que perciban sus haberes en el banco"
+    ],
+    "paymentMethods": [
+      [
+        "Banco Santander",
+        "Tarjeta de débito VISA"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 20000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "weekdays": [],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "NaranjaX"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 15
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-02",
+    "weekdays": [
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito Coto TCI"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Coto"
     ],
     "url": "https://www.coto.com.ar/descuentos/index.asp",
     "source": "coto"
