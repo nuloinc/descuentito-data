@@ -1,6 +1,56 @@
 [
   {
     "discount": {
+      "type": "cuotas sin intereses",
+      "value": 18
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 18
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Banco Ciudad",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
       "type": "porcentaje",
       "value": 15
     },
@@ -39,10 +89,16 @@
     "restrictions": [],
     "paymentMethods": [
       [
-        "Tarjeta de crédito Coto TCI"
+        "Tarjeta de crédito VISA",
+        "Tarjeta de crédito Mastercard",
+        "Tarjeta de crédito Cabal"
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "explicitlyHasNoLimit": false
     },
@@ -66,88 +122,54 @@
     "paymentMethods": [
       [
         "Banco Ciudad",
+        "Tarjeta de crédito VISA",
+        "Tarjeta de crédito Mastercard",
+        "Tarjeta de crédito Cabal"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 30
+    },
+    "validFrom": "2025-03-03",
+    "validUntil": "2025-03-03",
+    "weekdays": [
+      "Lunes"
+    ],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Banco Santander",
+        "MODO",
         "Tarjeta de crédito VISA"
       ],
-      [
-        "Banco Ciudad",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Ciudad",
-        "Tarjeta de crédito Cabal"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 10000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 30
-    },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Lunes"
-    ],
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Credicoop",
-        "MODO",
-        "Tarjeta de débito Cabal"
-      ],
-      [
-        "Banco Credicoop",
-        "MODO",
-        "Tarjeta de crédito Cabal"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 15000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 30
-    },
-    "validFrom": "2025-02-01",
-    "validUntil": "2025-03-04",
-    "weekdays": [
-      "Lunes"
-    ],
-    "restrictions": [],
-    "paymentMethods": [
       [
         "Banco Santander",
         "MODO",
         "Tarjeta de débito VISA"
-      ],
-      [
-        "Banco Santander",
-        "MODO",
-        "Tarjeta de crédito VISA"
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
-      "maxDiscount": 15000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -171,15 +193,20 @@
     ],
     "paymentMethods": [
       [
+        "Ualá",
         "Tarjeta Prepaga Mastercard"
       ],
       [
+        "Ualá",
         "Tarjeta de crédito Mastercard"
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
-      "maxDiscount": 15000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -194,7 +221,7 @@
       "value": 15
     },
     "validFrom": "2025-03-01",
-    "validUntil": "2025-03-09",
+    "validUntil": "2025-03-31",
     "weekdays": [
       "Miercoles",
       "Jueves"
@@ -204,11 +231,18 @@
     ],
     "paymentMethods": [],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "explicitlyHasNoLimit": true
     },
     "where": [
       "Coto"
+    ],
+    "membership": [
+      "Comunidad Coto"
     ],
     "url": "https://www.coto.com.ar/descuentos/index.asp",
     "source": "coto"
@@ -225,20 +259,20 @@
       "Miercoles"
     ],
     "restrictions": [],
-    "paymentMethods": [
-      [
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
+    "paymentMethods": [],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "explicitlyHasNoLimit": false
     },
     "where": [
       "Coto"
+    ],
+    "membership": [
+      "Club La Nacion"
     ],
     "url": "https://www.coto.com.ar/descuentos/index.asp",
     "source": "coto"
@@ -267,8 +301,11 @@
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
-      "maxDiscount": 12000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -297,17 +334,20 @@
       [
         "Banco Supervielle",
         "MODO",
-        "Tarjeta de débito VISA"
+        "Tarjeta de crédito Mastercard"
       ],
       [
         "Banco Supervielle",
         "MODO",
-        "Tarjeta de crédito Mastercard"
+        "Tarjeta de débito VISA"
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
-      "maxDiscount": 8000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -324,29 +364,17 @@
     "validFrom": "2025-03-01",
     "validUntil": "2025-03-31",
     "weekdays": [
-      "Martes"
+      "Martes",
+      "Jueves"
     ],
     "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de débito VISA"
-      ],
-      [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
+    "paymentMethods": [],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
-      "maxDiscount": 15000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -368,9 +396,11 @@
     ],
     "restrictions": [],
     "paymentMethods": [],
-    "unknownPaymentMethods": [
-      "Tarjeta Ciudadania Porteña"
-    ],
+    "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "explicitlyHasNoLimit": true
     },
@@ -386,7 +416,7 @@
       "value": 10
     },
     "validFrom": "2025-03-01",
-    "validUntil": "2025-03-06",
+    "validUntil": "2025-03-31",
     "weekdays": [
       "Lunes",
       "Martes",
@@ -394,7 +424,14 @@
       "Jueves"
     ],
     "restrictions": [],
-    "paymentMethods": [],
+    "paymentMethods": [
+      [
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Tarjeta de crédito VISA"
+      ]
+    ],
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": true,
@@ -427,8 +464,11 @@
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
-      "maxDiscount": 10000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -455,8 +495,43 @@
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
-      "maxDiscount": 8000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 20
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "weekdays": [
+      "Jueves"
+    ],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Banco Columbia",
+        "Tarjeta de crédito VISA",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
+    "limits": {
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -483,40 +558,11 @@
       ]
     ],
     "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 10000,
-      "explicitlyHasNoLimit": false
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
     },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Columbia",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Columbia",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "unknownPaymentMethods": [],
     "limits": {
-      "maxDiscount": 18000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -536,7 +582,7 @@
       "Jueves"
     ],
     "restrictions": [
-      "Exclusivo jubilados que perciban sus haberes en el banco"
+      "Exclusivo Jubilados que perciban sus haberes en el banco"
     ],
     "paymentMethods": [
       [
@@ -545,8 +591,11 @@
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": true
+    },
     "limits": {
-      "maxDiscount": 20000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -566,10 +615,15 @@
     "restrictions": [],
     "paymentMethods": [
       [
-        "NaranjaX"
+        "NaranjaX",
+        "Tarjeta de crédito VISA"
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "explicitlyHasNoLimit": false
     },
@@ -585,7 +639,7 @@
       "value": 15
     },
     "validFrom": "2025-03-01",
-    "validUntil": "2025-03-02",
+    "validUntil": "2025-03-31",
     "weekdays": [
       "Viernes",
       "Sabado",
@@ -598,6 +652,77 @@
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "weekdays": [
+      "Lunes"
+    ],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Banco Credicoop",
+        "MODO",
+        "Tarjeta de crédito Cabal"
+      ],
+      [
+        "Banco Credicoop",
+        "MODO",
+        "Tarjeta de débito Cabal"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 15
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "weekdays": [
+      "Lunes"
+    ],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito Coto TCI"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "explicitlyHasNoLimit": true
     },
