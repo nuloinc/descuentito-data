@@ -11,7 +11,13 @@
       "Jueves"
     ],
     "restrictions": [],
-    "paymentMethods": [],
+    "paymentMethods": [
+      [
+        "Tarjeta de débito VISA",
+        "Tarjeta de crédito VISA",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": false,
@@ -43,6 +49,10 @@
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "explicitlyHasNoLimit": false
     },
@@ -78,6 +88,10 @@
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "maxDiscount": 10000,
       "explicitlyHasNoLimit": false
@@ -112,6 +126,10 @@
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "maxDiscount": 15000,
       "explicitlyHasNoLimit": false
@@ -127,8 +145,8 @@
       "type": "porcentaje",
       "value": 30
     },
-    "validFrom": "2025-02-01",
-    "validUntil": "2025-03-04",
+    "validFrom": "2025-03-03",
+    "validUntil": "2025-03-03",
     "weekdays": [
       "Lunes"
     ],
@@ -146,6 +164,10 @@
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "maxDiscount": 15000,
       "explicitlyHasNoLimit": false
@@ -171,13 +193,19 @@
     ],
     "paymentMethods": [
       [
+        "Ualá",
         "Tarjeta Prepaga Mastercard"
       ],
       [
+        "Ualá",
         "Tarjeta de crédito Mastercard"
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "maxDiscount": 15000,
       "explicitlyHasNoLimit": false
@@ -194,7 +222,7 @@
       "value": 15
     },
     "validFrom": "2025-03-01",
-    "validUntil": "2025-03-09",
+    "validUntil": "2025-03-31",
     "weekdays": [
       "Miercoles",
       "Jueves"
@@ -202,13 +230,26 @@
     "restrictions": [
       "No válido para venta online"
     ],
-    "paymentMethods": [],
+    "paymentMethods": [
+      [
+        "Tarjeta de débito VISA",
+        "Tarjeta de crédito VISA",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "explicitlyHasNoLimit": true
     },
     "where": [
       "Coto"
+    ],
+    "membership": [
+      "Comunidad Coto"
     ],
     "url": "https://www.coto.com.ar/descuentos/index.asp",
     "source": "coto"
@@ -227,18 +268,24 @@
     "restrictions": [],
     "paymentMethods": [
       [
-        "Tarjeta de crédito VISA"
-      ],
-      [
+        "Tarjeta de débito VISA",
+        "Tarjeta de crédito VISA",
         "Tarjeta de crédito Mastercard"
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "explicitlyHasNoLimit": false
     },
     "where": [
       "Coto"
+    ],
+    "membership": [
+      "Club La Nacion"
     ],
     "url": "https://www.coto.com.ar/descuentos/index.asp",
     "source": "coto"
@@ -267,8 +314,49 @@
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "maxDiscount": 12000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "weekdays": [
+      "Miercoles"
+    ],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Banco Nación",
+        "MODO",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Nación",
+        "MODO",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
+    "limits": {
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -292,12 +380,12 @@
       [
         "Banco Supervielle",
         "MODO",
-        "Tarjeta de crédito VISA"
+        "Tarjeta de débito VISA"
       ],
       [
         "Banco Supervielle",
         "MODO",
-        "Tarjeta de débito VISA"
+        "Tarjeta de crédito VISA"
       ],
       [
         "Banco Supervielle",
@@ -306,6 +394,10 @@
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "maxDiscount": 8000,
       "explicitlyHasNoLimit": false
@@ -331,12 +423,12 @@
       [
         "Banco Supervielle",
         "MODO",
-        "Tarjeta de crédito VISA"
+        "Tarjeta de débito VISA"
       ],
       [
         "Banco Supervielle",
         "MODO",
-        "Tarjeta de débito VISA"
+        "Tarjeta de crédito VISA"
       ],
       [
         "Banco Supervielle",
@@ -345,8 +437,11 @@
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
-      "maxDiscount": 15000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -367,10 +462,18 @@
       "Jueves"
     ],
     "restrictions": [],
-    "paymentMethods": [],
-    "unknownPaymentMethods": [
-      "Tarjeta Ciudadania Porteña"
+    "paymentMethods": [
+      [
+        "Tarjeta de débito VISA",
+        "Tarjeta de crédito VISA",
+        "Tarjeta de crédito Mastercard"
+      ]
     ],
+    "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "explicitlyHasNoLimit": true
     },
@@ -394,7 +497,13 @@
       "Jueves"
     ],
     "restrictions": [],
-    "paymentMethods": [],
+    "paymentMethods": [
+      [
+        "Tarjeta de débito VISA",
+        "Tarjeta de crédito VISA",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": true,
@@ -427,6 +536,10 @@
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "maxDiscount": 10000,
       "explicitlyHasNoLimit": false
@@ -455,36 +568,12 @@
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "maxDiscount": 8000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Comafi",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 10000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -515,8 +604,44 @@
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "maxDiscount": 18000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "weekdays": [
+      "Jueves"
+    ],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Banco Comafi",
+        "Tarjeta de débito VISA"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
+    "limits": {
+      "maxDiscount": 10000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -536,7 +661,7 @@
       "Jueves"
     ],
     "restrictions": [
-      "Exclusivo jubilados que perciban sus haberes en el banco"
+      "Exclusivo Jubilados que perciban sus haberes en el banco"
     ],
     "paymentMethods": [
       [
@@ -545,6 +670,10 @@
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": true
+    },
     "limits": {
       "maxDiscount": 20000,
       "explicitlyHasNoLimit": false
@@ -562,14 +691,29 @@
     },
     "validFrom": "2025-03-01",
     "validUntil": "2025-03-31",
-    "weekdays": [],
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
     "restrictions": [],
     "paymentMethods": [
       [
-        "NaranjaX"
+        "Tarjeta de crédito VISA",
+        "Tarjeta de crédito Mastercard"
       ]
     ],
-    "unknownPaymentMethods": [],
+    "unknownPaymentMethods": [
+      "Tarjeta Naranja"
+    ],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "explicitlyHasNoLimit": false
     },
@@ -585,7 +729,7 @@
       "value": 15
     },
     "validFrom": "2025-03-01",
-    "validUntil": "2025-03-02",
+    "validUntil": "2025-03-31",
     "weekdays": [
       "Viernes",
       "Sabado",
@@ -598,6 +742,10 @@
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false
+    },
     "limits": {
       "explicitlyHasNoLimit": true
     },
