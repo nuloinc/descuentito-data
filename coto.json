@@ -1,32 +1,33 @@
 [
   {
     "discount": {
-      "type": "cuotas sin intereses",
-      "value": 18
+      "type": "porcentaje",
+      "value": 15
     },
     "validFrom": "2025-03-01",
-    "validUntil": "2025-03-02",
+    "validUntil": "2025-03-31",
     "weekdays": [
-      "Sabado",
-      "Domingo"
+      "Martes",
+      "Jueves"
     ],
     "restrictions": [],
     "paymentMethods": [
       [
-        "Banco Galicia",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Galicia",
+        "Tarjeta de débito VISA",
+        "Tarjeta de crédito VISA",
+        "Tarjeta de crédito Mastercard",
+        "Tarjeta de débito Mastercard",
+        "Tarjeta de crédito Cabal",
+        "Tarjeta de débito Cabal",
         "Tarjeta American Express"
       ]
     ],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": true
+    },
     "limits": {
-      "explicitlyHasNoLimit": false
+      "explicitlyHasNoLimit": true
     },
     "where": [
       "Coto"
@@ -36,134 +37,21 @@
   },
   {
     "discount": {
-      "type": "cuotas sin intereses",
-      "value": 18
+      "type": "porcentaje",
+      "value": 25
     },
     "validFrom": "2025-03-01",
     "validUntil": "2025-03-31",
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Ciudad",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "limits": {
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto",
-      "Online"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2025-03-03",
-    "validUntil": "2025-03-09",
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Tarjeta American Express"
-      ],
-      [
-        "Tarjeta de crédito Cabal"
-      ],
-      [
-        "Tarjeta de crédito Coto TCI"
-      ],
-      [
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Tarjeta American Express"
-      ],
-      [
-        "Tarjeta de crédito Cabal"
-      ],
-      [
-        "Tarjeta de crédito Coto TCI"
-      ]
-    ],
-    "limits": {
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto",
-      "Online"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 6
-    },
-    "validFrom": "2025-02-28",
-    "validUntil": "2025-03-06",
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Tarjeta American Express"
-      ],
-      [
-        "Tarjeta de crédito Cabal"
-      ],
-      [
-        "Tarjeta de crédito Coto TCI"
-      ]
-    ],
-    "limits": {
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto",
-      "Online"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 30
-    },
-    "validFrom": "2025-02-01",
-    "validUntil": "2025-03-04",
     "weekdays": [
       "Lunes"
     ],
-    "restrictions": [],
+    "restrictions": [
+      "Exclusivo para usuarios con caja de ahorro a través de la app Ualá"
+    ],
     "paymentMethods": [
       [
-        "Banco Santander",
-        "MODO",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Santander",
-        "MODO",
-        "Tarjeta de débito VISA"
+        "Ualá",
+        "Tarjeta de crédito Mastercard"
       ]
     ],
     "limits": {
@@ -171,105 +59,6 @@
       "explicitlyHasNoLimit": false
     },
     "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-03-31",
-    "weekdays": [
-      "Lunes"
-    ],
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Ciudad",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Ciudad",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Ciudad",
-        "Tarjeta de crédito Cabal"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 10000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto",
-      "Online"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2025-03-08",
-    "validUntil": "2025-03-09",
-    "weekdays": [
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Ciudad",
-        "Tarjeta de débito VISA"
-      ],
-      [
-        "Banco Ciudad",
-        "Tarjeta de débito Mastercard"
-      ]
-    ],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Coto",
-      "Online"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2025-03-29",
-    "validUntil": "2025-03-30",
-    "weekdays": [
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [],
-    "paymentMethods": [
-      [
-        "Banco Ciudad",
-        "Tarjeta de débito VISA"
-      ],
-      [
-        "Banco Ciudad",
-        "Tarjeta de débito Mastercard"
-      ]
-    ],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
       "Coto",
       "Online"
     ],
@@ -286,7 +75,9 @@
     "weekdays": [
       "Lunes"
     ],
-    "restrictions": [],
+    "restrictions": [
+      "Exclusivo para usuarios con caja de ahorro a través de la app Ualá"
+    ],
     "paymentMethods": [
       [
         "Ualá",
@@ -317,12 +108,20 @@
     "restrictions": [],
     "paymentMethods": [
       [
-        "Uilo",
+        "Banco Ciudad",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Ciudad",
         "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Ciudad",
+        "Tarjeta de crédito Cabal"
       ]
     ],
     "limits": {
-      "maxDiscount": 15000,
+      "maxDiscount": 10000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -411,7 +210,8 @@
       "Domingo"
     ],
     "restrictions": [
-      "Excluye jubilaciones y pensiones"
+      "Excluye jubilaciones y pensiones",
+      "Debe cobrar haberes en el banco"
     ],
     "paymentMethods": [
       [
@@ -450,17 +250,17 @@
       [
         "Banco Supervielle",
         "MODO",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Banco Supervielle",
+        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
         "Banco Supervielle",
         "MODO",
         "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de débito VISA"
       ]
     ],
     "limits": {
@@ -483,10 +283,13 @@
     "weekdays": [
       "Martes"
     ],
-    "restrictions": [
-      "Clientes Identité (“IDT”) y quienes perciban sus haberes en el banco (Plan Sueldo O “PS”)"
-    ],
+    "restrictions": [],
     "paymentMethods": [
+      [
+        "Banco Supervielle",
+        "MODO",
+        "Tarjeta de débito VISA"
+      ],
       [
         "Banco Supervielle",
         "MODO",
@@ -496,11 +299,6 @@
         "Banco Supervielle",
         "MODO",
         "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de débito VISA"
       ]
     ],
     "limits": {
@@ -558,9 +356,7 @@
       "Sabado",
       "Domingo"
     ],
-    "restrictions": [
-      "Clientes que tengan Tarjetas Platinum y Stignature/Black (“IDT”)"
-    ],
+    "restrictions": [],
     "paymentMethods": [
       [
         "Banco Supervielle",
@@ -598,7 +394,7 @@
     ],
     "paymentMethods": [
       [
-        "Banco Santander - Jubilados",
+        "Banco Santander",
         "Tarjeta de débito VISA"
       ]
     ],
@@ -624,7 +420,7 @@
       "Martes"
     ],
     "restrictions": [
-      "Promoción exclusiva para Tarjetas Santander Visa adheridos al programa Women"
+      "Promoción exclusiva para tarjetas Santander Visa adheridos al programa Women"
     ],
     "paymentMethods": [
       [
@@ -703,6 +499,7 @@
       ]
     ],
     "limits": {
+      "maxDiscount": 12000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -744,43 +541,6 @@
       "value": 25
     },
     "validFrom": "2025-03-06",
-    "validUntil": "2025-03-06",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [
-      "Exclusivo para clientes que depositen su sueldo en ICBC"
-    ],
-    "paymentMethods": [
-      [
-        "Banco ICBC – Cliente Payroll",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco ICBC – Cliente Payroll",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco ICBC – Cliente Payroll",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "limits": {
-      "maxDiscount": 15000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "url": "https://www.coto.com.ar/descuentos/index.asp",
-    "source": "coto"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2025-03-20",
     "validUntil": "2025-03-20",
     "weekdays": [
       "Jueves"
@@ -824,7 +584,7 @@
       "Domingo"
     ],
     "restrictions": [
-      "Excepto el rubro electrodomésticos"
+      "No incluye electrodomésticos"
     ],
     "paymentMethods": [
       [
@@ -856,7 +616,7 @@
       "Jueves"
     ],
     "restrictions": [
-      "Pertenecientes a clientes que sean además titulares de servicios de cuenta Comafi Ahorro, Global, Classic Premium y/o Platinum"
+      "Clientes Comafi Ahorro, Global, Classic Premium y/o Platinum"
     ],
     "paymentMethods": [
       [
@@ -886,7 +646,7 @@
       "Jueves"
     ],
     "restrictions": [
-      "Pertenecientes a clientes que además sean titulares de servicios de cuenta Comafi Unico"
+      "Clientes Comafi Único"
     ],
     "paymentMethods": [
       [
@@ -993,6 +753,32 @@
   },
   {
     "discount": {
+      "type": "porcentaje",
+      "value": 15
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-03-31",
+    "weekdays": [
+      "Martes",
+      "Jueves"
+    ],
+    "restrictions": [],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito Coto TCI"
+      ]
+    ],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Coto"
+    ],
+    "url": "https://www.coto.com.ar/descuentos/index.asp",
+    "source": "coto"
+  },
+  {
+    "discount": {
       "type": "cuotas sin intereses",
       "value": 24
     },
@@ -1030,24 +816,12 @@
     "restrictions": [],
     "paymentMethods": [
       [
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Tarjeta de débito VISA"
-      ],
-      [
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Tarjeta de débito Mastercard"
-      ],
-      [
-        "Tarjeta de crédito Cabal"
-      ],
-      [
-        "Tarjeta de débito Cabal"
-      ],
-      [
+        "Tarjeta de débito VISA",
+        "Tarjeta de crédito VISA",
+        "Tarjeta de crédito Mastercard",
+        "Tarjeta de débito Mastercard",
+        "Tarjeta de crédito Cabal",
+        "Tarjeta de débito Cabal",
         "Tarjeta American Express"
       ]
     ],
@@ -1076,24 +850,12 @@
     "restrictions": [],
     "paymentMethods": [
       [
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Tarjeta de débito VISA"
-      ],
-      [
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Tarjeta de débito Mastercard"
-      ],
-      [
-        "Tarjeta de crédito Cabal"
-      ],
-      [
-        "Tarjeta de débito Cabal"
-      ],
-      [
+        "Tarjeta de débito VISA",
+        "Tarjeta de crédito VISA",
+        "Tarjeta de crédito Mastercard",
+        "Tarjeta de débito Mastercard",
+        "Tarjeta de crédito Cabal",
+        "Tarjeta de débito Cabal",
         "Tarjeta American Express"
       ]
     ],
