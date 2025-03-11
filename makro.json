@@ -10,11 +10,7 @@
       "Miercoles",
       "Jueves"
     ],
-    "restrictions": [
-      "Tope de reintegro $3.000 para Nivel 1 por transacción por semana.",
-      "El reintegro lo realizará Personal Pay a los usuarios dentro de las 48 hs hábiles de realizada la transacción.",
-      "Beneficio es acumulable con las promociones de la tienda y aplica en el precio de los productos publicados en las sucursales Makro."
-    ],
+    "restrictions": [],
     "paymentMethods": [
       [
         "Personal Pay",
@@ -40,7 +36,21 @@
     "validFrom": "2025-02-01",
     "validUntil": "2025-02-28",
     "restrictions": [],
-    "onlyForProducts": "FIDEOS, DERIVADOS DE TOMATE (TRITURADO, EXTRACTO, PURÉ, PULPA Y SALSAS LISTAS), CARNE FRESCA EN BANDEJA, CARNE ENVASADA AL VACÍO Y POLLOS EN GENERAL, SHAMPOO, ACONDICIONADOR, TRATAMIENTO CAPILAR, CREMAS DE PEINAR, FIJADORES Y TINTURAS CAPILARES; CREMAS CORPORALES, FACIALES Y PARA MANOS; DESODORANTE PARA PIES Y TALCOS; CREMAS DE AFEITAR Y DERIVADOS; COLONIAS; PRODUCTOS DEPILATORIOS; DEMAQUILLANTES Y QUITAEMALTES; TALCOS, FÉCULAS Y OLEOS PARA BEBÉS, JABÓN PARA LA ROPA EN PAN, LÍQUIDO Y EN POLVO",
+    "onlyForProducts": "FIDEOS, DERIVADOS DE TOMATE (TRITURADO, EXTRACTO, PURÉ, PULPA Y SALSAS LISTAS), CARNE FRESCA EN BANDEJA, CARNE ENVASADA AL VACÍO Y POLLOS EN GENERAL, SHAMPOO, ACONDICIONADOR, TRATAMIENTO CAPILAR, CREMAS DE PEINAR, FIJADORES Y TINTURAS CAPILARES; CREMAS CORPORALES, FACIALES Y PARA MANOS; DESODORANTE PARA PIES Y TALCOS; CREMAS DE AFEITAR Y DERIVADOS; COLONIAS; PRODUCTOS DEPILATORIOS; DEMAQUILLANTES Y QUITAEMALTES; TALCOS, FÉCULAS Y OLEOS PARA BEBÉS, JABÓN PARA LA ROPA EN PAN, LÍQUIDO Y EN POLVO.",
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Tarjeta de débito Mastercard"
+      ]
+    ],
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": false,
@@ -67,26 +77,24 @@
       "Martes"
     ],
     "restrictions": [
-      "Es condición necesaria tener una cuenta Supervielle propia adherida a MODO",
-      "Aplica a clientes que realicen compras presenciales en supermercados adheridos mediante la modalidad de pago con QR a través de MODO desde App Supervielle, App Supervielle Jubilados o App MODO con la tarjeta de débito VISA y las tarjetas de crédito VISA y/o Mastercard que formen parte de un paquete de productos del banco",
-      "No aplica a pagos realizados a través de billeteras virtuales o proveedores de servicios de pago, excepto MODO"
+      "Aplica solo a clientes que realicen compras presenciales en supermercados adheridos mediante la modalidad de pago con QR a través de MODO desde App Supervielle, App Supervielle Jubilados o App MODO con la tarjeta de débito VISA y las tarjetas de crédito VISA y/o Mastercard que formen parte de un paquete de productos del banco.",
+      "Es condición necesaria tener una cuenta Supervielle propia adherida a MODO.",
+      "No aplica a pagos realizados a través de billeteras virtuales o ‘Proveedores de Servicios de Pago’, excepto MODO."
     ],
-    "onlyForProducts": "N/A",
-    "excludesProducts": "N/A",
     "paymentMethods": [
       [
-        "MODO",
         "Banco Supervielle",
+        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
-        "MODO",
         "Banco Supervielle",
+        "MODO",
         "Tarjeta de crédito Mastercard"
       ],
       [
-        "MODO",
         "Banco Supervielle",
+        "MODO",
         "Tarjeta de débito VISA"
       ]
     ],
@@ -169,6 +177,11 @@
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false,
+      "programaCiudadaniaPorteña": false
+    },
     "limits": {
       "maxDiscount": 30000,
       "explicitlyHasNoLimit": false
@@ -190,21 +203,20 @@
       "Martes"
     ],
     "restrictions": [
-      "No acumulable con otras promociones.",
-      "No aplica a cartera de clientes que acrediten planes sociales.",
-      "No aplica a extracciones de dinero en efectivo realizadas a través de Extra Cash.",
-      "No aplica a consumos efectuados a través de la plataforma Mercado Pago.",
-      "No aplica a pagos realizados por la plataforma de pagos móviles (POS Móvil, Botón de Pago y Billetera Electrónica)."
+      "No acumulable con otras promociones, ni cartera de clientes que acrediten planes sociales.",
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash.",
+      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago.",
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS Móvil, Botón de Pago y Billetera Electrónica)."
     ],
     "paymentMethods": [
       [
-        "MODO",
         "Banco Hipotecario",
+        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
-        "MODO",
         "Banco Hipotecario",
+        "MODO",
         "Tarjeta de débito VISA"
       ]
     ],
@@ -230,25 +242,29 @@
       "Martes"
     ],
     "restrictions": [
-      "No acumulable con otras promociones.",
-      "No aplica a cartera de clientes que acrediten planes sociales.",
-      "No aplica a extracciones de dinero en efectivo realizadas a través de Extra Cash.",
-      "No aplica a consumos efectuados a través de la plataforma Mercado Pago.",
-      "No aplica a pagos realizados por la plataforma de pagos móviles (POS Móvil, Botón de Pago y Billetera Electrónica)."
+      "No acumulable con otras promociones, ni cartera de clientes que acrediten planes sociales.",
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash.",
+      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago.",
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS Móvil, Botón de Pago y Billetera Electrónica)."
     ],
     "paymentMethods": [
       [
-        "MODO",
         "Banco Hipotecario - Búho/Plan Sueldo",
+        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
-        "MODO",
         "Banco Hipotecario - Búho/Plan Sueldo",
+        "MODO",
         "Tarjeta de débito VISA"
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false,
+      "programaCiudadaniaPorteña": false
+    },
     "limits": {
       "maxDiscount": 30000,
       "explicitlyHasNoLimit": false
@@ -270,11 +286,11 @@
       "Miercoles"
     ],
     "restrictions": [
-      "Tope de reintegro $ 10.000 por cuenta aplicable a la primera compra por Miércoles.",
+      "Tope de reintegro $10.000 por cuenta aplicable a la primera compra por Miércoles.",
       "No válido para pagos con saldo en cuenta."
     ],
-    "onlyForProducts": " ",
-    "excludesProducts": " ",
+    "onlyForProducts": "N/A",
+    "excludesProducts": "N/A",
     "paymentMethods": [
       [
         "Banco Nación",
@@ -309,14 +325,15 @@
       "Miercoles"
     ],
     "restrictions": [
-      "No válido para compra telefónica ni online",
-      "No aplica para compra en cuotas",
-      "No acumulable con otras promociones",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0",
-      "Válido para compras en un pago con QR",
-      "Aplica para clientes/usuarios registrados en MODO"
+      "No válido para compra telefónica ni online.",
+      "No aplica para compra en cuotas.",
+      "No acumulable con otras promociones.",
+      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0.",
+      "Válido para compras en un pago con QR.",
+      "Aplica para clientes/usuarios registrados en MODO."
     ],
-    "excludesProducts": "Electro, productos del convenio Precios Cuidados/Esenciales",
+    "onlyForProducts": "",
+    "excludesProducts": "Productos de electro, ni productos del convenio Precios Cuidados/Esenciales.",
     "paymentMethods": [
       [
         "Banco Macro",
@@ -352,13 +369,13 @@
     ],
     "restrictions": [
       "No válido para compra telefónica ni online.",
-      "No incluye productos de electro, ni productos del convenio Precios Cuidados/Esenciales.",
       "No aplica para compra en cuotas.",
-      "No válido Tarjeta de Crédito Empresa o Agro.",
-      "No acumula con otra promoción.",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0."
+      "No acumulable con otras promociones.",
+      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0.",
+      "No válido Tarjeta de Crédito Empresa o Agro."
     ],
-    "excludesProducts": "Productos de electro, productos del convenio Precios Cuidados/Esenciales",
+    "onlyForProducts": "",
+    "excludesProducts": "Productos de electro, productos del convenio Precios Cuidados/Esenciales.",
     "paymentMethods": [
       [
         "Banco Macro",
@@ -397,15 +414,20 @@
       "No aplica para compra en cuotas.",
       "No acumula con otra promoción.",
       "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0.",
-      "No válido Tarjeta de Crédito Empresa o Agro.",
-      "Aplica para consumo personal-familiar."
+      "No válido Tarjeta de Crédito Empresa o Agro."
     ],
     "onlyForProducts": "",
     "excludesProducts": "Productos de electro, ni productos del convenio Precios Cuidados/Esenciales.",
     "paymentMethods": [
       [
         "Banco Macro - Tarjeta Selecta",
-        "MODO"
+        "MODO",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Macro - Tarjeta Selecta",
+        "MODO",
+        "Tarjeta de crédito Mastercard"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -427,11 +449,10 @@
     "validFrom": "2025-03-01",
     "validUntil": "2025-03-31",
     "restrictions": [],
-    "excludesProducts": "Ventas mediante Todo Pago, Mercado Pago y NPOS",
+    "excludesProducts": "TODO PAGO, MERCADO PAGO Y NPOS",
     "paymentMethods": [
       [
-        "NaranjaX",
-        "Tarjeta de crédito VISA"
+        "NaranjaX"
       ]
     ],
     "unknownPaymentMethods": [],
