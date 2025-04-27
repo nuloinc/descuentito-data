@@ -46,17 +46,19 @@
       "value": 20
     },
     "validFrom": "2025-04-01",
-    "validUntil": "2025-04-30",
+    "validUntil": "2025-04-29",
     "weekdays": [
       "Lunes"
     ],
     "restrictions": [
+      "No válido para compras en los patios de comidas, Coto Expresso, Coto Bar, zona juegos y estacionamiento propio",
+      "No aplicable sobre productos incluidos en programas de precios del gobierno y/o aplicables por normativa vigente",
       "No válido para pagos efectuados con tecnología “NFC”",
-      "No válido para tarjetas de programas de ayuda social",
-      "No aplicables sobre productos incluidos en programas de precios del gobierno y/o aplicables por normativa vigente",
-      "No válidos para compras en los patios de comidas, Coto Expresso, Coto Bar, Zona Juegos y Estacionamiento propio"
+      "No válido para tarjetas de compra y/u orden de compra y/o similares emitidas por Coto",
+      "No válido para compras abonadas en euros dolares ni tickets",
+      "No válido para tarjetas de programas de ayuda social"
     ],
-    "excludesProducts": "Electrodomésticos, Neumáticos, Rodados, Vinos y espumantes (Bodegas Catena Zapata, Nicola Catena, Ernesto Catena (Alma Negra, Padrillos, Animal, Enemigo y Gran Enemigo), DV Catena (Malbec 1.5lt, Malbec La Rioja, Malbec Salta), Saint Felicien, Nicasia, Tilia, Leoncio Arizu (Luigi Bosca), La Rural (Rutini, Trumpeter, San Felipe y Cepa Tradicional Semillon/Malbec-Malbec/Tinto Blend), Chandon, Terrazas de los Andes (Latitud 33°, Castel, Altos del Plata, Valmont, Beltour, Cheval y Clos Du Moulin), Norton (Lote Negro, Quorum VI, Privada Family Blend), Cadus Wines (Cadus), Casa Pirque (Altaland, La Posta, Luca, Aruma, Petit Caro, Malbec/Cabernet Franc Casa de Herrero, Malbec Ojo de Buen Cubero, Malbec/Cabernet Franc/Pinot Noir Cuchillo de Palo, Malbec Río de los Ciervos Araucana, Malbec Nico y Blend Beso de Dante Luca), Bianchi (Vino Chardonnay Reservado María Carmen, Vino Gran Corte Enzo Bianchi, Vinos Malbec y Cabernet Sauvignon Particular Bianchi), Valentín Bianchi (Vino Tinto Corte y Malbec IV Generación), Monteviejo (Festivo y Petite Fleur), Vinos en Tetrabrik, Generosos, Champañas y Espumantes (Bodegas Chandon, Mercier, Catena Zapata, Barón B, Dom Perignon, Pommery, Möet Chandon, La Grande Dame, Krug)), Cortes de carnes de novillo, novillito, ternera y menudencias, Pollo entero y trozado, fresco y congelado, Yerbas en todas sus presentaciones, Harinas en todas sus presentaciones, Azúcar en todas sus presentaciones, Aceite de girasol y mezcla girasol-soja en todas sus presentaciones, Marcas Coca Cola, Coca Cola Light, Coca Cola Sin Azúcar, Crush, Fanta, Fanta Sin Azúcar, Schweppes, Sprite, Sprite Sin Azúcar, Aquarius, Smartwater, Cepita, Benedictino, Powerade, Ades, Hi-C, Monster.",
+    "excludesProducts": "Electrodomésticos, Neumáticos, Rodados, Productos de bodegas Catena Zapata, Nicola Catena, Ernesto Catena (Alma Negra, Padrillos, Animal, Enemigo y Gran Enemigo), Malbec DV Catena bot x 1,5lt, Malbec La Rioja DV Catena, Malbec Salta DV Catena, Saint Felicien, Nicasia, Tilia, Bodega Leoncio Arizu (Luigi Bosca), Bodega La Rural (Rutini, Trumpeter, San Felipe y Cepa Tradicional Semillon/Malbec-Malbec/Tinto Blend), Chandon y Terrazas de los Andes (Latitud 33°, Castel, Altos del Plata, Valmont, Beltour, Cheval y Clos Du Moulin), Bodega Norton (Lote Negro, Quorum VI, Privada Family Blend), Bodega Cadus Wines (Cadus), Casa Pirque (Altaland, La Posta, Luca, Aruma, Petit Caro, Malbec/Cabernet Franc Casa de Herrero, Malbec Ojo de Buen Cubero, Malbec/Cabernet Franc/Pinot Noir Cuchillo de Palo, Malbec Río de Los Ciervos Araucana, Malbec Nico y Blend Beso de Dante Luca), Bodega Bianchi (Vino Chardonnay Reservado María Carmen, Vino Gran Corte Enzo Bianchi, Vinos Malbec y Cabernet Sauvignon Particular Bianchi), Bodega Valentín Bianchi (Vino Tinto Corte y Malbec IV Generación), Bodega Monteviejo (Festivo y Petite Fleur), Vinos en Tetrabrik, Generosos, Champañas y Espumantes de bodegas Chandon, Mercier, Catena Zapata, Barón B, Dom Perignon, Pommery, Möet Chandon, La Grande Dame, Krug, Cortes de carnes de novillo, novillito, ternera y menudencias, Pollo entero ni trozado, fresco ni congelado, Yerbas, Harinas, Azúcar, Aceite de girasol y mezcla girasol-soja en todas sus presentaciones, Marcas Coca Cola, Coca Cola Light, Coca Cola Sin Azúcar, Crush, Fanta, Fanta Sin Azúcar, Schweppes, Sprite, Sprite Sin Azúcar, Aquarius, Smartwater, Cepita, Benedictino, Powerade, Ades, Hi-C, Monster",
     "paymentMethods": [
       [
         "Tarjeta de crédito Coto TCI"
@@ -64,11 +66,11 @@
     ],
     "unknownPaymentMethods": [],
     "limits": {
-      "maxDiscount": 10000,
-      "explicitlyHasNoLimit": false
+      "explicitlyHasNoLimit": true
     },
     "where": [
-      "Coto"
+      "Coto",
+      "Online"
     ],
     "url": "https://www.coto.com.ar/descuentos/index.asp",
     "source": "coto"
