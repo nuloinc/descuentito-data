@@ -138,12 +138,12 @@
     "paymentMethods": [
       [
         "MODO",
-        "Banco Hipotecario - Búho/Plan Sueldo",
+        "Banco Hipotecario",
         "Tarjeta de crédito VISA"
       ],
       [
         "MODO",
-        "Banco Hipotecario - Búho/Plan Sueldo",
+        "Banco Hipotecario",
         "Tarjeta de débito VISA"
       ]
     ],
@@ -209,13 +209,14 @@
       "Miercoles"
     ],
     "restrictions": [
-      "No válido para compra telefónica ni online.",
+      "No válido para compra telefónica ni compra online.",
+      "No incluye productos de electro, ni productos del convenio precios cuidados/esenciales.",
       "No aplica para compra en cuotas.",
-      "No acumulable con otra promoción.",
+      "No acumula con otra promoción.",
       "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0.",
       "No válido Tarjeta de Crédito Empresa o Agro."
     ],
-    "excludesProducts": "Electro, productos del convenio Precios Cuidados/Esenciales",
+    "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
         "Banco Macro",
@@ -250,14 +251,14 @@
       "Miercoles"
     ],
     "restrictions": [
-      "No válido para compra telefónica ni online.",
-      "No incluye productos de electro, ni productos del convenio precios cuidados/esenciales.",
+      "No válido para compra telefónica ni compra online.",
       "No aplica para compra en cuotas.",
-      "No acumula con otra promoción.",
+      "No acumulable con otra promoción.",
       "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0.",
-      "No válido Tarjeta de Crédito Empresa o Agro."
+      "No válido Tarjeta de Crédito Empresa o Agro.",
+      "El beneficio no incluye productos de electro, ni productos del convenio Precios Cuidados/Esenciales."
     ],
-    "excludesProducts": "Productos de electro, productos del convenio precios cuidados/esenciales.",
+    "excludesProducts": "Productos de electro, ni productos del convenio Precios Cuidados/Esenciales.",
     "paymentMethods": [
       [
         "Banco Macro - Tarjeta PLATINUM",
@@ -329,8 +330,8 @@
       "Sabado"
     ],
     "restrictions": [
-      "Aplica únicamente a aquellos usuarios que sean titulares de una cuenta bancaria en la entidad emisora de la tarjeta con la que realiza el pago",
-      "No válido en autopagos, ni pagos online"
+      "Aplica únicamente a aquellos usuarios que sean titulares de una cuenta bancaria en la entidad emisora de la tarjeta con la que realiza el pago.",
+      "No válido en autopagos, ni pagos online."
     ],
     "paymentMethods": [
       [
@@ -412,14 +413,11 @@
       "Jueves"
     ],
     "restrictions": [
-      "Válido únicamente en QR de MODO abonando a través de Credicoop Móvil o MODO con tarjetas Cabal Credicoop.",
       "Aplica a consumos de tipo familiar y efectuados en un pago.",
       "Tope de reintegro para usuarios que acreditan haberes $10.500 por cuenta por mes.",
-      "El reintegro se verá reflejado en el primer o segundo resumen de la tarjeta de crédito Cabal o dentro de los 60 días en el caso de consumo con tarjeta de débito Cabal.",
-      "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
-      "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO.",
-      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
-      "Aplicable a la cartera de consumo."
+      "Promoción válida únicamente en QR de MODO abonando a través de Credicoop Móvil o MODO con tarjetas Cabal Credicoop.",
+      "Será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO.",
+      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online."
     ],
     "paymentMethods": [
       [
@@ -433,7 +431,7 @@
     ],
     "unknownPaymentMethods": [],
     "limits": {
-      "maxDiscount": 10500,
+      "maxDiscount": 7500,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -501,10 +499,12 @@
     ],
     "paymentMethods": [
       [
+        "Banco Credicoop",
         "MODO",
         "Tarjeta de crédito Cabal"
       ],
       [
+        "Banco Credicoop",
         "MODO",
         "Tarjeta de débito Cabal"
       ]
@@ -562,7 +562,7 @@
     "validFrom": "2025-05-01",
     "validUntil": "2025-05-31",
     "restrictions": [],
-    "onlyForProducts": "FIDEOS, DERIVADOS DE TOMATE (TRITURADO, EXTRACTO, PURÉ, PULPA Y SALSAS LISTAS), CARNE FRESCA EN BANDEJA, CARNE ENVASADA AL VACÍO Y POLLOS EN GENERAL, SHAMPOO, ACONDICIONADOR, TRATAMIENTO CAPILAR, CREMAS DE PEINAR, FIJADORES Y TINTURAS CAPILARES; CREMAS CORPORALES, FACIALES Y PARA MANOS; DESODORANTE PARA PIES Y TALCOS; CREMAS DE AFEITAR Y DERIVADOS; COLONIAS; PRODUCTOS DEPILATORIOS; DEMAQUILLANTES Y QUITAEMALTES; TALCOS, FÉCULAS Y OLEOS PARA BEBÉS, JABÓN PARA LA ROPA EN PAN, LÍQUIDO Y EN POLVO.",
+    "onlyForProducts": "FIDEOS, DERIVADOS DE TOMATE (TRITURADO, EXTRACTO, PURÉ, PULPA Y SALSAS LISTAS), CARNE FRESCA EN BANDEJA, CARNE ENVASADA AL VACÍO Y POLLOS EN GENERAL, SHAMPOO, ACONDICIONADOR, TRATAMIENTO CAPILAR, CREMAS DE PEINAR, FIJADORES Y TINTURAS CAPILARES; CREMAS CORPORALES, FACIALES Y PARA MANOS; DESODORANTE PARA PIES Y TALCOS; CREMAS DE AFEITAR Y DERIVADOS; COLONIAS; PRODUCTOS DEPILATORIOS; DEMAQUILLANTES Y QUITAEMALTES; TALCOS, FÉCULAS Y OLEOS PARA BEBÉS, JABÓN PARA LA ROPA EN PAN, LÍQUIDO Y EN POLVO",
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": false,
