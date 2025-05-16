@@ -6,9 +6,7 @@
     },
     "validFrom": "2025-05-12",
     "validUntil": "2025-05-18",
-    "restrictions": [
-      "Válido para tarjetas emitidas por entidades bancarias."
-    ],
+    "restrictions": [],
     "onlyForProducts": "artículos seleccionados",
     "paymentMethods": [
       [
@@ -17,7 +15,6 @@
     ],
     "unknownPaymentMethods": [],
     "limits": {
-      "maxDiscount": 0,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -31,12 +28,158 @@
       "type": "cuotas sin intereses",
       "value": 12
     },
-    "validFrom": "2025-03-07",
+    "validFrom": "2025-03-08",
     "validUntil": "2025-05-31",
     "restrictions": [],
     "onlyForProducts": "Electro TV, Audio y Video, Electrónica Liviana, Computación, Aparatos de Telefonía, Heladeras y Freezers, Lavarropas, Secarropas y Lavavajillas, Termotanques y Calefones, Cocinas, Hornos, Anafes, Microondas y Accesorios, Purificadores y Extractores, Frío y Calor",
     "paymentMethods": [
       [
+        "Banco BBVA",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco BBVA",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 18
+    },
+    "validFrom": "2025-05-12",
+    "validUntil": "2025-05-18",
+    "restrictions": [
+      "No combinable con otras promociones.",
+      "No aplica a pagos realizados a través de billeteras virtuales y/o plataformas de pago online (por ejemplo, PayPal, Mercado Pago, Ualá, etc.).",
+      "No participan tarjetas Visa Purchasing, Distribution y Corporate."
+    ],
+    "onlyForProducts": "ELECTRÓNICA Y LINEA BLANCA",
+    "paymentMethods": [
+      [
+        "Banco BBVA",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco BBVA",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-05-01",
+    "validUntil": "2025-05-31",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados",
+      "No aplica para pagos realizados con QR",
+      "No aplica para compras en los locales \"Vea Express y Disco Express\""
+    ],
+    "onlyForProducts": "Librería, Juguetería, Marroquinería, Parrillas, Aire Libre, Camping, Piletas",
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito Cencosud Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-04-01",
+    "validUntil": "2025-05-31",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones y/o descuentos",
+      "No aplica para clientes en mora o inhabilitados",
+      "No aplica para pagos realizados con QR",
+      "No aplica para compras en los locales Vea Express y Disco Express"
+    ],
+    "excludesProducts": "Electrodomésticos",
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito Cencosud Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 12
+    },
+    "validFrom": "2025-03-07",
+    "validUntil": "2025-05-31",
+    "restrictions": [],
+    "onlyForProducts": "Electrodomesticos",
+    "paymentMethods": [
+      [
+        "Banco Santander",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Santander",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
         "Banco Galicia",
         "Tarjeta de crédito VISA"
       ],
@@ -45,17 +188,50 @@
         "Tarjeta de crédito Mastercard"
       ],
       [
-        "Banco Santander",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Santander",
-        "Tarjeta de crédito Mastercard"
+        "Tarjeta American Express"
       ],
       [
         "NaranjaX"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 12
+    },
+    "validFrom": "2025-02-14",
+    "validUntil": "2025-06-01",
+    "restrictions": [
+      "No aplica para compras realizadas con tarjetas de Crédito Visa Business, Visa Rural y Tarjetas de Débito",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo, Google Pay y Apple Pay), mPos y/o plataformas de pago online",
+      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos"
+    ],
+    "onlyForProducts": "Electrodomesticos",
+    "paymentMethods": [
+      [
+        "Banco Galicia",
+        "MODO"
       ],
       [
+        "Banco Galicia",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Galicia",
         "Tarjeta American Express"
       ]
     ],
@@ -89,7 +265,7 @@
     "restrictions": [
       "No aplica para pagos con saldo en cuenta."
     ],
-    "onlyForProducts": "Electrodomesticos",
+    "onlyForProducts": "Electrodomésticos",
     "paymentMethods": [
       [
         "Banco Nación",
@@ -129,7 +305,7 @@
     "restrictions": [
       "No aplica para pagos con saldo en cuenta."
     ],
-    "onlyForProducts": "Electrodomesticos",
+    "onlyForProducts": "Electrodomésticos",
     "paymentMethods": [
       [
         "Banco Nación",
@@ -145,6 +321,168 @@
       "explicitlyHasNoLimit": true
     },
     "where": [
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 10
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-12-31",
+    "weekdays": [
+      "Lunes",
+      "Jueves"
+    ],
+    "restrictions": [
+      "Presentando la Tarjeta Clarín 365 o 365 Plus",
+      "Ser socio del programa Jumbo Más o Vea Ahorro",
+      "No aplicable en cajas de autoservicio",
+      "No acumulable con otras promociones, descuentos",
+      "No acumulable los días emisión ni redención de pesoscheck",
+      "No incluye compras realizadas en locales \"Vea Express\"",
+      "No aplica para clientes en mora o inhabilitados"
+    ],
+    "excludesProducts": "Electrodomésticos, Rodados, Librería, Carnes, Leches, Mayoristas de fiambrería, Bodegas (La Rural, Trumpeter, Rutini, Chandon, 33 Sur, Terrazas de los Andes, Latitud 33, Mercier y Baron B. y Los Generosos), Productos de marcas propias (C&CO, Home Care, Family Care, Pet Fun, Jumbo y Vea), Aceites de fideicomiso",
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "membership": [
+      "Clarin 365"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 15
+    },
+    "validFrom": "2025-03-01",
+    "validUntil": "2025-12-31",
+    "weekdays": [
+      "Lunes",
+      "Jueves"
+    ],
+    "restrictions": [
+      "Presentando la Tarjeta Clarín 365 o 365 Plus",
+      "Ser socio del programa Jumbo Más o Vea Ahorro",
+      "No aplicable en cajas de autoservicio",
+      "No acumulable con otras promociones, descuentos",
+      "No acumulable los días emisión ni redención de pesoscheck",
+      "No incluye compras realizadas en locales \"Vea Express\"",
+      "No aplica para clientes en mora o inhabilitados"
+    ],
+    "excludesProducts": "Electrodomésticos, Rodados, Librería, Carnes, Leches, Mayoristas de fiambrería, Bodegas (La Rural, Trumpeter, Rutini, Chandon, 33 Sur, Terrazas de los Andes, Latitud 33, Mercier y Baron B. y Los Generosos), Productos de marcas propias (C&CO, Home Care, Family Care, Pet Fun, Jumbo y Vea), Aceites de fideicomiso",
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito Cencosud Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "membership": [
+      "Clarin 365"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-05-01",
+    "validUntil": "2025-05-31",
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados",
+      "No aplica para pagos realizados con QR",
+      "No aplica para compras en los locales Vea Express y Disco Express"
+    ],
+    "onlyForProducts": "Grandes Electrodomésticos",
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito Cencosud Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 6
+    },
+    "validFrom": "2025-05-01",
+    "validUntil": "2025-05-31",
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados",
+      "No aplica para pagos realizados con QR",
+      "No aplica para compras en los locales Vea Express y Disco Express"
+    ],
+    "onlyForProducts": "Grandes Electrodomésticos",
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito Cencosud Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 12
+    },
+    "validFrom": "2025-05-01",
+    "validUntil": "2025-05-31",
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados",
+      "No aplica para pagos realizados con QR",
+      "No aplica para compras en los locales Vea Express y Disco Express"
+    ],
+    "onlyForProducts": "Grandes Electrodomésticos",
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito Cencosud Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
       "Online"
     ],
     "source": "jumbo",
@@ -262,7 +600,233 @@
   {
     "discount": {
       "type": "cuotas sin intereses",
-      "value": 3
+      "value": 12
+    },
+    "validFrom": "2025-02-14",
+    "validUntil": "2025-06-01",
+    "restrictions": [
+      "No aplica para compras realizadas con tarjetas de Crédito Visa Business, Visa Rural y Tarjetas de Débito.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo, Google Pay y Apple Pay), mPos y/o plataformas de pago online.",
+      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
+    ],
+    "onlyForProducts": "Electrodomesticos",
+    "paymentMethods": [
+      [
+        "Banco Galicia",
+        "MODO"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta American Express"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 12
+    },
+    "validFrom": "2025-03-07",
+    "validUntil": "2025-05-31",
+    "restrictions": [],
+    "onlyForProducts": "Electrodomesticos",
+    "paymentMethods": [
+      [
+        "Banco Santander",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Santander",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Tarjeta American Express"
+      ],
+      [
+        "NaranjaX"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 20
+    },
+    "validFrom": "2025-01-01",
+    "validUntil": "2025-05-31",
+    "weekdays": [
+      "Martes"
+    ],
+    "restrictions": [],
+    "excludesProducts": "Electro, Carnes, Bodegas Chandon, La Rural, Terrazas De Los Andes Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos De Los 7, Rutini, Escorihuela Gascon Y Brik, Todo El Rubro Alcohol",
+    "paymentMethods": [
+      [
+        "Banco Supervielle - Jubilados",
+        "Tarjeta de débito VISA"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": true,
+      "programaCiudadaniaPorteña": false
+    },
+    "limits": {
+      "maxDiscount": 8000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2024-12-01",
+    "validUntil": "2025-06-30",
+    "weekdays": [
+      "Martes"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones",
+      "No acumulable con cartera de clientes que acrediten planes sociales",
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
+      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago",
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
+    ],
+    "paymentMethods": [
+      [
+        "Banco Hipotecario",
+        "MODO",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Banco Hipotecario",
+        "MODO",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 10000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 18
+    },
+    "validFrom": "2025-05-12",
+    "validUntil": "2025-05-18",
+    "restrictions": [
+      "Válido para tarjetas emitidas por entidades bancarias."
+    ],
+    "onlyForProducts": "artículos seleccionados",
+    "paymentMethods": [
+      [
+        "Banco Santander"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 0,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 30
+    },
+    "validFrom": "2025-01-01",
+    "validUntil": "2025-12-31",
+    "weekdays": [
+      "Martes"
+    ],
+    "restrictions": [
+      "Valido para compras realizadas en Jumbo Rosario",
+      "No válido para compras realizadas en comercios que procesen sus ventas a través de plataforma única de pago en la cúal no se individualice ni identifiquen comercio, tales como Mercado de Pago, Todo Pago, Pagos PEI, Botón de pago, etc.",
+      "No valido para promociones propias del comercio",
+      "No acumulable con otras promociones y/o descuentos vigentes"
+    ],
+    "excludesProducts": "Electro, Carnes, Bodegas Chandon, La Rural, Terrazas De Los Andes, Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos De Los 7, Rutini, Escorihuela Gascon Y Brik",
+    "paymentMethods": [
+      [
+        "Banco Santa Fe",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Santa Fe",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 10000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 12
     },
     "validFrom": "2025-05-01",
     "validUntil": "2025-05-31",
@@ -276,14 +840,17 @@
       "Domingo"
     ],
     "restrictions": [
-      "No aplica para clientes en mora o inhabilitados",
-      "No aplica para pagos realizados con QR",
-      "No aplica para compras en los locales Vea Express y Disco Express"
+      "No aplica para pagos con saldo en cuenta."
     ],
-    "onlyForProducts": "Grandes Electrodomésticos",
+    "onlyForProducts": "Electrodomesticos",
     "paymentMethods": [
       [
-        "Cencopay"
+        "Banco Nación",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Nación",
+        "Tarjeta de crédito Mastercard"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -291,7 +858,6 @@
       "explicitlyHasNoLimit": true
     },
     "where": [
-      "Jumbo",
       "Online"
     ],
     "source": "jumbo",
@@ -314,181 +880,17 @@
       "Domingo"
     ],
     "restrictions": [
-      "No aplica para clientes en mora o inhabilitados",
-      "No aplica para pagos realizados con QR",
-      "No aplica para compras en los locales Vea Express y Disco Express"
-    ],
-    "onlyForProducts": "Grandes Electrodomésticos",
-    "paymentMethods": [
-      [
-        "Cencopay"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 12
-    },
-    "validFrom": "2025-05-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados",
-      "No aplica para pagos realizados con QR",
-      "No aplica para compras en los locales Vea Express y Disco Express"
-    ],
-    "onlyForProducts": "Grandes Electrodomésticos",
-    "paymentMethods": [
-      [
-        "Cencopay"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 18
-    },
-    "validFrom": "2025-05-12",
-    "validUntil": "2025-05-18",
-    "restrictions": [
-      "No combinable con otras promociones",
-      "No aplica a pagos realizados a través de billeteras virtuales y/o plataformas de pago online (por ejemplo, PayPal, Mercado Pago, Ualá, etc.)",
-      "No participan tarjetas Visa Purchasing, Distribution y Corporate"
-    ],
-    "onlyForProducts": "ELECTRÓNICA Y LINEA BLANCA",
-    "paymentMethods": [
-      [
-        "Banco BBVA",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco BBVA",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco BBVA",
-        "Tarjeta American Express"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2025-05-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados",
-      "No aplica para pagos realizados con QR",
-      "No aplica para compras en los locales Vea Express y Disco Express"
-    ],
-    "onlyForProducts": "Librería, Juguetería, Marroquinería, Parrillas, Aire Libre, Camping, Piletas",
-    "paymentMethods": [
-      [
-        "Cencopay"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 12
-    },
-    "validFrom": "2025-02-14",
-    "validUntil": "2025-06-01",
-    "restrictions": [
-      "No aplica para compras realizadas con tarjetas de Crédito Visa Business, Visa Rural y Tarjetas de Débito.",
-      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo, Google Pay y Apple Pay), mPos y/o plataformas de pago online.",
-      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
+      "No aplica para pagos con saldo en cuenta."
     ],
     "onlyForProducts": "Electrodomesticos",
     "paymentMethods": [
       [
-        "Banco Galicia",
-        "MODO",
+        "Banco Nación",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Galicia",
-        "MODO",
+        "Banco Nación",
         "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Galicia",
-        "MODO",
-        "Tarjeta American Express"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta American Express"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -496,7 +898,6 @@
       "explicitlyHasNoLimit": true
     },
     "where": [
-      "Jumbo",
       "Online"
     ],
     "source": "jumbo",
@@ -507,156 +908,47 @@
       "type": "porcentaje",
       "value": 10
     },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-12-31",
-    "weekdays": [
-      "Lunes",
-      "Jueves"
-    ],
-    "restrictions": [
-      "Presentando la Tarjeta Clarín 365 o 365 Plus y ser socio del programa Jumbo Más o Vea Ahorro",
-      "No aplicable en cajas de autoservicio",
-      "No acumulable con otras promociones, descuentos",
-      "No acumulable los días emisión ni redención de Pesoscheck",
-      "No aplica para clientes en mora o inhabilitados"
-    ],
-    "excludesProducts": "Electrodomésticos, Rodados, Librería, Carnes, Leches, Mayoristas de Fiambrería, Bodegas (La Rural, Trumpeter, Rutini, Chandon, 33 Sur, Terrazas de los Andes, Latitud 33, Mercier y Baron B. y Los Generosos), Productos de marcas propias (C&CO, Home Care, Family Care, Pet Fun, Jumbo y Vea), Aceites de fideicomiso",
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "membership": [
-      "Clarin 365"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 15
-    },
-    "validFrom": "2025-03-01",
-    "validUntil": "2025-12-31",
-    "weekdays": [
-      "Lunes",
-      "Jueves"
-    ],
-    "restrictions": [
-      "Presentando la Tarjeta Clarín 365 o 365 Plus y ser socio del programa Jumbo Más o Vea Ahorro",
-      "No aplicable en cajas de autoservicio",
-      "No acumulable con otras promociones, descuentos",
-      "No acumulable los días emisión ni redención de Pesoscheck",
-      "No aplica para clientes en mora o inhabilitados"
-    ],
-    "excludesProducts": "Electrodomésticos, Rodados, Librería, Carnes, Leches, Mayoristas de Fiambrería, Bodegas (La Rural, Trumpeter, Rutini, Chandon, 33 Sur, Terrazas de los Andes, Latitud 33, Mercier y Baron B. y Los Generosos), Productos de marcas propias (C&CO, Home Care, Family Care, Pet Fun, Jumbo y Vea), Aceites de fideicomiso",
-    "paymentMethods": [
-      [
-        "Tarjeta de crédito Cencosud Mastercard"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "membership": [
-      "Clarin 365"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 12
-    },
-    "validFrom": "2025-03-08",
-    "validUntil": "2025-05-31",
-    "restrictions": [
-      "No participan tarjetas VISA Purchasing, Distribution y Corporate",
-      "No participan compras efectuadas a través de Todo Pago y Mercado Pago"
-    ],
-    "onlyForProducts": "Electro TV, Audio y Video, Electrónica Liviana, Computación, Aparatos de Telefonía, Heladeras y Freezers, Lavarropas, Secarropas y Lavavajillas, Termotanques y Calefones, Cocinas, Hornos, Anafes, Microondas y Accesorios, Purificadores y Extractores, Frío y Calor",
-    "paymentMethods": [
-      [
-        "Banco BBVA",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco BBVA",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 18
-    },
-    "validFrom": "2025-05-12",
-    "validUntil": "2025-05-18",
+    "validFrom": "2025-01-01",
+    "validUntil": "2025-06-30",
     "restrictions": [],
+    "excludesProducts": "Electro, Carnes, Kit Esenciales, Bodegas Chandon, La Rural, Terrazas de los Andes Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de los 7, Rutini, Escorihuela Gascon, Brik",
     "paymentMethods": [
       [
-        "Banco Santander"
+        "Banco Patagonia",
+        "Tarjeta de Crédito Patagonia 365"
       ]
     ],
     "unknownPaymentMethods": [],
     "limits": {
-      "explicitlyHasNoLimit": false
+      "explicitlyHasNoLimit": true
     },
     "where": [
-      "Online"
+      "Jumbo"
     ],
     "source": "jumbo",
     "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
   },
   {
     "discount": {
-      "type": "porcentaje",
-      "value": 20
+      "type": "cuotas sin intereses",
+      "value": 3
     },
     "validFrom": "2025-01-01",
-    "validUntil": "2025-05-31",
+    "validUntil": "2025-06-30",
     "weekdays": [
       "Martes"
     ],
-    "restrictions": [
-      "Válido para clientes que perciban su jubilación en el Banco y que realicen compras presenciales en supermercados adheridos con la tarjetas de débito Visa que forme parte de un paquete de productos del Banco."
-    ],
-    "excludesProducts": "Electro, Carnes, Bodegas Chandon, La Rural, Terrazas de Los Andes, Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de Los 7, Rutini, Escorihuela Gascon y Brik, Todo el rubro alcohol",
+    "restrictions": [],
+    "excludesProducts": "Electro, Carnes, Kit Esenciales, Bodegas Chandon, La Rural, Terrazas de los Andes Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de los 7, Rutini, Escorihuela Gascon, Brik",
     "paymentMethods": [
       [
-        "Banco Supervielle - Jubilados",
-        "Tarjeta de débito VISA"
+        "Banco Patagonia",
+        "Tarjeta de Crédito Patagonia 365"
       ]
     ],
     "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": false,
-      "jubilados": true,
-      "programaCiudadaniaPorteña": false
-    },
     "limits": {
-      "maxDiscount": 8000,
-      "explicitlyHasNoLimit": false
+      "explicitlyHasNoLimit": true
     },
     "where": [
       "Jumbo"
@@ -750,64 +1042,26 @@
   },
   {
     "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2024-12-01",
-    "validUntil": "2025-06-30",
-    "weekdays": [
-      "Martes"
-    ],
-    "restrictions": [
-      "No acumulable con otras promociones",
-      "No aplica a cartera de clientes que acrediten planes sociales",
-      "No aplica a las operaciones de extracción de dinero en efectivo",
-      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago",
-      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
-    ],
-    "paymentMethods": [
-      [
-        "Banco Hipotecario",
-        "MODO",
-        "Tarjeta de débito VISA"
-      ],
-      [
-        "Banco Hipotecario",
-        "MODO",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 10000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Jumbo"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
       "type": "cuotas sin intereses",
-      "value": 3
+      "value": 6
     },
-    "validFrom": "2025-04-01",
+    "validFrom": "2025-05-01",
     "validUntil": "2025-05-31",
     "weekdays": [
       "Lunes",
       "Martes",
       "Miercoles",
-      "Jueves"
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
     ],
     "restrictions": [
-      "No acumulable con otras promociones y/o descuentos",
       "No aplica para clientes en mora o inhabilitados",
       "No aplica para pagos realizados con QR",
       "No aplica para compras en los locales \"Vea Express y Disco Express\""
     ],
-    "excludesProducts": "Electrodomésticos",
+    "onlyForProducts": "Grandes Electrodomésticos",
     "paymentMethods": [
       [
         "Tarjeta de crédito Cencosud Mastercard"
@@ -826,168 +1080,8 @@
   },
   {
     "discount": {
-      "type": "porcentaje",
-      "value": 30
-    },
-    "validFrom": "2025-01-01",
-    "validUntil": "2025-12-31",
-    "weekdays": [
-      "Martes"
-    ],
-    "restrictions": [
-      "Valido para compras realizadas en Jumbo Rosario",
-      "No válido para compras realizadas en comercios que procesen sus ventas a través de plataforma única de pago en la cúal no se individualice ni identifiquen comercio, tales como Mercado de Pago, Todo Pago, Pagos PEI, Botón de pago, etc.",
-      "No valido para promociones propias del comercio."
-    ],
-    "excludesProducts": "Electro, Carnes, Bodegas Chandon, La Rural, Terrazas De Los Andes, Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos De Los 7, Rutini, Escorihuela Gascon Y Brik",
-    "paymentMethods": [
-      [
-        "Banco Santa Fe",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Santa Fe",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Santa Fe",
-        "Tarjeta de crédito Cabal"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 10000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 10
-    },
-    "validFrom": "2025-01-01",
-    "validUntil": "2025-06-30",
-    "weekdays": [
-      "Martes"
-    ],
-    "restrictions": [],
-    "excludesProducts": "Electro, Carnes, Kit Esenciales, Bodegas Chandon, La Rural, Terrazas de los Andes Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de los 7, Rutini, Escorihuela Gascon y Brik",
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Jumbo"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2025-01-01",
-    "validUntil": "2025-06-30",
-    "weekdays": [
-      "Martes"
-    ],
-    "restrictions": [],
-    "excludesProducts": "Electro, Carnes, Kit Esenciales, Bodegas Chandon, La Rural, Terrazas de los Andes Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de los 7, Rutini, Escorihuela Gascon y Brik",
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Jumbo"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
       "type": "cuotas sin intereses",
       "value": 12
-    },
-    "validFrom": "2025-03-08",
-    "validUntil": "2025-05-31",
-    "restrictions": [],
-    "onlyForProducts": "Electro TV, Audio y Video, Electrónica Liviana, Computación, Aparatos de Telefonía, Heladeras y Freezers, Lavarropas, Secarropas y Lavavajillas, Termotanques y Calefones, Cocinas, Hornos, Anafes, Microondas y Accesorios, Purificadores y Extractores, Frío y Calor",
-    "paymentMethods": [
-      [
-        "Banco BBVA",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco BBVA",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 12
-    },
-    "validFrom": "2025-03-07",
-    "validUntil": "2025-05-31",
-    "restrictions": [],
-    "onlyForProducts": "Electro TV, Audio y Video, Electrónica Liviana, Computación, Aparatos de Telefonía, Heladeras y Freezers, Lavarropas, Secarropas y Lavavajillas, Termotanques y Calefones, Cocinas, Hornos, Anafes, Microondas y Accesorios, Purificadores y Extractores, Frío y Calor",
-    "paymentMethods": [
-      [
-        "Banco Santander",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Santander",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Tarjeta American Express"
-      ],
-      [
-        "NaranjaX"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
     },
     "validFrom": "2025-05-01",
     "validUntil": "2025-05-31",
@@ -1003,45 +1097,9 @@
     "restrictions": [
       "No aplica para clientes en mora o inhabilitados",
       "No aplica para pagos realizados con QR",
-      "No aplica para compras en los locales Vea Express y Disco Express"
-    ],
-    "onlyForProducts": "Librería, Juguetería, Marroquinería, Parrillas, Aire Libre, Camping, Piletas",
-    "paymentMethods": [
-      [
-        "Cencopay"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2025-04-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves"
-    ],
-    "restrictions": [
-      "No acumulable con otras promociones y/o descuentos",
-      "No aplica para clientes en mora o inhabilitados",
-      "No aplica para pagos realizados con QR",
       "No aplica para compras en los locales \"Vea Express y Disco Express\""
     ],
-    "excludesProducts": "Electrodomésticos",
+    "onlyForProducts": "Grandes Electrodomésticos",
     "paymentMethods": [
       [
         "Tarjeta de crédito Cencosud Mastercard"
@@ -1066,8 +1124,8 @@
     "validFrom": "2025-05-12",
     "validUntil": "2025-05-18",
     "restrictions": [
-      "No aplica a pagos realizados a través de billeteras virtuales y/o plataformas de pago online (por ejemplo, PayPal, Mercado Pago, Ualá, etc.)",
-      "No participan tarjetas Visa Purchasing, Distribution y Corporate"
+      "No combinable con otras promociones",
+      "No aplica a pagos realizados a través de billeteras virtuales y/o plataformas de pago online (por ejemplo, PayPal, Mercado Pago, Ualá, etc.)"
     ],
     "onlyForProducts": "ELECTRÓNICA Y LINEA BLANCA",
     "paymentMethods": [
@@ -1100,350 +1158,15 @@
       "type": "porcentaje",
       "value": 30
     },
-    "validFrom": "2025-04-01",
-    "validUntil": "2025-05-30",
-    "weekdays": [
-      "Miercoles"
-    ],
-    "restrictions": [
-      "No acumulable con otras promociones y/o descuentos vigentes."
-    ],
-    "excludesProducts": "Electro, Carnes, Bodegas Chandon, La Rural, Terrazas de Los Andes, Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de Los 7, Rutini, Todo el rubro alcohol",
-    "paymentMethods": [
-      [
-        "Banco Santander",
-        "Tarjeta de débito VISA"
-      ],
-      [
-        "Banco Santander",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Santander - Jubilados"
-      ],
-      [
-        "Banco Santander - Women"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 20000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 12
-    },
-    "validFrom": "2025-02-14",
-    "validUntil": "2025-06-01",
-    "restrictions": [
-      "No acumulable con otras promociones vigentes",
-      "No aplica para compras realizadas con tarjetas de Crédito Visa Business, Visa Rural y Tarjetas de Débito",
-      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo, Google Pay y Apple Pay), mPos y/o plataformas de pago online",
-      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos"
-    ],
-    "onlyForProducts": "Electrodomesticos",
-    "paymentMethods": [
-      [
-        "Banco Galicia",
-        "MODO"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta American Express"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 15
-    },
-    "validFrom": "2025-05-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Miercoles"
-    ],
-    "restrictions": [
-      "Deberán presentar DNI, LC, LE, CI, documentación de ANSES o PAMI. Menores de 60 años un recibo de haberes."
-    ],
-    "excludesProducts": "Electro, Bodegas La Rural, Rutini Wines, Leoncio Arizu, Chandon, Terrazas de Los Andes, Valmont, Latitud 33, Catena Zapata, Mercier y Baron B, Escorihuela Gascon y Brik, Kits Esenciales, Yerbas, Fideos, Yogures, Aceites y Leches.",
-    "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": true,
-      "jubilados": true,
-      "programaCiudadaniaPorteña": false
-    },
-    "limits": {
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Jumbo"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2025-05-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Miercoles"
-    ],
-    "restrictions": [
-      "Deberán presentar DNI, LC, LE, CI, documentación de ANSES o PAMI. Menores de 65 años un recibo de haberes."
-    ],
-    "excludesProducts": "Electro, Bodegas Chandon, Terrazas de Los Andes, La Rural, Leoncio Arizu, Rutini Wines, Valmont, Latitud 33, Catena Zapata, Mercier, Baron B, Escorihuela Gascon, Brik.",
-    "paymentMethods": [
-      [
-        "Tarjeta de crédito Cencosud Mastercard"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": true,
-      "jubilados": true,
-      "programaCiudadaniaPorteña": false
-    },
-    "limits": {
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Jumbo"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 10
-    },
-    "validFrom": "2025-05-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Miercoles"
-    ],
-    "restrictions": [
-      "Debés ser socio Jumbo",
-      "Deberán presentar DNI, LC, LE, CI, documentación de ANSES o PAMI",
-      "Menores de 60 años un recibo de haberes",
-      "Descuento exclusivo para jubilados",
-      "El descuento se efectivizará en la línea de cajas",
-      "No acumulable con otras promociones y/o descuentos vigentes"
-    ],
-    "excludesProducts": "Electro, Bodegas La Rural, Rutini Wines, Leoncio Arizu, Chandon, Terrazas De Los Andes, Valmont, Latitud 33, Catena Zapata, Mercier Y Baron B, Escorihuela Gascon Y Brik, Kits Esenciales, Yerbas, Fideos, Yogures, Aceites Y Leches",
-    "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": true,
-      "jubilados": true,
-      "programaCiudadaniaPorteña": false
-    },
-    "limits": {
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Jumbo"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 15
-    },
-    "validFrom": "2025-05-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Miercoles"
-    ],
-    "restrictions": [
-      "Descuento exclusivo para jubilados",
-      "Deberán presentar DNI, LC, LE, CI, documentación de ANSES o PAMI",
-      "Menores de 65 años un recibo de haberes",
-      "Promoción válida para compras realizadas con Tarjeta Cencosud",
-      "Descuento no acumulable con otras promociones y/o descuentos",
-      "El descuento se efectivizará en la línea de cajas"
-    ],
-    "excludesProducts": "Electro, Bodegas Chandon, Terrazas De Los Andes, La Rural, Leoncio Arizu, Rutini Wines, Valmont, Latitud 33, Catena Zapata, Mercier, Baron B, Escorihuela Gascon, Brik",
-    "paymentMethods": [
-      [
-        "Tarjeta de crédito Cencosud Mastercard"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": true,
-      "jubilados": true,
-      "programaCiudadaniaPorteña": false
-    },
-    "limits": {
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Jumbo"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2025-05-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados",
-      "No aplica para pagos realizados con QR",
-      "No aplica para compras en los locales Vea Express y Disco Express"
-    ],
-    "onlyForProducts": "Grandes Electrodomésticos",
-    "paymentMethods": [
-      [
-        "Cencopay"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 6
-    },
-    "validFrom": "2025-05-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados",
-      "No aplica para pagos realizados con QR",
-      "No aplica para compras en los locales Vea Express y Disco Express"
-    ],
-    "onlyForProducts": "Grandes Electrodomésticos",
-    "paymentMethods": [
-      [
-        "Cencopay"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 12
-    },
-    "validFrom": "2025-05-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados",
-      "No aplica para pagos realizados con QR",
-      "No aplica para compras en los locales Vea Express y Disco Express"
-    ],
-    "onlyForProducts": "Grandes Electrodomésticos",
-    "paymentMethods": [
-      [
-        "Cencopay"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 30
-    },
     "validFrom": "2025-01-01",
     "validUntil": "2025-09-30",
     "weekdays": [
       "Miercoles"
     ],
     "restrictions": [
-      "No acumulable con otras promociones vigentes",
-      "Exclusivo cartera de consumo",
-      "Excluye versiones corporativas"
+      "EXCLUSIVAMENTE CON MODO BNA+",
+      "EXCLUSIVO CARTERA DE CONSUMO",
+      "EXCLUYE VERSIONES CORPORATIVAS"
     ],
     "excludesProducts": "Electro, Carnes, Aceites de fideicomiso, Kits esenciales, Vinos en brick, Moscato, Oporto, Mistela, Bodegas La Rural, Trumpeter, Rutini, Luca, La Posta, Luigi Bosca, Chandon, 33 Sur, Terrazas de los Andes, Valmont, Latitud 33, Catena Zapata, Mercier, Baron B, Escorihuela Gascón, Clos de los Siete, El Enemigo, Álamos, Monteviejo",
     "paymentMethods": [
@@ -1465,6 +1188,59 @@
     },
     "where": [
       "Jumbo"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 30
+    },
+    "validFrom": "2025-04-01",
+    "validUntil": "2025-05-30",
+    "weekdays": [
+      "Miercoles"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones y/o descuentos vigentes.",
+      "Válido para consumidor final."
+    ],
+    "excludesProducts": "Electro, Carnes, Bodegas Chandon, La Rural, Terrazas de los Andes, Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de los 7, Rutini, Todo el rubro alcohol",
+    "paymentMethods": [
+      [
+        "Banco Santander",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Banco Santander - Jubilados",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Santander - Jubilados",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Banco Santander - Women",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Santander - Women",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Banco Santander",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 20000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo",
+      "Online"
     ],
     "source": "jumbo",
     "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
@@ -1511,7 +1287,6 @@
       "Miercoles"
     ],
     "restrictions": [
-      "No acumulable con otras promociones y/o descuentos",
       "No aplica para clientes en mora o inhabilitados",
       "No aplica para compras realizadas en locales \"Vea Express\""
     ],
@@ -1533,54 +1308,134 @@
   },
   {
     "discount": {
-      "type": "cuotas sin intereses",
-      "value": 18
+      "type": "porcentaje",
+      "value": 15
     },
-    "validFrom": "2025-05-12",
-    "validUntil": "2025-05-18",
-    "restrictions": [],
-    "onlyForProducts": "artículos seleccionados",
-    "paymentMethods": [
-      [
-        "Banco Santander"
-      ]
+    "validFrom": "2025-05-01",
+    "validUntil": "2025-05-31",
+    "weekdays": [
+      "Miercoles"
     ],
+    "restrictions": [
+      "Presentar DNI, LC, LE, CI, documentación de ANSES o PAMI",
+      "Menores de 60 años deben presentar recibo de haberes"
+    ],
+    "excludesProducts": "Electro, Bodegas La Rural, Rutini Wines, Leoncio Arizu, Chandon, Terrazas de los Andes, Valmont, Latitud 33, Catena Zapata, Mercier y Baron B, Escorihuela Gascon y Brik, Kits Esenciales, Yerbas, Fideos, Yogures, Aceites y Leches",
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": true,
+      "jubilados": true,
+      "programaCiudadaniaPorteña": false
+    },
     "limits": {
-      "maxDiscount": 0,
       "explicitlyHasNoLimit": false
     },
     "where": [
-      "Online"
+      "Jumbo"
     ],
     "source": "jumbo",
     "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
   },
   {
     "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
+      "type": "porcentaje",
+      "value": 20
     },
     "validFrom": "2025-05-01",
     "validUntil": "2025-05-31",
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados",
-      "No aplica para pagos realizados con QR",
-      "No aplica para compras en los locales Vea Express y Disco Express"
+    "weekdays": [
+      "Miercoles"
     ],
-    "onlyForProducts": "Grandes Electrodomésticos",
+    "restrictions": [
+      "Presentar DNI, LC, LE, CI, documentación de ANSES o PAMI",
+      "Menores de 65 años deben presentar recibo de haberes"
+    ],
+    "excludesProducts": "Electro, Bodegas Chandon, Terrazas de los Andes, La Rural, Leoncio Arizu, Rutini Wines, Valmont, Latitud 33, Catena Zapata, Mercier, Baron B, Escorihuela Gascon, Brik",
     "paymentMethods": [
       [
         "Tarjeta de crédito Cencosud Mastercard"
       ]
     ],
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": true,
+      "jubilados": true,
+      "programaCiudadaniaPorteña": false
+    },
     "limits": {
-      "explicitlyHasNoLimit": true
+      "explicitlyHasNoLimit": false
     },
     "where": [
-      "Jumbo",
-      "Online"
+      "Jumbo"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 10
+    },
+    "validFrom": "2025-05-01",
+    "validUntil": "2025-05-31",
+    "weekdays": [
+      "Miercoles"
+    ],
+    "restrictions": [
+      "Debés ser socio Jumbo",
+      "Deberán presentar DNI, LC, LE, CI, documentación de ANSES o PAMI. Menores de 60 años un recibo de haberes",
+      "El descuento se efectivizará en la línea de cajas",
+      "No acumulable con otras promociones y/o descuentos vigentes"
+    ],
+    "excludesProducts": "Electro, Bodegas La Rural, Rutini Wines, Leoncio Arizu, Chandon, Terrazas de los Andes, Valmont, Latitud 33, Catena Zapata, Mercier y Baron B, Escorihuela Gascon y Brik, Kits Esenciales, Yerbas, Fideos, Yogures, Aceites y Leches",
+    "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": true,
+      "jubilados": true,
+      "programaCiudadaniaPorteña": false
+    },
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 15
+    },
+    "validFrom": "2025-05-01",
+    "validUntil": "2025-05-31",
+    "weekdays": [
+      "Miercoles"
+    ],
+    "restrictions": [
+      "Descuento exclusivo para jubilados",
+      "Deberán presentar DNI, LC, LE, CI, documentación de ANSES o PAMI. Menores de 65 años un recibo de haberes",
+      "El descuento se efectivizará en la línea de cajas",
+      "No acumulable con otras promociones y/o descuentos"
+    ],
+    "excludesProducts": "Electro, Bodegas Chandon, Terrazas de los Andes, La Rural, Leoncio Arizu, Rutini Wines, Valmont, Latitud 33, Catena Zapata, Mercier, Baron B, Escorihuela Gascon, Brik",
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito Cencosud Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": true,
+      "jubilados": true,
+      "programaCiudadaniaPorteña": false
+    },
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo"
     ],
     "source": "jumbo",
     "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
@@ -1592,12 +1447,21 @@
     },
     "validFrom": "2025-05-01",
     "validUntil": "2025-05-31",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
     "restrictions": [
       "No aplica para clientes en mora o inhabilitados",
-      "No aplica para pagos realizados con QR",
-      "No aplica para compras en los locales Vea Express y Disco Express"
+      "No aplica para pagos realizados con QR"
     ],
     "onlyForProducts": "Grandes Electrodomésticos",
+    "excludesProducts": "Vea Express, Disco Express",
     "paymentMethods": [
       [
         "Tarjeta de crédito Cencosud Mastercard"
@@ -1621,12 +1485,21 @@
     },
     "validFrom": "2025-05-01",
     "validUntil": "2025-05-31",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
     "restrictions": [
       "No aplica para clientes en mora o inhabilitados",
-      "No aplica para pagos realizados con QR",
-      "No aplica para compras en los locales Vea Express y Disco Express"
+      "No aplica para pagos realizados con QR"
     ],
     "onlyForProducts": "Grandes Electrodomésticos",
+    "excludesProducts": "Vea Express, Disco Express",
     "paymentMethods": [
       [
         "Tarjeta de crédito Cencosud Mastercard"
@@ -1648,6 +1521,111 @@
       "type": "cuotas sin intereses",
       "value": 3
     },
+    "validFrom": "2025-05-01",
+    "validUntil": "2025-05-31",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados",
+      "No aplica para pagos realizados con QR",
+      "No aplica para compras en los locales Vea Express y Disco Express"
+    ],
+    "onlyForProducts": "Librería, Juguetería, Marroquinería, Parrillas, Aire Libre, Camping, Piletas",
+    "paymentMethods": [
+      [
+        "Cencopay"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-04-01",
+    "validUntil": "2025-05-31",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones y/o descuentos",
+      "No aplica para clientes en mora o inhabilitados",
+      "No aplica para pagos realizados con QR",
+      "No aplica para compras en los locales \"Vea Express y Disco Express\""
+    ],
+    "excludesProducts": "Electrodomésticos",
+    "paymentMethods": [
+      [
+        "Cencopay"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 0,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2025-05-29",
+    "validUntil": "2025-05-29",
+    "weekdays": [
+      "Jueves"
+    ],
+    "restrictions": [
+      "TOPE MÁXIMO DE REINTEGRO: $10.000 para clientes no premium y $15.000 para clientes premium por cuenta por día."
+    ],
+    "excludesProducts": "Electro, Carnes, Bodegas Chandon, La Rural, Terrazas de los Andes, Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmonti, Latitud 33, Clos de los 7",
+    "paymentMethods": [
+      [
+        "Tarjeta American Express"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 10000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
     "validFrom": "2025-04-03",
     "validUntil": "2025-06-01",
     "weekdays": [
@@ -1657,9 +1635,10 @@
       "Domingo"
     ],
     "restrictions": [
-      "No aplica para compras realizadas con tarjetas de Crédito Visa Business, Visa Rural y Tarjetas de Débito.",
-      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo, Google Pay y Apple Pay), mPos y/o plataformas de pago online.",
-      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
+      "No acumulable con otras promociones vigentes",
+      "No aplica para compras realizadas con tarjetas de Crédito Visa Business, Visa Rural y Tarjetas de Débito",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo, Google Pay y Apple Pay), mPos y/o plataformas de pago online",
+      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos"
     ],
     "paymentMethods": [
       [
@@ -1697,23 +1676,74 @@
       "type": "porcentaje",
       "value": 25
     },
-    "validFrom": "2025-05-29",
-    "validUntil": "2025-05-29",
+    "validFrom": "2024-12-01",
+    "validUntil": "2025-05-31",
     "weekdays": [
       "Jueves"
     ],
     "restrictions": [
-      "TOPE MÁXIMO DE REINTEGRO: $10.000 para clientes no premium y $15.000 para clientes premium por cuenta por día."
+      "Promoción no acumulable con otras ofertas, descuentos y/o promociones vigentes.",
+      "Válida para consumidor final.",
+      "Promoción valida únicamente en los comercios adheridos.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
+      "Sólo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
     ],
-    "excludesProducts": "Electro, Carnes, Bodegas Chandon, La Rural, Terrazas de los Andes, Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de los 7, Rutini, Escorihuela Gascon, Brik",
+    "excludesProducts": "Electro, Carnes, Bodegas Chandon, La Rural, Terrazas de Los Andes Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de Los 7, Rutini, Escorihuela Gascon y Brik, Todo el rubro alcohol.",
     "paymentMethods": [
       [
-        "Tarjeta American Express"
+        "MODO",
+        "Banco Galicia",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "MODO",
+        "Banco Galicia",
+        "Tarjeta de crédito VISA"
       ]
     ],
     "unknownPaymentMethods": [],
     "limits": {
-      "maxDiscount": 10000,
+      "maxDiscount": 15000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 30
+    },
+    "validFrom": "2024-12-01",
+    "validUntil": "2025-05-31",
+    "weekdays": [
+      "Jueves"
+    ],
+    "restrictions": [
+      "Aplica sólo a pagos realizados a través de QR de Modo desde app Galicia y app Modo.",
+      "No aplica para compras con tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
+      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
+    ],
+    "excludesProducts": "Electro, Carnes, Bodegas Chandon, La Rural, Terrazas de los Andes, Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de los 7, Rutini, Escorihuela Gascon y Brik, Todo el rubro alcohol.",
+    "paymentMethods": [
+      [
+        "Banco Galicia - Eminent",
+        "MODO",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Banco Galicia - Eminent",
+        "MODO",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 20000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -1727,15 +1757,74 @@
       "type": "porcentaje",
       "value": 25
     },
-    "validFrom": "2025-05-29",
-    "validUntil": "2025-05-29",
+    "validFrom": "2025-05-15",
+    "validUntil": "2025-05-15",
     "weekdays": [
       "Jueves"
     ],
     "restrictions": [
-      "TOPE MÁXIMO DE REINTEGRO: $10.000 para clientes no premium y $15.000 para clientes premium por cuenta por día."
+      "No acumulable con otras promociones y/o descuentos",
+      "No aplica para clientes en mora o inhabilitados",
+      "No aplica para compras realizadas en los locales Vea Express y Disco Express"
     ],
-    "excludesProducts": "Electro, Carnes, Bodegas Chandon, La Rural, Terrazas de los Andes, Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de los 7, Rutini, Escorihuela Gascon, Brik",
+    "excludesProducts": "Electrodomésticos, Rodados, Librería, Carnes, Leches, Mayoristas de Fiambrería, Productos de marcas propias (C&CO, Home Care, Family Care, Pet Fun, Jumbo y Vea), Bodegas (La Rural, Trumpeter, Rutini, Chandon, 33 Sur, Terrazas de los Andes, Latitud 33, Mercier y Baron B.)",
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito Cencosud Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-05-15",
+    "validUntil": "2025-05-15",
+    "weekdays": [
+      "Jueves"
+    ],
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados",
+      "No aplica para compras en los locales Vea Express y Disco Express"
+    ],
+    "excludesProducts": "Electrodomésticos",
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito Cencosud Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2025-05-08",
+    "validUntil": "2025-05-29",
+    "weekdays": [
+      "Jueves"
+    ],
+    "restrictions": [],
+    "excludesProducts": "Electro, Carnes, Aceite de fideicomiso, Kit esenciales, Bodegas Chandon, La Rural, Terrazas de los Andes Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de los 7, Rutini, Escorihuela Gascon, Brik",
     "paymentMethods": [
       [
         "Tarjeta American Express - The Platinum Card ® y Centurion ®"
@@ -1743,11 +1832,103 @@
     ],
     "unknownPaymentMethods": [],
     "limits": {
-      "maxDiscount": 15000,
+      "maxDiscount": 12000,
       "explicitlyHasNoLimit": false
     },
     "where": [
-      "Jumbo"
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2025-05-08",
+    "validUntil": "2025-05-29",
+    "weekdays": [
+      "Jueves"
+    ],
+    "restrictions": [],
+    "excludesProducts": "Electro, Carnes, Aceite de fideicomiso, Kit esenciales, Bodegas Chandon, La Rural, Terrazas de los Andes Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de los 7, Rutini, Escorihuela Gascon, Brik",
+    "paymentMethods": [
+      [
+        "Tarjeta American Express"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 8000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2025-05-01",
+    "validUntil": "2025-05-31",
+    "weekdays": [
+      "Jueves"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones y/o descuentos",
+      "No aplica para clientes en mora o inhabilitados",
+      "No aplica para compras realizadas en locales \"Vea Express\""
+    ],
+    "onlyForProducts": "Electrodomesticos",
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito Cencosud Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 18
+    },
+    "validFrom": "2025-05-01",
+    "validUntil": "2025-05-31",
+    "weekdays": [
+      "Jueves"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones y/o descuentos",
+      "No aplica para clientes en mora o inhabilitados",
+      "No aplica para compras realizadas en locales \"Vea Express\""
+    ],
+    "onlyForProducts": "Electrodomesticos",
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito Cencosud Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Jumbo",
+      "Online"
     ],
     "source": "jumbo",
     "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
@@ -1774,7 +1955,7 @@
     "excludesProducts": "Electrodomésticos, Rodados, Librería, Carnes, Leches, Mayoristas de fiambrería, Bodegas (La Rural, Trumpeter, Rutini, Chandon, 33 Sur, Terrazas de los Andes, Latitud 33, Mercier y Baron B. y Los Generosos), Productos de marcas propias (C&CO, Home Care, Family Care, Pet Fun, Jumbo y Vea), Aceites de fideicomiso",
     "unknownPaymentMethods": [],
     "limits": {
-      "explicitlyHasNoLimit": false
+      "explicitlyHasNoLimit": true
     },
     "where": [
       "Jumbo",
@@ -1808,12 +1989,12 @@
     "excludesProducts": "Electrodomésticos, Rodados, Librería, Carnes, Leches, Mayoristas de fiambrería, Bodegas (La Rural, Trumpeter, Rutini, Chandon, 33 Sur, Terrazas de los Andes, Latitud 33, Mercier y Baron B. y Los Generosos), Productos de marcas propias (C&CO, Home Care, Family Care, Pet Fun, Jumbo y Vea), Aceites de fideicomiso",
     "paymentMethods": [
       [
-        "Tarjeta de crédito Cencosud Mastercard"
+        "Cencopay"
       ]
     ],
     "unknownPaymentMethods": [],
     "limits": {
-      "explicitlyHasNoLimit": false
+      "explicitlyHasNoLimit": true
     },
     "where": [
       "Jumbo",
@@ -1827,551 +2008,156 @@
   },
   {
     "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2024-12-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [
-      "Promoción no acumulable con otras ofertas, descuentos y/o promociones vigentes.",
-      "Válida para consumidor final.",
-      "Promoción valida únicamente en los comercios adheridos.",
-      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
-      "Sólo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
-    ],
-    "excludesProducts": "Electro, Carnes, Bodegas Chandon, La Rural, Terrazas de Los Andes Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos De Los 7, Rutini, Escorihuela Gascon y Brik, Todo el rubro Alcohol.",
-    "paymentMethods": [
-      [
-        "MODO",
-        "Banco Galicia",
-        "Tarjeta de débito VISA"
-      ],
-      [
-        "MODO",
-        "Banco Galicia",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 15000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Jumbo"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 12
-    },
-    "validFrom": "2025-05-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No aplica para pagos con saldo en cuenta"
-    ],
-    "onlyForProducts": "Electrodomésticos",
-    "paymentMethods": [
-      [
-        "Banco Nación",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Nación",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 6
-    },
-    "validFrom": "2025-05-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No aplica para pagos con saldo en cuenta"
-    ],
-    "onlyForProducts": "Electrodomésticos",
-    "paymentMethods": [
-      [
-        "Banco Nación",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Nación",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2025-05-08",
-    "validUntil": "2025-05-29",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [],
-    "excludesProducts": "Electro, Carnes, Aceite de Fideicomiso, Kit Esenciales, Bodegas Chandon, La Rural, Terrazas de los Andes Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de los 7, Rutini, Escorihuela Gascon, Brik",
-    "paymentMethods": [
-      [
-        "Tarjeta American Express"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 8000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2025-05-08",
-    "validUntil": "2025-05-29",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [],
-    "excludesProducts": "Electro, Carnes, Aceite de Fideicomiso, Kit Esenciales, Bodegas Chandon, La Rural, Terrazas de los Andes Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de los 7, Rutini, Escorihuela Gascon, Brik",
-    "paymentMethods": [
-      [
-        "Tarjeta American Express - The Platinum Card ® y Centurion ®"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 12000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2025-05-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [
-      "No acumulable con otras promociones y/o descuentos",
-      "No aplica para clientes en mora o inhabilitados",
-      "No aplica para compras realizadas en locales \"Vea Express\""
-    ],
-    "onlyForProducts": "Electrodomesticos",
-    "paymentMethods": [
-      [
-        "Cencopay"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 0,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 18
-    },
-    "validFrom": "2025-05-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [
-      "No acumulable con otras promociones y/o descuentos",
-      "No aplica para clientes en mora o inhabilitados",
-      "No aplica para compras realizadas en locales \"Vea Express\""
-    ],
-    "onlyForProducts": "Electrodomesticos",
-    "paymentMethods": [
-      [
-        "Cencopay"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 0,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 12
-    },
-    "validFrom": "2025-03-07",
-    "validUntil": "2025-05-31",
-    "restrictions": [],
-    "onlyForProducts": "Electro TV, Audio y Video, Electrónica Liviana, Computación, Aparatos de Telefonía, Heladeras y Freezers, Lavarropas, Secarropas y Lavavajillas, Termotanques y Calefones, Cocinas, Hornos, Anafes, Microondas y Accesorios, Purificadores y Extractores, Frío y Calor",
-    "paymentMethods": [
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Santander",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Santander",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Tarjeta American Express"
-      ],
-      [
-        "NaranjaX"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2025-05-15",
-    "validUntil": "2025-05-15",
-    "restrictions": [
-      "No acumulable con otras promociones y/o descuentos",
-      "No aplica para clientes en mora o inhabilitados",
-      "No aplica para compras realizadas en los locales Vea Express y Disco Express"
-    ],
-    "excludesProducts": "Electrodomésticos, Rodados, Librería, Carnes, Leches, Mayoristas de Fiambrería, Productos de marcas propias (C&CO, Home Care, Family Care, Pet Fun, Jumbo y Vea), Bodegas (La Rural, Trumpeter, Rutini, Chandon, 33 Sur, Terrazas de los Andes, Latitud 33, Mercier y Baron B.)",
-    "paymentMethods": [
-      [
-        "Tarjeta de crédito Cencosud Mastercard"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2025-05-15",
-    "validUntil": "2025-05-15",
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados",
-      "No aplica para compras en los locales Vea Express y Disco Express"
-    ],
-    "excludesProducts": "Electrodomésticos",
-    "paymentMethods": [
-      [
-        "Tarjeta de crédito Cencosud Mastercard"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 30
-    },
-    "validFrom": "2024-12-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [
-      "Aplica sólo a pagos realizados a través de QR de Modo desde app Galicia y app Modo.",
-      "No aplica para compras con tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
-      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
-      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
-    ],
-    "onlyForProducts": "Alimentos",
-    "excludesProducts": "Electrodomesticos, Carnes, Bodegas Chandon, La Rural, Terrazas de los Andes, Catena Zapata, Alamos, El Enemigo, Mercier, Baron B, Valmont, Latitud 33, Clos de los 7, Rutini, Escorihuela Gascon y Brik, Alcohol",
-    "paymentMethods": [
-      [
-        "MODO",
-        "Banco Galicia - Eminent",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "MODO",
-        "Banco Galicia - Eminent",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": false,
-      "jubilados": false,
-      "programaCiudadaniaPorteña": false
-    },
-    "limits": {
-      "maxDiscount": 20000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Jumbo"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 12
-    },
-    "validFrom": "2025-03-07",
-    "validUntil": "2025-05-31",
-    "restrictions": [],
-    "onlyForProducts": "Electro TV, Audio y Video, Electrónica Liviana, Computación, Aparatos de Telefonía, Heladeras y Freezers, Lavarropas, Secarropas y Lavavajillas, Termotanques y Calefones, Cocinas, Hornos, Anafes, Microondas y Accesorios, Purificadores y Extractores, Frío y Calor",
-    "paymentMethods": [
-      [
-        "Banco Santander",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Santander",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Tarjeta American Express"
-      ],
-      [
-        "NaranjaX"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 12
-    },
-    "validFrom": "2025-02-14",
-    "validUntil": "2025-06-01",
-    "restrictions": [
-      "No acumulable con otras promociones vigentes.",
-      "No aplica para compras realizadas con tarjetas de Crédito Visa Business, Visa Rural y Tarjetas de Débito.",
-      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo, Google Pay y Apple Pay), mPos y/o plataformas de pago online.",
-      "Sólo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
-    ],
-    "onlyForProducts": "Electrodomesticos",
-    "paymentMethods": [
-      [
-        "Banco Galicia",
-        "MODO",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Galicia",
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Galicia",
-        "MODO",
-        "Tarjeta American Express"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta American Express"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2025-05-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados",
-      "No aplica para pagos realizados con QR",
-      "No aplica para compras en los locales \"Vea Express y Disco Express\""
-    ],
-    "onlyForProducts": "Librería, Juguetería, Marroquinería, Parrillas, Aire Libre, Camping, Piletas",
-    "paymentMethods": [
-      [
-        "Cencopay"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
       "type": "cuotas sin intereses",
       "value": 18
     },
     "validFrom": "2025-05-12",
     "validUntil": "2025-05-18",
-    "restrictions": [
-      "No aplica a pagos realizados a través de billeteras virtuales y/o plataformas de pago online (por ejemplo, PayPal, Mercado Pago, Ualá, etc.)",
-      "No participan tarjetas Visa Purchasing, Distribution y Corporate."
-    ],
-    "onlyForProducts": "ELECTRÓNICA Y LINEA BLANCA",
+    "restrictions": [],
     "paymentMethods": [
       [
-        "Banco BBVA",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco BBVA",
-        "Tarjeta de crédito Mastercard"
+        "Banco Santander"
       ]
     ],
     "unknownPaymentMethods": [],
     "limits": {
       "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-04-03",
+    "validUntil": "2025-06-01",
+    "weekdays": [
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones vigentes.",
+      "No aplica para compras realizadas con tarjetas de Crédito Visa Business, Visa Rural y Tarjetas de Débito.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo, Google Pay y Apple Pay), mPos y/o plataformas de pago online.",
+      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
+    ],
+    "paymentMethods": [
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco Galicia"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo",
+      "Online"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 12
+    },
+    "validFrom": "2025-03-07",
+    "validUntil": "2025-05-31",
+    "restrictions": [],
+    "onlyForProducts": "Electro TV, Audio y Video, Electrónica Liviana, Computación, Aparatos de Telefonía, Heladeras y Freezers, Lavarropas, Secarropas y Lavavajillas, Termotanques y Calefones, Cocinas, Hornos, Anafes, Microondas y Accesorios, Purificadores y Extractores, Frío y Calor",
+    "paymentMethods": [
+      [
+        "Banco Santander",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Santander",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Tarjeta American Express"
+      ],
+      [
+        "NaranjaX"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Jumbo"
+    ],
+    "source": "jumbo",
+    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-04-03",
+    "validUntil": "2025-06-01",
+    "weekdays": [
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones vigentes.",
+      "No aplica para compras realizadas con tarjetas de Crédito Visa Business, Visa Rural y Tarjetas de Débito.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo, Google Pay y Apple Pay), mPos y/o plataformas de pago online.",
+      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
+    ],
+    "paymentMethods": [
+      [
+        "Banco Galicia",
+        "MODO",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Galicia",
+        "MODO",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
     },
     "where": [
       "Jumbo",
@@ -2411,106 +2197,6 @@
     },
     "where": [
       "Jumbo"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 18
-    },
-    "validFrom": "2025-05-12",
-    "validUntil": "2025-05-18",
-    "restrictions": [],
-    "onlyForProducts": "artículos seleccionados",
-    "paymentMethods": [
-      [
-        "Banco Santander"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 6
-    },
-    "validFrom": "2025-05-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados",
-      "No aplica para pagos realizados con QR",
-      "No aplica para compras en los locales Vea Express y Disco Express"
-    ],
-    "onlyForProducts": "Grandes Electrodomésticos",
-    "paymentMethods": [
-      [
-        "Tarjeta de crédito Cencosud Mastercard"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Jumbo",
-      "Online"
-    ],
-    "source": "jumbo",
-    "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 12
-    },
-    "validFrom": "2025-05-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados",
-      "No aplica para pagos realizados con QR",
-      "No aplica para compras en los locales Vea Express y Disco Express"
-    ],
-    "onlyForProducts": "Grandes Electrodomésticos",
-    "paymentMethods": [
-      [
-        "Tarjeta de crédito Cencosud Mastercard"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Jumbo",
-      "Online"
     ],
     "source": "jumbo",
     "url": "https://www.jumbo.com.ar/descuentos-del-dia?type=por-dia&day=1"
