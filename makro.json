@@ -88,11 +88,12 @@
       "Martes"
     ],
     "restrictions": [
-      "No acumulable con otras promociones, ni cartera de clientes que acrediten planes sociales.",
-      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de extra, cash.",
-      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago.",
-      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS Móvil, Botón de Pago y Billetera Electrónica).",
-      "Aplica para consumos efectuados con tarjeta de débito y o crédito en un pago Visa emitida por Banco Hipotecario que no registre mora mediante la modalidad de pago con “QR” a través de “MODO” desde App BH o App MODO."
+      "No acumulable con otras promociones.",
+      "No aplica a clientes que acrediten planes sociales.",
+      "No aplica a extracciones de efectivo.",
+      "No aplica a pagos con Mercado Pago.",
+      "No aplica a pagos con plataformas de pagos móviles (POS Móvil, Botón de Pago y Billetera Electrónica).",
+      "Aplica para consumos efectuados con tarjeta de débito y o crédito en un pago VISA emitida por Banco Hipotecario que no registre mora mediante la modalidad de pago con QR a través de MODO desde App BH o App MODO."
     ],
     "paymentMethods": [
       [
@@ -167,16 +168,14 @@
     ],
     "restrictions": [
       "No válido para compra telefónica ni online.",
-      "No incluye productos de electro, ni productos del convenio Precios Cuidados/Esenciales.",
       "No aplica para compra en cuotas.",
+      "No acumulable con otra promoción.",
       "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0.",
-      "No válido Tarjeta de Crédito Empresa o Agro.",
-      "No acumula con otra promoción.",
       "Válido para compras en un pago con QR.",
       "Para clientes/usuarios registrados en MODO."
     ],
     "onlyForProducts": "",
-    "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
+    "excludesProducts": "Productos de electro, ni productos del convenio Precios Cuidados/Esenciales.",
     "paymentMethods": [
       [
         "MODO",
@@ -215,22 +214,14 @@
       "No aplica para compra en cuotas.",
       "No acumulable con otra promoción.",
       "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0.",
-      "El beneficio no incluye productos de electro, ni productos del convenio precios cuidados/esenciales.",
-      "No válido Tarjeta de Crédito Empresa o Agro."
+      "No válido Tarjeta de Crédito Empresa o Agro.",
+      "El beneficio no incluye productos de electro, ni productos del convenio precios cuidados/esenciales."
     ],
     "excludesProducts": "Electro, productos del convenio precios cuidados/esenciales",
     "paymentMethods": [
       [
         "MODO",
-        "Banco Macro",
-        "Banco Macro - Tarjeta PLATINUM",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "MODO",
-        "Banco Macro",
-        "Banco Macro - Tarjeta PLATINUM",
-        "Tarjeta de crédito Mastercard"
+        "Banco Macro - Tarjeta PLATINUM"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -339,10 +330,9 @@
     "restrictions": [
       "Válido únicamente en QR de MODO abonando a través de Credicoop Móvil o MODO con tarjetas Cabal Credicoop.",
       "Aplica a consumos de tipo familiar y efectuados en un pago.",
-      "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
-      "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO.",
-      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
-      "Tope de reintegro para usuarios que acreditan haberes $10.500 por cuenta por mes"
+      "Tope de reintegro para usuarios que acreditan haberes $10.500 por cuenta por mes.",
+      "Será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO.",
+      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online."
     ],
     "paymentMethods": [
       [
@@ -418,8 +408,9 @@
       "Aplica a consumos de tipo familiar y efectuados en un pago.",
       "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
       "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO.",
-      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online."
+      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS Móviles, plataformas de pago y/o portales de pago online."
     ],
+    "onlyForProducts": "",
     "paymentMethods": [
       [
         "MODO",
@@ -431,11 +422,6 @@
       ]
     ],
     "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": false,
-      "jubilados": false,
-      "programaCiudadaniaPorteña": false
-    },
     "limits": {
       "maxDiscount": 18000,
       "explicitlyHasNoLimit": false
