@@ -11,7 +11,52 @@
     ],
     "restrictions": [
       "No acumulable con otras promociones",
-      "No acumulable con cartera de clientes que acrediten planes sociales",
+      "No aplica a cartera de clientes que acrediten planes sociales",
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
+      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago",
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
+    ],
+    "paymentMethods": [
+      [
+        "MODO",
+        "Banco Hipotecario",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "MODO",
+        "Banco Hipotecario",
+        "Tarjeta de débito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 10000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2025-05-02",
+    "validUntil": "2025-05-31",
+    "weekdays": [
+      "Martes"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones",
+      "No aplica a cartera de clientes que acrediten planes sociales",
       "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
       "No aplica para los consumos efectuados a través de la plataforma Mercado Pago",
       "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
@@ -109,51 +154,6 @@
     "paymentMethods": [
       [
         "MODO",
-        "Banco Hipotecario",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "MODO",
-        "Banco Hipotecario",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": true,
-      "telefonoContactless": false,
-      "contactless": false
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 10000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2025-05-02",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Martes"
-    ],
-    "restrictions": [
-      "No acumulable con otras promociones",
-      "No acumulable con cartera de clientes que acrediten planes sociales",
-      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
-      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago",
-      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
-    ],
-    "paymentMethods": [
-      [
-        "MODO",
         "Banco Hipotecario - Búho/Plan Sueldo",
         "Tarjeta de crédito VISA"
       ],
@@ -169,6 +169,11 @@
       "contactless": false
     },
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": true,
+      "programaCiudadaniaPorteña": false
+    },
     "limits": {
       "maxDiscount": 30000,
       "explicitlyHasNoLimit": false
@@ -208,7 +213,7 @@
     "paymentRails": {
       "pagoConQR": true,
       "telefonoContactless": false,
-      "contactless": false
+      "contactless": true
     },
     "unknownPaymentMethods": [],
     "limits": {
@@ -290,7 +295,7 @@
       "No aplica para compra en cuotas",
       "No válido tarjeta de crédito empresa o agro",
       "No acumula con otra promoción",
-      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0"
+      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0"
     ],
     "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
     "paymentMethods": [
@@ -335,8 +340,8 @@
     ],
     "restrictions": [
       "Exclusivo en un pago",
-      "Válido para compras con QR",
-      "No válido para compra telefónica ni online",
+      "Válido para clientes/usuarios registrados en MODO",
+      "No válido para compra telefónica ni compra online",
       "No aplica para compra en cuotas",
       "No válido tarjeta de crédito empresa o agro",
       "No acumula con otra promoción",
@@ -345,8 +350,9 @@
     "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
-        "MODO",
-        "Banco Macro - Tarjeta Selecta"
+        "Banco Macro",
+        "Banco Macro - Tarjeta Selecta",
+        "MODO"
       ]
     ],
     "paymentRails": {
@@ -389,16 +395,16 @@
       [
         "MODO",
         "Banco BBVA",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "MODO",
-        "Banco BBVA",
         "Tarjeta de débito VISA"
       ],
       [
         "MODO",
         "Banco BBVA",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco BBVA",
         "Tarjeta de débito Mastercard"
       ],
       [
@@ -409,12 +415,12 @@
       [
         "MODO",
         "Banco Ciudad",
-        "Tarjeta de crédito Mastercard"
+        "Tarjeta de débito VISA"
       ],
       [
         "MODO",
         "Banco Ciudad",
-        "Tarjeta de débito VISA"
+        "Tarjeta de crédito Mastercard"
       ],
       [
         "MODO",
@@ -429,16 +435,16 @@
       [
         "MODO",
         "Banco Comafi",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "MODO",
-        "Banco Comafi",
         "Tarjeta de débito VISA"
       ],
       [
         "MODO",
         "Banco Comafi",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco Comafi",
         "Tarjeta de débito Mastercard"
       ],
       [
@@ -449,12 +455,12 @@
       [
         "MODO",
         "BanCo (Banco de Corrientes)",
-        "Tarjeta de crédito Mastercard"
+        "Tarjeta de débito VISA"
       ],
       [
         "MODO",
         "BanCo (Banco de Corrientes)",
-        "Tarjeta de débito VISA"
+        "Tarjeta de crédito Mastercard"
       ],
       [
         "MODO",
@@ -469,16 +475,16 @@
       [
         "MODO",
         "Banco Credicoop",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "MODO",
-        "Banco Credicoop",
         "Tarjeta de débito VISA"
       ],
       [
         "MODO",
         "Banco Credicoop",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco Credicoop",
         "Tarjeta de débito Mastercard"
       ],
       [
@@ -489,12 +495,12 @@
       [
         "MODO",
         "Banco Galicia",
-        "Tarjeta de crédito Mastercard"
+        "Tarjeta de débito VISA"
       ],
       [
         "MODO",
         "Banco Galicia",
-        "Tarjeta de débito VISA"
+        "Tarjeta de crédito Mastercard"
       ],
       [
         "MODO",
@@ -509,16 +515,16 @@
       [
         "MODO",
         "Banco ICBC",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "MODO",
-        "Banco ICBC",
         "Tarjeta de débito VISA"
       ],
       [
         "MODO",
         "Banco ICBC",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco ICBC",
         "Tarjeta de débito Mastercard"
       ],
       [
@@ -529,12 +535,12 @@
       [
         "MODO",
         "Banco Macro",
-        "Tarjeta de crédito Mastercard"
+        "Tarjeta de débito VISA"
       ],
       [
         "MODO",
         "Banco Macro",
-        "Tarjeta de débito VISA"
+        "Tarjeta de crédito Mastercard"
       ],
       [
         "MODO",
@@ -549,12 +555,12 @@
       [
         "MODO",
         "Banco Nación",
-        "Tarjeta de crédito Mastercard"
+        "Tarjeta de débito VISA"
       ],
       [
         "MODO",
         "Banco Nación",
-        "Tarjeta de débito VISA"
+        "Tarjeta de crédito Mastercard"
       ],
       [
         "MODO",
@@ -569,29 +575,29 @@
       [
         "MODO",
         "Banco Supervielle",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "MODO",
-        "Banco Supervielle",
         "Tarjeta de débito VISA"
       ],
       [
         "MODO",
         "Banco Supervielle",
-        "Tarjeta de débito Mastercard"
+        "Tarjeta de crédito Mastercard"
       ],
       [
         "MODO",
-        "Yoy"
+        "Banco Supervielle",
+        "Tarjeta de débito Mastercard"
       ]
     ],
     "paymentRails": {
       "pagoConQR": true,
-      "telefonoContactless": false,
-      "contactless": false
+      "telefonoContactless": true,
+      "contactless": true
     },
-    "unknownPaymentMethods": [],
+    "unknownPaymentMethods": [
+      "Banco Bica",
+      "Billetera BUEPP",
+      "Billetera YOY"
+    ],
     "limits": {
       "maxDiscount": 10000,
       "explicitlyHasNoLimit": false
