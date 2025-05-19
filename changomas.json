@@ -16,12 +16,13 @@
       "Domingo"
     ],
     "restrictions": [
-      "TOPE DE REINTEGRO $15.000 TOTAL POR MES",
-      "NO ACUMULA CON OTRAS PROMOCIONES VIGENTES",
-      "SOLO DISPONIBLE PARA COMPRAS EN 1 (UN) PAGO",
-      "DESCUENTO PERSONAL E INTRANSFERIBLE, PARA VALIDAR EL DESCUENTO Y ACREDITAR QUE EL CLIENTE DEBE PRESENTAR EL DNI, EL MISMO DEBE PRESENTARSE PERSONALMENTE Y EXHIBIR SU DNI"
+      "No acumula con otras promociones vigentes",
+      "Solo disponible para compras en 1 (un) pago",
+      "Descuento personal e intransferible",
+      "Para validar el descuento y acreditar que el cliente debe presentar el DNI, el mismo debe presentarse personalmente y exhibir su DNI"
     ],
     "onlyForProducts": "CONSERVA DE TOMATES, PASTAS SECAS Y REFRIGERADAS, ARROZ, ADEREZOS, SALCHICHAS, LECHE UAT, CAFÉ, TÉ, ENDULZANTES, ALMACÉN SIN TACC, LECHE FRESCA, LECHES MATERNAS, CONSERVA DE VEGETALES, CACAO, SAL, CEREALES, DULCE DE LECHE, LECHES, VEGETALES, CONSERVAS DE PESCADOS, GALLETITAS DULCES, GALLETITAS SALADAS, HARINAS Y PREMEZCLAS, NUTRICIÓN INFANTIL, LECHE EN POLVO, JUGOS (Excepto refrigerados), CULINARIOS (Caldos, Sopas y deshidratados), SALSAS LISTAS, HORNEABLES Y GELIFICABLES, MANTECA, MARGARINA, SNACKS, AGUAS SABORIZADAS, AMARGOS, GASEOSAS, AGUAS PLENAS, DULCES SÓLIDOS, QUESOS AL PESO (Blandos, Semiduros y Duros), MILANESAS VEGETALES, PAPAS CONGELADAS, FIAMBRES FETEADOS, FIAMBRES EN MINI PIEZA, GRASA REFRIGERADA, VEGETALES CONGELADOS, PREFRITOS CONGELADOS, PIZZAS CONGELADAS, LEVADURA, HAMBURGUESAS Y MEDALLONES, TAPAS REFRIGERADAS, LEGUMBRES Y GRANOS SECOS, JABONES DE TOCADOR, DESODORANTES, HIGIENE DEL BEBÉ, CUIDADO DEL CABELLO, CUIDADO ORAL, HIGIENE FEMENINA, PAPELES HIGIÉNICOS, ROLLO DE COCINA, TOALLITAS HÚMEDAS",
+    "paymentMethods": [],
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": true,
@@ -56,12 +57,13 @@
       "Domingo"
     ],
     "restrictions": [
-      "TOPE DE REINTEGRO $15.000 TOTAL POR MES",
+      "TOPE DE REINTEGRO $1.000 POR TRANSACCIÓN Y $15.000 TOTAL POR MES",
       "NO ACUMULA CON OTRAS PROMOCIONES VIGENTES",
       "SOLO DISPONIBLE PARA COMPRAS EN 1 (UN) PAGO",
       "DESCUENTO PERSONAL E INTRANSFERIBLE, PARA VALIDAR EL DESCUENTO Y ACREDITAR QUE EL CLIENTE DEBE PRESENTAR EL DNI, EL MISMO DEBE PRESENTARSE PERSONALMENTE Y EXHIBIR SU DNI"
     ],
-    "onlyForProducts": "CONSERVA DE TOMATES, PASTAS SECAS Y REFRIGERADAS, ARROZ, ADEREZOS, SALCHICHAS, LECHE UAT, CAFÉ, TÉ, ENDULZANTES, ALMACÉN SIN TACC, LECHE FRESCA, LECHES MATERNAS, CONSERVA DE VEGETALES, CACAO, SAL, CEREALES, DULCE DE LECHE, LECHES, VEGETALES, CONSERVAS DE PESCADOS, GALLETITAS DULCES, GALLETITAS SALADAS, HARINAS Y PREMEZCLAS, NUTRICIÓN INFANTIL, LECHE EN POLVO, JUGOS (Excepto refrigerados), CULINARIOS (Caldos, Sopas y deshidratados), SALSAS LISTAS, HORNEABLES Y GELIFICABLES, MANTECA, MARGARINA, SNACKS, AGUAS SABORIZADAS, AMARGOS, GASEOSAS, AGUAS PLENAS, DULCES SÓLIDOS, QUESOS AL PESO (Blandos, Semiduros y Duros), MILANESAS VEGETALES, PAPAS CONGELADAS, FIAMBRES FETEADOS, FIAMBRES EN MINI PIEZA, GRASA REFRIGERADA, VEGETALES CONGELADOS, PREFRITOS CONGELADOS, PIZZAS CONGELADAS, LEVADURA, HAMBURGUESAS Y MEDALLONES, TAPAS REFRIGERADAS, LEGUMBRES Y GRANOS SECOS, JABONES DE TOCADOR, DESODORANTES, HIGIENE DEL BEBÉ, CUIDADO DEL CABELLO, CUIDADO ORAL, HIGIENE FEMENINA, PAPELES HIGIÉNICOS, ROLLO DE COCINA, TOALLITAS HÚMEDAS",
+    "onlyForProducts": "CONSERVA DE TOMATES, PASTAS SECAS Y REFRIGERADAS, ARROZ, ADEREZOS, SALCHICHAS, LECHE UAT, CAFÉ, TÉ, ENDULZANTES, ALMACÉN SIN TACC, LECHE FRESCA, LECHES MATERNAS, CONSERVA DE VEGETALES, CACAO, SAL, CEREALES, DULCE DE LECHE, LECHES, VEGETALES, CONSERVAS DE PESCADOS, GALLETITAS DULCES, GALLETITAS SALADAS, HARINAS Y PREMEZCLAS, NUTRICIÓN INFANTIL, LECHE EN POLVO, JUGOS, CULINARIOS (Caldos, Sopas y deshidratados), SALSAS LISTAS, HORNEABLES Y GELIFICABLES, MANTECA, MARGARINA, SNACKS, AGUAS SABORIZADAS, AMARGOS, GASEOSAS, AGUAS PLENAS, DULCES SÓLIDOS, QUESOS AL PESO (Blandos, Semiduros y Duros), MILANESAS VEGETALES, PAPAS CONGELADAS, FIAMBRES FETEADOS, FIAMBRES EN MINI PIEZA, GRASA REFRIGERADA, VEGETALES CONGELADOS, PREFRITOS CONGELADOS, PIZZAS CONGELADAS, LEVADURA, HAMBURGUESAS Y MEDALLONES, TAPAS REFRIGERADAS, LEGUMBRES Y GRANOS SECOS, JABONES DE TOCADOR, DESODORANTES, HIGIENE DEL BEBÉ, CUIDADO DEL CABELLO, CUIDADO ORAL, HIGIENE FEMENINA, PAPELES HIGIÉNICOS, ROLLO DE COCINA, TOALLITAS HÚMEDAS",
+    "excludesProducts": "Excepto refrigerados",
     "paymentMethods": [],
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
@@ -102,6 +104,11 @@
         "Cuenta DNI"
       ]
     ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
     "unknownPaymentMethods": [],
     "limits": {
       "explicitlyHasNoLimit": true
@@ -124,9 +131,9 @@
       "Domingo"
     ],
     "restrictions": [
-      "No acumulable con otras promociones vigentes"
+      "No acumulable con otras promociones vigentes."
     ],
-    "excludesProducts": "Carnes vacunas, Pollo, Electronicos, Electrodomesticos, Climatizacion, Linea blanca, Servicios de automotor, Farmacia recetados, Informatica, Celulares, Frutas y verduras, Bebidas blancas, Aceite comestibles, Elaborados, Embutidos, Huevos, Manteca, Vino rosado, Vinos blancos, Vinos tintos, Espumantes",
+    "excludesProducts": "Carnes vacunas, Pollo, Electronicos, Electrodomesticos, Climatizacion, Linea blanca, Servicios de automotor, Farmacia recetados, Informática, Celulares, Frutas y verduras, Bebidas blancas, Aceite comestibles, Elaborados, Embutidos, Huevos, Manteca, Vino rosado, Vinos blancos, Vinos tintos, Espumantes",
     "paymentMethods": [
       [
         "Mercado Pago"
@@ -160,7 +167,7 @@
       "Domingo"
     ],
     "restrictions": [
-      "No acumulable con otras promociones vigentes"
+      "No acumulable con otras promociones vigentes."
     ],
     "excludesProducts": "Carnes vacunas, Pollo, Electronicos, Electrodomesticos, Climatizacion, Linea blanca, Servicios de automotor, Farmacia recetados, Informatica, Celulares, Frutas y verduras, Bebidas blancas, Aceite comestibles, Elaborados, Embutidos, Huevos, Manteca, Vino rosado, Vinos blancos, Vinos tintos, Espumantes",
     "paymentMethods": [
@@ -240,13 +247,13 @@
     ],
     "paymentMethods": [
       [
-        "Banco Santa Fe",
         "MODO",
+        "Banco Santa Fe",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Santa Fe",
         "MODO",
+        "Banco Santa Fe",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -311,12 +318,20 @@
     "weekdays": [
       "Martes"
     ],
-    "restrictions": [],
+    "restrictions": [
+      "Tope de reintegro mensual por cuenta",
+      "EXCLUSIVO PLAN SUELDO Y JUBILADOS",
+      "No aplica a pagos realizados a través de billeteras virtuales o 'proveedores de servicios de pago', excepto MODO",
+      "No acumulable con otros descuentos, excepto los promovidos por el Banco o MODO para pagos con QR"
+    ],
     "paymentMethods": [
       [
         "Banco Supervielle - Identité y Plan Sueldo",
         "Banco Supervielle - Jubilados",
         "Tarjeta de débito VISA"
+      ],
+      [
+        "MODO"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -327,6 +342,51 @@
     },
     "limits": {
       "maxDiscount": 8000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "ChangoMas",
+      "Online"
+    ],
+    "url": "https://www.masonline.com.ar/promociones-bancarias",
+    "source": "changomas"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 30
+    },
+    "validFrom": "2025-04-01",
+    "validUntil": "2025-05-31",
+    "weekdays": [
+      "Viernes"
+    ],
+    "restrictions": [
+      "No aplica para pagos con dinero en cuenta y/o transferencia.",
+      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
+      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
+    ],
+    "paymentMethods": [
+      [
+        "MODO",
+        "Banco Galicia Más",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco Galicia",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 20000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -355,12 +415,12 @@
     "paymentMethods": [
       [
         "MODO",
-        "Banco Galicia",
+        "Banco Galicia Más",
         "Tarjeta de crédito Mastercard"
       ],
       [
         "MODO",
-        "Banco Galicia Más",
+        "Banco Galicia",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -384,52 +444,6 @@
   {
     "discount": {
       "type": "porcentaje",
-      "value": 30
-    },
-    "validFrom": "2025-04-01",
-    "validUntil": "2025-05-31",
-    "weekdays": [
-      "Viernes"
-    ],
-    "restrictions": [
-      "Para clientes Eminent.",
-      "No aplica para pagos con dinero en cuenta y/o transferencia.",
-      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
-      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
-      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
-    ],
-    "paymentMethods": [
-      [
-        "MODO",
-        "Banco Galicia - Eminent",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "MODO",
-        "Banco Galicia Más",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": true,
-      "telefonoContactless": false,
-      "contactless": false
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 20000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "ChangoMas",
-      "Online"
-    ],
-    "url": "https://www.masonline.com.ar/promociones-bancarias",
-    "source": "changomas"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
       "value": 10
     },
     "validFrom": "2025-04-01",
@@ -438,12 +452,11 @@
       "Viernes"
     ],
     "restrictions": [
-      "Para clientes Galicia Haberes.",
-      "No aplica para clientes Galicia Mas.",
       "No aplica para pagos con dinero en cuenta y/o transferencia.",
       "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
       "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
-      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
+      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos.",
+      "No aplica para clientes Galicia Mas."
     ],
     "paymentMethods": [
       [
@@ -452,7 +465,7 @@
       ]
     ],
     "paymentRails": {
-      "pagoConQR": false,
+      "pagoConQR": true,
       "telefonoContactless": false,
       "contactless": false
     },
@@ -479,7 +492,6 @@
       "Jueves"
     ],
     "restrictions": [
-      "Tope de reintegro por usuario y por mes.",
       "El reintegro se disponibilizará en la Cuenta Ualá del usuario dentro de los 30 días corridos posteriores a la fecha de cada compra.",
       "Promoción no acumulable con otras promociones y/o beneficios vigentes.",
       "Promoción no aplicable para pagos a través de billeteras virtuales (excepto Ualá y Apple Pay) y/o plataformas de pago online.",
@@ -514,20 +526,18 @@
       "Jueves"
     ],
     "restrictions": [
-      "Solo para clientes al día en sus productos",
-      "No válido para compras efectuadas por Mercado Pago, pago inmediato o pago entre personas",
-      "No válido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC",
-      "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca Masonline"
+      "Los reintegros se verán acreditados dentro de los 30 días corridos posteriores a la fecha de realizada la compra en la caja de ahorro o cuenta corriente que el cliente posea en ICBC.",
+      "Solo podrán participar de la promoción aquellos clientes que se encuentren al día en sus productos.",
+      "No válido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC.",
+      "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca Masonline."
     ],
     "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, Todos los productos incluidos en el programa Precios Cuidados",
     "paymentMethods": [
       [
-        "Yoy",
         "MODO",
         "Tarjeta de crédito Mastercard"
       ],
       [
-        "Yoy",
         "MODO",
         "Tarjeta de débito VISA"
       ]
@@ -562,9 +572,7 @@
     ],
     "restrictions": [
       "Para compras en un pago",
-      "Promoción no acumulable con otros descuentos",
-      "Las bonificaciones se verán reflejadas hasta en los 2 resúmenes siguientes al que refleje la/s transacción/es",
-      "Los beneficios de las promociones se otorgarán siempre que las tarjetas de crédito se encuentren habilitadas, y la cuenta no se encuentre en mora y/o bloqueada por motivos administrativos"
+      "Promoción no acumulable con otros descuentos"
     ],
     "paymentMethods": [
       [
@@ -602,7 +610,7 @@
       "No aplica a tarjetas de débito vinculadas a cajas de ahorro pesos gratuitas.",
       "Es necesario que previo a realizarse el reintegro tengas asociada a MODO la cuenta que sea del mismo banco que la tarjeta con la que realizaste la compra."
     ],
-    "excludesProducts": "Electrodomésticos, Carne vacuna, Productos que esten dentro del programa precios justos",
+    "excludesProducts": "electrodomésticos, carne vacuna, productos que esten dentro del programa precios justos",
     "paymentMethods": [
       [
         "MODO",
@@ -644,12 +652,6 @@
     ],
     "restrictions": [
       "Aplica a consumos de tipo familiar y efectuados en un pago.",
-      "Tope de reintegro $14.000 pagando con MODO por cuenta por semana.",
-      "Tope de reintegro $18.000 por semana acreditando haberes (C2).",
-      "Excluye jubilaciones y pensiones.",
-      "El reintegro se verá reflejado en el primer o segundo resumen de la tarjeta de crédito Cabal o dentro de los 60 días en el caso de consumo con tarjeta de débito Cabal.",
-      "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
-      "También será requisito tener una cuenta abierta en el Banco, a título personal, adherida a MODO.",
       "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
       "Aplicable a la cartera de consumo."
     ],
@@ -680,6 +682,46 @@
   {
     "discount": {
       "type": "porcentaje",
+      "value": 35
+    },
+    "validFrom": "2025-04-01",
+    "validUntil": "2025-06-30",
+    "weekdays": [
+      "Sabado"
+    ],
+    "restrictions": [
+      "Aplica a consumos de tipo familiar y efectuados en un pago.",
+      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
+      "Aplicable a la cartera de consumo.",
+      "Exclusivo para clientes que acrediten haberes en Banco Credicoop (excluye jubilaciones y pensiones)."
+    ],
+    "paymentMethods": [
+      [
+        "MODO",
+        "Banco Credicoop",
+        "Tarjeta de crédito Cabal"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 18000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "ChangoMas",
+      "Online"
+    ],
+    "url": "https://www.masonline.com.ar/promociones-bancarias",
+    "source": "changomas"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
       "value": 25
     },
     "validFrom": "2025-05-01",
@@ -691,7 +733,7 @@
       "Tope de reintegro $10.000 por cuenta y por semana.",
       "No aplica con tarjetas Naranja Visa, Naranja, MasterCard y Naranja Amex.",
       "No aplica para venta presencial.",
-      "Beneficio no válido para compras realizadas con Naranja Visa, Naranja MasterCard, Naranja Amex, ni para transacciones realizadas en agrupadores y billeteras virtuales."
+      "Beneficio no válido para transacciones realizadas en agrupadores y billeteras virtuales."
     ],
     "paymentMethods": [
       [
@@ -721,12 +763,13 @@
       "Domingo"
     ],
     "restrictions": [
-      "Solo para clientes que se encuentren al día en sus productos",
-      "No válido para compras efectuadas por Mercado Pago, pago inmediato o pago entre personas",
-      "No válido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC",
-      "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca Masonline"
+      "Tope de reintegro por cliente y por semana.",
+      "No válido para compras efectuadas por Mercado Pago, pago inmediato o pago entre personas.",
+      "No válido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC.",
+      "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca Masonline.",
+      "Solo podrán participar de la promoción aquellos clientes que se encuentren al día en sus productos."
     ],
-    "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, Todos los productos incluidos en el programa Precios Cuidados",
+    "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, y todos los productos incluidos en el programa Precios Cuidados.",
     "paymentMethods": [
       [
         "Yoy",
@@ -809,7 +852,9 @@
     "restrictions": [
       "Aplica únicamente para pagos con QR desde Mas Banco o MODO.",
       "No aplica a pagos a través de billeteras virtuales y/o plataformas de pago online (por ejemplo, ZOCO, TODO PAGO, MERCADO PAGO, UALÁ, ETC.).",
-      "No aplica promoción para ventas realizadas en planes nacionales \"CUOTA SIMPLE\"."
+      "No aplica promoción para ventas realizadas en planes nacionales \"CUOTA SIMPLE\".",
+      "Promoción no acumulable con otras promociones vigentes.",
+      "Promoción solo válida en comercios adheridos a la misma."
     ],
     "paymentMethods": [
       [
@@ -859,7 +904,9 @@
     "restrictions": [
       "Aplica únicamente para pagos con QR desde Mas Banco o MODO.",
       "No aplica a pagos a través de billeteras virtuales y/o plataformas de pago online (por ejemplo, ZOCO, TODO PAGO, MERCADO PAGO, UALÁ, ETC.).",
-      "No aplica promoción para ventas realizadas en planes nacionales \"CUOTA SIMPLE\"."
+      "No aplica promoción para ventas realizadas en planes nacionales \"CUOTA SIMPLE\".",
+      "Promoción no acumulable con otras promociones vigentes.",
+      "Promoción solo válida en comercios adheridos a la misma."
     ],
     "paymentMethods": [
       [
@@ -952,13 +999,14 @@
       "Martes"
     ],
     "restrictions": [
-      "Aplica para clientes que sean titulares de servicios de cuenta Comafi Ahorro, Global o Classic, Premium, Platinum, ÚNICO.",
+      "Aplica para clientes de que realicen compras presenciales y online en https://www.masonline.com.ar pagando online a traves de MODO el día MARTES y retirando o coordinando el envio cualquier día de la semana con Tarjetas Visa débito y Credito Visa y Mastercard emitidas por Banco Comafi, comafi chicas, tarjetas proven, provencred.pertenecientes a clientes que además sean titulares de servicios de cuenta Comafi Ahorro, Global o Classic, Premium, Platinum, ÚNICO.",
+      "Quedan excluidas aquellas tarjetas emitidas a través del Proyecto Anses-Asignación Universal por Hijo y las tarjetas de crédito DIA, Credial, Business, corporativas, Visa débito banco Comafi, Visa Comafi Chicas y Tarjeta de Crédito emitidas para la acreditación del Crédito a Tasa Cero (Decreto 332/2020, Com. A 6993 y modif.) y Créditos a Tasa Cero Cultura (Decreto 332/2020, Com. A 7082 y modif.)",
       "No acumulable con otras promociones ni entre sí.",
       "Sólo válido para aquellos clientes que se encuentren al día en sus productos.",
       "El descuento no será aplicado en aquellas compras realizadas a través de Mercado Pago y Todo Pago (Sistema MPOS).",
       "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), plataformas de pago y/o portales de pagos online ajenos a la empresa.",
-      "El descuento no será aplicado para aquellas compras realizadas con Ahora 3,6 ,12 y 18.",
-      "La promoción no aplica cuando la compra se efectúe a través de “servicios de delivery”."
+      "La promoción no aplica cuando la compra se efectúe a través de “servicios de delivery”.",
+      "El descuento no será aplicado para aquellas compras realizadas con Ahora 3,6 ,12 y 18."
     ],
     "excludesProducts": "Electro",
     "paymentMethods": [
@@ -1101,30 +1149,31 @@
       "Martes"
     ],
     "restrictions": [
-      "No acumulable con otras promociones, ni cartera de clientes que acrediten planes sociales.",
-      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de EXTRA CASH.",
-      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago.",
-      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS MÓVIL, BOTÓN DE PAGO Y BILLETERA ELECTRÓNICA)."
+      "No acumulable con otras promociones",
+      "No aplica a cartera de clientes que acrediten planes sociales",
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de EXTRA CASH",
+      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago",
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS MÓVIL, BOTÓN DE PAGO Y BILLETERA ELECTRÓNICA)"
     ],
     "paymentMethods": [
       [
-        "Banco Hipotecario - Búho/Plan Sueldo",
         "MODO",
+        "Banco Hipotecario",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Hipotecario - Búho/Plan Sueldo",
         "MODO",
+        "Banco Hipotecario",
         "Tarjeta de débito VISA"
       ],
       [
-        "Banco Hipotecario",
         "MODO",
+        "Banco Hipotecario - Búho/Plan Sueldo",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Hipotecario",
         "MODO",
+        "Banco Hipotecario - Búho/Plan Sueldo",
         "Tarjeta de débito VISA"
       ]
     ],
@@ -1161,21 +1210,20 @@
       "Martes"
     ],
     "restrictions": [
-      "No acumulable con otras promociones",
-      "No aplica a cartera de clientes que acrediten planes sociales",
-      "No aplica a operaciones de extracción de dinero en efectivo",
-      "No aplica a consumos efectuados a través de la plataforma Mercado Pago",
-      "No aplica a pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
+      "No acumulable con otras promociones, ni cartera de clientes que acrediten planes sociales.",
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash.",
+      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago.",
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)."
     ],
     "paymentMethods": [
       [
-        "MODO",
         "Banco Hipotecario",
+        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
-        "MODO",
         "Banco Hipotecario",
+        "MODO",
         "Tarjeta de débito VISA"
       ]
     ],
@@ -1207,21 +1255,21 @@
       "Martes"
     ],
     "restrictions": [
-      "No acumulable con otras promociones",
-      "No aplica a cartera de clientes que acrediten planes sociales",
-      "No aplica a operaciones de extracción de dinero en efectivo",
-      "No aplica a consumos efectuados a través de la plataforma Mercado Pago",
-      "No aplica a pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
+      "Aplica para clientes Búho One, Búho Sueldo, Búho Emprendedor y Búho Jubilado.",
+      "No acumulable con otras promociones, ni cartera de clientes que acrediten planes sociales.",
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash.",
+      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago.",
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)."
     ],
     "paymentMethods": [
       [
-        "MODO",
         "Banco Hipotecario - Búho/Plan Sueldo",
+        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
-        "MODO",
         "Banco Hipotecario - Búho/Plan Sueldo",
+        "MODO",
         "Tarjeta de débito VISA"
       ]
     ],
@@ -1231,11 +1279,6 @@
       "contactless": false
     },
     "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": false,
-      "jubilados": true,
-      "programaCiudadaniaPorteña": false
-    },
     "limits": {
       "maxDiscount": 30000,
       "explicitlyHasNoLimit": false
@@ -1258,20 +1301,22 @@
       "Miercoles"
     ],
     "restrictions": [
+      "Tope de reintegro por cliente por miércoles",
       "No válido para pagos con saldo en cuenta",
+      "Válido únicamente para pagos en una cuota",
       "Excluye versiones corporativas",
       "Excluye pagos con otros QR o billeteras virtuales"
     ],
     "excludesProducts": "Electro",
     "paymentMethods": [
       [
-        "Banco Nación",
         "MODO",
+        "Banco Nación",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Nación",
         "MODO",
+        "Banco Nación",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -1305,13 +1350,12 @@
     ],
     "restrictions": [
       "Tope de reintegro $15.000 por cliente por fin de semana",
-      "Solo para clientes con paquete de productos en ICBC",
-      "No válido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC",
+      "Solo podrán participar de la promoción aquellos clientes que se encuentren al día en sus productos",
       "No válido para compras efectuadas por Mercado Pago, Pago Inmediato o Pago entre personas",
       "No válido para compras mayoristas",
-      "No válido para tarjetas Visa Business, Visa Distribution, Visa Purchasing, Visa Purchasing Campo, Corporate, Corporate Signature, Recargable Empresa y Visa Cuenta Central",
-      "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca Masonline",
-      "Solo podrán participar de la promoción aquellos clientes que se encuentren al día en sus productos"
+      "Válido para clientes con paquete de productos en ICBC",
+      "No valido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC",
+      "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca Masonline"
     ],
     "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, y todos los productos incluidos en el programa Precios Cuidados",
     "paymentMethods": [
@@ -1354,13 +1398,13 @@
       "Jueves"
     ],
     "restrictions": [
-      "Exclusivo para clientes que depositen su sueldo en ICBC con acreditación de haberes dentro los 90 días anteriores a la fecha de compra",
-      "No válido para compras efectuadas por Mercado Pago, Pago Inmediato o Pago entre personas",
-      "No válido para compras mayoristas",
-      "No válido para tarjetas VISA Business, VISA Distribution, VISA Purchasing, VISA Purchasing Campo, Corporate, Corporate Signature, Recargable Empresa y VISA Cuenta Central",
-      "Válido para clientes con paquete de productos en ICBC",
-      "No válido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC",
-      "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca Masonline"
+      "Exclusivo para clientes que depositen su sueldo en ICBC con acreditación de haberes dentro los 90 días anteriores a la fecha de compra.",
+      "No válido para compras efectuadas por Mercado Pago, Pago Inmediato o Pago entre personas.",
+      "No válido para compras mayoristas.",
+      "No válido para tarjetas Visa Business, Visa Distribution, Visa Purchasing, Visa Purchasing Campo, Corporate, Corporate Signature, Recargable Empresa y Visa Cuenta Central.",
+      "Válido para clientes con paquete de productos en ICBC.",
+      "No válido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC.",
+      "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca Masonline."
     ],
     "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, y todos los productos incluidos en el programa Precios Cuidados",
     "paymentMethods": [
@@ -1386,61 +1430,13 @@
       "contactless": false
     },
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false,
+      "programaCiudadaniaPorteña": false
+    },
     "limits": {
       "maxDiscount": 15000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "ChangoMas",
-      "Online"
-    ],
-    "url": "https://www.masonline.com.ar/promociones-bancarias",
-    "source": "changomas"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2025-04-01",
-    "validUntil": "2025-12-31",
-    "weekdays": [
-      "Jueves"
-    ],
-    "restrictions": [
-      "No válido para compras efectuadas por Mercado Pago, Pago Inmediato o Pago entre personas",
-      "No válido para compras mayoristas",
-      "No válido para tarjetas VISA Business, VISA Distribution, VISA Purchasing, VISA Purchasing Campo, Corporate, Corporate Signature, Recargable Empresa y VISA Cuenta Central",
-      "Válido para clientes con paquete de productos en ICBC",
-      "No válido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC",
-      "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca Masonline"
-    ],
-    "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, y todos los productos incluidos en el programa Precios Cuidados",
-    "paymentMethods": [
-      [
-        "MODO",
-        "Banco ICBC",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "MODO",
-        "Banco ICBC",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "MODO",
-        "Banco ICBC",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": true,
-      "telefonoContactless": false,
-      "contactless": false
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 10000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -1468,7 +1464,7 @@
       "Válido para clientes con paquete de productos en ICBC",
       "No válido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC",
       "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca Masonline",
-      "Clientes que se encuentren al día en sus productos"
+      "Solo podrán participar de la promoción aquellos clientes que se encuentren al día en sus productos"
     ],
     "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, y todos los productos incluidos en el programa Precios Cuidados",
     "paymentMethods": [
@@ -1523,7 +1519,7 @@
       "Válido para clientes con paquete de productos en ICBC",
       "No válido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC",
       "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca Masonline",
-      "Clientes que se encuentren al día en sus productos"
+      "Solo podrán participar de la promoción aquellos clientes que se encuentren al día en sus productos"
     ],
     "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, y todos los productos incluidos en el programa Precios Cuidados",
     "paymentMethods": [
@@ -1571,9 +1567,7 @@
       "Miercoles"
     ],
     "restrictions": [
-      "Exclusivo para la provincia de Chubut",
-      "Tope de reintegro: $10.000 por mes y cuenta",
-      "Aplicable solo los dias miercoles para clientes que abonen con Tarjeta de Credito Patagonia 365 en un pago"
+      "Exclusivo para la provincia de Chubut."
     ],
     "paymentMethods": [
       [
@@ -1602,20 +1596,21 @@
       "Jueves"
     ],
     "restrictions": [
-      "Cartera Clásica y Plus",
+      "Aplica a compras realizadas en 1 pago",
       "No acumulable con otras promociones",
       "No válido para tarjetas corporativas",
-      "Cuentas no deben registrar mora"
+      "Las cuentas no deberán registrar mora",
+      "No aplica para aquellos pagos y/o consumos abonados con tarjetas de débito y crédito emitidas por Banco Patagonia S.A. a través de billeteras virtuales a excepción de MODO"
     ],
     "paymentMethods": [
       [
-        "Banco Patagonia",
         "MODO",
+        "Banco Patagonia",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Patagonia",
         "MODO",
+        "Banco Patagonia",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -1647,10 +1642,11 @@
       "Jueves"
     ],
     "restrictions": [
-      "Cartera Singular",
+      "Aplica a compras realizadas en 1 pago",
       "No acumulable con otras promociones",
       "No válido para tarjetas corporativas",
-      "Cuentas no deben registrar mora"
+      "Las cuentas no deberán registrar mora",
+      "No aplica para aquellos pagos y/o consumos abonaods con tarjetas de débito y crédito emitidas por Banco Patagonia S.A. a través de billeteras virtuales a excepción de MODO"
     ],
     "paymentMethods": [
       [
@@ -1685,11 +1681,11 @@
       "Jueves"
     ],
     "restrictions": [
-      "Promo válida únicamente para consumos con QR de MODO a través de Credicoop Móvil o MODO seleccionando Tarjetas Cabal Credicoop (excepto Agrocabal, Cabal Mayorista y Cabal Empresa)",
-      "El reintegro se verá reflejado dentro de los 30 días posteriores al consumo en la cuenta del Banco, para lo cual será requisito que sea de título personal y se encuentre adherida a MODO",
-      "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal",
-      "No participan los consumos realizados a través del programa Cuota Simple, billeteras virtuales (excepto Modo) y POS móviles",
-      "Aplicable a la cartera de consumo"
+      "Promo válida únicamente para consumos con QR de MODO a través de Credicoop Móvil o MODO seleccionando Tarjetas Cabal Credicoop (excepto Agrocabal, Cabal Mayorista y Cabal Empresa).",
+      "El reintegro se verá reflejado dentro de los 30 días posteriores al consumo en la cuenta del Banco, para lo cual será requisito que sea de título personal y se encuentre adherida a MODO.",
+      "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal.",
+      "No participan los consumos realizados a través del programa Cuota Simple, billeteras virtuales (excepto Modo) y POS móviles.",
+      "Aplicable a la cartera de consumo."
     ],
     "paymentMethods": [
       [
@@ -1726,8 +1722,6 @@
       "Jueves"
     ],
     "restrictions": [
-      "Cartera Singular",
-      "Tope por cuenta y por mes",
       "Aplica a compras realizadas en 1 pago",
       "No acumulable con otras promociones",
       "No válido para tarjetas corporativas",
@@ -1774,8 +1768,6 @@
       "Jueves"
     ],
     "restrictions": [
-      "Clientes asociados a los productos Clásica y Plus",
-      "Tope por cuenta y por mes",
       "Aplica a compras realizadas en 1 pago",
       "No acumulable con otras promociones",
       "No válido para tarjetas corporativas",
@@ -1815,25 +1807,22 @@
       "Lunes"
     ],
     "restrictions": [
-      "Exclusivamente abonando con el QR de MODO, desde Buepp o la app móvil del Ciudad en terminales de cobro (o Posnet) de las marcas Prisma/ Payway o Fiserv con tarjetas de crédito Visa o Mastercard del Banco Ciudad quedando excluida de la promoción cualquier otra terminal de pago o QR no pertenecientes a la mencionada.",
+      "Excluye productos de convenio de precios justos, electrodomésticos y carne vacuna.",
+      "No acumulable con otras promociones.",
       "Será requisito excluyente, previo a realizarse la compra, tener asociada a MODO la cuenta del Banco Ciudad.",
       "Para compras realizadas por titulares de tarjetas adicionales, el tarjetahabiente adicional deberá poseer una caja de ahorro del Banco Ciudad asociada a MODO.",
       "Se considerará para la segmentación de clientes plan sueldo y jubilados acreditaciones de haberes durante los últimos 90 días de efectuada la compra.",
-      "Quedan excluidas de la promoción las cuentas en mora y/o bloqueadas por motivos administrativos.",
-      "El descuento podrá visualizarse vía reintegro, a acreditar en la cuenta del cliente dentro de los 45 días posteriores a la fecha de realizada la compra.",
-      "Si el cliente tuviera más de una cuenta, el crédito se realizará en cualquiera de ellas a elección del banco.",
-      "En caso de duda sobre el destino del consumo, no se acreditará el monto de la bonificación hasta tanto se aclare el mismo.",
-      "Los descuentos publicados no son acumulables con otras promociones."
+      "Quedan excluidas de la promoción las cuentas en mora y/o bloqueadas por motivos administrativos."
     ],
     "paymentMethods": [
       [
-        "MODO",
         "Banco Ciudad",
+        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
-        "MODO",
         "Banco Ciudad",
+        "MODO",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -1865,25 +1854,22 @@
       "Lunes"
     ],
     "restrictions": [
-      "Exclusivamente abonando con el QR de MODO, desde Buepp o la app móvil del Ciudad en terminales de cobro (o Posnet) de las marcas Prisma/ Payway o Fiserv con tarjetas de crédito Visa o Mastercard del Banco Ciudad quedando excluida de la promoción cualquier otra terminal de pago o QR no pertenecientes a la mencionada.",
+      "Excluye productos de convenio de precios justos, electrodomésticos y carne vacuna.",
+      "No acumulable con otras promociones.",
       "Será requisito excluyente, previo a realizarse la compra, tener asociada a MODO la cuenta del Banco Ciudad.",
       "Para compras realizadas por titulares de tarjetas adicionales, el tarjetahabiente adicional deberá poseer una caja de ahorro del Banco Ciudad asociada a MODO.",
       "Se considerará para la segmentación de clientes plan sueldo y jubilados acreditaciones de haberes durante los últimos 90 días de efectuada la compra.",
-      "Quedan excluidas de la promoción las cuentas en mora y/o bloqueadas por motivos administrativos.",
-      "El descuento podrá visualizarse vía reintegro, a acreditar en la cuenta del cliente dentro de los 45 días posteriores a la fecha de realizada la compra.",
-      "Si el cliente tuviera más de una cuenta, el crédito se realizará en cualquiera de ellas a elección del banco.",
-      "En caso de duda sobre el destino del consumo, no se acreditará el monto de la bonificación hasta tanto se aclare el mismo.",
-      "Los descuentos publicados no son acumulables con otras promociones."
+      "Quedan excluidas de la promoción las cuentas en mora y/o bloqueadas por motivos administrativos."
     ],
     "paymentMethods": [
       [
-        "MODO",
         "Banco Ciudad - Plan Sueldo y Jubilados",
+        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
-        "MODO",
         "Banco Ciudad - Plan Sueldo y Jubilados",
+        "MODO",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -1899,7 +1885,7 @@
       "programaCiudadaniaPorteña": false
     },
     "limits": {
-      "maxDiscount": 10000,
+      "maxDiscount": 30000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -1924,8 +1910,8 @@
       "Solo disponible para compras en 1 (un) pago",
       "Descuento personal e intransferible, para validar el descuento y acreditar que el cliente es empleado público, el mismo debe presentarse personalmente y exhibir su DNI y recibo de sueldo."
     ],
-    "onlyForProducts": "Almacén Seco, Lácteos, Bebida sin Alcohol, Galletitas y Golosinas, Papeles, Tapas Empanadas y Tartas, Pastas Frescas y Salchicha, Fiambrería, Quesos, Congelados, Pañales y Perfumería del Bebé, Farmacia Venta Libre (no incluye recetados) y Perfumería",
-    "excludesProducts": "Electro, Carnes y Precios Justos",
+    "onlyForProducts": "Almacén Seco, Lácteos, Bebida sin alcohol, Galletitas y Golosinas, Papeles, Tapas Empanadas y Tartas, Pastas Frescas y Salchicha, Fiambrería, Quesos, Congelados, Pañales y Perfumería del Bebé, Farmacia Venta Libre (no incluye recetados), Perfumería",
+    "excludesProducts": "Electro, Carnes, Precios Justos",
     "paymentMethods": [],
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
@@ -1956,17 +1942,18 @@
     "restrictions": [
       "Válido Cartera Consumo",
       "No aplica para compras en cuotas",
-      "No aplican a otras billeteras o plataformas de pago"
+      "Es necesario que previo a realizar el pago el usuario tenga asociada a MODO la cuenta y tarjeta del Banco de San Juan S.A con la que realizará la compra",
+      "No aplica a otras billeteras o plataformas de pago"
     ],
     "paymentMethods": [
       [
-        "Banco San Juan",
         "MODO",
+        "Banco San Juan",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco San Juan",
         "MODO",
+        "Banco San Juan",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -2000,7 +1987,6 @@
     "restrictions": [
       "Válido Cartera Consumo",
       "No aplica para pagos en cuotas",
-      "Es necesario que previo a realizar el pago el usuario tenga asociada a MODO la cuenta y tarjeta del Nuevo Banco de Entre Ríos S.A. con la que realizará la compra",
       "Los beneficios informados no aplican a otras billeteras o plataformas de pago"
     ],
     "paymentMethods": [
@@ -2017,7 +2003,7 @@
     ],
     "paymentRails": {
       "pagoConQR": true,
-      "telefonoContactless": false,
+      "telefonoContactless": true,
       "contactless": true
     },
     "unknownPaymentMethods": [],
@@ -2044,9 +2030,9 @@
     ],
     "restrictions": [
       "No aplica para compra en cuotas",
-      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0",
+      "No válido tarjeta de crédito empresa o agro",
       "No acumula con otra promoción",
-      "No válido tarjeta de crédito Empresa o Agro"
+      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0"
     ],
     "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
     "paymentMethods": [
@@ -2069,7 +2055,7 @@
     "paymentRails": {
       "pagoConQR": true,
       "telefonoContactless": false,
-      "contactless": false
+      "contactless": true
     },
     "unknownPaymentMethods": [],
     "limits": {
@@ -2094,28 +2080,23 @@
       "Miercoles"
     ],
     "restrictions": [
-      "Válido para compras en un pago con QR",
+      "No incluye productos de Electro",
+      "No incluye productos del convenio Precios Cuidados/Esenciales",
       "No aplica para compra en cuotas",
-      "No válido tarjeta de crédito empresa o agro",
+      "No válido Tarjeta de Crédito Empresa o Agro",
       "No acumula con otra promoción",
-      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0"
+      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0"
     ],
-    "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
-        "MODO",
         "Banco Macro",
+        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
-        "MODO",
         "Banco Macro",
+        "MODO",
         "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "MODO",
-        "Banco Macro",
-        "Tarjeta American Express"
       ]
     ],
     "paymentRails": {
@@ -2146,12 +2127,13 @@
       "Miercoles"
     ],
     "restrictions": [
+      "No incluye productos de electro",
+      "No incluye productos del convenio Precios Cuidados/Esenciales",
       "No aplica para compra en cuotas",
-      "No aplica para Tarjeta de Crédito Empresa o Agro",
+      "No válido Tarjeta de Crédito Empresa o Agro",
       "No acumula con otra promoción",
       "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0"
     ],
-    "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
         "MODO",
@@ -2162,6 +2144,11 @@
         "MODO",
         "Banco Macro - Tarjeta PLATINUM",
         "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco Macro - Tarjeta PLATINUM",
+        "Tarjeta American Express"
       ]
     ],
     "paymentRails": {
@@ -2193,13 +2180,13 @@
       "Martes"
     ],
     "restrictions": [
-      "Promoción exclusiva para socios de masclub",
+      "Promoción exclusiva para socios de MasClub",
       "No acumulable con otras promociones",
       "Exclusivo para consumidores finales",
-      "Para acceder al beneficio deberás informar en línea de cajas que estás adherido al programa de beneficios MâsClub y brindar tu número de DNI, el descuento se hará efectivo en el momento",
+      "Para acceder al beneficio deberás informar en línea de cajas que estás adherido al programa de beneficios MasClub y brindar tu número de DNI, el descuento se hará efectivo en el momento",
       "En las compras realizadas con beneficios del programa, se cobrará $0,01 de costo de servicio"
     ],
-    "excludesProducts": "Productos del programa Canasta Protegida, Electrodomésticos y Electro, Carne Vacuna, Pollo y Granja, Fernet Branca (en MasOnline.com.ar), Categoría tetra brick y las bodegas selección: Esmeralda (Angelica Zapata, dv Catena, El enemigo), Chandon (Latitud 33, Baron B, Mercier, Terrazas, Altos del plata, Valmont, Clos, Veuve Clicquot, Moet), La rural (Rutini, Trumpeter, San Felipe)",
+    "excludesProducts": "Productos del programa Canasta Protegida, Electrodomésticos y Electro, Carne Vacuna, Pollo y Granja, Fernet Branca (en MasOnline.com.ar), categoría tetra brick y las bodegas selección: Esmeralda (Angelica Zapata, dv Catena, El enemigo), Chandon (Latitud 33, Baron B, Mercier, Terrazas, Altos del plata, Valmont, Clos, Veuve Clicquot, Moet), La rural (Rutini, Trumpeter, San Felipe)",
     "unknownPaymentMethods": [],
     "limits": {
       "explicitlyHasNoLimit": true
@@ -2226,17 +2213,22 @@
       "Jueves"
     ],
     "restrictions": [
-      "Tope de reintegro de $6.000 para Nivel 1, $8.000 para Nivel 2 y $12.000 para Nivel 3",
-      "Máximo 1 transacción por usuario por semana"
+      "Tope de reintegro de $6.000 para Nivel 1, $8.000 para Nivel 2 y $12.000 para Nivel 3 por usuario por semana.",
+      "Máximo de 1 transacción por usuario y por semana.",
+      "El reintegro será aplicado en la billetera dentro de las 72hs de realizada la operación."
     ],
     "paymentMethods": [
       [
-        "Personal Pay",
+        "Personal Pay - Nivel 1",
         "Tarjeta de débito VISA"
       ],
       [
-        "Personal Pay",
-        "Tarjeta Prepaga Mastercard"
+        "Personal Pay - Nivel 2",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Personal Pay - Nivel 3",
+        "Tarjeta de débito VISA"
       ]
     ],
     "paymentRails": {
@@ -2261,26 +2253,120 @@
       "type": "porcentaje",
       "value": 25
     },
+    "validFrom": "2025-03-31",
+    "validUntil": "2025-05-01",
+    "weekdays": [
+      "Miercoles",
+      "Jueves"
+    ],
+    "restrictions": [
+      "Tope de reintegro de $6.000 para Nivel 1, $8.000 para Nivel 2 y $12.000 para Nivel 3 por usuario por semana.",
+      "Máximo de 1 transacción por usuario y por semana.",
+      "El reintegro será aplicado en la billetera dentro de las 72hs de realizada la operación."
+    ],
+    "paymentMethods": [
+      [
+        "Personal Pay - Nivel 1",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Personal Pay - Nivel 2",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Personal Pay - Nivel 3",
+        "Tarjeta de débito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 8000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "ChangoMas",
+      "Online"
+    ],
+    "url": "https://www.masonline.com.ar/promociones-bancarias",
+    "source": "changomas"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2025-03-31",
+    "validUntil": "2025-05-01",
+    "weekdays": [
+      "Miercoles",
+      "Jueves"
+    ],
+    "restrictions": [
+      "Tope de reintegro de $6.000 para Nivel 1, $8.000 para Nivel 2 y $12.000 para Nivel 3 por usuario por semana.",
+      "Máximo de 1 transacción por usuario y por semana.",
+      "El reintegro será aplicado en la billetera dentro de las 72hs de realizada la operación."
+    ],
+    "paymentMethods": [
+      [
+        "Personal Pay - Nivel 1",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Personal Pay - Nivel 2",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Personal Pay - Nivel 3",
+        "Tarjeta de débito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 12000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "ChangoMas",
+      "Online"
+    ],
+    "url": "https://www.masonline.com.ar/promociones-bancarias",
+    "source": "changomas"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
     "validFrom": "2025-04-01",
     "validUntil": "2025-05-31",
     "weekdays": [
       "Viernes"
     ],
     "restrictions": [
-      "No aplica para pagos con dinero en cuenta y/o transferencia",
-      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar",
-      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online",
-      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos"
+      "No aplica para pagos con dinero en cuenta y/o transferencia.",
+      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
+      "Sólo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
     ],
     "paymentMethods": [
       [
-        "Banco Galicia",
         "MODO",
+        "Banco Galicia",
         "Tarjeta de crédito Mastercard"
       ],
       [
-        "Banco Galicia Más",
         "MODO",
+        "Banco Galicia Más",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -2312,20 +2398,20 @@
       "Viernes"
     ],
     "restrictions": [
-      "No aplica para pagos con dinero en cuenta y/o transferencia",
-      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar",
-      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online",
-      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos"
+      "No aplica para pagos con dinero en cuenta y/o transferencia.",
+      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
+      "Sólo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
     ],
     "paymentMethods": [
       [
-        "Banco Galicia - Eminent",
         "MODO",
+        "Banco Galicia - Eminent",
         "Tarjeta de crédito Mastercard"
       ],
       [
-        "Banco Galicia Más",
         "MODO",
+        "Banco Galicia Más",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -2357,11 +2443,11 @@
       "Viernes"
     ],
     "restrictions": [
-      "No aplica para pagos con dinero en cuenta y/o transferencia",
-      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar",
-      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online",
-      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos",
-      "No aplica para clientes Galicia Mas"
+      "No aplica para pagos con dinero en cuenta y/o transferencia.",
+      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
+      "Sólo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos.",
+      "No aplica para clientes Galicia Mas."
     ],
     "paymentMethods": [
       [
@@ -2397,10 +2483,10 @@
       "Viernes"
     ],
     "restrictions": [
-      "No aplica para pagos con dinero en cuenta y/o transferencia",
-      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar",
-      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online",
-      "Sólo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos"
+      "No aplica para pagos con dinero en cuenta y/o transferencia.",
+      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
+      "Sólo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
     ],
     "paymentMethods": [
       [
@@ -2442,11 +2528,11 @@
       "Viernes"
     ],
     "restrictions": [
-      "Para clientes Eminent",
-      "No aplica para pagos con dinero en cuenta y/o transferencia",
-      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar",
-      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online",
-      "Sólo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos"
+      "Para clientes Eminent.",
+      "No aplica para pagos con dinero en cuenta y/o transferencia.",
+      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
+      "Sólo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
     ],
     "paymentMethods": [
       [
@@ -2488,12 +2574,12 @@
       "Viernes"
     ],
     "restrictions": [
-      "Para clientes Galicia Haberes",
-      "No aplica para pagos con dinero en cuenta y/o transferencia",
-      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar",
-      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online",
-      "Sólo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos",
-      "No aplica para clientes Galicia Mas"
+      "Para clientes Galicia Haberes.",
+      "No aplica para pagos con dinero en cuenta y/o transferencia.",
+      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
+      "Sólo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos.",
+      "No aplica para clientes Galicia Mas."
     ],
     "paymentMethods": [
       [
@@ -2524,11 +2610,10 @@
       "Viernes"
     ],
     "restrictions": [
-      "No aplica para pagos con dinero en cuenta y/o transferencia",
-      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar",
-      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online",
-      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos",
-      "No acumulable con otras promociones vigentes"
+      "No aplica para pagos con dinero en cuenta y/o transferencia.",
+      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
+      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
     ],
     "paymentMethods": [
       [
@@ -2570,11 +2655,10 @@
       "Viernes"
     ],
     "restrictions": [
-      "No aplica para pagos con dinero en cuenta y/o transferencia",
-      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar",
-      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online",
-      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos",
-      "No acumulable con otras promociones vigentes"
+      "No aplica para pagos con dinero en cuenta y/o transferencia.",
+      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
+      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
     ],
     "paymentMethods": [
       [
@@ -2594,11 +2678,6 @@
       "contactless": false
     },
     "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": false,
-      "jubilados": false,
-      "programaCiudadaniaPorteña": false
-    },
     "limits": {
       "maxDiscount": 20000,
       "explicitlyHasNoLimit": false
@@ -2621,12 +2700,11 @@
       "Viernes"
     ],
     "restrictions": [
-      "No aplica para pagos con dinero en cuenta y/o transferencia",
-      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar",
-      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online",
-      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos",
-      "No acumulable con otras promociones vigentes",
-      "No aplica para clientes Galicia Mas"
+      "No aplica para pagos con dinero en cuenta y/o transferencia.",
+      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
+      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos.",
+      "No aplica para clientes Galicia Mas."
     ],
     "paymentMethods": [
       [
@@ -2640,11 +2718,6 @@
       "contactless": false
     },
     "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": false,
-      "jubilados": false,
-      "programaCiudadaniaPorteña": false
-    },
     "limits": {
       "maxDiscount": 5000,
       "explicitlyHasNoLimit": false
@@ -2669,7 +2742,7 @@
     "restrictions": [
       "No aplica para pagos con billeteras virtuales y/o app bancarias"
     ],
-    "excludesProducts": "Carnes vacunas, Pollo, Electronicos, Electrodomesticos, Climatizacion, Linea blanca, Servicios de automotor, Farmacia recetados, Informática, Celulares, Frutas y verduras, Bebidas blancas, Aceite comestibles, Elaborados, Embutidos, Huevos, Manteca, Vino rosado, Vinos blancos, Vinos tintos, Espumantes",
+    "excludesProducts": "Carnes vacunas, Pollo, Electronicos, Electrodomesticos, Climatizacion, Linea blanca, Servicios de automotor, Farmacia recetados, Informatica, Celulares, Frutas y verduras, Bebidas blancas, Aceite comestibles, Elaborados, Embutidos, Huevos, Manteca, Vino rosado, Vinos blancos, Vinos tintos, Espumantes",
     "paymentMethods": [
       [
         "Tarjeta de débito VISA"
@@ -2713,7 +2786,7 @@
     "restrictions": [
       "No aplica para pagos con billeteras virtuales y/o app bancarias"
     ],
-    "excludesProducts": "Carnes vacunas, Pollo, Electronicos, Electrodomesticos, Climatizacion, Linea blanca, Servicios de automotor, Farmacia recetados, Informática, Celulares, Frutas y verduras, Bebidas blancas, Aceite comestibles, Elaborados, Embutidos, Huevos, Manteca, Vino rosado, Vinos blancos, Vinos tintos, Espumantes",
+    "excludesProducts": "Carnes vacunas, Pollo, Electronicos, Electrodomesticos, Climatizacion, Linea blanca, Servicios de automotor, Farmacia recetados, Informatica, Celulares, Frutas y verduras, Bebidas blancas, Aceite comestibles, Elaborados, Embutidos, Huevos, Manteca, Vino rosado, Vinos blancos, Vinos tintos, Espumantes",
     "paymentMethods": [
       [
         "Tarjeta de crédito VISA"
@@ -2755,9 +2828,9 @@
       "Viernes"
     ],
     "restrictions": [
-      "No aplica para pagos con billeteras virtuales y/o app bancarias"
+      "No acumulable con otras promociones vigentes."
     ],
-    "excludesProducts": "Carnes vacunas, Pollo, Electronicos, Electrodomesticos, Climatizacion, Linea blanca, Servicios de automotor, Farmacia recetados, Informática, Celulares, Frutas y verduras, Bebidas blancas, Aceite comestibles, Elaborados, Embutidos, Huevos, Manteca, Vino rosado, Vinos blancos, Vinos tintos, Espumantes",
+    "excludesProducts": "Carnes vacunas, Pollo, Electronicos, Electrodomesticos, Climatizacion, Linea blanca, Servicios de automotor, Farmacia recetados, Informatica, Celulares, Frutas y verduras, Bebidas blancas, Aceite comestibles, Elaborados, Embutidos, Huevos, Manteca, Vino rosado, Vinos blancos, Vinos tintos, Espumantes",
     "paymentMethods": [
       [
         "Tarjeta de crédito VISA"
@@ -2772,6 +2845,11 @@
         "Tarjeta American Express"
       ]
     ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
     "unknownPaymentMethods": [],
     "limits": {
       "explicitlyHasNoLimit": true
@@ -2794,9 +2872,9 @@
       "Viernes"
     ],
     "restrictions": [
-      "No aplica para pagos con billeteras virtuales"
+      "No acumulable con otras promociones vigentes."
     ],
-    "excludesProducts": "Carnes vacunas, Pollo, Electronicos, Electrodomesticos, Climatizacion, Linea blanca, Servicios de automotor, Farmacia recetados, Informática, Celulares, Frutas y verduras, Bebidas blancas, Aceite comestibles, Elaborados, Embutidos, Huevos, Manteca, Vino rosado, Vinos blancos, Vinos tintos, Espumantes",
+    "excludesProducts": "Carnes vacunas, Pollo, Electronicos, Electrodomesticos, Climatizacion, Linea blanca, Servicios de automotor, Farmacia recetados, Informatica, Celulares, Frutas y verduras, Bebidas blancas, Aceite comestibles, Elaborados, Embutidos, Huevos, Manteca, Vino rosado, Vinos blancos, Vinos tintos, Espumantes",
     "paymentMethods": [
       [
         "Tarjeta de débito VISA"
@@ -2808,6 +2886,11 @@
         "Tarjeta de débito Cabal"
       ]
     ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
     "unknownPaymentMethods": [],
     "limits": {
       "explicitlyHasNoLimit": true
@@ -2832,9 +2915,7 @@
       "Domingo"
     ],
     "restrictions": [
-      "Solo valido para tarjeta fisica",
-      "Beneficio no válido para compras realizadas con Naranja Visa, Naranja MasterCard, Naranja Amex, ni para transacciones realizadas en agrupadores y billeteras virtuales",
-      "No acumulable con otras promociones vigentes"
+      "No acumulable con otras promociones vigentes."
     ],
     "excludesProducts": "Carnes vacunas, Pollo, Electronicos, Electrodomesticos, Climatizacion, Linea blanca, Servicios de automotor, Farmacia recetados, Informatica, Celulares, Frutas y verduras, Bebidas blancas, Aceite comestibles, Elaborados, Embutidos, Huevos, Manteca, Vino rosado, Vinos blancos, Vinos tintos, Espumantes",
     "paymentMethods": [
@@ -2842,6 +2923,11 @@
         "NaranjaX"
       ]
     ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
     "unknownPaymentMethods": [],
     "limits": {
       "explicitlyHasNoLimit": true
