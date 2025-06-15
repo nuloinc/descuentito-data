@@ -101,7 +101,7 @@
     ],
     "restrictions": [
       "No acumulable con otras promociones",
-      "No aplica a cartera de clientes que acrediten planes sociales",
+      "No acumulable con cartera de clientes que acrediten planes sociales",
       "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
       "No aplica para los consumos efectuados a través de la plataforma Mercado Pago",
       "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
@@ -110,12 +110,12 @@
       [
         "Banco Hipotecario",
         "MODO",
-        "Tarjeta de crédito VISA"
+        "Tarjeta de débito VISA"
       ],
       [
         "Banco Hipotecario",
         "MODO",
-        "Tarjeta de débito VISA"
+        "Tarjeta de crédito VISA"
       ]
     ],
     "paymentRails": {
@@ -146,7 +146,7 @@
     ],
     "restrictions": [
       "No acumulable con otras promociones",
-      "No aplica a cartera de clientes que acrediten planes sociales",
+      "No acumulable con cartera de clientes que acrediten planes sociales",
       "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
       "No aplica para los consumos efectuados a través de la plataforma Mercado Pago",
       "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
@@ -155,12 +155,12 @@
       [
         "Banco Hipotecario - Búho/Plan Sueldo",
         "MODO",
-        "Tarjeta de crédito VISA"
+        "Tarjeta de débito VISA"
       ],
       [
         "Banco Hipotecario - Búho/Plan Sueldo",
         "MODO",
-        "Tarjeta de débito VISA"
+        "Tarjeta de crédito VISA"
       ]
     ],
     "paymentRails": {
@@ -190,19 +190,20 @@
       "Miercoles"
     ],
     "restrictions": [
-      "Tope de reintegro $10.000 por cuenta aplicable a la primera compra por miércoles.",
-      "No válido para pagos con saldo en cuenta.",
-      "Exclusivo cartera de consumo."
+      "Tope de reintegro $12.000 por transacción",
+      "Aplicable a la primera compra por miércoles",
+      "No válido para pagos con saldo en cuenta",
+      "Exclusivo cartera de consumo"
     ],
     "paymentMethods": [
       [
-        "Banco Nación",
         "MODO",
+        "Banco Nación",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Nación",
         "MODO",
+        "Banco Nación",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -213,7 +214,7 @@
     },
     "unknownPaymentMethods": [],
     "limits": {
-      "maxDiscount": 12000,
+      "maxDiscount": 10000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -233,12 +234,12 @@
       "Miercoles"
     ],
     "restrictions": [
-      "Válido para compras en un pago con QR",
+      "Válido para clientes/usuarios registrados en MODO",
       "No válido para compra telefónica ni compra online",
       "No aplica para compra en cuotas",
       "No válido tarjeta de crédito empresa o agro",
       "No acumula con otra promoción",
-      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0"
+      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0"
     ],
     "excludesProducts": "Electro, Precios Cuidados/Esenciales",
     "paymentMethods": [
@@ -284,7 +285,7 @@
       "No aplica para compra en cuotas.",
       "No válido tarjeta de crédito empresa o agro.",
       "No acumula con otra promoción.",
-      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0."
+      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0."
     ],
     "excludesProducts": "Electro, Precios Cuidados/Esenciales",
     "paymentMethods": [
