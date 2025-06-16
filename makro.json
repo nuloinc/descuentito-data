@@ -12,7 +12,7 @@
     "restrictions": [
       "No acumulable con otras promociones",
       "No aplica a cartera de clientes que acrediten planes sociales",
-      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de EXTRA CASH",
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
       "No aplica para los consumos efectuados a través de la plataforma Mercado Pago",
       "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
     ],
@@ -57,7 +57,7 @@
     "restrictions": [
       "No acumulable con otras promociones",
       "No aplica a cartera de clientes que acrediten planes sociales",
-      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de EXTRA CASH",
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
       "No aplica para los consumos efectuados a través de la plataforma Mercado Pago",
       "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
     ],
@@ -100,21 +100,20 @@
       "Martes"
     ],
     "restrictions": [
-      "No acumulable con otras promociones",
-      "No aplica a cartera de clientes que acrediten planes sociales",
-      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
-      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago",
-      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
+      "No acumulable con otras promociones, ni cartera de clientes que acrediten planes sociales.",
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de EXTRA, CASH.",
+      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago.",
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)."
     ],
     "paymentMethods": [
       [
-        "Banco Hipotecario",
         "MODO",
+        "Banco Hipotecario",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Hipotecario",
         "MODO",
+        "Banco Hipotecario",
         "Tarjeta de débito VISA"
       ]
     ],
@@ -145,21 +144,20 @@
       "Martes"
     ],
     "restrictions": [
-      "No acumulable con otras promociones",
-      "No aplica a cartera de clientes que acrediten planes sociales",
-      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
-      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago",
-      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
+      "No acumulable con otras promociones, ni cartera de clientes que acrediten planes sociales.",
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de EXTRA, CASH.",
+      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago.",
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)."
     ],
     "paymentMethods": [
       [
-        "Banco Hipotecario - Búho/Plan Sueldo",
         "MODO",
+        "Banco Hipotecario - Búho/Plan Sueldo",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Hipotecario - Búho/Plan Sueldo",
         "MODO",
+        "Banco Hipotecario - Búho/Plan Sueldo",
         "Tarjeta de débito VISA"
       ]
     ],
@@ -170,7 +168,7 @@
     },
     "unknownPaymentMethods": [],
     "limits": {
-      "maxDiscount": 20000,
+      "maxDiscount": 30000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -191,18 +189,19 @@
     ],
     "restrictions": [
       "Tope de reintegro $12.000 por transacción",
+      "Aplicable a la primera compra por miércoles",
       "No válido para pagos con saldo en cuenta",
       "Exclusivo cartera de consumo"
     ],
     "paymentMethods": [
       [
-        "MODO",
         "Banco Nación",
+        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
-        "MODO",
         "Banco Nación",
+        "MODO",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -233,24 +232,28 @@
       "Miercoles"
     ],
     "restrictions": [
-      "Válido para compras en un pago con QR.",
       "No válido para compra telefónica ni compra online.",
       "No aplica para compra en cuotas.",
       "No válido tarjeta de crédito empresa o agro.",
       "No acumula con otra promoción.",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0."
+      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0."
     ],
     "excludesProducts": "Electro, Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
-        "MODO",
         "Banco Macro",
+        "MODO",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Macro",
+        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
-        "MODO",
         "Banco Macro",
-        "Tarjeta de crédito Mastercard"
+        "MODO",
+        "Tarjeta American Express"
       ]
     ],
     "paymentRails": {
@@ -280,11 +283,12 @@
       "Miercoles"
     ],
     "restrictions": [
-      "No válido para compra telefónica ni compra online.",
-      "No aplica para compra en cuotas.",
-      "No válido tarjeta de crédito empresa o agro.",
-      "No acumula con otra promoción.",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0."
+      "Exclusivo en un pago",
+      "No válido para compra telefónica ni compra online",
+      "No aplica para compra en cuotas",
+      "No válido tarjeta de crédito empresa o agro",
+      "No acumula con otra promoción",
+      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0"
     ],
     "excludesProducts": "Electro, Precios Cuidados/Esenciales",
     "paymentMethods": [
@@ -329,8 +333,8 @@
     "excludesProducts": "Electro, Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
-        "Banco Macro - Tarjeta Selecta",
-        "MODO"
+        "MODO",
+        "Banco Macro - Tarjeta Selecta"
       ]
     ],
     "paymentRails": {
@@ -352,7 +356,7 @@
   {
     "discount": {
       "type": "porcentaje",
-      "value": 25
+      "value": 100
     },
     "validFrom": "2025-06-01",
     "validUntil": "2025-06-30",
@@ -366,219 +370,429 @@
     ],
     "paymentMethods": [
       [
-        "Banco BBVA",
         "MODO",
+        "Banco Nación",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco BBVA",
         "MODO",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco BBVA",
-        "MODO",
+        "Banco Nación",
         "Tarjeta de débito VISA"
       ],
       [
-        "Banco BBVA",
         "MODO",
-        "Tarjeta de débito Mastercard"
-      ],
-      [
-        "Banco Ciudad",
-        "MODO",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Ciudad",
-        "MODO",
+        "Banco Nación",
         "Tarjeta de crédito Mastercard"
       ],
       [
-        "Banco Ciudad",
         "MODO",
-        "Tarjeta de débito VISA"
-      ],
-      [
-        "Banco Ciudad",
-        "MODO",
+        "Banco Nación",
         "Tarjeta de débito Mastercard"
       ],
       [
-        "Banco Comafi",
         "MODO",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Comafi",
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Comafi",
-        "MODO",
-        "Tarjeta de débito VISA"
-      ],
-      [
-        "Banco Comafi",
-        "MODO",
-        "Tarjeta de débito Mastercard"
-      ],
-      [
-        "Banco Credicoop",
-        "MODO",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Credicoop",
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Credicoop",
-        "MODO",
-        "Tarjeta de débito VISA"
-      ],
-      [
-        "Banco Credicoop",
-        "MODO",
-        "Tarjeta de débito Mastercard"
-      ],
-      [
         "Banco Galicia",
-        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Galicia",
         "MODO",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
         "Banco Galicia",
-        "MODO",
         "Tarjeta de débito VISA"
       ],
       [
-        "Banco Galicia",
         "MODO",
+        "Banco Galicia",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco Galicia",
         "Tarjeta de débito Mastercard"
       ],
       [
-        "Banco ICBC",
         "MODO",
+        "Banco BBVA",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco ICBC",
         "MODO",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco ICBC",
-        "MODO",
+        "Banco BBVA",
         "Tarjeta de débito VISA"
       ],
       [
-        "Banco ICBC",
         "MODO",
+        "Banco BBVA",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco BBVA",
         "Tarjeta de débito Mastercard"
       ],
       [
-        "Banco Macro",
         "MODO",
+        "Banco ICBC",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Macro",
         "MODO",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Macro",
-        "MODO",
+        "Banco ICBC",
         "Tarjeta de débito VISA"
       ],
       [
-        "Banco Macro",
         "MODO",
+        "Banco ICBC",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco ICBC",
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco Ciudad",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "MODO",
+        "Banco Ciudad",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "MODO",
+        "Banco Ciudad",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco Ciudad",
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco Comafi",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "MODO",
+        "Banco Comafi",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "MODO",
+        "Banco Comafi",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco Comafi",
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "MODO",
+        "BanCo (Banco de Corrientes)",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "MODO",
+        "BanCo (Banco de Corrientes)",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "MODO",
+        "BanCo (Banco de Corrientes)",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "BanCo (Banco de Corrientes)",
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco Macro",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "MODO",
+        "Banco Macro",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "MODO",
+        "Banco Macro",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco Macro",
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco Credicoop",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "MODO",
+        "Banco Credicoop",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "MODO",
+        "Banco Credicoop",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco Credicoop",
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco Supervielle",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "MODO",
+        "Banco Supervielle",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "MODO",
+        "Banco Supervielle",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco Supervielle",
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco BBVA",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "MODO",
+        "Banco BBVA",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "MODO",
+        "Banco BBVA",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco BBVA",
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "MODO",
+        "Banco BBVA",
+        "Tarjeta de crédito Cabal"
+      ],
+      [
+        "MODO",
+        "Banco BBVA",
+        "Tarjeta de débito Cabal"
+      ],
+      [
+        "MODO",
+        "Yoy",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "MODO",
+        "Yoy",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "MODO",
+        "Yoy",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "MODO",
+        "Yoy",
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "Banco BBVA",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco BBVA",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Banco BBVA",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco BBVA",
         "Tarjeta de débito Mastercard"
       ],
       [
         "Banco Nación",
-        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
         "Banco Nación",
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Nación",
-        "MODO",
         "Tarjeta de débito VISA"
       ],
       [
         "Banco Nación",
-        "MODO",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Nación",
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "Banco ICBC",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco ICBC",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Banco ICBC",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco ICBC",
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "Banco Ciudad",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Ciudad",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Banco Ciudad",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Ciudad",
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "Banco Comafi",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Comafi",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Banco Comafi",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Comafi",
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "BanCo (Banco de Corrientes)",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "BanCo (Banco de Corrientes)",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "BanCo (Banco de Corrientes)",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "BanCo (Banco de Corrientes)",
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "Banco Macro",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Macro",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Banco Macro",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Macro",
+        "Tarjeta de débito Mastercard"
+      ],
+      [
+        "Banco Credicoop",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Credicoop",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "Banco Credicoop",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Credicoop",
         "Tarjeta de débito Mastercard"
       ],
       [
         "Banco Supervielle",
-        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
         "Banco Supervielle",
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Supervielle",
-        "MODO",
         "Tarjeta de débito VISA"
       ],
       [
         "Banco Supervielle",
-        "MODO",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Supervielle",
         "Tarjeta de débito Mastercard"
       ],
       [
-        "BanCo (Banco de Corrientes)",
-        "MODO",
+        "Yoy",
         "Tarjeta de crédito VISA"
       ],
       [
-        "BanCo (Banco de Corrientes)",
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "BanCo (Banco de Corrientes)",
-        "MODO",
+        "Yoy",
         "Tarjeta de débito VISA"
       ],
       [
-        "BanCo (Banco de Corrientes)",
-        "MODO",
-        "Tarjeta de débito Mastercard"
-      ],
-      [
-        "MODO",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "MODO",
+        "Yoy",
         "Tarjeta de crédito Mastercard"
       ],
       [
-        "MODO",
-        "Tarjeta de débito VISA"
-      ],
-      [
-        "MODO",
+        "Yoy",
         "Tarjeta de débito Mastercard"
       ]
     ],
@@ -609,21 +823,20 @@
       "Jueves"
     ],
     "restrictions": [
-      "Promoción válida únicamente en QR de MODO abonando a través de Credicoop Móvil o MODO con tarjetas Cabal Credicoop.",
       "Aplica a consumos de tipo familiar y efectuados en un pago.",
+      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
       "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
-      "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO.",
-      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online."
+      "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO."
     ],
     "paymentMethods": [
       [
-        "MODO",
         "Banco Credicoop",
+        "MODO",
         "Tarjeta de crédito Cabal"
       ],
       [
-        "MODO",
         "Banco Credicoop",
+        "MODO",
         "Tarjeta de débito Cabal"
       ]
     ],
@@ -654,22 +867,20 @@
       "Jueves"
     ],
     "restrictions": [
-      "Promoción válida únicamente en QR de MODO abonando a través de Credicoop Móvil o MODO con tarjetas Cabal Credicoop.",
       "Aplica a consumos de tipo familiar y efectuados en un pago.",
-      "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
-      "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO.",
       "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
-      "Para acceder a este descuento, el cliente debe cobrar haberes en el banco."
+      "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
+      "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO."
     ],
     "paymentMethods": [
       [
-        "MODO",
         "Banco Credicoop",
+        "MODO",
         "Tarjeta de crédito Cabal"
       ],
       [
-        "MODO",
         "Banco Credicoop",
+        "MODO",
         "Tarjeta de débito Cabal"
       ]
     ],
@@ -679,6 +890,11 @@
       "contactless": false
     },
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false,
+      "programaCiudadaniaPorteña": false
+    },
     "limits": {
       "maxDiscount": 10500,
       "explicitlyHasNoLimit": false
@@ -700,7 +916,6 @@
       "Jueves"
     ],
     "restrictions": [
-      "Promoción válida únicamente en QR de MODO abonando a través de Credicoop Móvil o MODO con tarjetas Cabal Credicoop.",
       "Aplica a consumos de tipo familiar y efectuados en un pago.",
       "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
       "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO.",
@@ -708,13 +923,13 @@
     ],
     "paymentMethods": [
       [
-        "MODO",
         "Banco Credicoop",
+        "MODO",
         "Tarjeta de crédito Cabal"
       ],
       [
-        "MODO",
         "Banco Credicoop",
+        "MODO",
         "Tarjeta de débito Cabal"
       ]
     ],
@@ -745,7 +960,6 @@
       "Jueves"
     ],
     "restrictions": [
-      "Promoción válida únicamente en QR de MODO abonando a través de Credicoop Móvil o MODO con tarjetas Cabal Credicoop.",
       "Aplica a consumos de tipo familiar y efectuados en un pago.",
       "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
       "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO.",
@@ -753,13 +967,13 @@
     ],
     "paymentMethods": [
       [
+        "Banco Credicoop - Plan Sueldo",
         "MODO",
-        "Banco Credicoop",
         "Tarjeta de crédito Cabal"
       ],
       [
+        "Banco Credicoop - Plan Sueldo",
         "MODO",
-        "Banco Credicoop",
         "Tarjeta de débito Cabal"
       ]
     ],
@@ -795,22 +1009,21 @@
       "Sabado"
     ],
     "restrictions": [
-      "Promoción válida únicamente en QR de MODO abonando a través de Credicoop Móvil o MODO con Tarjetas Cabal Credicoop.",
+      "Promoción válida únicamente en QR de MODO abonando a través de Credicoop Móvil o MODO con tarjetas Cabal Credicoop.",
       "Aplica a consumos efectuados en un pago.",
-      "El reintegro se verá reflejado en el primer o segundo resumen de la Tarjeta de Crédito Cabal o dentro de los 60 días en el caso de consumo con Tarjeta de Débito Cabal.",
+      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
       "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
-      "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO.",
-      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online."
+      "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO."
     ],
     "paymentMethods": [
       [
-        "MODO",
         "Banco Credicoop",
+        "MODO",
         "Tarjeta de crédito Cabal"
       ],
       [
-        "MODO",
         "Banco Credicoop",
+        "MODO",
         "Tarjeta de débito Cabal"
       ]
     ],
@@ -833,7 +1046,7 @@
   {
     "discount": {
       "type": "porcentaje",
-      "value": 45
+      "value": 0
     },
     "validFrom": "2025-06-01",
     "validUntil": "2025-06-30",
@@ -841,23 +1054,23 @@
       "Sabado"
     ],
     "restrictions": [
-      "Promoción válida únicamente en QR de MODO abonando a través de Credicoop Móvil o MODO con tarjetas Cabal Credicoop.",
-      "Aplica a consumos de tipo familiar y efectuados en un pago.",
-      "El reintegro se verá reflejado en el primer o segundo resumen de la tarjeta de crédito Cabal o dentro de los 60 días en el caso de consumo con tarjeta de débito Cabal.",
-      "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
-      "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO.",
-      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
-      "Aplicable a la cartera de consumo."
+      "Para usuarios que acreditan haberes",
+      "Aplica a consumos de tipo familiar y efectuados en un pago",
+      "El reintegro se verá reflejado en el primer o segundo resumen de la tarjeta de crédito Cabal o dentro de los 60 días en el caso de consumo con tarjeta de débito Cabal",
+      "La tarjeta debe encontrarse vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito",
+      "Es requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO",
+      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online",
+      "Aplicable a la cartera de consumo"
     ],
     "paymentMethods": [
       [
-        "Banco Credicoop",
         "MODO",
+        "Banco Credicoop",
         "Tarjeta de crédito Cabal"
       ],
       [
-        "Banco Credicoop",
         "MODO",
+        "Banco Credicoop",
         "Tarjeta de débito Cabal"
       ]
     ],
@@ -867,11 +1080,6 @@
       "contactless": false
     },
     "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": false,
-      "jubilados": false,
-      "programaCiudadaniaPorteña": false
-    },
     "limits": {
       "maxDiscount": 18000,
       "explicitlyHasNoLimit": false
@@ -889,6 +1097,15 @@
     },
     "validFrom": "2025-06-01",
     "validUntil": "2025-06-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
     "restrictions": [
       "No aplica a ventas mediante Todo Pago, Mercado Pago y NPOS."
     ],
@@ -914,8 +1131,10 @@
     },
     "validFrom": "2025-06-01",
     "validUntil": "2025-06-30",
-    "restrictions": [],
-    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores y tinturas capilares, Cremas corporales, faciales y para manos, Desodorante para pies y talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Demaquillantes y quitaesmaltes, Talcos, Féculas y óleos para bebés, Jabón para la ropa en pan, líquido y en polvo",
+    "restrictions": [
+      "Acceder al descuento a través de https://clubmassimple.buenosaires.gob.ar/navigator/content/1705 y tocar en «PARTICIPAR». Luego el equipo de Club +Simple enviará un correo electrónico para avisar que el descuento está activo."
+    ],
+    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores y tinturas capilares, Cremas corporales, faciales y para manos, Desodorante para pies y talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Demaquillantes y quitaesmaltes, Talcos, Féculas y óleos para bebés, Jabón para la ropa en pan, líquido y en polvo.",
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": false,
