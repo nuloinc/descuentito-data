@@ -166,7 +166,7 @@
     },
     "unknownPaymentMethods": [],
     "limits": {
-      "maxDiscount": 20000,
+      "maxDiscount": 30000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -228,27 +228,20 @@
       "Miercoles"
     ],
     "restrictions": [
-      "No acumula con otra promoción",
-      "No aplica para compra en cuotas",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0",
-      "No válido Tarjeta de Crédito Empresa o Agro",
-      "No válido para compra telefónica ni compra online"
+      "No acumula con otra promoción.",
+      "No aplica para compra en cuotas.",
+      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0.",
+      "No válido para compra telefónica ni compra online.",
+      "No válido tarjeta de crédito empresa o agro."
     ],
-    "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
+    "excludesProducts": "Electro, Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
         "Banco Macro",
-        "MODO",
-        "Tarjeta de crédito Cabal"
-      ],
-      [
-        "Banco Macro",
-        "MODO",
         "Tarjeta de crédito Mastercard"
       ],
       [
         "Banco Macro",
-        "MODO",
         "Tarjeta de crédito VISA"
       ]
     ],
@@ -281,9 +274,9 @@
     "restrictions": [
       "No acumula con otra promoción.",
       "No aplica para compra en cuotas.",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0.",
-      "No válido para compra telefónica ni compra online.",
-      "No válido tarjeta de crédito empresa o agro."
+      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0.",
+      "No válido Tarjeta de Crédito Empresa o Agro.",
+      "No válido para compra telefónica ni compra online."
     ],
     "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
     "paymentMethods": [
@@ -321,15 +314,21 @@
     "restrictions": [
       "No acumula con otra promoción.",
       "No aplica para compra en cuotas.",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0.",
-      "No válido para compra telefónica ni compra online.",
-      "No válido tarjeta de crédito empresa o agro."
+      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0.",
+      "No válido Tarjeta de Crédito Empresa o Agro.",
+      "No válido para compra telefónica ni compra online."
     ],
-    "excludesProducts": "Electro, Precios Cuidados/Esenciales",
+    "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
         "Banco Macro - Tarjeta Selecta",
-        "MODO"
+        "MODO",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Macro - Tarjeta Selecta",
+        "MODO",
+        "Tarjeta de crédito VISA"
       ]
     ],
     "paymentRails": {
@@ -356,7 +355,7 @@
     "validFrom": "2025-08-01",
     "validUntil": "2025-08-31",
     "restrictions": [],
-    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores, Tinturas capilares, Cremas corporales, Cremas faciales, Cremas para manos, Desodorante para pies, Talcos, Cremas de afeitar, Colonias, Productos depilatorios, Demaquillantes, Quitaesmaltes, Talcos para bebés, Féculas para bebés, Oleos para bebés, Jabón para la ropa en pan, Jabón para la ropa líquido, Jabón para la ropa en polvo",
+    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores y tinturas capilares, Cremas corporales, faciales y para manos, Desodorante para pies y talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Demaquillantes y quitaesmaltes, Talcos, Féculas y óleos para bebés, Jabón para la ropa en pan, líquido y en polvo",
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": false,
@@ -390,7 +389,12 @@
     ],
     "paymentMethods": [
       [
-        "Cencopay"
+        "Cencopay",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Cencopay",
+        "Tarjeta de crédito VISA"
       ]
     ],
     "paymentRails": {
@@ -416,10 +420,13 @@
     },
     "validFrom": "2025-08-01",
     "validUntil": "2025-08-01",
+    "weekdays": [
+      "Viernes"
+    ],
     "restrictions": [
-      "Exclusivo pagando con dinero en cuenta de Mercado Pago",
-      "No acumulable con otras promociones, beneficios y/u ofertas vigentes",
-      "No aplica a operaciones facturadas en las oficinas de ventas de las tiendas"
+      "Exclusivo pagando con dinero en cuenta de Mercado Pago.",
+      "No acumulable con otras promociones, beneficios y/u ofertas vigentes.",
+      "Se excluyen de la promoción las operaciones facturadas en las oficinas de ventas de las tiendas."
     ],
     "excludesProducts": "Achuras y Embutidos, Aves, Carnes, Cerdos, Carne envasada al vacío, Carne pre-empaquetada, Carne vacuna fresca",
     "paymentMethods": [
@@ -427,6 +434,51 @@
         "Mercado Pago"
       ]
     ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-08-01",
+    "validUntil": "2025-08-31",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados."
+    ],
+    "onlyForProducts": "Herramientas eléctricas",
+    "paymentMethods": [
+      [
+        "Cencopay"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
     "unknownPaymentMethods": [],
     "limits": {
       "explicitlyHasNoLimit": true
@@ -456,7 +508,69 @@
     "restrictions": [
       "No aplica para clientes en mora o inhabilitados."
     ],
-    "onlyForProducts": "Herramientas eléctricas, Electrodomésticos seleccionados",
+    "onlyForProducts": "Herramientas eléctricas",
+    "paymentMethods": [
+      [
+        "Cencopay"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-08-01",
+    "validUntil": "2025-08-31",
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados."
+    ],
+    "onlyForProducts": "Televisores, Rodados, Calefacción, Electrodomésticos seleccionados",
+    "paymentMethods": [
+      [
+        "Cencopay"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 6
+    },
+    "validFrom": "2025-08-01",
+    "validUntil": "2025-08-31",
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados."
+    ],
+    "onlyForProducts": "Televisores, Rodados, Calefacción, Electrodomésticos seleccionados",
     "paymentMethods": [
       [
         "Cencopay"
@@ -487,7 +601,7 @@
     "restrictions": [
       "No aplica para clientes en mora o inhabilitados."
     ],
-    "onlyForProducts": "Televisores, Rodados, Calefacción",
+    "onlyForProducts": "Televisores, Rodados, Calefacción, Electrodomésticos seleccionados",
     "paymentMethods": [
       [
         "Cencopay"
@@ -515,22 +629,18 @@
     },
     "validFrom": "2025-08-15",
     "validUntil": "2025-08-31",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
     "restrictions": [
       "No aplica para clientes en mora o inhabilitados."
     ],
     "onlyForProducts": "Electrodomésticos seleccionados",
     "paymentMethods": [
       [
-        "Cencopay"
+        "Cencopay",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Cencopay",
+        "Tarjeta de crédito VISA"
       ]
     ],
     "paymentRails": {
@@ -560,10 +670,9 @@
     ],
     "restrictions": [
       "Aplica a consumos de tipo familiar y efectuados en un pago.",
-      "Aplicable a la cartera de consumo.",
-      "El reintegro se verá reflejado en el primer o segundo resumen de la tarjeta de crédito Cabal o dentro de los 60 días en el caso de consumo con tarjeta de débito Cabal.",
+      "El reintegro se verá reflejado en el primer o segundo resumen de la Tarjeta de Crédito Cabal o dentro de los 60 días en el caso de consumo con Tarjeta de Débito Cabal.",
       "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
-      "Promoción válida únicamente en QR de MODO abonando a través de Credicoop Móvil o MODO con tarjetas Cabal Credicoop.",
+      "Promoción válida únicamente en QR de MODO abonando a través de Credicoop Móvil o MODO con Tarjetas Cabal Credicoop.",
       "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
       "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO."
     ],
@@ -608,9 +717,9 @@
     "restrictions": [
       "Aplica a consumos de tipo familiar y efectuados en un pago.",
       "Aplicable a la cartera de consumo.",
-      "El reintegro se verá reflejado en el primer o segundo resumen de la Tarjeta de Crédito Cabal o dentro de los 60 días en el caso de consumo con Tarjeta de Débito Cabal.",
+      "El reintegro se verá reflejado en el primer o segundo resumen de la tarjeta de crédito Cabal o dentro de los 60 días en el caso de consumo con tarjeta de débito Cabal.",
       "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
-      "Promoción válida únicamente en QR de MODO abonando a través de Credicoop Móvil o MODO con Tarjetas Cabal Credicoop.",
+      "Promoción válida únicamente en QR de MODO abonando a través de Credicoop Móvil o MODO con tarjetas Cabal Credicoop.",
       "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
       "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO.",
       "Tope de reintegro para usuarios que acreditan haberes $18.000 por usuario por sábado"
@@ -650,15 +759,6 @@
     },
     "validFrom": "2025-08-01",
     "validUntil": "2025-08-31",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
     "restrictions": [
       "No aplica a ventas mediante Todo Pago, Mercado Pago y NPOS."
     ],
