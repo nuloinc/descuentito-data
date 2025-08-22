@@ -2,36 +2,6 @@
   {
     "discount": {
       "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2025-08-18",
-    "validUntil": "2025-08-18",
-    "weekdays": [
-      "Lunes"
-    ],
-    "restrictions": [
-      "Válido para una compra por usuario",
-      "El importe bonificado se realizará en la plataforma de Mercado Pago al momento de confirmar el pago"
-    ],
-    "paymentMethods": [
-      [
-        "Mercado Pago"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 15000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Online"
-    ],
-    "url": "https://www.carrefour.com.ar/descuentos-bancarios",
-    "source": "carrefour"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
       "value": 10
     },
     "validFrom": "2025-08-01",
@@ -44,12 +14,9 @@
       "Viernes"
     ],
     "restrictions": [
-      "Válido con Mi Carrefour para mayores de 60 años o beneficiarios de ANSES.",
-      "Beneficio no acumulable con otras promociones.",
-      "No incluye Electro, Motos, Cuatriciclos, Bicicletas Motorizadas, Tractores, Bodegas Chandon, Leoncio Arizu, Terrazas de los Andes, Trumpeter, La Rural, Rutini Wines, Catena Zapata, Bodegas 33 Sur, Saint Felicien, Clos de los Siete.",
-      "No incluye productos de convenio de Precios Justos, Leches Infantiles y Maternizadas Etapa 1 y 2.",
-      "No incluye Carnicería: Carne Vacuna, Pollo, Cortes de Cerdos y Embutidos."
+      "Beneficio no acumulable con otras promociones."
     ],
+    "excludesProducts": "Electro, Motos, Cuatriciclos, Bicicletas motorizadas, Tractores, Bodegas Chandon, Leoncio Arizu, Terrazas de los Andes, Trumpeter, La Rural, Rutini Wines, Catena Zapata, Bodegas 33 Sur, Saint Felicien, Clos de los Siete, Productos de convenio de Precios Justos, Leches infantiles y maternizadas etapa 1 y 2, Carnicería: Carne vacuna, Pollo, Cortes de cerdos y Embutidos.",
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": true,
@@ -89,15 +56,12 @@
       "Miercoles"
     ],
     "restrictions": [
-      "Sujeto a condiciones de otorgamiento y/o aprobación crediticia.",
       "No válido abonando a través de plataformas digitales de pago.",
-      "Excluidos electrodomésticos, telefonía, fotografía, informática, imagen, sonido, productos de bodegas Chandon, Trumpeter, Leoncio Arizu, La Rural, Rutini Wines, Bodega 33° Sur, Catena Zapata, Terrazas de los Andes, Saint Felicien, Grupo Clos de los 7, leches infantiles y maternizadas etapas 1 y 2, carnicería (carne vacuna, pollo, cerdo y embutidos) y conservadoras de cerveza.",
       "No acumulable con otras promociones vigentes.",
-      "No aplica a pagos a través de billeteras virtuales y/o plataformas de pago online (por ejemplo, PayPal, Todo Pago, Mercado Pago, Ualá, etc.) ni tarjetas de crédito corporativas y recargables.",
-      "No válida para pagos con 2 (dos) tarjetas.",
-      "Aplicable a tarjetas Mastercard nacionales.",
+      "No válido para pagos con 2 (dos) tarjetas.",
       "No es acumulable con cupones de ticket más bajo."
     ],
+    "excludesProducts": "Electrodomésticos, Telefonía, Fotografía, Informática, Imagen, Sonido, Productos de Bodegas Chandon, Trumpeter, Leoncio Arizu, La Rural, Rutini Wines, Bodega 33° Sur, Catena Zapata, Terrazas de los Andes, Saint Felicien, Grupo Clos de los 7, Leches infantiles y maternizadas etapas 1 y 2, Carnicería (carne vacuna, pollo, cerdo y embutidos) y Conservadoras de cerveza.",
     "paymentMethods": [
       [
         "Tarjeta Carrefour Crédito"
@@ -129,14 +93,13 @@
       "Miercoles"
     ],
     "restrictions": [
-      "Sujeto a condiciones de otorgamiento y/o aprobación crediticia.",
-      "No válido abonando a través de plataformas digitales de pago.",
       "No acumulable con otras promociones vigentes.",
-      "No aplica a pagos a través de billeteras virtuales y/o plataformas de pago online (por ejemplo, PayPal, Todo Pago, Mercado Pago, Ualá, etc.) ni tarjetas de crédito corporativas y recargables.",
-      "No válida para pagos con 2 (dos) tarjetas.",
+      "No válido abonando a través de plataformas digitales de pago.",
+      "No válido para pagos con 2 (dos) tarjetas.",
+      "Aplicable a tarjetas Mastercard nacionales.",
       "No es acumulable con cupones de ticket más bajo."
     ],
-    "excludesProducts": "Electrodomésticos, telefonía, fotografía, informática, imagen, sonido, productos de bodegas Chandon, Trumpeter, Leoncio Arizu, La Rural, Rutini Wines, Bodega 33° Sur, Catena Zapata, Terrazas de los Andes, Saint Felicien, Grupo Clos de los 7, leches infantiles y maternizadas etapas 1 y 2, carnicería (carne vacuna, pollo, cerdo y embutidos) y conservadoras de cerveza.",
+    "excludesProducts": "Electrodomésticos, Telefonía, Fotografía, Informática, Imagen, Sonido, Productos de bodegas Chandon, Trumpeter, Leoncio Arizu, La Rural, Rutini Wines, Bodega 33° Sur, Catena Zapata, Terrazas de los Andes, Saint Felicien, Grupo Clos de los 7, Leches infantiles y maternizadas etapas 1 y 2, Carnicería (carne vacuna, pollo, cerdo y embutidos) y Conservadoras de cerveza.",
     "paymentMethods": [
       [
         "Tarjeta Carrefour Prepaga"
@@ -169,7 +132,7 @@
       "No válido para pagos con 2 (dos) tarjetas.",
       "No es acumulable con cupones de ticket más bajo."
     ],
-    "excludesProducts": "Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7, Productos de la Canasta de Precios Cuidados, Leches infantiles y maternizadas etapa 1 y 2, Electrodomésticos, Celulares, Productos de Carnicería: Carne vacuna, Pollo, Cerdo y Embutidos, Conservadoras de cerveza.",
+    "excludesProducts": "Productos de Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7, Productos de la Canasta de Precios Cuidados, Leches infantiles y maternizadas etapa 1 y 2, Electrodomésticos, Celulares, Productos de Carnicería: Carne Vacuna, Pollo, Cerdo y Embutidos, Conservadoras de Cerveza.",
     "paymentMethods": [
       [
         "Tarjeta de crédito Mastercard"
@@ -202,10 +165,13 @@
       "Jueves"
     ],
     "restrictions": [
-      "Promoción no válida para pagos con 2 (dos) tarjetas.",
-      "Sujeto a condiciones de otorgamiento y/o aprobación crediticia."
+      "No acumulable con otras promociones vigentes.",
+      "No aplica a pagos a través de billeteras virtuales y/o plataformas de pago online (por ejemplo, PayPal, Todo Pago, Mercado Pago, Ualá, etc.)",
+      "No aplica a tarjetas de crédito corporativas y recargables.",
+      "No válida para pagos con 2 (dos) tarjetas.",
+      "No es acumulable con cupones de ticket más bajo."
     ],
-    "excludesProducts": "Electrodomésticos, Telefonía, Fotografía, Informática, Imagen, Sonido, Productos de bodegas Chandon, Trumpeter, Leoncio Arizu, La Rural, Rutini Wines, Bodega 33° Sur, Catena Zapata, Terrazas de los Andes, Saint Felicien, Grupo Clos de los 7, Leches infantiles y maternizadas etapas 1 y 2, Carnicería (carne vacuna, pollo, cerdo y embutidos) y Conservadoras de cerveza.",
+    "excludesProducts": "Electrodomésticos, telefonía, fotografía, informática, imagen, sonido, productos de bodegas Chandon, Trumpeter, Leoncio Arizu, La Rural, Rutini Wines, Bodega 33° Sur, Catena Zapata, Terrazas de los Andes, Saint Felicien, Grupo Clos de los 7, leches infantiles y maternizadas etapas 1 y 2, carnicería (carne vacuna, pollo, cerdo y embutidos) y conservadoras de cerveza.",
     "paymentMethods": [
       [
         "Tarjeta Carrefour Crédito",
@@ -234,15 +200,13 @@
     ],
     "restrictions": [
       "No acumulable con otras promociones vigentes.",
-      "No aplica a pagos a través de billeteras virtuales y/o plataformas de pago online (por ejemplo, PayPal, Todo Pago, Mercado Pago, Ualá, etc.) ni tarjetas de crédito corporativas y recargables.",
-      "No válida para pagos con 2 (dos) tarjetas.",
-      "No es acumulable con cupones de ticket más bajo."
+      "No válido para pagos con 2 (dos) tarjetas.",
+      "No acumulable con cupones de ticket más bajo."
     ],
     "excludesProducts": "Electrodomésticos, telefonía, fotografía, informática, imagen, sonido, productos de Bodegas Chandon, Trumpeter, Leoncio Arizu, La Rural, Rutini Wines, Bodega 33° Sur, Catena Zapata, Terrazas de los Andes, Saint Felicien, Grupo Clos de los 7, leches infantiles y maternizadas etapas 1 y 2, carnicería (carne vacuna, pollo, cerdo y embutidos) y conservadoras de cerveza.",
     "paymentMethods": [
       [
-        "Tarjeta Carrefour Prepaga",
-        "Tarjeta Prepaga Mastercard"
+        "Tarjeta Carrefour Prepaga"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -269,10 +233,8 @@
       "Domingo"
     ],
     "restrictions": [
-      "No acumulable con otras promociones vigentes.",
       "No incluye motos, cuatriciclos, bicicletas motorizadas, tractores, electrodomésticos, electrónica, telefonía celular, bodegas Alamos, Altaland, Angélica Zapata, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, D. V. Catena, El Enemigo, La Posta, Luca, Luigi Bosca, Nicasia, Ojo de Buen Cubero, Rutini, Saint Felicien, San Felipe y Valmont, bazar, textil, leches infantiles y maternizadas etapa 1 y 2."
     ],
-    "onlyForProducts": "Alimentos secos, congelados, lácteos, fiambres, limpieza y perfumería.",
     "paymentMethods": [
       [
         "Banco Galicia",
@@ -299,16 +261,13 @@
       "value": 3
     },
     "validFrom": "2025-08-01",
-    "validUntil": "2025-08-30",
+    "validUntil": "2025-07-30",
     "weekdays": [
       "Lunes",
       "Miercoles"
     ],
     "restrictions": [
-      "Ofertas de préstamo sujetas a revisión crediticia y de riesgos por parte de Mercado Pago.",
-      "Esta publicidad no implica una obligación de otorgar el préstamo.",
-      "Mercado Pago no es una entidad financiera.",
-      "Los fondos en cuentas de pago no son depósitos garantizados."
+      "Promoción válida comprando online."
     ],
     "paymentMethods": [
       [
@@ -320,7 +279,6 @@
       "explicitlyHasNoLimit": true
     },
     "where": [
-      "Online",
       "Carrefour",
       "Market",
       "Express",
@@ -341,9 +299,9 @@
     ],
     "restrictions": [
       "Exclusivo para clientes con Plan Sueldo.",
-      "No incluye motos, cuatriciclos, bicicletas motorizadas, tractores, Bodegas Chandon, Leoncio Arizu, Terrazas de los Andes, Trumpeter, La Rural, Rutini Wines, Bodegas 33 Sur, Clos de los Siete, Catena Zapata.",
+      "No incluye motos, cuatriciclos, bicicletas motorizadas, tractores, bodegas Chandon, Leoncio Arizu, Terrazas de los Andes, Trumpeter, La Rural, Rutini Wines, Bodegas 33 Sur, Clos de los Siete, Catena Zapata.",
       "No incluye productos de convenio de Precios Cuidados, leches infantiles y maternizadas etapa 1 y 2.",
-      "No incluye Carnicería: carne vacuna, pollo, cortes de cerdos y embutidos.",
+      "No incluye carnicería: carne vacuna, pollo, cortes de cerdos y embutidos.",
       "No incluye productos de la marca Carrefour de alimentos, lácteos, quesos, fiambres, bebidas, perfumería y limpieza.",
       "No incluye electrodomésticos."
     ],
@@ -371,13 +329,15 @@
     },
     "validFrom": "2025-08-01",
     "validUntil": "2025-08-31",
+    "weekdays": [
+      "Miercoles"
+    ],
     "restrictions": [
-      "Válido programando la compra para los días Miércoles.",
-      "Válido para compras realizadas con tarjeta de débito y en 1 pago con tarjetas de crédito emitidas por el Banco Patagonia que cobren sus haberes en la entidad.",
-      "Exclusivo para clientes con Plan Sueldo Cartera Patagonia Plus.",
+      "Promoción válida programando la compra para los días Miércoles hasta el 31/08/2025.",
+      "Válido para clientes con Plan Sueldo Cartera Patagonia Plus.",
       "No acumulable con otras promociones vigentes."
     ],
-    "onlyForProducts": "No incluye electrodomésticos, telefonía, fotografía, informática, imagen y sonido, motos, cuatriciclos, bicicletas motorizadas, tractores, bodegas y marcas (Altaland, Araucana, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, El Enemigo, La Posta, Luca, Malbec Argentino, Nicolás Catena, Ojo de Buen Cubero, Rutini, San Felipe y Valmont), leches infantiles y maternizadas etapa 1 y 2, carnicería ni conservadoras de cerveza (carne vacuna, pollo, cortes de cerdos y embutido).",
+    "excludesProducts": "Electrodomésticos, Telefonía, Fotografía, Informática, Imagen y Sonido, Motos, Cuatriciclos, Bicicletas motorizadas, Tractores, Bodegas y marcas: Altaland, Araucana, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, El Enemigo, La Posta, Luca, Malbec Argentino, Nicolás Catena, Ojo de Buen Cubero, Rutini, San Felipe y Valmont, Leches infantiles y maternizadas etapa 1 y 2, Carnicería ni conservadoras de cerveza: Carne vacuna, Pollo, Cortes de cerdos y Embutido.",
     "paymentMethods": [
       [
         "Banco Patagonia",
@@ -420,15 +380,15 @@
       "Excluye versiones corporativas.",
       "No acumulable con otras promociones vigentes."
     ],
-    "excludesProducts": "Motos, Cuatriciclos, Bicicletas motorizadas, Tractores, Bodegas Chandon, Leoncio Arizu, Terrazas de los Andes, Trumpeter, La Rural, Rutini Wines, Bodegas 33 Sur, Clos de los Siete, Catena Zapata, Productos de convenio de Precios Cuidados, Leches infantiles y maternizadas etapa 1 y 2, Carnicería: Carne vacuna, Pollo, Cortes de cerdos y embutidos, Productos de la marca Carrefour de alimentos, Lácteos, Quesos, Fiambres, Bebidas, Perfumería y Limpieza, Electrodomésticos.",
+    "excludesProducts": "Motos, cuatriciclos, bicicletas motorizadas, tractores, Bodegas Chandon, Leoncio Arizu, Terrazas de los Andes, Trumpeter, La Rural, Rutini Wines, Bodegas 33 Sur, Clos de los Siete, Catena Zapata, productos de convenio de Precios Cuidados, leches infantiles y maternizadas etapa 1 y 2, carnicería: carne vacuna, pollo, cortes de cerdos y embutidos, productos de la marca Carrefour de alimentos, lácteos, quesos, fiambres, bebidas, perfumería y limpieza, electrodomésticos.",
     "paymentMethods": [
       [
         "Banco Nación",
-        "Tarjeta de crédito VISA"
+        "Tarjeta de crédito Mastercard"
       ],
       [
         "Banco Nación",
-        "Tarjeta de crédito Mastercard"
+        "Tarjeta de crédito VISA"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -447,7 +407,7 @@
       "type": "cuotas sin intereses",
       "value": 4
     },
-    "validFrom": "2025-08-18",
+    "validFrom": "2025-08-01",
     "validUntil": "2025-08-31",
     "weekdays": [
       "Lunes",
@@ -492,7 +452,10 @@
       "Jueves"
     ],
     "restrictions": [
-      "No válido para compras en cuotas con tarjetas de crédito emitidas en el exterior, tarjetas de compra y/u orden de compra y/o similares emitidas por Carrefour Argentina, compras abonadas en euros, dólares ni tickets o con la aplicación de Mercado Pago ni tarjetas de programas de ayuda social."
+      "No válido para compras en cuotas con tarjetas de crédito emitidas en el exterior",
+      "No válido para tarjetas de compra y/u orden de compra y/o similares emitidas por Carrefour Argentina",
+      "No válido para compras abonadas en euros, dólares ni tickets",
+      "No válido para tarjetas de programas de ayuda social"
     ],
     "paymentMethods": [
       [
@@ -561,14 +524,12 @@
       "Lunes"
     ],
     "restrictions": [
-      "No acumulable con otras promociones vigentes.",
-      "Solo para consumo personal.",
-      "No válido para compras en cuotas.",
-      "El reintegro se verá reflejado en hasta 2 resúmenes posteriores a la fecha de compra.",
-      "No aplica a pagos a través de billeteras virtuales y/o plataformas de pago online (ej. PayPal, Todo Pago, Mercado Pago, Ualá, etc.).",
-      "No aplica a tarjetas de crédito corporativas."
+      "No válido para compras en cuotas",
+      "No acumulable con otras promociones vigentes",
+      "No aplica a pagos a través de billeteras virtuales y/o plataformas de pago online",
+      "No aplica a tarjetas de crédito corporativas"
     ],
-    "excludesProducts": "Bodegas y marcas: Altaland, Araucana, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, El Enemigo, La Posta, Luca, Malbec Argentino, Nicolás Catena, Ojo de Buen Cubero, Rutini, San Felipe y Valmont. Leches infantiles y maternizadas etapa 1 y 2, electrodomésticos, celulares, productos de carnicería (carne vacuna, pollo, cerdo y embutidos) ni conservadoras de cerveza.",
+    "excludesProducts": "Bodegas y marcas: Altaland, Araucana, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, El Enemigo, La Posta, Luca, Malbec Argentino, Nicolás Catena, Ojo de Buen Cubero, Rutini, San Felipe y Valmont. Leches infantiles y maternizadas etapa 1 y 2, electrodomésticos, celulares, productos de carnicería: carne vacuna, pollo, cerdo y embutidos ni conservadoras de cerveza.",
     "paymentMethods": [
       [
         "Tarjeta de débito Mastercard"
@@ -609,13 +570,16 @@
     "restrictions": [
       "No válido para compras en cuotas.",
       "Promoción no acumulable con otras promociones vigentes.",
-      "Solo para consumo personal.",
+      "La promoción no incluye las siguientes bodegas y marcas: Altaland, Araucana, Aruma, Caro, Casa de Herrero, Cuchillo de Palo, El Enemigo, La Posta, Luca, Malbec Argentino, Nicolás Catena, Ojo de Buen Cubero, Rutini, San Felipe y Valmont.",
+      "No incluye leches infantiles y maternizadas etapa 1 y 2, electrodomésticos, celulares, productos de carnicería: carne vacuna, pollo, cerdo y embutidos ni conservadoras de cerveza.",
       "La promoción no aplica a pagos a través de billeteras virtuales y/o plataformas de pago online por ejemplo, PayPal, Todo Pago, Mercado Pago, Ualá, etc. ni tarjetas de crédito corporativas."
     ],
-    "excludesProducts": "Bodegas y marcas: Altaland, Araucana, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, El Enemigo, La Posta, Luca, Malbec Argentino, Nicolás Catena, Ojo de Buen Cubero, Rutini, San Felipe y Valmont. Leches infantiles y maternizadas etapa 1 y 2, electrodomésticos, celulares, productos de carnicería: carne vacuna, pollo, cerdo y embutidos ni conservadoras de cerveza.",
     "paymentMethods": [
       [
         "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Tarjeta Prepaga Mastercard"
       ]
     ],
     "paymentRails": {
@@ -639,7 +603,7 @@
       "type": "porcentaje",
       "value": 15
     },
-    "validFrom": "2025-08-04",
+    "validFrom": "2025-08-01",
     "validUntil": "2025-08-31",
     "weekdays": [
       "Lunes"
@@ -647,9 +611,9 @@
     "restrictions": [
       "Presentando DNI del titular de Club La Nación en línea de cajas.",
       "No válido abonando a través de plataformas digitales de pago.",
-      "No acumulable con otras promociones vigentes.",
-      "Excluidos del descuento electrodomésticos, telefonía, fotografía, informática, imagen, sonido, productos de las siguientes bodegas y marcas: Álamos, Altaland, Angélica Zapata, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, D.V. Catena, El Enemigo, La Posta, Luca, Luigi Bosca, Nicasia, Ojo de Buen Cubero, Rutini, Saint Felicien, San Felicien y Valmont, leches infantiles y maternizadas etapas 1 y 2, carnicería (carne vacuna, pollo, cerdo y embutidos) y conservadoras de cerveza."
+      "No acumulable con otras promociones vigentes."
     ],
+    "excludesProducts": "Electrodomésticos, telefonía, fotografía, informática, imagen, sonido, productos de las siguientes bodegas y marcas: Álamos, Altaland, Angélica Zapata, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, D.V. Catena, El Enemigo, La Posta, Luca, Luigi Bosca, Nicasia, Ojo de Buen Cubero, Rutini, Saint Felicien, San Felipe y Valmont, leches infantiles y maternizadas etapas 1 y 2, carnicería (carne vacuna, pollo, cerdo y embutidos) y conservadoras de cerveza.",
     "unknownPaymentMethods": [],
     "limits": {
       "explicitlyHasNoLimit": true
@@ -677,8 +641,8 @@
       "Martes"
     ],
     "restrictions": [
-      "No acumulable con otras promociones vigentes.",
-      "No válido abonando a través de plataformas digitales de pago."
+      "No válido abonando a través de plataformas digitales de pago.",
+      "No acumulable con otras promociones vigentes."
     ],
     "excludesProducts": "Electrodomésticos, telefonía, fotografía, informática, imagen, sonido, productos de las siguientes bodegas y marcas: Álamos, Altaland, Angélica Zapata, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, D.V. Catena, El Enemigo, La Posta, Luca, Luigi Bosca, Nicasia, Ojo de Buen Cubero, Rutini, Saint Felicien, San Felipe y Valmont, leches infantiles y maternizadas etapas 1 y 2, carnicería (carne vacuna, pollo, cerdo y embutidos) y conservadoras de cerveza.",
     "paymentMethods": [
@@ -712,8 +676,7 @@
       "Domingo"
     ],
     "restrictions": [
-      "Exclusivo con dinero en cuenta.",
-      "No válido para compras en cuotas con tarjetas de crédito emitidas en el exterior, tarjetas de compra y/u orden de compra y/o similares emitidas por Carrefour"
+      "No válido para compras en cuotas con tarjetas de crédito emitidas en el exterior, tarjetas de compra y/u orden de compra y/o similares emitidas por Carrefour."
     ],
     "paymentMethods": [
       [
@@ -746,17 +709,19 @@
       "Lunes"
     ],
     "restrictions": [
-      "Válido exclusivamente para clientes de Club La Nación.",
       "Máximo 1 uso por cliente por día Lunes.",
       "No acumulable con otras promociones vigentes."
     ],
-    "excludesProducts": "Electrodomésticos, telefonía, fotografía, informática, imagen, sonido, productos de las siguientes bodegas y marcas: Álamos, Altaland, Angélica Zapata, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, D.V. Catena, El Enemigo, La Posta, Luca, Luigi Bosca, Nicasia, Ojo de Buen Cubero, Rutini, Saint Felicien, San Felipe y Valmont, leches infantiles y maternizadas etapas 1 y 2, carnicería (carne vacuna, pollo, cerdo y embutidos) y conservadoras de cerveza. No incluye productos vendidos y entregados por el vendedor / fabricante.",
+    "excludesProducts": "Electrodomésticos, Telefonía, Fotografía, Informática, Imagen, Sonido, Productos de las siguientes bodegas y marcas: Álamos, Altaland, Angélica Zapata, Angélica Zapata, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, D.V. Catena, El Enemigo, La Posta, Luca, Luigi Bosca, Nicasia, Ojo de Buen Cubero, Rutini, Saint Felicien, San Felipe y Valmont, Leches infantiles y maternizadas etapas 1 y 2, Carnicería (carne vacuna, pollo, cerdo y embutidos) y Conservadoras de cerveza. No incluye productos vendidos y entregados por el vendedor / fabricante.",
     "unknownPaymentMethods": [],
     "limits": {
       "explicitlyHasNoLimit": true
     },
     "where": [
       "Online"
+    ],
+    "membership": [
+      "Mi Carrefour"
     ],
     "url": "https://www.carrefour.com.ar/descuentos-bancarios",
     "source": "carrefour"
@@ -790,6 +755,45 @@
   {
     "discount": {
       "type": "porcentaje",
+      "value": 10
+    },
+    "validFrom": "2025-08-13",
+    "validUntil": "2025-08-27",
+    "weekdays": [
+      "Miercoles"
+    ],
+    "restrictions": [
+      "Válida únicamente para venta minorista",
+      "No aplica a compras realizadas con Cuenta DNI mediante la lectura del código QR de Mercado Pago u otras billeteras digitales",
+      "No aplica a compras abonadas con tarjeta de crédito VISA y/o Mastercard y/o VISA Débito o transferencias a través de la aplicación."
+    ],
+    "excludesProducts": "Electrodomésticos, Productos frescos (quesos y fiambres, pescadería fresca, frutas y verduras, panadería, carnicería, platos preparados)",
+    "paymentMethods": [
+      [
+        "Cuenta DNI"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Carrefour",
+      "Market",
+      "Express",
+      "Maxi"
+    ],
+    "url": "https://www.carrefour.com.ar/descuentos-bancarios",
+    "source": "carrefour"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
       "value": 30
     },
     "validFrom": "2025-08-01",
@@ -798,21 +802,22 @@
       "Miercoles"
     ],
     "restrictions": [
-      "Promoción válida para compras realizadas en 1 pago.",
+      "No acumulable con otras promociones vigentes.",
       "No incluye motos, cuatriciclos, bicicletas motorizadas, tractores, electrodomésticos, electrónica, telefonía celular.",
-      "No incluye las siguientes bodegas y marcas: Altaland, Araucana, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, El Enemigo, La Posta, Luca, Malbec Argentino, Nicolás Catena, Ojo de Buen Cubero, Rutini, San Felipe y Valmont.",
+      "No incluye las siguientes bodegas y marcas: Altaland, Araucana, Aruma, Caro, Casa de Herrero, Cuchillo de Palo, El Enemigo, La Posta, Luca, Malbec Argentino, Nicolás Catena, Ojo de Buen Cubero, Rutini, San Felipe y Valmont.",
       "No incluye leches infantiles y maternizadas etapa 1 y 2.",
       "No incluye carnicería: carne vacuna, pollo, cortes de cerdos y embutidos.",
-      "No incluye productos Carrefour de alimentos, lácteos, quesos, fiambres, bebidas, perfumería y limpieza.",
-      "No acumulable con otras promociones vigentes."
+      "No incluye productos Carrefour de alimentos, lácteos, quesos, fiambres, bebidas, perfumería y limpieza."
     ],
     "paymentMethods": [
       [
         "Banco Nación",
+        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
         "Banco Nación",
+        "MODO",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -846,9 +851,10 @@
       "Miercoles"
     ],
     "restrictions": [
-      "Exclusivo para clientes con plan sueldo singular"
+      "Exclusivo para clientes con plan sueldo singular",
+      "No acumulable con otras promociones vigentes."
     ],
-    "excludesProducts": "Electrodomésticos, telefonía, fotografía, informática, imagen y sonido, motos, cuatriciclos, bicicletas motorizadas, tractores, las siguientes bodegas y marcas: Altaland, Araucana, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, El Enemigo, La Posta, Luca, Malbec Argentino, Nicolás Catena, Ojo de Buen Cubero, Rutini, San Felipe y Valmont, leches infantiles y maternizadas etapa 1 y 2, carnicería ni conservadoras de cerveza: carne vacuna, pollo, cortes de cerdos y embutido.",
+    "excludesProducts": "Electrodomésticos, Telefonía, Fotografía, Informática, Imagen y Sonido, Motos, Cuatriciclos, Bicicletas Motorizadas, Tractores, Bodegas y Marcas: Altaland, Araucana, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, El Enemigo, La Posta, Luca, Malbec Argentino, Nicolás Catena, Ojo de Buen Cubero, Rutini, San Felipe y Valmont, Leches Infantiles y Maternizadas Etapa 1 y 2, Carnicería ni Conservadoras de Cerveza: Carne Vacuna, Pollo, Cortes de Cerdos y Embutido.",
     "paymentMethods": [
       [
         "Banco Patagonia",
@@ -886,13 +892,14 @@
     "restrictions": [
       "Válido para empleadas/os públicos que trabajen en: Educación, Justicia, Registro, Energía, Cultura, Salud, Turismo, Prefectura, Tránsito, Deporte, Transporte, Desarrollo Social, cualquier dependencia nacional, provincial o municipal."
     ],
-    "onlyForProducts": "Alimentos secos, Congelados, Lácteos, Fiambres, Bebidas, Limpieza y Perfumería",
+    "onlyForProducts": "Alimentos secos, Congelados, Lácteos, Fiambres, Bebidas, Limpieza y Perfumería.",
+    "excludesProducts": "No válido en Carrefour Express, Carrefour Maxi ni en Carrefour.com.ar.",
     "paymentMethods": [
       [
-        "Tarjeta Carrefour Crédito"
+        "Tarjeta Carrefour Prepaga"
       ],
       [
-        "Tarjeta Carrefour Prepaga"
+        "Tarjeta Carrefour Crédito"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -918,8 +925,6 @@
       "Miercoles"
     ],
     "restrictions": [
-      "Tope mensual de $15.000 por cuenta.",
-      "No válido para compras en www.carrefour.com.ar.",
       "No incluye motos, cuatriciclos, bicicletas motorizadas, tractores.",
       "No incluye las siguientes bodegas y marcas: Altaland, Araucana, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, El Enemigo, La Posta, Luca, Malbec Argentino, Nicolás Catena, Ojo de Buen Cubero, Rutini, San Felipe y Valmont.",
       "No incluye leches infantiles y maternizadas etapa 1 y 2.",
@@ -929,13 +934,13 @@
     ],
     "paymentMethods": [
       [
-        "MODO",
         "Banco Macro",
+        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
-        "MODO",
         "Banco Macro",
+        "MODO",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -961,45 +966,6 @@
   {
     "discount": {
       "type": "porcentaje",
-      "value": 10
-    },
-    "validFrom": "2025-08-13",
-    "validUntil": "2025-08-27",
-    "weekdays": [
-      "Miercoles"
-    ],
-    "restrictions": [
-      "Válida únicamente para venta minorista.",
-      "No aplica a compras realizadas con Cuenta DNI mediante la lectura del código QR de Mercado Pago u otras billeteras digitales.",
-      "No aplica a compras abonadas con tarjeta de crédito VISA y/o Mastercard y/o VISA Débito o transferencias a través de la aplicación."
-    ],
-    "onlyForProducts": "No incluye electrodomésticos ni productos frescos (quesos y fiambres, pescadería fresca, frutas y verduras, panadería, carnicería, platos preparados).",
-    "paymentMethods": [
-      [
-        "Cuenta DNI"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": true,
-      "telefonoContactless": false,
-      "contactless": false
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Carrefour",
-      "Market",
-      "Express",
-      "Maxi"
-    ],
-    "url": "https://www.carrefour.com.ar/descuentos-bancarios",
-    "source": "carrefour"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
       "value": 25
     },
     "validFrom": "2025-08-01",
@@ -1009,10 +975,13 @@
       "Domingo"
     ],
     "restrictions": [
-      "Exclusivo cuenta sueldo y pagando con Modo.",
-      "No acumulable con otras promociones vigentes."
+      "Exclusivo cuenta sueldo",
+      "No incluye motos, cuatriciclos, bicicletas motorizadas, tractores, electrodomésticos, electrónica, telefonía celular",
+      "No incluye las siguientes bodegas y marcas: Altaland, Araucana, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, El Enemigo, La Posta, Luca, Malbec Argentino, Nicolás Catena, Ojo de Buen Cubero, Rutini, San Felipe y Valmont",
+      "No incluye leches infantiles y maternizadas etapa 1 y 2",
+      "No incluye carnicería: carne vacuna, pollo, cortes de cerdos y embutidos",
+      "No incluye productos Carrefour de alimentos, lácteos, quesos, fiambres, bebidas, perfumería y limpieza"
     ],
-    "excludesProducts": "Motos, cuatriciclos, bicicletas motorizadas, tractores, electrodomésticos, electrónica, telefonía celular, Altaland, Araucana, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, El Enemigo, La Posta, Luca, Malbec Argentino, Nicolás Catena, Ojo de Buen Cubero, Rutini, San Felipe, Valmont, leches infantiles y maternizadas etapa 1 y 2, carne vacuna, pollo, cortes de cerdos, embutidos, productos Carrefour de alimentos, lácteos, quesos, fiambres, bebidas, perfumería y limpieza.",
     "paymentMethods": [
       [
         "MODO",
@@ -1049,14 +1018,14 @@
       "type": "cuotas sin intereses",
       "value": 3
     },
-    "validFrom": "2025-08-01",
+    "validFrom": "2025-06-14",
     "validUntil": "2025-08-31",
     "weekdays": [
       "Sabado",
       "Domingo"
     ],
     "restrictions": [
-      "No acumulable con otras promociones vigentes."
+      "Promociones y/o precios de ofertas publicados no son acumulables con otras promociones vigentes."
     ],
     "paymentMethods": [
       [
@@ -1089,8 +1058,7 @@
       "Domingo"
     ],
     "restrictions": [
-      "Válido para beneficiarios de Anses que acrediten sus haberes a través de Mercado Pago.",
-      "Pago a través del servicio de procesamiento de pagos de Mercado Pago operado por Mercado Libre S.R.L. “Mercado Pago” a través del escaneo del código QR con la app de Mercado Pago."
+      "No válido para compras en cuotas con tarjetas de crédito emitidas en el exterior, tarjetas de compra y/u orden de compra y/o similares emitidas por Carrefour Argentina, compras abonadas en euros, dólares, ni tickets o con la aplicación de Mercado Pago ni tarjetas de programas de ayuda social."
     ],
     "paymentMethods": [
       [
@@ -1131,12 +1099,14 @@
       "Viernes"
     ],
     "restrictions": [
-      "No incluye motos, cuatriciclos, bicicletas motorizadas, tractores, electrodomésticos, electrónica, telefonía celular.",
+      "No incluye motos, cuatriciclos, bicicletas motorizadas, tractores.",
       "No incluye las siguientes bodegas y marcas: Altaland, Araucana, Aruma, Caro, Casa de Herrero, Cuchillo de Palo, El Enemigo, La Posta, Luca, Malbec Argentino, Nicolás Catena, Ojo de Buen Cubero, Rutini, San Felipe y Valmont.",
       "No incluye leches infantiles y maternizadas etapa 1 y 2.",
       "No incluye carnicería: carne vacuna, pollo, cortes de cerdos y embutidos.",
-      "No incluye productos Carrefour de alimentos, lácteos, quesos, fiambres, bebidas, perfumería y limpieza."
+      "No incluye productos Carrefour de alimentos, lácteos, quesos, fiambres, bebidas, perfumería y limpieza.",
+      "No acumulable con otras promociones vigentes."
     ],
+    "excludesProducts": "Motos, Cuatriciclos, Bicicletas motorizadas, Tractores, Electrodomésticos, Electrónica, Telefonía celular, Altaland, Araucana, Aruma, Caro, Casa de Herrero, Cuchillo de Palo, El Enemigo, La Posta, Luca, Malbec Argentino, Nicolás Catena, Ojo de Buen Cubero, Rutini, San Felipe, Valmont, Leches infantiles y maternizadas etapa 1 y 2, Carnicería: Carne vacuna, Pollo, Cortes de cerdos y Embutidos, Productos Carrefour de alimentos, lácteos, quesos, fiambres, bebidas, perfumería y limpieza.",
     "paymentMethods": [
       [
         "MODO",
@@ -1156,8 +1126,8 @@
     ],
     "paymentRails": {
       "pagoConQR": true,
-      "telefonoContactless": false,
-      "contactless": false
+      "telefonoContactless": true,
+      "contactless": true
     },
     "unknownPaymentMethods": [],
     "limits": {
@@ -1184,7 +1154,6 @@
       "Viernes"
     ],
     "restrictions": [
-      "Válido para pagos realizados a través del servicio de procesamiento de pagos de Mercado Pago operado por Mercado Libre S.R.L. “Mercado Pago” a través del escaneo del código QR con la App de Mercado Pago la “App”, eligiendo como medio de pago dinero en cuenta.",
       "No válido para compras en cuotas con tarjetas de crédito emitidas en el exterior, tarjetas de compra y/u orden de compra y/o similares emitidas por Carrefour Argentina, compras abonadas en euros, dólares ni tickets o con la aplicación de Mercado Pago ni tarjetas de programas de ayuda social."
     ],
     "paymentMethods": [
