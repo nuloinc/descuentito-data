@@ -838,6 +838,7 @@
     ],
     "restrictions": [
       "No aplica para pagos con dinero en cuenta y/o transferencia.",
+      "No acumulable con otras promociones vigentes.",
       "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
       "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
       "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
@@ -874,7 +875,7 @@
   {
     "discount": {
       "type": "porcentaje",
-      "value": 30
+      "value": 10
     },
     "validFrom": "2025-10-01",
     "validUntil": "2025-10-31",
@@ -882,7 +883,9 @@
       "Viernes"
     ],
     "restrictions": [
+      "Para clientes Galicia Haberes.",
       "No aplica para pagos con dinero en cuenta y/o transferencia.",
+      "No acumulable con otras promociones vigentes.",
       "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
       "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
       "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos.",
@@ -890,19 +893,13 @@
     ],
     "paymentMethods": [
       [
-        "MODO",
         "Banco Galicia",
         "Tarjeta de crédito Mastercard"
       ]
     ],
-    "paymentRails": {
-      "pagoConQR": true,
-      "telefonoContactless": false,
-      "contactless": false
-    },
     "unknownPaymentMethods": [],
     "limits": {
-      "maxDiscount": 20000,
+      "maxDiscount": 5000,
       "explicitlyHasNoLimit": false
     },
     "where": [
