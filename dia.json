@@ -11,7 +11,8 @@
     ],
     "restrictions": [
       "Aplicable a la primera compra del día",
-      "Válido 1 vez por usuario, por Martes"
+      "Válido 1 vez por usuario, por martes",
+      "La tarjeta debe ser ingresada como débito"
     ],
     "paymentMethods": [
       [
@@ -251,16 +252,16 @@
     "restrictions": [
       "Exclusivo para cartera de consumo",
       "Para compras de la canasta familiar",
-      "Aplica en la primera compra en alguno de los comercios del rubro supermercados/hipermercados y afines al sector alimenticios adheridos a la promoción"
+      "Excluye versiones corporativas",
+      "Se excluye el rubro electro"
     ],
-    "excludesProducts": "Electro",
     "paymentMethods": [
       [
-        "Banco Nación - Tarjeta Nativa",
+        "Banco Nación",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Nación - Tarjeta Nativa",
+        "Banco Nación",
         "Tarjeta de crédito Mastercard"
       ],
       [
@@ -327,10 +328,10 @@
       "Martes"
     ],
     "restrictions": [
-      "Exclusivo para usuarios de Tarjetas Cabal Débito emitidas por Banco Credicoop CL, excepto Agrocabal y Cabal Mayorista.",
-      "No participan de las presentes promociones los productos del rubro electro.",
-      "No participan los consumos realizados a través de billeteras virtuales y/o POS móviles.",
-      "Será condición esencial para participar de las mismas que, al momento de efectuar el reintegro, la cuenta bancaria vinculada a la tarjeta y de la cual se realice el débito de las compras correspondientes se encuentre abierta."
+      "Exclusivo para usuarios de Tarjetas Cabal Débito emitidas por Banco Credicoop CL, excepto Agrocabal y Cabal Mayorista",
+      "No participan productos del rubro electro",
+      "No participan consumos realizados a través de billeteras virtuales y/o POS móviles",
+      "La cuenta bancaria vinculada a la tarjeta debe encontrarse abierta al momento de efectuar el reintegro"
     ],
     "paymentMethods": [
       [
@@ -361,9 +362,10 @@
       "Martes"
     ],
     "restrictions": [
-      "El descuento se reintegra en la tarjeta dentro de los 10 días hábiles desde la fecha de compra.",
-      "No aplica a franquicias tradicionales."
+      "Promoción acumulable con los descuentos de fidelización.",
+      "El descuento no se realiza en la línea de cajas sino que se reintegrará en la tarjeta dentro de los 10 días hábiles desde la fecha de compra."
     ],
+    "paymentMethods": [],
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": true,
@@ -479,7 +481,10 @@
       "Martes"
     ],
     "restrictions": [
-      "Válida únicamente para venta minorista"
+      "Válida únicamente para venta minorista",
+      "No acumulable con otras promociones y/o descuentos vigentes",
+      "No aplica a compras realizadas con CDNI mediante la lectura del código QR de Mercado Pago u otras billeteras digitales",
+      "No aplica a compras abonadas con Tarjeta de Crédito VISA y/o Mastercard y/o VISA Débito o transferencias a través de la aplicación"
     ],
     "excludesProducts": "Bebidas con alcohol, Electrodomésticos",
     "paymentMethods": [
@@ -514,15 +519,14 @@
       "Domingo"
     ],
     "restrictions": [
-      "Solo para clientes al día con sus productos, sin morosidad y con límite de compra suficiente.",
-      "No aplica a operaciones realizadas con Tarjetas Sidecreer Cabal (BIN 604216).",
-      "No aplica a operaciones realizadas con Tarjetas Sidecreer (BIN 504962) vinculadas a programas socio asistenciales administrados por el Ministerio de Desarrollo Social de Entre Ríos.",
-      "No aplica a operaciones realizadas a través de billeteras virtuales y/o plataformas de pago online."
+      "Solo para clientes al día con sus productos, sin morosidad y con límite de compra suficiente",
+      "No aplica a operaciones realizadas con Tarjetas Sidecreer Cabal (BIN 604216)",
+      "No aplica a operaciones realizadas con Tarjetas Sidecreer (BIN 504962) vinculadas a programas socio asistenciales administrados por el Ministerio de Desarrollo Social de Entre Ríos",
+      "No aplica a operaciones realizadas a través de billeteras virtuales y/o plataformas de pago online"
     ],
     "paymentMethods": [
       [
-        "Sidecreer",
-        "Tarjeta de crédito Cabal"
+        "Sidecreer"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -547,15 +551,14 @@
       "Domingo"
     ],
     "restrictions": [
-      "Solo para clientes al día con sus productos, sin morosidad y con límite de compra suficiente.",
-      "No aplica a operaciones realizadas con Tarjetas Sidecreer Cabal (BIN 604216).",
-      "No aplica a operaciones realizadas con Tarjetas Sidecreer (BIN 504962) vinculadas a programas socio asistenciales administrados por el Ministerio de Desarrollo Social de Entre Ríos.",
-      "No aplica a operaciones realizadas a través de billeteras virtuales y/o plataformas de pago online."
+      "Solo para clientes al día con sus productos, sin morosidad y con límite de compra suficiente",
+      "No aplica a operaciones realizadas con Tarjetas Sidecreer Cabal (BIN 604216)",
+      "No aplica a operaciones realizadas con Tarjetas Sidecreer (BIN 504962) vinculadas a programas socio asistenciales administrados por el Ministerio de Desarrollo Social de Entre Ríos",
+      "No aplica a operaciones realizadas a través de billeteras virtuales y/o plataformas de pago online"
     ],
     "paymentMethods": [
       [
-        "Sidecreer",
-        "Tarjeta de crédito Cabal"
+        "Sidecreer"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -628,22 +631,26 @@
     "weekdays": [],
     "restrictions": [
       "No acumulable con otras promociones vigentes",
-      "No aplica a las categorías: Tecnología, Bazar, Textil y Electro",
-      "No aplica a pagos a través de billeteras virtuales (excepto MODO), MPOS y/o plataformas de pago online",
-      "Solo para clientes al día con sus productos"
+      "El beneficio no aplica a las categorías: Tecnología, Bazar, Textil y Electro",
+      "Solo para clientes que al momento de comprar se encuentren al día con sus productos"
     ],
     "paymentMethods": [
       [
-        "MODO",
         "Banco Galicia",
+        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
-        "MODO",
         "Banco Galicia",
+        "MODO",
         "Tarjeta de débito VISA"
       ]
     ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
     "unknownPaymentMethods": [],
     "limits": {
       "maxDiscount": 15000,
@@ -739,10 +746,9 @@
       "Martes"
     ],
     "restrictions": [
-      "Aplica únicamente a la primera transacción del día promocionado",
-      "Válido 1 (una) vez por usuario, por martes",
-      "El reintegro se verá reflejado en el estado de cuenta dentro de los (5) cinco días hábiles siguientes a la fecha de compra",
-      "Será condición para la aplicación del reintegro que, al momento del pago con la tarjeta Mastercard Prex en el sitio web, el usuario elija “Tarjeta de débito” como forma de pago de su compra"
+      "El reintegro aplicará únicamente a la primera transacción del día promocionado.",
+      "Válido 1 (una) vez por usuario, por martes.",
+      "Será condición para la aplicación del reintegro que, al momento del pago con la Tarjeta Mastercard Prex en el sitio web, el usuario elija “Tarjeta de débito” como forma de pago de su compra."
     ],
     "paymentMethods": [
       [
@@ -833,6 +839,11 @@
         "Tarjeta de débito VISA"
       ]
     ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
     "unknownPaymentMethods": [],
     "limits": {
       "maxDiscount": 20000,
@@ -1045,8 +1056,7 @@
     "restrictions": [
       "No aplica para compra en cuotas",
       "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0",
-      "No acumula con otra promoción",
-      "No válido Tarjeta de crédito Empresa o Agro"
+      "No válido Tarjeta de Crédito Empresa o Agro"
     ],
     "excludesProducts": "Electro, Precios Cuidados/Esenciales",
     "paymentMethods": [
@@ -1097,16 +1107,18 @@
       "No válido para compra telefónica",
       "No aplica para compra en cuotas",
       "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0",
-      "No acumula con otra promoción",
-      "No válido Tarjeta de crédito Empresa o Agro"
+      "No válido Tarjeta de Crédito Empresa o Agro"
     ],
-    "excludesProducts": "Cortes de carnes, pollo, pescado, Electro, Precios Cuidados/Esenciales",
+    "excludesProducts": "Cortes de carnes, pollo, pescado, electro, precios cuidados/esenciales",
     "paymentMethods": [
       [
-        "Banco Macro",
+        "Banco Macro - Tarjeta PLATINUM",
         "MODO",
-        "Tarjeta de crédito VISA",
-        "Tarjeta de crédito Mastercard",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Macro - Tarjeta PLATINUM",
+        "MODO",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -1141,10 +1153,9 @@
       "No válido para compra telefónica",
       "No aplica para compra en cuotas",
       "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0",
-      "No acumula con otra promoción",
-      "No válido Tarjeta de crédito Empresa o Agro"
+      "No válido Tarjeta de Crédito Empresa o Agro"
     ],
-    "excludesProducts": "Cortes de carnes, pollo, pescado, Electro, Precios Cuidados/Esenciales",
+    "excludesProducts": "Cortes de carnes, pollo, pescado, electro, precios cuidados/esenciales",
     "paymentMethods": [
       [
         "Banco Macro - Tarjeta Selecta",
@@ -1194,9 +1205,9 @@
       "No aplica para compra en cuotas",
       "No válido tarjeta de crédito empresa o agro",
       "No acumula con otra promoción",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0"
+      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0"
     ],
-    "excludesProducts": "Electro, Precios Cuidados/Esenciales, Cortes de carnes, Pollo, Pescado",
+    "excludesProducts": "Cortes de carnes, pollo, pescado, productos de electro, productos del convenio Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
         "MODO",
@@ -1247,18 +1258,18 @@
       "No aplica para compra en cuotas",
       "No válido tarjeta de crédito empresa o agro",
       "No acumula con otra promoción",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0"
+      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0"
     ],
-    "excludesProducts": "Cortes de carnes, Pollo, Pescado, Electro, Precios Cuidados/Esenciales",
+    "excludesProducts": "Cortes de carnes, pollo, pescado, productos de electro, productos del convenio Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
         "MODO",
-        "Banco Macro",
+        "Banco Macro - Tarjeta PLATINUM",
         "Tarjeta de crédito VISA"
       ],
       [
         "MODO",
-        "Banco Macro",
+        "Banco Macro - Tarjeta PLATINUM",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -1295,9 +1306,8 @@
       "No aplica para compra en cuotas",
       "No válido tarjeta de crédito empresa o agro",
       "No acumula con otra promoción",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0"
+      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0"
     ],
-    "excludesProducts": "Electro, Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
         "MODO",
@@ -1874,7 +1884,7 @@
     ],
     "restrictions": [
       "Mínimo de compra de $20.000",
-      "No aplica a clientes que registran atraso en el pago de sus obligaciones con el Banco",
+      "No aplica a clientes con atraso en el pago de sus obligaciones con el banco",
       "Válida únicamente para venta minorista",
       "No aplica a compras realizadas con Cuenta DNI mediante la lectura del código QR de Mercado Pago u otras billeteras digitales",
       "No aplica a compras abonadas con tarjeta de crédito VISA y/o Mastercard y/o VISA débito o transferencias a través de la aplicación"
@@ -2079,8 +2089,6 @@
     "validFrom": "2025-09-01",
     "validUntil": "2025-10-31",
     "restrictions": [
-      "No acumulable con otras promociones bancarias",
-      "El descuento se reintegra en la tarjeta dentro de los 10 días hábiles desde la fecha de compra",
       "No aplica a franquicias tradicionales"
     ],
     "unknownPaymentMethods": [],
@@ -2253,6 +2261,33 @@
   {
     "discount": {
       "type": "cuotas sin intereses",
+      "value": 0
+    },
+    "validFrom": "2025-04-01",
+    "validUntil": "2025-09-30",
+    "weekdays": [],
+    "restrictions": [
+      "No aplica para compras realizadas con Naranja VISA, Naranja Mastercard, Naranja AMEX",
+      "No aplica para transacciones realizadas en agrupadores y billeteras virtuales"
+    ],
+    "paymentMethods": [
+      [
+        "NaranjaX"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Online"
+    ],
+    "source": "dia",
+    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
       "value": 3
     },
     "validFrom": "2024-09-05",
@@ -2298,9 +2333,9 @@
     "validUntil": "2025-08-19",
     "weekdays": [],
     "restrictions": [
-      "El reintegro aplicará únicamente a la primera transacción del día promocionado.",
-      "Válido 1 (una) vez por usuario, por martes.",
-      "Será condición para la aplicación del reintegro que, al momento del pago con la Tarjeta Mastercard Prex en el sitio web, el usuario elija “Tarjeta de débito” como forma de pago de su compra."
+      "El reintegro aplicará únicamente a la primera transacción del día promocionado",
+      "Válido 1 (una) vez por usuario, por martes",
+      "Será condición para la aplicación del reintegro que, al momento del pago con la tarjeta Mastercard Prex en el sitio web, el usuario elija “Tarjeta de débito” como forma de pago de su compra."
     ],
     "paymentMethods": [
       [
