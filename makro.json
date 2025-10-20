@@ -231,7 +231,7 @@
     "restrictions": [
       "No acumula con otra promoción",
       "No aplica para compra en cuotas",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0",
+      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0",
       "No válido Tarjeta de Crédito Empresa o Agro",
       "No válido para compra telefónica ni compra online"
     ],
@@ -275,23 +275,19 @@
       "Miercoles"
     ],
     "restrictions": [
-      "No acumula con otra promoción.",
-      "No aplica para compra en cuotas.",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0.",
-      "No válido Tarjeta de Crédito Empresa o Agro.",
-      "No válido para compra telefónica ni compra online."
+      "No acumula con otra promoción",
+      "No aplica para compra en cuotas",
+      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0",
+      "No válido Tarjeta de Crédito Empresa o Agro",
+      "No válido para compra telefónica ni compra online",
+      "Para clientes/usuarios registrados en MODO"
     ],
     "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
         "Banco Macro",
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Macro",
-        "MODO",
-        "Tarjeta de crédito VISA"
+        "Banco Macro - Tarjeta PLATINUM",
+        "MODO"
       ]
     ],
     "paymentRails": {
@@ -518,7 +514,10 @@
       "Viernes",
       "Sabado"
     ],
-    "restrictions": [],
+    "restrictions": [
+      "No acumulable con otras promociones, beneficios y/u ofertas vigentes.",
+      "Se excluyen de la promoción las operaciones facturadas en las oficinas de ventas de las tiendas."
+    ],
     "excludesProducts": "Achuras y Embutidos, Aves, Carnes, Cerdos, Carne envasada al vacío, Carne pre-empaquetada, Carne vacuna fresca",
     "paymentMethods": [
       [
@@ -552,7 +551,7 @@
       "Domingo"
     ],
     "restrictions": [
-      "No aplica para clientes en mora o inhabilitados."
+      "No aplica para clientes en mora o inhabilitados"
     ],
     "onlyForProducts": "Vajilla (Platos, bowls, tazas)",
     "paymentMethods": [
@@ -597,7 +596,7 @@
       "Domingo"
     ],
     "restrictions": [
-      "No aplica para clientes en mora o inhabilitados."
+      "No aplica para clientes en mora o inhabilitados"
     ],
     "onlyForProducts": "Herramientas eléctricas, Artículos de cama",
     "paymentMethods": [
@@ -642,7 +641,7 @@
       "Domingo"
     ],
     "restrictions": [
-      "No aplica para clientes en mora o inhabilitados."
+      "No aplica para clientes en mora o inhabilitados"
     ],
     "onlyForProducts": "Televisores, Rodados, Electro portátil",
     "paymentMethods": [
@@ -716,7 +715,10 @@
     ],
     "restrictions": [
       "Aplica a consumos de tipo familiar y efectuados en un pago.",
-      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online."
+      "El reintegro se verá reflejado en el primer o segundo resumen de la tarjeta de crédito Cabal o dentro de los 60 días en el caso de consumo con tarjeta de débito Cabal.",
+      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
+      "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
+      "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO."
     ],
     "paymentMethods": [
       [
@@ -796,9 +798,9 @@
     "validFrom": "2025-10-01",
     "validUntil": "2025-10-31",
     "restrictions": [
-      "Requiere completar formulario de registro y esperar hasta 72hs hábiles para la activación."
+      "Requiere completar formulario de registro y esperar hasta 72hs hábiles para la activación del beneficio."
     ],
-    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores y tinturas capilares, Cremas corporales, faciales y para manos, Desodorante para pies y talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Demaquillantes y quitaesmaltes, Talcos, Féculas y óleos para bebés, Jabón para la ropa en pan, líquido y en polvo",
+    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores y tinturas capilares, Cremas corporales, faciales y para manos, Desodorante para pies y talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Demaquillantes y quitaesmaltes, Talcos, Féculas y óleos para bebés, Jabón para la ropa en pan, líquido y en polvo.",
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": false,
