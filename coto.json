@@ -302,9 +302,6 @@
     },
     "validFrom": "2025-10-01",
     "validUntil": "2025-10-31",
-    "weekdays": [
-      "Miercoles"
-    ],
     "restrictions": [
       "Exclusivo para usuarios Selecta",
       "No válido para venta online (Coto Digital).",
@@ -376,13 +373,13 @@
       "type": "porcentaje",
       "value": 25
     },
-    "validFrom": "2025-10-14",
+    "validFrom": "2025-10-01",
     "validUntil": "2025-10-31",
     "weekdays": [
       "Martes"
     ],
     "restrictions": [],
-    "excludesProducts": "Electrodomésticos, Neumáticos, Productos de Bodegas Catena Zapata, Nicola Catena, Bodega Ernesto Catena (Alma Negra, Padillos, Animal, Enemigo y Gran Enemigo), Malbec DV Catena Botella por 1,5 L, Malbec La Rioja DV Catena, Malbec Salta DV Catena, Saint Felicien, Nicasia, Tilia, Bodega Leoncio Arizu (Luigi Bosca), Bodega La Rural (Rutini, Trumpeter, San Felipe y Cepa Tradicional Semillon/Malbec-Malbec/Tinto Blend), Chandon y Terrazas de los Andes (Latitud 33°, Castel, Altos del Plata, Valmont, Beltour, Cheval y Clos du Moulin), Bodega Norton (Lote Negro, Quorum VI, Privada Family Blend), Bodega Cadus Wines (Cadus), Casa Pirque (Altaland, La Posta, Luca, Aruma, Petit Caro, Malbec/Cabernet Franc Casa de Herrero, Malbec Ojo de Buen Cubero, Malbec/Cabernet Franc/Pinot Noir Cuchillo de Palo, Malbec Río de los Ciervos Araucana, Malbec Nico y Blend Beso de Dante Luca), Bodega Bianchi (Vino Chardonnay Reservado María Carmen, Vino Gran Corte Enzo Bianchi, Vinos Malbec y Cabernet Sauvignon Particular Bianchi), Bodega Valentín Bianchi (Vino Tinto Corte y Malbec IV Generación) Bodega Monteviejo (Festivo y Petite Fleur) ni Vinos en Tetrabrik ni Generosos. El descuento en Champañas y Espumantes no incluye productos de Bodegas Chandon, Mercier, Catena Zapata, Barón B, Dom Perignon, Pommery, Möet Chandon, La Grande Dame ni Krug. No incluye cortes de carnes de novillo, novillito, ternera, menudencias ni carnes elaboradas. No incluye pollo entero ni trozado, fresco ni congelado. No incluye leches infantiles etapas 1 y 2 (fluidas ni en polvo), ni Yerbas en todas sus presentaciones, ni Harinas en todas sus presentaciones, ni Azúcar en todas sus presentaciones, ni Aceite de Girasol y Mezcla Girasol-Soja en todas sus presentaciones. No incluye todas las presentaciones de las siguientes marcas: Coca Cola, Coca Cola Light, Coca Cola Sin Azúcar, Crush, Fanta, Fanta Sin Azúcar, Schweppes, Sprite, Sprite Sin Azúcar, Aquarius, Smartwater, Cepita, Benedictino, Powerade, Ades, Hi-C ni Monster.",
+    "excludesProducts": "Electrodomésticos, Neumáticos, Productos de bodegas Catena Zapata, Nicola Catena, Bodega Ernesto Catena (Alma Negra, Padillos, Animal, Enemigo y Gran Enemigo), Malbec DV Catena Botella por 1,5 L, Malbec La Rioja DV Catena, Malbec Salta DV Catena, Saint Felicien, Nicasia, Tilia, Bodega Leoncio Arizu (Luigi Bosca), Bodega La Rural (Rutini, Trumpeter, San Felipe y Cepa Tradicional Semillon/Malbec-Malbec/Tinto Blend), Chandon y Terrazas de los Andes (Latitud 33°, Castel, Altos del Plata, Valmont, Beltour, Cheval y Clos du Moulin), Bodega Norton (Lote Negro, Quorum VI, Privada Family Blend), Bodega Cadus Wines (Cadus), Casa Pirque (Altaland, La Posta, Luca, Aruma, Petit Caro, Malbec/Cabernet Franc Casa de Herrero, Malbec Ojo de Buen Cubero, Malbec/Cabernet Franc/Pinot Noir Cuchillo de Palo, Malbec Río de los Ciervos Araucana, Malbec Nico y Blend Beso de Dante Luca), Bodega Bianchi (Vino Chardonnay Reservado María Carmen, Vino Gran Corte Enzo Bianchi, Vinos Malbec y Cabernet Sauvignon Particular Bianchi), Bodega Valentín Bianchi (Vino Tinto Corte y Malbec IV Generación) Bodega Monteviejo (Festivo y Petite Fleur) ni Vinos en TetraBrik ni Generosos, Productos de bodegas Chandon, Mercier, Catena Zapata, Barón B, Dom Perignon, Pommery, Möet Chandon, La Grande Dame ni Krug, Cortes de carnes de novillo, novillito, ternera, menudencias ni carnes elaboradas, Pollo entero ni trozado, fresco ni congelado, Leches infantiles Etapas 1 y 2 (fluidas ni en polvo), Yerbas en todas sus presentaciones, Harinas en todas sus presentaciones, Azúcar en todas sus presentaciones, Aceite de Girasol y mezcla Girasol-Soja en todas sus presentaciones, Coca Cola, Coca Cola Light, Coca Cola Sin Azúcar, Crush, Fanta, Fanta Sin Azúcar, Schweppes, Sprite, Sprite Sin Azúcar, Aquarius, Smartwater, Cepita, Benedictino, Powerade, Ades, Hi-C ni Monster",
     "paymentMethods": [
       [
         "Banco Supervielle",
@@ -397,6 +394,11 @@
         "Tarjeta de débito VISA"
       ]
     ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": false
+    },
     "unknownPaymentMethods": [],
     "limits": {
       "explicitlyHasNoLimit": true
@@ -483,12 +485,6 @@
       "Jueves"
     ],
     "restrictions": [],
-    "excludesProducts": "Electrodomésticos, Neumáticos ni Rodados, Productos de bodegas Catena Zapata, Nicola Catena, Bodega Ernesto Catena (Alma Negra, Padillos, Animal, Enemigo y Gran Enemigo), Malbec DV Catena BOT X 1,5LT, Malbec La Rioja DV Catena, Malbec Salta DV Catena, Saint Felicien, Nicasia, Tilia, Bodega Leoncio Arizu (Luigi Bosca), Bodega La Rural (Rutini, Trumpeter, San Felipe y Cepa Tradicional Semillon/Malbec-Malbec/Tinto Blend), Chandon y Terrazas de los Andes (Latitud 33°, Castel, Altos del Plata, Valmont, Beltour, Cheval y Clos du Moulin), Bodega Norton (Lote Negro, Quorum VI, Privada Family Blend), Bodega Cadus Wines (Cadus), Casa Pirque (Altaland, La Posta, Luca, Aruma, Petit Caro, Malbec/Cabernet Franc Casa de Herrero, Malbec Ojo de Buen Cubero, Malbec/Cabernet Franc/Pinot Noir Cuchillo de Palo, Malbec Río de los Ciervos Araucana, Malbec Nico y Blend Beso de Dante Luca), Bodega Bianchi (Vino Chardonnay Reservado María Carmen, Vino Gran Corte Enzo Bianchi, Vinos Malbec y Cabernet Sauvignon Particular Bianchi), Bodega Valentín Bianchi (Vino Tinto Corte y Malbec IV Generación), Bodega Monteviejo (Festivo y Petite Fleur) ni Vinos en TetraBrik ni Generosos. El descuento en Champañas y Espumantes no incluye productos de bodegas Chandon, Mercier, Catena Zapata, Barón B, Dom Perignon, Pommery, Möet Chandon, La Grande Dame ni Krug. No incluye cortes de carnes de novillo, novillito, ternera, menudencias ni carnes elaboradas. No incluye pollo entero ni trozado, fresco ni congelado. No incluye leches infantiles etapas 1 y 2 (fluídas ni en polvo), ni harinas en todas sus presentaciones, ni azúcar en todas sus presentaciones, ni aceite de girasol y mezcla girasol-soja en todas sus presentaciones. No incluye todas las presentaciones de las siguientes marcas: Coca Cola, Coca Cola Light, Coca Cola Sin Azúcar, Crush, Fanta, Fanta Sin Azúcar, Schweppes, Sprite y Sprite Sin Azúcar Aquarius, Smartwater, Cepita, Benedictino, Powerade, Ades, Hi-C ni Monster.",
-    "paymentMethods": [
-      [
-        "Tarjeta American Express"
-      ]
-    ],
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": false,
@@ -633,14 +629,13 @@
     },
     "validFrom": "2025-10-01",
     "validUntil": "2025-10-31",
-    "weekdays": [
-      "Lunes"
-    ],
     "restrictions": [
-      "Exclusivo Jubilados que perciban sus haberes en el banco"
+      "Exclusivo Jubilados que perciban sus haberes en el banco",
+      "Tope de reintegro $20.000 mensual."
     ],
     "paymentMethods": [
       [
+        "Banco Santander - Jubilados",
         "Tarjeta de débito VISA"
       ]
     ],
