@@ -39,8 +39,8 @@
     "validFrom": "2024-01-01",
     "validUntil": "2024-01-31",
     "restrictions": [
-      "Primer pago con Mercado Crédito",
-      "Primer pago con Dinero en Cuenta"
+      "Primer pago con Dinero en Cuenta y Mercado Crédito",
+      "Primer pago con Mercado Crédito en Supermercados DIA"
     ],
     "paymentMethods": [
       [
@@ -1547,6 +1547,7 @@
       "Jueves"
     ],
     "restrictions": [
+      "Válido para cartera consumo",
       "No aplica para pagos en cuotas"
     ],
     "paymentMethods": [
@@ -1561,6 +1562,11 @@
         "Tarjeta de crédito Mastercard"
       ]
     ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
     "unknownPaymentMethods": [],
     "limits": {
       "maxDiscount": 16000,
