@@ -10,11 +10,10 @@
       "Martes"
     ],
     "restrictions": [
-      "No acumulable con cartera de clientes que acrediten planes sociales",
-      "No acumulable con otras promociones",
-      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de extra cash",
-      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)",
-      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago"
+      "No acumulable con otras promociones, ni cartera de clientes que acrediten planes sociales.",
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de EXTRA, CASH.",
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS MÓVIL, BOTÓN DE PAGO Y BILLETERA ELECTRÓNICA).",
+      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago."
     ],
     "paymentMethods": [
       [
@@ -55,11 +54,10 @@
       "Martes"
     ],
     "restrictions": [
-      "No acumulable con cartera de clientes que acrediten planes sociales",
-      "No acumulable con otras promociones",
-      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de extra cash",
-      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)",
-      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago"
+      "No acumulable con otras promociones, ni cartera de clientes que acrediten planes sociales.",
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de EXTRA, CASH.",
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS MÓVIL, BOTÓN DE PAGO Y BILLETERA ELECTRÓNICA).",
+      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago."
     ],
     "paymentMethods": [
       [
@@ -102,9 +100,8 @@
     "restrictions": [
       "No acumulable con otras promociones",
       "No aplica a cartera de clientes que acrediten planes sociales",
-      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
-      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)",
-      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago"
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de EXTRA CASH",
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
     ],
     "paymentMethods": [
       [
@@ -147,9 +144,8 @@
     "restrictions": [
       "No acumulable con otras promociones",
       "No aplica a cartera de clientes que acrediten planes sociales",
-      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
-      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)",
-      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago"
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de EXTRA CASH",
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
     ],
     "paymentMethods": [
       [
@@ -170,7 +166,7 @@
     },
     "unknownPaymentMethods": [],
     "limits": {
-      "maxDiscount": 20000,
+      "maxDiscount": 30000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -190,8 +186,9 @@
       "Miercoles"
     ],
     "restrictions": [
-      "Exclusivo cartera de consumo",
-      "No válido para pagos con saldo en cuenta"
+      "Exclusivo cartera de consumo.",
+      "No válido para pagos con saldo en cuenta.",
+      "Tope de reintegro $10.000 por cuenta aplicable a la primera compra por miércoles."
     ],
     "paymentMethods": [
       [
@@ -233,8 +230,9 @@
     ],
     "restrictions": [
       "No acumula con otra promoción",
-      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0",
-      "No válido para Tarjeta de crédito Empresa o Agro",
+      "No aplica para compra en cuotas",
+      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0",
+      "No válido Tarjeta de Crédito Empresa o Agro",
       "No válido para compra telefónica ni compra online"
     ],
     "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
@@ -277,19 +275,23 @@
       "Miercoles"
     ],
     "restrictions": [
-      "No acumula con otra promoción",
-      "No aplica para compra en cuotas",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0",
-      "No válido Tarjeta de Crédito Empresa o Agro",
-      "No válido para compra telefónica ni compra online",
-      "Para clientes/usuarios registrados en MODO"
+      "No acumula con otra promoción.",
+      "No aplica para compra en cuotas.",
+      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0.",
+      "No válido Tarjeta de Crédito Empresa o Agro.",
+      "No válido para compra telefónica ni compra online."
     ],
     "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
         "Banco Macro",
-        "Banco Macro - Tarjeta PLATINUM",
-        "MODO"
+        "MODO",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Macro",
+        "MODO",
+        "Tarjeta de crédito VISA"
       ]
     ],
     "paymentRails": {
@@ -321,7 +323,7 @@
     "restrictions": [
       "No acumula con otra promoción",
       "No aplica para compra en cuotas",
-      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0",
+      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0",
       "No válido para compra telefónica ni compra online",
       "No válido tarjeta de crédito empresa o agro"
     ],
@@ -365,10 +367,8 @@
       "Jueves"
     ],
     "restrictions": [
-      "Aplica a consumos efectuados en un pago.",
-      "El reintegro se verá reflejado en el primer o segundo resumen de la tarjeta de crédito Cabal o dentro de los 60 días en el caso de consumo con tarjeta de débito Cabal.",
+      "Aplica a consumos de tipo familiar y efectuados en un pago.",
       "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
-      "Promoción válida únicamente en QR de MODO abonando a través de Credicoop Móvil o MODO con tarjetas Cabal Credicoop.",
       "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
       "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO."
     ],
@@ -411,9 +411,11 @@
       "Jueves"
     ],
     "restrictions": [
-      "Aplica a consumos efectuados en un pago",
-      "Tener una cuenta abierta en el banco, a título personal, adherida a MODO",
-      "Tope máximo por usuario/a por semana para quienes cobran haberes en el banco"
+      "Aplica a consumos de tipo familiar y efectuados en un pago.",
+      "Aplicable a la cartera de consumo.",
+      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
+      "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
+      "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO."
     ],
     "paymentMethods": [
       [
@@ -458,7 +460,8 @@
     ],
     "paymentMethods": [
       [
-        "Cencopay"
+        "Cencopay",
+        "Tarjeta de crédito Cencosud Mastercard"
       ]
     ],
     "paymentRails": {
@@ -484,10 +487,8 @@
     },
     "validFrom": "2025-10-01",
     "validUntil": "2025-10-31",
-    "restrictions": [
-      "Requiere inscripción previa en Club +Simple"
-    ],
-    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores y tinturas capilares, Cremas corporales, faciales y para manos, Desodorante para pies y talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Desmaquillantes y quitaesmaltes, Talcos, féculas y óleos para bebés, Jabón para la ropa en pan, líquido y en polvo",
+    "restrictions": [],
+    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores y tinturas capilares, Cremas corporales, faciales y para manos, Desodorante para pies y talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Demaquillantes y quitaesmaltes, Talcos, Féculas y oleos para bebés, Jabón para la ropa en pan, líquido y en polvo",
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": false,
@@ -551,12 +552,17 @@
       "Domingo"
     ],
     "restrictions": [
-      "No aplica para clientes en mora o inhabilitados"
+      "No aplica para clientes en mora o inhabilitados."
     ],
     "onlyForProducts": "Vajilla (Platos, bowls, tazas)",
     "paymentMethods": [
       [
-        "Cencopay"
+        "Cencopay",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Cencopay",
+        "Tarjeta de crédito VISA"
       ]
     ],
     "paymentRails": {
@@ -591,12 +597,17 @@
       "Domingo"
     ],
     "restrictions": [
-      "No aplica para clientes en mora o inhabilitados"
+      "No aplica para clientes en mora o inhabilitados."
     ],
-    "onlyForProducts": "Herramientas electricas, Articulos de cama",
+    "onlyForProducts": "Herramientas eléctricas, Artículos de cama",
     "paymentMethods": [
       [
-        "Cencopay"
+        "Cencopay",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Cencopay",
+        "Tarjeta de crédito VISA"
       ]
     ],
     "paymentRails": {
@@ -631,12 +642,17 @@
       "Domingo"
     ],
     "restrictions": [
-      "No aplica para clientes en mora o inhabilitados"
+      "No aplica para clientes en mora o inhabilitados."
     ],
-    "onlyForProducts": "Televisores, Rodados, Electro portatil",
+    "onlyForProducts": "Televisores, Rodados, Electro portátil",
     "paymentMethods": [
       [
-        "Cencopay"
+        "Cencopay",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Cencopay",
+        "Tarjeta de crédito VISA"
       ]
     ],
     "paymentRails": {
@@ -700,9 +716,7 @@
     ],
     "restrictions": [
       "Aplica a consumos de tipo familiar y efectuados en un pago.",
-      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
-      "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
-      "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO."
+      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online."
     ],
     "paymentMethods": [
       [
@@ -744,10 +758,7 @@
     ],
     "restrictions": [
       "Aplica a consumos de tipo familiar y efectuados en un pago.",
-      "El reintegro se verá reflejado en el primer o segundo resumen de la tarjeta de crédito Cabal o dentro de los 60 días en el caso de consumo con tarjeta de débito Cabal.",
-      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
-      "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
-      "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO."
+      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online."
     ],
     "paymentMethods": [
       [
@@ -785,7 +796,7 @@
     "validFrom": "2025-10-01",
     "validUntil": "2025-10-31",
     "restrictions": [
-      "Requiere completar formulario de registro y esperar confirmación."
+      "Requiere completar formulario de registro y esperar hasta 72hs hábiles para la activación."
     ],
     "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores y tinturas capilares, Cremas corporales, faciales y para manos, Desodorante para pies y talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Demaquillantes y quitaesmaltes, Talcos, Féculas y óleos para bebés, Jabón para la ropa en pan, líquido y en polvo",
     "unknownPaymentMethods": [],
