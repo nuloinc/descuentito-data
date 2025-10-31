@@ -2,6 +2,89 @@
   {
     "discount": {
       "type": "porcentaje",
+      "value": 30
+    },
+    "validFrom": "2025-07-01",
+    "validUntil": "2025-10-31",
+    "weekdays": [
+      "Miercoles"
+    ],
+    "restrictions": [
+      "Válido únicamente para pagos en una cuota.",
+      "No válido para pagos con saldo en cuenta.",
+      "Exclusivo cartera de consumo.",
+      "Excluye versiones corporativas.",
+      "Para compras presenciales o compras online con pago en tienda, el reintegro se verá reflejado en la cuenta titular asociada a BNA+ dentro de los 30 días de ocurrida la transacción.",
+      "Para compras abonadas en la web el reintegro se realizará en el resumen de la tarjeta utilizada dentro de los 60 días."
+    ],
+    "excludesProducts": "Electro",
+    "paymentMethods": [
+      [
+        "Banco Nación",
+        "MODO",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Nación",
+        "MODO",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 12000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "ChangoMas",
+      "Online"
+    ],
+    "url": "https://www.masonline.com.ar/promociones-bancarias?banco=Todas",
+    "source": "changomas"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 15
+    },
+    "validFrom": "2025-10-28",
+    "validUntil": "2025-10-28",
+    "weekdays": [
+      "Martes"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones vigentes y/o productos en liquidación."
+    ],
+    "excludesProducts": "Carnes Vacunas, Pollo, Cerdo, Frutas y Verduras, Elaborados, Embutidos, Huevos, Mantecas, Leches Fluidas y en Polvo, Quesos, Cremas, Dulce de Leche y Mantecas de las marcas Armonía, Casanto, Garcia, Finlandia y La Serenísima, Bebidas Blancas, Vinos, Espumantes, Cervezas y Gaseosas de Cervecería y Maltería Quilmes (Stella Artois, Budweiser, Corona, Quilmes, Brahma, Michelob, Patagonia, Eazy, Goose Island, Andes, Temple, Pepsi, Seven Up, Paso de los Toros, Gatorade, Glaciar, Eco de los Andes, H20, Aguas Nestlé, Awafruit, Mirinda, Red Bull, Rockstar), Línea Coca Cola (Original, Light, Zero Sin Azucar, Sabor Liviano) / Fanta / Sprite (Original, Sin Azúcar) / Schweppes / Powerade / Cepita / Ades / Aquarius / Benedictino / Bonaqua / Smart Water / Monster / Crush, Aceite Comestibles, Yerbas, Harinas, Pastas Secas, Azúcar, Electronicos, Electrodomesticos, Climatizacion, Linea Blanca, Servicios de Automotor, Farmacia Recetados, Informática, Celulares",
+    "paymentMethods": [
+      [
+        "Mercado Pago"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "ChangoMas",
+      "Online"
+    ],
+    "url": "https://www.masonline.com.ar/promociones-bancarias?banco=Todas",
+    "source": "changomas"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
       "value": 15
     },
     "validFrom": "2025-10-01",
@@ -10,9 +93,10 @@
       "Viernes"
     ],
     "restrictions": [
-      "No aplica para pagos con billeteras virtuales y/o app bancarias."
+      "No acumulable con otras promociones vigentes y/o productos en liquidación.",
+      "Solo para consumo familiar."
     ],
-    "excludesProducts": "Carnes vacunas, pollo, cerdo, frutas y verduras, elaborados, embutidos, huevos, mantecas, leches fluidas y en polvo, quesos, cremas, dulce de leche y mantecas de las marcas Armonía, Casanto, Garcia, Finlandia y La Serenísima, bebidas blancas, vinos, espumantes, cervezas y gaseosas de Cerveceria y Malteria Quilmes (Stella Artois, Budweiser, Corona, Quilmes, Brahma, Michelob, Patagonia, Eazy, Goose Island, Andes, Temple, Pepsi, Seven Up, Paso de los Toros, Gatorade, Glaciar, Eco de los Andes, H20, Aguas Nestlé, Awafruit, Mirinda, Red Bull, Rockstar), linea Coca Cola (Original, Light, Zero sin azucar, sabor liviano) / Fanta / Sprite (Original, sin azúcar) / Schweppes / Powerade / Cepita / Ades / Aquarius / Benedictino / Bonaqua / Smart Water / Monster / Crush, aceite comestibles, yerbas, harinas, pastas secas, mantecas, leches fluidas y en polvo, todos los productos de las marcas Casanto, Garcia, Finlandia, La Serenísima, Yogurisimo, Actimel, Danonino, Gran Compra, Activia, Cindor, Silk, Ser, Danette y Serenito, azúcar, electronicos, electrodomesticos, climatizacion, linea blanca, servicios de automotor, farmacia recetados, informática, celulares.",
+    "excludesProducts": "Carnes vacunas, pollo, cerdo, frutas y verduras, elaborados, embutidos, huevos, mantecas, leches fluidas y en polvo, quesos, cremas, dulce de leche y mantecas de las marcas Armonía, Casanto, Garcia, Finlandia y La Serenísima, bebidas blancas, vinos, espumantes, cervezas y gaseosas de \"Cerveceria y Malteria Quilmes\" (Stella Artois, Budweiser, Corona, Quilmes, Brahma, Michelob, Patagonia, Eazy, Goose Island, Andes, Temple, Pepsi, Seven Up, Paso de los Toros, Gatorade, Glaciar, Eco de los Andes, H20, Aguas Nestlé, Awafruit, Mirinda, Red Bull, Rockstar), linea Coca Cola (Original, Light, Zero sin azucar, sabor liviano) / Fanta / Sprite (Original, sin azúcar) / Schweppes / Powerade / Cepita / Ades / Aquarius / Benedictino / Bonaqua / Smart Water / Monster / Crush, aceite comestibles, yerbas, harinas, pastas secas, mantecas, leches fluidas y en polvo, todos los productos de las marcas Casanto, Garcia, Finlandia, La Serenísima, Yogurisimo, Actimel, Danonino, Gran Compra, Activia, Cindor, Silk, Ser, Danette y Serenito, azúcar, electronicos, electrodomesticos, climatizacion, linea blanca, servicios de automotor, farmacia recetados, informática, celulares",
     "paymentMethods": [
       [
         "Tarjeta de débito VISA"
@@ -43,52 +127,6 @@
   {
     "discount": {
       "type": "porcentaje",
-      "value": 30
-    },
-    "validFrom": "2025-07-01",
-    "validUntil": "2025-10-31",
-    "weekdays": [
-      "Miercoles"
-    ],
-    "restrictions": [
-      "Válido únicamente para pagos en una cuota.",
-      "No válido para pagos con saldo en cuenta.",
-      "Excluye versiones corporativas.",
-      "Excluye pagos con otros QR o billeteras virtuales."
-    ],
-    "excludesProducts": "Electro",
-    "paymentMethods": [
-      [
-        "MODO",
-        "Banco Nación",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "MODO",
-        "Banco Nación",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": true,
-      "telefonoContactless": false,
-      "contactless": false
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 12000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "ChangoMas",
-      "Online"
-    ],
-    "url": "https://www.masonline.com.ar/promociones-bancarias?banco=Todas",
-    "source": "changomas"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
       "value": 15
     },
     "validFrom": "2025-10-06",
@@ -98,12 +136,10 @@
       "Miercoles"
     ],
     "restrictions": [
-      "Promoción exclusiva para socios de MasClub.",
-      "No acumulable con otras promociones.",
       "Exclusivo para consumidores finales.",
-      "Para acceder al beneficio deberás informar en línea de cajas que estás adherido al programa de beneficios MasClub y brindar tu número de DNI, el descuento se hará efectivo en el momento."
+      "Para acceder al beneficio deberás informar en línea de cajas que estás adherido al programa de beneficios MâsClub y brindar tu número de DNI, el descuento se hará efectivo en el momento."
     ],
-    "excludesProducts": "carnes vacunas, pollo, cerdo, elaborados, embutidos, frutas y verduras, huevos, Leches fluidas y en polvo, quesos, cremas, dulce de leche y mantecas de las marcas: Armonía, Casanto, Garcia, Finlandia y La Serenísima. Yogures Yogurisimo, Actimel, Danonino, Gran Compra, Activia, Cindor, Silk, Ser, Danette y Serenito. Aceites comestibles, yerbas, harinas, pastas secas, azúcares. Bebidas blancas, vinos, espumantes, cervezas y gaseosas de “Cerveceria y Malteria Quilmes” (Stella Artois, Budweiser, Corona, Quilmes, Brahma, Michelob, Patagonia, Eazy, Goose Island, Andes, Temple, Pepsi, Seven Up, Paso de los Toros, Gatorade, Glaciar, Eco de los Andes, H20, aguas Nestlé, Awafrut, Mirinda, Red Bull, Rockstar), línea Coca Cola (original, light, zero sin azucar, sabor liviano), Fanta, Sprite (original, sin azúcar), Schweppes, Powerade, Cepita, Ades, Aquarius, Benedictino, Bonaqua, Smart Water, Monster, Crush. Electrodomésticos y electrónicos, informática, celulares y climatización, línea blanca, baterías y neumáticos.",
+    "excludesProducts": "Carnes vacunas, pollo, cerdo, elaborados, embutidos, frutas y verduras, huevos. Leches fluidas y en polvo, quesos, cremas, dulce de leche y mantecas de las marcas: Armonía, Casanto, Garcia, Finlandia y La Serenísima. Yogures Yogurisimo, Actimel, Danonino, Gran Compra, Activia, Cindor, Silk, Ser, Danette y Serenito. Aceites comestibles, yerbas, harinas, pastas secas, azúcares. Bebidas blancas, vinos, espumantes, cervezas y gaseosas de “Cerveceria y Malteria Quilmes” (Stella Artois, Budweiser, Corona, Quilmes, Brahma, Michelob, Patagonia, Eazy, Goose Island, Andes, Temple, Pepsi, Seven Up, Paso de los Toros, Gatorade, Glaciar, Eco de los Andes, H20, aguas Nestlé, Awafrut, Mirinda, Red Bull, Rockstar), línea Coca Cola (original, light, zero sin azucar, sabor liviano), Fanta, Sprite (original, sin azúcar), Schweppes, Powerade, Cepita, Ades, Aquarius, Benedictino, Bonaqua, Smart Water, Monster, Crush. Electrodomésticos y electrónicos, informática, celulares y climatización, línea blanca, baterías y neumáticos.",
     "unknownPaymentMethods": [],
     "limits": {
       "explicitlyHasNoLimit": true
@@ -129,8 +165,7 @@
       "Jueves"
     ],
     "restrictions": [
-      "Promoción exclusiva para socios de masclub.",
-      "No acumulable con otras promociones."
+      "Exclusivo para consumidores finales."
     ],
     "excludesProducts": "Carnes vacunas, pollo, cerdo, elaborados, embutidos, frutas y verduras, huevos. Leches fluidas y en polvo, quesos, cremas, dulce de leche y mantecas de las marcas: Armonía, Casanto, Garcia, Finlandia y La Serenísima. Yogures Yogurisimo, Actimel, Danonino, Gran Compra, Activia, Cindor, Silk, Ser, Danette y Serenito. Aceites comestibles, yerbas, harinas, pastas secas, azúcares. Bebidas blancas, vinos, espumantes, cervezas y gaseosas de “Cerveceria y Malteria Quilmes” (Stella Artois, Budweiser, Corona, Quilmes, Brahma, Michelob, Patagonia, Eazy, Goose Island, Andes, Temple, Pepsi, Seven Up, Paso de los Toros, Gatorade, Glaciar, Eco de los Andes, H20, aguas Nestlé, Awafrut, Mirinda, Red Bull, Rockstar), línea Coca Cola (original, light, zero sin azucar, sabor liviano), Fanta, Sprite (original, sin azúcar), Schweppes, Powerade, Cepita, Ades, Aquarius, Benedictino, Bonaqua, Smart Water, Monster, Crush. Electrodomésticos y electrónicos, informática, celulares y climatización, línea blanca baterías y neumáticos.",
     "unknownPaymentMethods": [],
@@ -151,54 +186,17 @@
       "type": "porcentaje",
       "value": 20
     },
-    "validFrom": "2025-10-18",
-    "validUntil": "2025-10-19",
-    "weekdays": [
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No acumulable con otras promociones vigentes y/o productos en liquidación."
-    ],
-    "excludesProducts": "Carnes vacunas, pollo, cerdo, frutas y verduras, elaborados, embutidos, huevos, mantecas, leches fluidas y en polvo, quesos, cremas, dulce de leche y mantecas de las marcas Armonía, Casanto, Garcia, Finlandia y La Serenísima, bebidas blancas, vinos, espumantes, cervezas y gaseosas de Cerveceria y Malteria Quilmes (Stella Artois, Budweiser, Corona, Quilmes, Brahma, Michelob, Patagonia, Eazy, Goose Island, Andes, Temple, Pepsi, Seven Up, Paso de los Toros, Gatorade, Glaciar, Eco de los Andes, H20, Aguas Nestlé, Awafruit, Mirinda, Red Bull, Rockstar), linea Coca Cola (Original, Light, Zero sin azucar, Sabor Liviano) / Fanta / Sprite (Original, sin azúcar) / Schweppes / Powerade / Cepita / Ades / Aquarius / Benedictino / Bonaqua / Smart Water / Monster / Crush, aceite comestibles, yerbas, harinas, pastas secas, mantecas, leches fluidas y en polvo, todos los productos de las marcas Casanto, Garcia, Finlandia, La Serenísima, Yogurisimo, Actimel, Danonino, Gran Compra, Activia, Cindor, Silk, Ser, Danette y Serenito, azúcar, electronicos, electrodomesticos, climatizacion, linea blanca, servicios de automotor, farmacia recetados, informática, celulares.",
-    "paymentMethods": [
-      [
-        "Mercado Pago"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": true,
-      "telefonoContactless": false,
-      "contactless": false
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "ChangoMas",
-      "Online"
-    ],
-    "url": "https://www.masonline.com.ar/promociones-bancarias?banco=Todas",
-    "source": "changomas"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2025-10-16",
-    "validUntil": "2025-10-18",
+    "validFrom": "2025-10-30",
+    "validUntil": "2025-11-01",
     "weekdays": [
       "Jueves",
       "Viernes",
       "Sabado"
     ],
     "restrictions": [
-      "Beneficio no válido para cajas de autocobro.",
-      "No acumulable con otras promociones vigentes y/o productos en liquidación."
+      "No acumulable con otras promociones y/o productos en liquidación."
     ],
-    "excludesProducts": "Carnes vacunas, pollo, cerdo, frutas y verduras, elaborados, embutidos, huevos, mantecas, leches fluidas y en polvo, quesos, cremas, dulce de leche y mantecas de las marcas Armonía, Casanto, Garcia, Finlandia y La Serenísima, bebidas blancas, vinos, espumantes, cervezas y gaseosas de \"Cervecería y Maltería Quilmes\" (Stella Artois, Budweiser, Corona, Quilmes, Brahma, Michelob, Patagonia, Eazy, Goose Island, Andes, Temple, Pepsi, Seven Up, Paso de los Toros, Gatorade, Glaciar, Eco de los Andes, H20, Aguas Nestlé, Awafruit, Mirinda, Red Bull, Rockstar), línea Coca Cola (Original, Light, Zero sin azúcar, sabor liviano) / Fanta / Sprite (Original, sin azúcar) / Schweppes / Powerade / Cepita / Ades / Aquarius / Benedictino / Bonaqua / Smart Water / Monster / Crush, aceite comestibles, yerbas, harinas, pastas secas, mantecas, leches fluidas y en polvo, todos los productos de las marcas Casanto, Garcia, Finlandia, La Serenísima, Yogurisimo, Actimel, Danonino, Gran Compra, Activia, Cindor, Silk, Ser, Danette y Serenito, azúcar, electrónicos, electrodomésticos, climatización, línea blanca, servicios de automotor, farmacia recetados, informática, celulares.",
+    "excludesProducts": "Carnes vacunas, pollo, cerdo, frutas y verduras, elaborados, embutidos, huevos, mantecas, leches fluidas y en polvo, quesos, cremas, dulce de leche y mantecas de las marcas Armonía, Casanto, García, Finlandia y La Serenísima. Bebidas blancas, vinos, espumantes, cervezas y gaseosas de Cervecería y Maltería Quilmes (Stella Artois, Budweiser, Corona, Quilmes, Brahma, Michelob, Patagonia, Eazy, Goose Island, Andes, Temple, Pepsi, Seven Up, Paso de los Toros, Gatorade, Glaciar, Eco de los Andes, H2O, Aguas Nestlé, Awafrut, Mirinda, Red Bull y Rockstar), ni productos de la línea Coca-Cola (Coca-Cola Original, Light, Zero Sin Azúcar, Sabor Liviano, Fanta, Sprite Original y Sin Azúcar, Schweppes, Powerade, Cepita, Ades, Aquarius, Benedictino, Bonaqua, Smart Water, Monster y Crush). Aceites comestibles, yerbas, harinas, pastas secas, azúcar, electrónicos, electrodomésticos, climatización, línea blanca, servicios de automotor, farmacia (productos recetados), informática y celulares. Productos de las marcas Casanto, García, Finlandia, La Serenísima, Yogurísimo, Actimel, Danonino, Gran Compra, Activia, Cindor, Silk, Ser, Danette y Serenito.",
     "paymentMethods": [
       [
         "Cuenta DNI"
@@ -225,23 +223,22 @@
       "Miercoles"
     ],
     "restrictions": [
-      "No aplica para compra en cuotas",
-      "Aplica para consumo personal-familiar",
-      "No válido Tarjeta de crédito Empresa o Agro",
-      "No acumula con otra promoción",
-      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0"
+      "Aplica para consumo personal/familiar",
+      "No válido para tarjeta de crédito Empresa o Agro",
+      "No acumula con otras promociones",
+      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0"
     ],
-    "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
+    "excludesProducts": "Electro, Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
-        "Banco Macro",
-        "Tarjeta de crédito VISA",
-        "MODO"
+        "MODO",
+        "Banco Macro - Tarjeta Selecta",
+        "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Macro",
-        "Tarjeta de crédito Mastercard",
-        "MODO"
+        "MODO",
+        "Banco Macro - Tarjeta Selecta",
+        "Tarjeta de crédito Mastercard"
       ]
     ],
     "paymentRails": {
@@ -264,44 +261,6 @@
   {
     "discount": {
       "type": "porcentaje",
-      "value": 15
-    },
-    "validFrom": "2025-10-18",
-    "validUntil": "2025-10-19",
-    "weekdays": [
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "Beneficio no válido para compras realizadas con Naranja Visa, Naranja MasterCard, Naranja Amex, ni para transacciones realizadas en agrupadores y billeteras virtuales.",
-      "No incluye Punto Mayorista.",
-      "No acumulable con otras promociones vigentes y/o productos en liquidación."
-    ],
-    "excludesProducts": "Carnes Vacunas, Pollo, Cerdo, Frutas y Verduras, Elaborados, Embutidos, Huevos, Mantecas, Leches Fluidas y en Polvo, Quesos, Cremas, Dulce de Leche, Mantecas de las marcas Armonía, Casanto, Garcia, Finlandia y La Serenísima, Bebidas Blancas, Vinos, Espumantes, Cervezas y Gaseosas de Cerveceria y Malteria Quilmes (Stella Artois, Budweiser, Corona, Quilmes, Brahma, Michelob, Patagonia, Eazy, Goose Island, Andes, Temple, Pepsi, Seven Up, Paso de los Toros, Gatorade, Glaciar, Eco de los Andes, H20, Aguas Nestlé, Awafruit, Mirinda, Red Bull, Rockstar), Linea Coca Cola (Original, Light, Zero Sin Azucar, Sabor Liviano), Fanta, Sprite (Original, Sin Azúcar), Schweppes, Powerade, Cepita, Ades, Aquarius, Benedictino, Bonaqua, Smart Water, Monster, Crush, Aceite Comestibles, Yerbas, Harinas, Pastas Secas, Mantecas, Leches Fluidas y en Polvo, todos los productos de las marcas Casanto, Garcia, Finlandia, La Serenísima, Yogurisimo, Actimel, Danonino, Gran Compra, Activia, Cindor, Silk, Ser, Danette y Serenito, Azúcar, Electronicos, Electrodomesticos, Climatizacion, Linea Blanca, Servicios de Automotor, Farmacia Recetados, Informática, Celulares",
-    "paymentMethods": [
-      [
-        "NaranjaX",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "ChangoMas"
-    ],
-    "url": "https://www.masonline.com.ar/promociones-bancarias?banco=Todas",
-    "source": "changomas"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
       "value": 25
     },
     "validFrom": "2025-10-01",
@@ -310,12 +269,13 @@
       "Miercoles"
     ],
     "restrictions": [
+      "No incluye productos de electro",
+      "No incluye productos del convenio Precios Cuidados/Esenciales",
       "No aplica para compra en cuotas",
       "No válido tarjeta de crédito empresa o agro",
       "No acumula con otra promoción",
       "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0"
     ],
-    "excludesProducts": "Electro, Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
         "Banco Macro",
@@ -356,7 +316,8 @@
       "Jueves"
     ],
     "restrictions": [
-      "Máximo de 1 (una) transacción por usuario y por semana."
+      "Máximo de 1 (una) transacción por usuario y por semana.",
+      "El reintegro será aplicado en la billetera dentro de las 72hs de realizada la operación."
     ],
     "paymentMethods": [
       [
@@ -370,11 +331,6 @@
       "contactless": false
     },
     "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": false,
-      "jubilados": false,
-      "programaCiudadaniaPorteña": false
-    },
     "limits": {
       "maxDiscount": 6000,
       "explicitlyHasNoLimit": false
@@ -396,7 +352,8 @@
       "Jueves"
     ],
     "restrictions": [
-      "Máximo de 1 (una) transacción por usuario y por semana."
+      "Máximo de 1 (una) transacción por usuario y por semana.",
+      "El reintegro será aplicado en la billetera dentro de las 72hs de realizada la operación."
     ],
     "paymentMethods": [
       [
@@ -410,11 +367,6 @@
       "contactless": false
     },
     "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": false,
-      "jubilados": false,
-      "programaCiudadaniaPorteña": false
-    },
     "limits": {
       "maxDiscount": 8000,
       "explicitlyHasNoLimit": false
@@ -436,7 +388,8 @@
       "Jueves"
     ],
     "restrictions": [
-      "Máximo de 1 (una) transacción por usuario y por semana."
+      "Máximo de 1 (una) transacción por usuario y por semana.",
+      "El reintegro será aplicado en la billetera dentro de las 72hs de realizada la operación."
     ],
     "paymentMethods": [
       [
@@ -450,11 +403,6 @@
       "contactless": false
     },
     "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": false,
-      "jubilados": false,
-      "programaCiudadaniaPorteña": false
-    },
     "limits": {
       "maxDiscount": 12000,
       "explicitlyHasNoLimit": false
@@ -476,7 +424,8 @@
       "Jueves"
     ],
     "restrictions": [
-      "Máximo de 1 (una) transacción por usuario y por semana."
+      "Máximo de 1 (una) transacción por usuario y por semana.",
+      "El reintegro será aplicado en la billetera dentro de las 72hs de realizada la operación."
     ],
     "paymentMethods": [
       [
@@ -490,11 +439,6 @@
       "contactless": false
     },
     "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": false,
-      "jubilados": false,
-      "programaCiudadaniaPorteña": false
-    },
     "limits": {
       "maxDiscount": 15000,
       "explicitlyHasNoLimit": false
@@ -522,10 +466,11 @@
       "Domingo"
     ],
     "restrictions": [
+      "No acumulable con otras promociones vigentes.",
       "Solo disponible para compras en 1 (un) pago.",
       "Descuento personal e intransferible, para validar el descuento y acreditar que el cliente debe presentar el DNI, el mismo debe presentarse personalmente y exhibir su DNI."
     ],
-    "onlyForProducts": "CONSERVA DE TOMATES, PASTAS SECAS Y REFRIGERADAS, ARROZ, ADEREZOS, SALCHICHAS, LECHE UAT, CAFÉ, TÉ, ENDULZANTES, ALMACÉN SIN TACC, LECHE FRESCA, LECHES MATERNAS, CONSERVA DE VEGETALES, CACAO, SAL, CEREALES, DULCE DE LECHE, LECHES, VEGETALES, CONSERVAS DE PESCADOS, GALLETITAS DULCES, GALLETITAS SALADAS, HARINAS Y PREMEZCLAS, NUTRICIÓN INFANTIL, LECHE EN POLVO, JUGOS (Excepto refrigerados), CULINARIOS (Caldos, Sopas y deshidratados), SALSAS LISTAS, HORNEABLES Y GELIFICABLES, MANTECA, MARGARINA, SNACKS, AGUAS SABORIZADAS, AMARGOS, GASEOSAS, AGUAS PLENAS, DULCES SÓLIDOS, QUESOS AL PESO (Blandos, Semiduros y Duros), MILANESAS VEGETALES, PAPAS CONGELADAS, FIAMBRES FETEADOS, FIAMBRES EN MINI PIEZA, GRASA REFRIGERADA, VEGETALES, CONGELADOS, PREFRITOS CONGELADOS, PIZZAS CONGELADAS, LEVADURA, HAMBURGUESAS Y MEDALLONES, TAPAS REFRIGERADAS, LEGUMBRES Y GRANOS SECOS, JABONES DE TOCADOR, DESODORANTES, HIGIENE DEL BEBÉ, CUIDADO DEL CABELLO, CUIDADO ORAL, HIGIENE FEMENINA, PAPELES HIGIÉNICOS, ROLLO DE COCINA, TOALLITAS HÚMEDAS",
+    "onlyForProducts": "CONSERVA DE TOMATES, PASTAS SECAS Y REFRIGERADAS, ARROZ, ADEREZOS, SALCHICHAS, LECHE UAT, CAFÉ, TÉ, ENDULZANTES, ALMACÉN SIN TACC, LECHE FRESCA, LECHES MATERNAS, CONSERVA DE VEGETALES, CACAO, SAL, CEREALES, DULCE DE LECHE, LECHES, VEGETALES, CONSERVAS DE PESCADOS, GALLETITAS DULCES, GALLETITAS SALADAS, HARINAS Y PREMEZCLAS, NUTRICIÓN INFANTIL, LECHE EN POLVO, JUGOS (Excepto refrigerados), CULINARIOS (Caldos, Sopas y deshidratados), SALSAS LISTAS, HORNEABLES Y GELIFICABLES, MANTECA, MARGARINA, SNACKS, AGUAS SABORIZADAS, AMARGOS, GASEOSAS, AGUAS PLENAS, DULCES SÓLIDOS, QUESOS AL PESO (Blandos, Semiduros y Duros), MILANESAS VEGETALES, PAPAS CONGELADAS, FIAMBRES FETEADOS, FIAMBRES EN MINI PIEZA, GRASA REFRIGERADA, VEGETALES CONGELADOS, PREFRITOS CONGELADOS, PIZZAS CONGELADAS, LEVADURA, HAMBURGUESAS Y MEDALLONES, TAPAS REFRIGERADAS, LEGUMBRES Y GRANOS SECOS, JABONES DE TOCADOR, DESODORANTES, HIGIENE DEL BEBÉ, CUIDADO DEL CABELLO, CUIDADO ORAL, HIGIENE FEMENINA, PAPELES HIGIÉNICOS, ROLLO DE COCINA, TOALLITAS HÚMEDAS",
     "paymentMethods": [],
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
@@ -555,19 +500,24 @@
       "Miercoles"
     ],
     "restrictions": [
-      "No aplica para compra en cuotas.",
-      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0."
+      "Aplica para consumo personal-familiar.",
+      "No válido Tarjeta de Crédito Empresa o Agro.",
+      "No acumula con otra promoción.",
+      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0.",
+      "Reintegro a realizarse en el momento de la compra en la caja de ahorro o cuenta corriente de Banco Macro registrada.",
+      "Establecimientos /productos /servicios no son promocionados /garantizados por Banco Macro, ni resulta responsable por la presentación de cupón fuera de término.",
+      "Beber con moderación. Prohibida su venta a menores de 18 años."
     ],
-    "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
+    "excludesProducts": "Electro, Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
-        "Banco Macro",
         "MODO",
+        "Banco Macro",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Macro",
         "MODO",
+        "Banco Macro",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -599,19 +549,19 @@
       "Jueves"
     ],
     "restrictions": [
-      "Válido Cartera Consumo.",
-      "No aplica para pagos en cuotas.",
-      "Los beneficios informados no aplican a otras billeteras o plataformas de pago."
+      "Válido Cartera Consumo",
+      "No aplica para pagos en cuotas",
+      "Es necesario que previo a realizar el pago el usuario tenga asociada a MODO la cuenta y tarjeta del Nuevo Banco de Entre Ríos S.A. con la que realizará la compra."
     ],
     "paymentMethods": [
       [
-        "MODO",
         "Banco Entre Ríos",
+        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
-        "MODO",
         "Banco Entre Ríos",
+        "MODO",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -643,24 +593,25 @@
       "Jueves"
     ],
     "restrictions": [
-      "No válido para compras efectuadas por Mercado Pago, pago inmediato o pago entre personas.",
+      "No válido para compras efectuadas por Mercado Pago, Pago Inmediato o Pago entre Personas.",
       "No válido para compras mayoristas.",
-      "No válido para tarjetas Visa Business, Visa Distribution, Visa Purchasing, Visa Purchasing Campo, Corporate, Corporate Signature, Recargable Empresa y Visa Cuenta Central.",
-      "Válido para clientes con paquete de productos en ICBC.",
       "No válido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC.",
-      "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca MASONLINE."
+      "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca MasOnline."
     ],
-    "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, Productos incluidos en el programa Precios Cuidados",
+    "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, y todos los productos incluidos en el programa Precios Cuidados.",
     "paymentMethods": [
       [
+        "MODO",
         "Banco ICBC",
         "Tarjeta de crédito VISA"
       ],
       [
+        "MODO",
         "Banco ICBC",
         "Tarjeta de crédito Mastercard"
       ],
       [
+        "MODO",
         "Banco ICBC",
         "Tarjeta de débito VISA"
       ]
@@ -693,25 +644,26 @@
       "Jueves"
     ],
     "restrictions": [
-      "Exclusivo para clientes que depositen su sueldo en ICBC, con acreditación de haberes dentro de los 90 días anteriores a la fecha de compra.",
-      "No válido para compras efectuadas por Mercado Pago, pago inmediato o pago entre personas.",
+      "Exclusivo para clientes que depositen su sueldo en ICBC, con acreditación de haberes dentro los 90 días anteriores a la fecha de compra.",
+      "No válido para compras efectuadas por Mercado Pago, Pago Inmediato o Pago entre Personas.",
       "No válido para compras mayoristas.",
-      "No válido para tarjetas Visa Business, Visa Distribution, Visa Purchasing, Visa Purchasing Campo, Corporate, Corporate Signature, Recargable Empresa y Visa Cuenta Central.",
-      "Válido para clientes con paquete de productos en ICBC.",
       "No válido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC.",
-      "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca MASONLINE."
+      "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca MasOnline."
     ],
-    "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, Productos incluidos en el programa Precios Cuidados",
+    "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, y todos los productos incluidos en el programa Precios Cuidados.",
     "paymentMethods": [
       [
+        "MODO",
         "Banco ICBC - Cliente Payroll",
         "Tarjeta de crédito VISA"
       ],
       [
+        "MODO",
         "Banco ICBC - Cliente Payroll",
         "Tarjeta de crédito Mastercard"
       ],
       [
+        "MODO",
         "Banco ICBC - Cliente Payroll",
         "Tarjeta de débito VISA"
       ]
@@ -736,47 +688,6 @@
   {
     "discount": {
       "type": "porcentaje",
-      "value": 5
-    },
-    "validFrom": "2025-01-08",
-    "validUntil": "2025-12-31",
-    "weekdays": [
-      "Miercoles",
-      "Jueves"
-    ],
-    "restrictions": [
-      "No acumulable con otras promociones vigentes.",
-      "Promoción solo válida en comercios adheridos a la misma.",
-      "No aplica para ventas realizadas en planes nacionales \"Cuota Simple\"."
-    ],
-    "paymentMethods": [
-      [
-        "BanCo (Banco de Corrientes)",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "BanCo (Banco de Corrientes)",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "BanCo (Banco de Corrientes)",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "ChangoMas",
-      "Online"
-    ],
-    "url": "https://www.masonline.com.ar/promociones-bancarias?banco=Todas",
-    "source": "changomas"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
       "value": 30
     },
     "validFrom": "2025-01-08",
@@ -786,11 +697,12 @@
       "Jueves"
     ],
     "restrictions": [
-      "No acumulable con otras promociones vigentes.",
+      "En un pago",
+      "Para que la bonificación impacte correctamente, el cliente debe tener elegida una cuenta favorita del Banco de Corrientes que permita recibir créditos.",
+      "Promoción no acumulable con otras promociones vigentes.",
       "Promoción solo válida en comercios adheridos a la misma.",
-      "Aplica únicamente para pagos con QR desde Mas Banco o MODO.",
       "No aplica a pagos a través de billeteras virtuales y/o plataformas de pago online (por ejemplo, Zoco, Todo Pago, Mercado Pago, Ualá, etc.).",
-      "No aplica para ventas realizadas en planes nacionales \"Cuota Simple\"."
+      "No aplica promoción para ventas realizadas en planes nacionales \"Cuota Simple\"."
     ],
     "paymentMethods": [
       [
@@ -828,6 +740,48 @@
   },
   {
     "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2025-01-08",
+    "validUntil": "2025-12-31",
+    "weekdays": [
+      "Miercoles",
+      "Jueves"
+    ],
+    "restrictions": [
+      "Promoción no acumulable con otras promociones vigentes.",
+      "Promoción solo válida en comercios adheridos a la misma.",
+      "No aplica a pagos a través de billeteras virtuales y/o plataformas de pago online (por ejemplo, Zoco, Todo Pago, Mercado Pago, Ualá, etc.).",
+      "No aplica promoción para ventas realizadas en planes nacionales \"Cuota Simple\"."
+    ],
+    "paymentMethods": [
+      [
+        "BanCo (Banco de Corrientes)",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "BanCo (Banco de Corrientes)",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "BanCo (Banco de Corrientes)",
+        "Tarjeta de débito VISA"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "ChangoMas",
+      "Online"
+    ],
+    "url": "https://www.masonline.com.ar/promociones-bancarias?banco=Todas",
+    "source": "changomas"
+  },
+  {
+    "discount": {
       "type": "porcentaje",
       "value": 20
     },
@@ -837,10 +791,10 @@
       "Viernes"
     ],
     "restrictions": [
-      "No aplica para pagos con dinero en cuenta y/o transferencia.",
       "No acumulable con otras promociones vigentes.",
-      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
-      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
+      "No aplica para pagos con dinero en cuenta y/o transferencia.",
+      "No aplica para compras realizadas con tarjetas de Crédito Visa Business, Visa Rural y Tarjetas de Débito emitidas por Anses para Asignación Universal por hijo ni Progresar.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto MODO), mPos y/o plataformas de pago online.",
       "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
     ],
     "paymentMethods": [
@@ -883,20 +837,25 @@
       "Viernes"
     ],
     "restrictions": [
-      "Para clientes Galicia Haberes.",
-      "No aplica para pagos con dinero en cuenta y/o transferencia.",
       "No acumulable con otras promociones vigentes.",
-      "No aplica para compras realizadas con tarjetas de Credito Visa Business, Visa Rural y Tarjetas de Débito emitidas a por Anses para Asignación Universal por hijo ni Progresar.",
-      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), mPos y/o plataformas de pago online.",
+      "No aplica para pagos con dinero en cuenta y/o transferencia.",
+      "No aplica para compras realizadas con tarjetas de Crédito Visa Business, Visa Rural y Tarjetas de Débito emitidas por Anses para Asignación Universal por hijo ni Progresar.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto MODO), mPos y/o plataformas de pago online.",
       "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos.",
-      "No aplica para clientes Galicia Mas."
+      "No aplica para clientes Galicia Más."
     ],
     "paymentMethods": [
       [
+        "MODO",
         "Banco Galicia",
         "Tarjeta de crédito Mastercard"
       ]
     ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
     "unknownPaymentMethods": [],
     "limits": {
       "maxDiscount": 5000,
@@ -914,7 +873,7 @@
       "type": "porcentaje",
       "value": 25
     },
-    "validFrom": "2025-10-11",
+    "validFrom": "2025-10-01",
     "validUntil": "2025-10-25",
     "weekdays": [
       "Sabado"
@@ -924,7 +883,7 @@
       "Válido exclusivamente para consumos de tipo familiar.",
       "Aplicable a la cartera de consumo."
     ],
-    "excludesProducts": "Electro, Muebles, Jardinería, Deportes",
+    "excludesProducts": "electro, muebles, jardinería y deportes",
     "paymentMethods": [
       [
         "Prex",
@@ -960,13 +919,13 @@
     ],
     "paymentMethods": [
       [
-        "MODO",
         "Banco Credicoop",
+        "MODO",
         "Tarjeta de crédito Cabal"
       ],
       [
-        "MODO",
         "Banco Credicoop",
+        "MODO",
         "Tarjeta de débito Cabal"
       ]
     ],
@@ -1137,7 +1096,7 @@
   {
     "discount": {
       "type": "porcentaje",
-      "value": 15
+      "value": 20
     },
     "validFrom": "2025-08-01",
     "validUntil": "2025-12-31",
@@ -1145,11 +1104,10 @@
       "Jueves"
     ],
     "restrictions": [
-      "Aplica a compras realizadas en 1 pago",
-      "No acumulable con otras promociones",
-      "No válido para tarjetas corporativas",
-      "Las cuentas no deberán registrar mora",
-      "No aplica para aquellos pagos y/o consumos abonados con tarjetas de débito y crédito emitidas por Banco Patagonia S.A. a través de billeteras virtuales a excepción de MODO."
+      "Aplica a compras realizadas en 1 pago.",
+      "No acumulable con otras promociones.",
+      "No válido para tarjetas corporativas.",
+      "Las cuentas no deberán registrar mora."
     ],
     "paymentMethods": [
       [
@@ -1176,7 +1134,7 @@
   {
     "discount": {
       "type": "porcentaje",
-      "value": 20
+      "value": 15
     },
     "validFrom": "2025-08-01",
     "validUntil": "2025-12-31",
@@ -1184,11 +1142,10 @@
       "Jueves"
     ],
     "restrictions": [
-      "Aplica a compras realizadas en 1 pago",
-      "No acumulable con otras promociones",
-      "No válido para tarjetas corporativas",
-      "Las cuentas no deberán registrar mora",
-      "No aplica para aquellos pagos y/o consumos abonados con tarjetas de débito y crédito emitidas por Banco Patagonia S.A. a través de billeteras virtuales a excepción de MODO."
+      "Aplica a compras realizadas en 1 pago.",
+      "No acumulable con otras promociones.",
+      "No válido para tarjetas corporativas.",
+      "Las cuentas no deberán registrar mora."
     ],
     "paymentMethods": [
       [
@@ -1223,11 +1180,10 @@
       "Jueves"
     ],
     "restrictions": [
-      "Aplica a compras realizadas en 1 pago",
-      "No acumulable con otras promociones",
-      "No válido para tarjetas corporativas",
-      "Las cuentas no deberán registrar mora",
-      "No aplica para aquellos pagos y/o consumos abonados con tarjetas de débito y crédito emitidas por Banco Patagonia S.A. a través de billeteras virtuales a excepción de MODO."
+      "Aplica a compras realizadas en 1 pago.",
+      "No acumulable con otras promociones.",
+      "No válido para tarjetas corporativas.",
+      "Las cuentas no deberán registrar mora."
     ],
     "paymentMethods": [
       [
@@ -1262,7 +1218,6 @@
       "Lunes"
     ],
     "restrictions": [
-      "Exclusivamente abonando con el QR de MODO, desde Buepp o la app móvil del Ciudad en terminales de cobro (o Posnet) de las marcas Prisma/ Payway o Fiserv con tarjetas de crédito Visa o Mastercard del Banco Ciudad quedando excluida de la promoción cualquier otra terminal de pago o QR no pertenecientes a la mencionada.",
       "Será requisito excluyente, previo a realizarse la compra, tener asociada a MODO la cuenta del Banco Ciudad.",
       "Para compras realizadas por titulares de tarjetas adicionales, el tarjetahabiente adicional deberá poseer una caja de ahorro del Banco Ciudad asociada a MODO.",
       "Se considerará para la segmentación de clientes plan sueldo y jubilados acreditaciones de haberes durante los últimos 90 días de efectuada la compra.",
@@ -1272,18 +1227,16 @@
       "En caso de duda sobre el destino del consumo, no se acreditará el monto de la bonificación hasta tanto se aclare el mismo.",
       "Los descuentos publicados no son acumulables con otras promociones."
     ],
-    "excludesProducts": "productos de convenio de precios justos, electrodomésticos, carne vacuna",
+    "excludesProducts": "productos de convenio de precios justos, electrodomésticos y carne vacuna",
     "paymentMethods": [
       [
-        "Billetera Buepp",
-        "MODO",
         "Banco Ciudad",
+        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Billetera Buepp",
-        "MODO",
         "Banco Ciudad",
+        "MODO",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -1318,7 +1271,6 @@
       "No acumulable con otras promociones",
       "No aplica a cartera de clientes que acrediten planes sociales",
       "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
-      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago",
       "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
     ],
     "paymentMethods": [
@@ -1364,7 +1316,6 @@
       "No acumulable con otras promociones",
       "No aplica a cartera de clientes que acrediten planes sociales",
       "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
-      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago",
       "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
     ],
     "paymentMethods": [
@@ -1412,14 +1363,14 @@
       "Martes"
     ],
     "restrictions": [
-      "Promoción exclusiva para empleados municipales y provinciales.",
-      "Tope de transacciones por día: 1 (una).",
-      "Solo disponible para compras en 1 (un) pago.",
-      "Descuento personal e intransferible, para validar el descuento y acreditar que el cliente es empleado público, el mismo debe presentarse personalmente y exhibir su DNI y recibo de sueldo.",
-      "No acumula con otras promociones vigentes."
+      "Promoción exclusiva para empleados municipales y provinciales",
+      "Tope de transacciones por día: 1 (una)",
+      "Solo disponible para compras en 1 (un) pago",
+      "Descuento personal e intransferible, para validar el descuento y acreditar que el cliente es empleado público, el mismo debe presentarse personalmente y exhibir su DNI y recibo de sueldo"
     ],
     "onlyForProducts": "Almacén Seco, Lácteos, Bebida sin Alcohol, Galletitas y Golosinas, Papeles, Tapas Empanadas y Tartas, Pastas Frescas y Salchicha, Fiambrería, Quesos, Congelados, Pañales y Perfumería del Bebé, Farmacia Venta Libre (no incluye recetados) y Perfumería",
     "excludesProducts": "Electro, Carnes y Precios Justos",
+    "paymentMethods": [],
     "unknownPaymentMethods": [],
     "limits": {
       "maxDiscount": 1500,
@@ -1442,12 +1393,11 @@
       "Martes"
     ],
     "restrictions": [
-      "Solo válido para clientes que se encuentren al día en sus productos.",
-      "No acumulable con otras promociones ni entre sí.",
-      "No aplica a pagos a través de billeteras virtuales (excepto MODO), plataformas de pago y/o portales de pagos online ajenos a la empresa.",
-      "No aplica cuando la compra se efectúe a través de “servicios de delivery”.",
-      "No aplica para compras realizadas con Ahora 3, 6, 12 y 18.",
-      "Quedan excluidas aquellas tarjetas emitidas a través del Proyecto Anses-Asignación Universal por Hijo y las tarjetas de crédito DIA, Credial, Business, corporativas, Visa débito banco Comafi, Visa Comafi Chicas y Tarjeta de Crédito emitidas para la acreditación del Crédito a Tasa Cero (Decreto 332/2020, Com. A 6993 y modif.) y Créditos a Tasa Cero Cultura (Decreto 332/2020, Com. A 7082 y modif.)."
+      "Solo válido para aquellos clientes que se encuentren al día en sus productos.",
+      "El descuento no será aplicado en aquellas compras realizadas a través de Mercado Pago y Todo Pago (Sistema MPOS).",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto Modo), plataformas de pago y/o portales de pagos online ajenos a la empresa.",
+      "El descuento no será aplicado para aquellas compras realizadas con Ahora 3,6 ,12 y 18.",
+      "La promoción no aplica cuando la compra se efectúe a través de “servicios de delivery”."
     ],
     "excludesProducts": "Electro",
     "paymentMethods": [
@@ -1491,12 +1441,15 @@
     ],
     "restrictions": [
       "Aplica a consumos de tipo familiar y efectuados en un pago.",
-      "No participan los consumos realizados a través de los programas MasCuotasCabal-MiPyme y Cuotas MiPyme Payway, billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online."
+      "El reintegro se verá reflejado dentro de los 30 días posteriores al consumo en la cuenta del Banco, para lo cual será requisito que sea de título personal y se encuentre adherida a MODO.",
+      "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
+      "No participan los consumos realizados a través de los programas MasCuotasCabal-MiPyme y Cuotas MiPyme Payway, billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
+      "Aplicable a la cartera de consumo."
     ],
     "paymentMethods": [
       [
-        "Banco Credicoop",
         "MODO",
+        "Banco Credicoop",
         "Tarjeta de crédito Cabal"
       ]
     ],
@@ -1529,17 +1482,21 @@
       "Domingo"
     ],
     "restrictions": [
+      "Promoción válida para el cuarto fin de semana de cada mes.",
       "Válido para clientes con paquete de productos en ICBC.",
       "No válido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC.",
-      "No válido para compras mayoristas."
+      "No válido para compras mayoristas.",
+      "No válido para tarjetas VISA Business, VISA Distribution, VISA Purchasing, VISA Purchasing Campo, Corporate, Corporate Signature, Recargable Empresa y VISA Cuenta Central."
     ],
-    "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, Productos incluidos en el programa Precios Cuidados",
+    "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, y todos los productos incluidos en el programa Precios Cuidados.",
     "paymentMethods": [
       [
+        "MODO",
         "Banco ICBC",
         "Tarjeta de crédito VISA"
       ],
       [
+        "MODO",
         "Banco ICBC",
         "Tarjeta de crédito Mastercard"
       ]
@@ -1573,19 +1530,20 @@
       "Domingo"
     ],
     "restrictions": [
-      "Solo para cartera de consumo",
-      "Válido el cuarto fin de semana de cada mes",
-      "No válido para compras efectuadas por Mercado Pago, pago inmediato o pago entre personas",
-      "No válido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC",
-      "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca MASONLINE",
-      "Los reintegros se verán acreditados dentro de los 30 días corridos posteriores a la fecha de realizada la compra en la caja de ahorro o cuenta corriente que el cliente posea en ICBC",
-      "Solo podrán participar de la promoción aquellos clientes que se encuentren al día en sus productos"
+      "Solo para compras realizadas el cuarto fin de semana de cada mes.",
+      "El retiro o envío puede ser programado para cualquier día.",
+      "Los reintegros se acreditan dentro de los 30 días corridos posteriores a la compra en la caja de ahorro o cuenta corriente del cliente en ICBC.",
+      "Solo para clientes al día en sus productos.",
+      "No válido para compras efectuadas por Mercado Pago, Pago Inmediato o Pago entre Personas.",
+      "No válido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC.",
+      "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca MASONLINE."
     ],
-    "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, y todos los productos incluidos en el programa Precios Cuidados",
+    "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, y todos los productos incluidos en el programa Precios Cuidados.",
     "paymentMethods": [
       [
         "Yoy",
-        "Tarjeta de crédito Mastercard"
+        "Tarjeta de crédito Mastercard",
+        "MODO"
       ]
     ],
     "paymentRails": {
@@ -1616,10 +1574,10 @@
       "Jueves"
     ],
     "restrictions": [
-      "Aplica a compras realizadas en 1 pago.",
-      "No acumulable con otras promociones.",
-      "No válido para tarjetas corporativas.",
-      "Las cuentas no deberán registrar mora.",
+      "Aplica a compras realizadas en 1 pago",
+      "No acumulable con otras promociones",
+      "No válido para tarjetas corporativas",
+      "Las cuentas no deberán registrar mora",
       "No aplica para aquellos pagos y/o consumos abonados con tarjetas de débito y crédito emitidas por Banco Patagonia S.A. a través de billeteras virtuales a excepción de MODO."
     ],
     "paymentMethods": [
@@ -1655,10 +1613,10 @@
       "Jueves"
     ],
     "restrictions": [
-      "Aplica a compras realizadas en 1 pago.",
-      "No acumulable con otras promociones.",
-      "No válido para tarjetas corporativas.",
-      "Las cuentas no deberán registrar mora.",
+      "Aplica a compras realizadas en 1 pago",
+      "No acumulable con otras promociones",
+      "No válido para tarjetas corporativas",
+      "Las cuentas no deberán registrar mora",
       "No aplica para aquellos pagos y/o consumos abonados con tarjetas de débito y crédito emitidas por Banco Patagonia S.A. a través de billeteras virtuales a excepción de MODO."
     ],
     "paymentMethods": [
@@ -1694,10 +1652,10 @@
       "Jueves"
     ],
     "restrictions": [
-      "Aplica a compras realizadas en 1 pago.",
-      "No acumulable con otras promociones.",
-      "No válido para tarjetas corporativas.",
-      "Las cuentas no deberán registrar mora.",
+      "Aplica a compras realizadas en 1 pago",
+      "No acumulable con otras promociones",
+      "No válido para tarjetas corporativas",
+      "Las cuentas no deberán registrar mora",
       "No aplica para aquellos pagos y/o consumos abonados con tarjetas de débito y crédito emitidas por Banco Patagonia S.A. a través de billeteras virtuales a excepción de MODO."
     ],
     "paymentMethods": [
@@ -1733,20 +1691,21 @@
       "Jueves"
     ],
     "restrictions": [
+      "Cartera de consumo y comercial.",
       "No aplica a tarjetas de débito vinculadas a cajas de ahorro pesos gratuitas.",
-      "La participación en Sorpresa Santander tiene una comisión mensual de $3.500,00 IVA incluido o de $2.892,56 más IVA según corresponda, el que será debitado de la cuenta o Tarjetas de crédito del cliente, según corresponda, el quinto día hábil del mes.",
-      "El ahorro/la promoción no aplica a pagos a través de billeteras virtuales, plataformas de pago y/o portales de pago online, con excepción de MODO."
+      "Es necesario que previo a realizarse el reintegro tengas asociada a MODO la cuenta que sea del mismo banco que la tarjeta con la que realizaste la compra.",
+      "La participación en Sorpresa Santander tiene una comisión mensual de $3.500,00 IVA incluido o de $2.892,56 más IVA según corresponda, el que será debitado de la cuenta o Tarjetas de crédito del cliente, según corresponda, el quinto día hábil del mes."
     ],
-    "excludesProducts": "Electrodomésticos, Carne vacuna, Productos que esten dentro del programa precios justos",
+    "excludesProducts": "Electrodomésticos, Carne vacuna, Productos que estén dentro del programa Precios Justos",
     "paymentMethods": [
       [
-        "MODO",
         "Banco Santander",
+        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
-        "MODO",
         "Banco Santander",
+        "MODO",
         "Tarjeta de débito VISA"
       ]
     ],
@@ -1776,7 +1735,7 @@
     "restrictions": [
       "Promoción no acumulable con otras promociones vigentes.",
       "Promoción solo válida en comercios adheridos a la misma.",
-      "No aplica promoción para ventas realizadas en planes nacionales \"CUOTA SIMPLE\"."
+      "No aplica promoción para ventas realizadas en planes nacionales \"Cuota Simple\"."
     ],
     "paymentMethods": [
       [
@@ -1817,7 +1776,7 @@
     "restrictions": [
       "Promoción no acumulable con otras promociones vigentes.",
       "Promoción solo válida en comercios adheridos a la misma.",
-      "No aplica promoción para ventas realizadas en planes nacionales \"CUOTA SIMPLE\"."
+      "No aplica promoción para ventas realizadas en planes nacionales \"Cuota Simple\"."
     ],
     "paymentMethods": [
       [
@@ -1856,12 +1815,11 @@
       "Jueves"
     ],
     "restrictions": [
-      "Promoción no acumulable con otras promociones vigentes.",
-      "Promoción solo válida en comercios adheridos a la misma.",
       "Aplica únicamente para pagos con QR desde Mas Banco o MODO.",
       "No aplica a pagos a través de billeteras virtuales y/o plataformas de pago online (por ejemplo, Zoco, Todo Pago, Mercado Pago, Ualá, etc.).",
-      "No aplica promoción para ventas realizadas en planes nacionales \"CUOTA SIMPLE\".",
-      "Para que la bonificación impacte correctamente, el cliente debe tener elegida una cuenta favorita del Banco de Corrientes que permita recibir créditos."
+      "Promoción no acumulable con otras promociones vigentes.",
+      "Promoción solo válida en comercios adheridos a la misma.",
+      "No aplica promoción para ventas realizadas en planes nacionales \"Cuota Simple\"."
     ],
     "paymentMethods": [
       [
@@ -1942,8 +1900,10 @@
       "Martes"
     ],
     "restrictions": [
-      "Válido Cartera Consumo.",
-      "No aplica para compras en cuotas."
+      "Válido Cartera Consumo",
+      "No aplica para compras en cuotas",
+      "Es necesario que previo a realizar el pago el usuario tenga asociada a MODO la cuenta y tarjeta del Nuevo Banco Santa Fe S.A. con la que realizará la compra",
+      "Los beneficios informados no aplican a otras billeteras o plataformas de pago"
     ],
     "paymentMethods": [
       [
@@ -1984,7 +1944,9 @@
     "weekdays": [
       "Miercoles"
     ],
-    "restrictions": [],
+    "restrictions": [
+      "Un pago"
+    ],
     "paymentMethods": [
       [
         "Tarjeta de Crédito Patagonia 365"
@@ -2014,24 +1976,23 @@
     "restrictions": [
       "Exclusivo para clientes que depositen su sueldo en ICBC con acreditación de haberes dentro de los 90 días anteriores a la fecha de compra.",
       "No válido para compras efectuadas por Mercado Pago, Pago Inmediato o Pago entre Personas.",
-      "No válido para compras mayoristas ni para tarjetas Visa Business, Visa Distribution, Visa Purchasing, Visa Purchasing Campo, Corporate, Corporate Signature, Recargable Empresa y Visa Cuenta Central.",
+      "No válido para compras mayoristas.",
+      "No válido para tarjetas Visa Business, Visa Distribution, Visa Purchasing, Visa Purchasing Campo, Corporate, Corporate Signature, Recargable Empresa y Visa Cuenta Central.",
       "Válido para clientes con paquete de productos en ICBC.",
-      "No válido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC."
+      "No válido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC.",
+      "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca MasOnline."
     ],
-    "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, y todos los productos incluidos en el programa Precios Cuidados.",
+    "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, y todos los productos incluidos en el programa Precios Cuidados",
     "paymentMethods": [
       [
-        "MODO",
         "Banco ICBC",
         "Tarjeta de crédito VISA"
       ],
       [
-        "MODO",
         "Banco ICBC",
         "Tarjeta de crédito Mastercard"
       ],
       [
-        "MODO",
         "Banco ICBC",
         "Tarjeta de débito VISA"
       ]
@@ -2042,11 +2003,6 @@
       "contactless": false
     },
     "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": false,
-      "jubilados": false,
-      "programaCiudadaniaPorteña": false
-    },
     "limits": {
       "maxDiscount": 15000,
       "explicitlyHasNoLimit": false
@@ -2070,8 +2026,7 @@
     ],
     "restrictions": [
       "Promoción no acumulable con otras promociones y/o beneficios vigentes.",
-      "Promoción no aplicable para pagos a través de billeteras virtuales (excepto Ualá y Apple Pay) y/o plataformas de pago online.",
-      "Será requisito necesario para acceder a la promoción: (a) contar con una cuenta de pago abierta y operativa en la aplicación móvil Ualá (la “App”); y (b) tener una caja de ahorros en pesos (la “Caja de Ahorro”) ofrecida por Uilo."
+      "Promoción no aplicable para pagos a través de billeteras virtuales (excepto Ualá y Apple Pay) y/o plataformas de pago online."
     ],
     "paymentMethods": [
       [
@@ -2104,9 +2059,10 @@
     "restrictions": [
       "No válido para compras efectuadas por Mercado Pago, pago inmediato o pago entre personas.",
       "No válido para adicionales de cuenta sin caja de ahorro o cuenta corriente en ICBC.",
-      "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca MasOnline."
+      "Los beneficios no se superponen ni son acumulativos entre sí, ni con otros beneficios, promociones u ofertas que ofrezca MasOnline.",
+      "Solo podrán participar de la promoción aquellos clientes que se encuentren al día en sus productos."
     ],
-    "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, Productos incluidos en el programa Precios Cuidados",
+    "excludesProducts": "Electronicos, Electrodomesticos, Celulares, Tablets, Consolas, y todos los productos incluidos en el programa Precios Cuidados",
     "paymentMethods": [
       [
         "Yoy",
@@ -2115,6 +2071,9 @@
       [
         "Yoy",
         "Tarjeta de débito VISA"
+      ],
+      [
+        "MODO"
       ]
     ],
     "paymentRails": {
@@ -2153,7 +2112,7 @@
     "paymentMethods": [
       [
         "MODO",
-        "Banco Galicia - Eminent",
+        "Banco Galicia",
         "Tarjeta de crédito Mastercard"
       ],
       [
@@ -2203,11 +2162,6 @@
       ]
     ],
     "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": false,
-      "jubilados": false,
-      "programaCiudadaniaPorteña": false
-    },
     "limits": {
       "maxDiscount": 5000,
       "explicitlyHasNoLimit": false
@@ -2230,8 +2184,8 @@
       "Viernes"
     ],
     "restrictions": [
-      "Válido Cartera Consumo",
-      "No aplica para compras en cuotas"
+      "Válido Cartera Consumo.",
+      "No aplica para compras en cuotas."
     ],
     "paymentMethods": [
       [
@@ -2273,25 +2227,15 @@
       "Martes"
     ],
     "restrictions": [
-      "No aplica a pagos realizados a través de billeteras virtuales o 'proveedores de servicios de pago', excepto MODO.",
-      "No acumulable con otros descuentos, excepto los promovidos por el Banco o MODO para pagos con QR."
+      "No acumulable con otros descuentos, excepto los promovidos por el Banco o MODO para pagos con QR.",
+      "No aplica a pagos realizados a través de billeteras virtuales o 'proveedores de servicios de pago', excepto MODO."
     ],
     "paymentMethods": [
       [
         "Banco Supervielle - Jubilados",
         "Tarjeta de débito VISA"
-      ],
-      [
-        "MODO",
-        "Banco Supervielle - Jubilados",
-        "Tarjeta de débito VISA"
       ]
     ],
-    "paymentRails": {
-      "pagoConQR": true,
-      "telefonoContactless": false,
-      "contactless": false
-    },
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": false,
@@ -2319,7 +2263,9 @@
     "weekdays": [
       "Jueves"
     ],
-    "restrictions": [],
+    "restrictions": [
+      "El 10% de descuento se realizará en el resumen del usuario."
+    ],
     "paymentMethods": [
       [
         "Tarjeta de Crédito Sol"
@@ -2375,8 +2321,7 @@
     ],
     "restrictions": [
       "No aplica a tarjetas corporativas.",
-      "No aplica a pagos realizados a través de billeteras virtuales o 'proveedores de servicios de pago', excepto MODO.",
-      "Es condición necesaria tener una cuenta Supervielle propia adherida a MODO."
+      "No aplica a pagos realizados a través de billeteras virtuales o 'proveedores de servicios de pago', excepto MODO."
     ],
     "paymentMethods": [
       [
@@ -2393,18 +2338,6 @@
         "MODO",
         "Banco Supervielle",
         "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "MODO",
-        "Banco Supervielle",
-        "Tarjeta de crédito Mastercard",
-        "Tarjeta de crédito Cencosud Mastercard"
-      ],
-      [
-        "MODO",
-        "Banco Supervielle",
-        "Tarjeta de crédito Mastercard",
-        "Tarjeta de crédito Cencosud Mastercard"
       ]
     ],
     "paymentRails": {
@@ -2436,8 +2369,7 @@
     ],
     "restrictions": [
       "No aplica a tarjetas corporativas.",
-      "No aplica a pagos realizados a través de billeteras virtuales o 'proveedores de servicios de pago', excepto MODO.",
-      "Es condición necesaria tener una cuenta Supervielle propia adherida a MODO."
+      "No aplica a pagos realizados a través de billeteras virtuales o 'proveedores de servicios de pago', excepto MODO."
     ],
     "paymentMethods": [
       [
@@ -2454,18 +2386,6 @@
         "MODO",
         "Banco Supervielle - Identité y Plan Sueldo",
         "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "MODO",
-        "Banco Supervielle - Identité y Plan Sueldo",
-        "Tarjeta de crédito Mastercard",
-        "Tarjeta de crédito Cencosud Mastercard"
-      ],
-      [
-        "MODO",
-        "Banco Supervielle - Identité y Plan Sueldo",
-        "Tarjeta de crédito Mastercard",
-        "Tarjeta de crédito Cencosud Mastercard"
       ]
     ],
     "paymentRails": {
@@ -2502,10 +2422,9 @@
       "Sabado"
     ],
     "restrictions": [
-      "Para compras en un pago",
-      "Promoción no acumulable con otros descuentos",
-      "La bonificación se verá reflejada hasta en los 2 resúmenes siguientes al que refleje la/s transacción/es",
-      "Los beneficios se otorgarán siempre que las tarjetas de crédito se encuentren habilitadas y la cuenta no se encuentre en mora y/o bloqueada por motivos administrativos"
+      "Promoción no acumulable con otros descuentos.",
+      "La bonificación se verá reflejada hasta en los 2 resúmenes siguientes al que refleje la/s transacción/es.",
+      "Los beneficios de las promociones se otorgarán siempre que las tarjetas de crédito se encuentren habilitadas, y la cuenta no se encuentre en mora y/o bloqueada por motivos administrativos."
     ],
     "paymentMethods": [
       [
@@ -2541,8 +2460,7 @@
     ],
     "restrictions": [
       "Clientes no adheridos a planes de suscripción NX",
-      "No válido para compras realizadas con Naranja Visa, Naranja MasterCard, Naranja Amex",
-      "No válido para transacciones realizadas en agrupadores y billeteras virtuales que no sean Nx"
+      "No válido para compras realizadas con Naranja Visa, Naranja MasterCard, Naranja Amex, ni para transacciones realizadas en agrupadores y billeteras virtuales que no sean Nx."
     ],
     "paymentMethods": [
       [
@@ -2578,8 +2496,7 @@
     ],
     "restrictions": [
       "Clientes adheridos a planes de suscripción NX",
-      "No válido para compras realizadas con Naranja Visa, Naranja MasterCard, Naranja Amex",
-      "No válido para transacciones realizadas en agrupadores y billeteras virtuales que no sean Nx"
+      "No válido para compras realizadas con Naranja Visa, Naranja MasterCard, Naranja Amex, ni para transacciones realizadas en agrupadores y billeteras virtuales que no sean Nx."
     ],
     "paymentMethods": [
       [
