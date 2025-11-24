@@ -12,46 +12,6 @@
     "restrictions": [
       "No acumulable con cartera de clientes que acrediten planes sociales",
       "No acumulable con otras promociones",
-      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de EXTRA CASH",
-      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS MÓVIL, BOTÓN DE PAGO Y BILLETERA ELECTRÓNICA)",
-      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago"
-    ],
-    "paymentMethods": [
-      [
-        "Banco Hipotecario - Búho/Plan Sueldo",
-        "MODO",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": true,
-      "telefonoContactless": false,
-      "contactless": false
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 30000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2025-11-01",
-    "validUntil": "2026-01-31",
-    "weekdays": [
-      "Martes"
-    ],
-    "restrictions": [
-      "No acumulable con otras promociones",
-      "No aplica a cartera de clientes que acrediten planes sociales",
       "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
       "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)",
       "No aplica para los consumos efectuados a través de la plataforma Mercado Pago"
@@ -82,27 +42,69 @@
   {
     "discount": {
       "type": "porcentaje",
-      "value": 20
+      "value": 25
     },
     "validFrom": "2025-11-01",
-    "validUntil": "2025-11-30",
+    "validUntil": "2026-01-31",
     "weekdays": [
-      "Miercoles"
+      "Martes"
     ],
     "restrictions": [
-      "Exclusivo cartera de consumo",
-      "No válido para pagos con saldo en cuenta"
+      "No acumulable con cartera de clientes que acrediten planes sociales",
+      "No acumulable con otras promociones",
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)",
+      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago"
     ],
     "paymentMethods": [
       [
-        "Banco Nación",
+        "Banco Hipotecario - Búho/Plan Sueldo",
         "MODO",
-        "Tarjeta de crédito Mastercard"
-      ],
+        "Tarjeta de débito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
+    "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": true,
+      "programaCiudadaniaPorteña": false
+    },
+    "limits": {
+      "maxDiscount": 30000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2025-11-01",
+    "validUntil": "2026-01-31",
+    "weekdays": [
+      "Martes"
+    ],
+    "restrictions": [
+      "No acumulable con cartera de clientes que acrediten planes sociales",
+      "No acumulable con otras promociones",
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
+    ],
+    "paymentMethods": [
       [
-        "Banco Nación",
+        "Banco Hipotecario",
         "MODO",
-        "Tarjeta de crédito VISA"
+        "Tarjeta de débito VISA"
       ]
     ],
     "paymentRails": {
@@ -124,6 +126,45 @@
   {
     "discount": {
       "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2025-11-01",
+    "validUntil": "2026-01-31",
+    "weekdays": [
+      "Martes"
+    ],
+    "restrictions": [
+      "No acumulable con cartera de clientes que acrediten planes sociales",
+      "No acumulable con otras promociones",
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
+    ],
+    "paymentMethods": [
+      [
+        "Banco Hipotecario - Búho/Plan Sueldo",
+        "MODO",
+        "Tarjeta de débito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 30000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
       "value": 20
     },
     "validFrom": "2025-11-01",
@@ -132,13 +173,55 @@
       "Miercoles"
     ],
     "restrictions": [
+      "No válido para pagos con saldo en cuenta.",
+      "Tope de reintegro $10.000 por cuenta aplicable a la primera compra por miércoles."
+    ],
+    "paymentMethods": [
+      [
+        "Banco Nación",
+        "MODO",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Nación",
+        "MODO",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 12000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 20
+    },
+    "validFrom": "2025-11-01",
+    "validUntil": "2025-11-30",
+    "weekdays": [
+      "Miercoles"
+    ],
+    "restrictions": [
+      "Exclusivo en un pago",
       "No acumula con otra promoción",
       "No aplica para compra en cuotas",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0",
-      "No válido Tarjeta de Crédito Empresa o Agro",
+      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0",
       "No válido para compra telefónica ni compra online"
     ],
-    "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
+    "excludesProducts": "Electro, Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
         "Banco Macro",
@@ -178,13 +261,11 @@
       "Miercoles"
     ],
     "restrictions": [
-      "No acumula con otra promoción.",
-      "No aplica para compra en cuotas.",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0.",
-      "No válido Tarjeta de Crédito Empresa o Agro.",
-      "No válido para compra telefónica ni compra online."
+      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0.",
+      "No válido para compra telefónica ni compra online.",
+      "No válido tarjeta de crédito empresa o agro."
     ],
-    "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
+    "excludesProducts": "Electro, Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
         "Banco Macro",
@@ -226,22 +307,20 @@
       "Miercoles"
     ],
     "restrictions": [
-      "No acumula con otra promoción",
-      "No aplica para compra en cuotas",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0",
-      "No válido para compra telefónica ni compra online",
-      "No válido tarjeta de crédito empresa o agro"
+      "No acumula con otra promoción.",
+      "No aplica para compra en cuotas.",
+      "No aplica para pago a traves de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0.",
+      "No válido para compra telefónica ni compra online.",
+      "No válido tarjeta de crédito empresa o agro."
     ],
     "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
-        "Banco Macro",
         "Banco Macro - Tarjeta Selecta",
         "MODO",
         "Tarjeta de crédito Mastercard"
       ],
       [
-        "Banco Macro",
         "Banco Macro - Tarjeta Selecta",
         "MODO",
         "Tarjeta de crédito VISA"
@@ -275,10 +354,7 @@
     ],
     "restrictions": [
       "Aplica a consumos de tipo familiar y efectuados en un pago.",
-      "Aplicable a la cartera de consumo.",
-      "El reintegro se verá reflejado en el primer o segundo resumen de la tarjeta de crédito Cabal o dentro de los 60 días en el caso de consumo con tarjeta de débito Cabal.",
       "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
-      "Promoción válida únicamente en QR de MODO abonando a través de Credicoop Móvil o MODO con tarjetas Cabal Credicoop.",
       "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
       "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO."
     ],
@@ -321,11 +397,13 @@
       "Jueves"
     ],
     "restrictions": [
-      "Aplica a consumos de tipo familiar y efectuados en un pago.",
-      "El reintegro se verá reflejado en el primer o segundo resumen de la Tarjeta de Crédito Cabal o dentro de los 60 días en el caso de consumo con Tarjeta de Débito Cabal.",
-      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
-      "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
-      "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO."
+      "Aplica a consumos de tipo familiar y efectuados en un pago",
+      "Aplicable a la cartera de consumo",
+      "El reintegro se verá reflejado en el primer o segundo resumen de la tarjeta de crédito Cabal o dentro de los 60 días en el caso de consumo con tarjeta de débito Cabal",
+      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online",
+      "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito",
+      "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO",
+      "Tope de reintegro $7.000 por transacción"
     ],
     "paymentMethods": [
       [
@@ -370,8 +448,7 @@
     ],
     "paymentMethods": [
       [
-        "Cencopay",
-        "Tarjeta de crédito Mastercard"
+        "Cencopay"
       ]
     ],
     "paymentRails": {
@@ -401,13 +478,21 @@
       "Viernes",
       "Sabado"
     ],
-    "restrictions": [],
-    "excludesProducts": "Achuras, Embutidos, Aves, Carnes, Cerdos, Carne envasada al vacío, Carne pre-empaquetada, Carne vacuna fresca",
+    "restrictions": [
+      "Excluye y no acumula con otras promociones, beneficios y/u ofertas vigentes.",
+      "Se excluyen las operaciones facturadas en las oficinas de ventas de las tiendas."
+    ],
+    "excludesProducts": "Achuras y Embutidos, Aves, Carnes, Cerdos, Carne envasada al vacío, Carne pre-empaquetada, Carne vacuna fresca",
     "paymentMethods": [
       [
         "Mercado Pago"
       ]
     ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
     "unknownPaymentMethods": [],
     "limits": {
       "explicitlyHasNoLimit": true
@@ -425,10 +510,8 @@
     },
     "validFrom": "2025-11-01",
     "validUntil": "2025-11-30",
-    "restrictions": [
-      "Requiere inscripción previa en Club +Simple"
-    ],
-    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores y tinturas capilares, Cremas corporales, faciales y para manos, Desodorante para pies y talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Demaquillantes y quitaesmaltes, Talcos, féculas y óleos para bebés, Jabón para la ropa en pan, líquido y en polvo",
+    "restrictions": [],
+    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores y tinturas capilares, Cremas corporales, faciales y para manos, Desodorante para pies y talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Demaquillantes y quitaesmaltes, Talcos, Féculas y óleos para bebés, Jabón para la ropa en pan, líquido y en polvo",
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": false,
@@ -441,6 +524,9 @@
     "where": [
       "Makro"
     ],
+    "membership": [
+      "Club +Simple"
+    ],
     "url": "https://makro.com.ar/beneficios-bancarios/",
     "source": "makro"
   },
@@ -451,8 +537,17 @@
     },
     "validFrom": "2025-11-01",
     "validUntil": "2025-11-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
     "restrictions": [
-      "No aplica para clientes en mora o inhabilitados"
+      "No aplica para clientes en mora o inhabilitados."
     ],
     "onlyForProducts": "Vajilla (Platos, bowls, tazas)",
     "paymentMethods": [
@@ -479,110 +574,23 @@
   {
     "discount": {
       "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2025-11-01",
-    "validUntil": "2025-11-30",
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados"
-    ],
-    "onlyForProducts": "Herramientas eléctricas, Artículos de cama, Ventilación",
-    "paymentMethods": [
-      [
-        "Cencopay",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
       "value": 6
     },
     "validFrom": "2025-11-01",
     "validUntil": "2025-11-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
     "restrictions": [
-      "No aplica para clientes en mora o inhabilitados"
+      "No aplica para clientes en mora o inhabilitados."
     ],
-    "onlyForProducts": "Herramientas eléctricas, Artículos de cama, Ventilación",
-    "paymentMethods": [
-      [
-        "Cencopay",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2025-11-01",
-    "validUntil": "2025-11-30",
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados"
-    ],
-    "onlyForProducts": "Televisores y Rodados",
-    "paymentMethods": [
-      [
-        "Cencopay",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 6
-    },
-    "validFrom": "2025-11-01",
-    "validUntil": "2025-11-30",
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados"
-    ],
-    "onlyForProducts": "Televisores y Rodados",
+    "onlyForProducts": "Herramientas electricas, Articulos de cama, Ventilación",
     "paymentMethods": [
       [
         "Cencopay",
@@ -611,10 +619,19 @@
     },
     "validFrom": "2025-11-01",
     "validUntil": "2025-11-30",
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados"
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
     ],
-    "onlyForProducts": "Televisores y Rodados",
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados."
+    ],
+    "onlyForProducts": "Televisores, Rodados",
     "paymentMethods": [
       [
         "Cencopay",
@@ -643,17 +660,8 @@
     },
     "validFrom": "2025-11-01",
     "validUntil": "2025-11-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
     "restrictions": [
-      "No aplica a ventas mediante Todo Pago, Mercado Pago y NPOS"
+      "No aplica a ventas mediante Todo Pago, Mercado Pago y NPOS."
     ],
     "paymentMethods": [
       [
@@ -675,14 +683,16 @@
       "type": "porcentaje",
       "value": 25
     },
-    "validFrom": "2025-11-22",
-    "validUntil": "2025-11-29",
+    "validFrom": "2025-11-01",
+    "validUntil": "2025-11-30",
     "weekdays": [
       "Sabado"
     ],
     "restrictions": [
       "Aplica a consumos de tipo familiar y efectuados en un pago.",
-      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online."
+      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
+      "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
+      "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO."
     ],
     "paymentMethods": [
       [
@@ -715,7 +725,7 @@
   {
     "discount": {
       "type": "porcentaje",
-      "value": 20
+      "value": 25
     },
     "validFrom": "2025-11-01",
     "validUntil": "2025-11-30",
@@ -723,22 +733,22 @@
       "Sabado"
     ],
     "restrictions": [
-      "Aplica a consumos de tipo familiar y efectuados en un pago.",
-      "Aplicable a la cartera de consumo.",
-      "El reintegro se verá reflejado en el primer o segundo resumen de la Tarjeta de Crédito Cabal o dentro de los 60 días en el caso de consumo con Tarjeta de Débito Cabal.",
-      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online.",
-      "Promoción válida únicamente en QR de MODO abonando a través de Credicoop Móvil o MODO con tarjetas Cabal Credicoop.",
-      "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito.",
-      "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO."
+      "Aplica a consumos de tipo familiar y efectuados en un pago",
+      "Aplicable a la cartera de consumo",
+      "El reintegro se verá reflejado en el primer o segundo resumen de la tarjeta de crédito Cabal o dentro de los 60 días en el caso de consumo con tarjeta de débito Cabal",
+      "No participan los consumos realizados a través de billeteras virtuales (excepto MODO), POS móviles, plataformas de pago y/o portales de pago online",
+      "Será condición esencial para participar de la misma que al momento de efectuar el reintegro, la tarjeta se encuentre vigente y en estado de cumplimiento normal en el caso de crédito, y la cuenta abierta en el caso de débito",
+      "También será requisito tener una cuenta abierta en el banco, a título personal, adherida a MODO",
+      "Tope de reintegro para usuarios que acreditan haberes $18.000 por usuario por sábado"
     ],
     "paymentMethods": [
       [
-        "Banco Credicoop - Plan Sueldo",
+        "Banco Credicoop",
         "MODO",
         "Tarjeta de crédito Cabal"
       ],
       [
-        "Banco Credicoop - Plan Sueldo",
+        "Banco Credicoop",
         "MODO",
         "Tarjeta de débito Cabal"
       ]
@@ -766,14 +776,10 @@
     },
     "validFrom": "2025-11-01",
     "validUntil": "2025-11-30",
-    "restrictions": [],
-    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores, Tinturas capilares, Cremas corporales, Cremas faciales, Cremas para manos, Desodorante para pies, Talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Demaquillantes, Quitaesmaltes, Talcos para bebés, Féculas para bebés, Óleos para bebés, Jabón para la ropa en pan, Jabón para la ropa líquido, Jabón para la ropa en polvo",
-    "paymentMethods": [],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": false
-    },
+    "restrictions": [
+      "Requiere completar formulario de registro y esperar 72hs hábiles para el alta."
+    ],
+    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores y tinturas capilares, Cremas corporales, faciales y para manos, Desodorante para pies y talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Demaquillantes y quitaesmaltes, Talcos, féculas y óleos para bebés, Jabón para la ropa en pan, líquido y en polvo.",
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": false,
