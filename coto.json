@@ -12,6 +12,7 @@
     "restrictions": [
       "Reembolso máximo $10.000 semanal por cliente."
     ],
+    "excludesProducts": "Electrodomésticos, Neumáticos ni Rodados. NO INCLUYE PRODUCTOS DE BODEGAS CATENA ZAPATA, NICOLA CATENA, BODEGA ERNESTO CATENA (ALMA NEGRA, PADRILLOS, ANIMAL, ENEMIGO Y GRAN ENEMIGO), MALBEC DV CATENA BOT X 1,5LT, MALBEC LA RIOJA DV CATENA, MALBEC SALTA DV CATENA, SAINT FELICIEN, NICASIA, TILIA, BODEGA LEONCIO ARIZU (LUIGI BOSCA), BODEGA LA RURAL (RUTINI, TRUMPETER, SAN FELIPE Y CEPA TRADICIONAL SEMILLON/MALBEC-MALBEC/TINTO BLEND), CHANDON Y TERRAZAS DE LOS ANDES (LATITUD 33°, CASTEL, ALTOS DEL PLATA, VALMONT, BELTOUR, CHEVAL Y CLOS DU MOULIN), BODEGA NORTON (LOTE NEGRO, QUORUM VI, PRIVADA FAMILY BLEND), BODEGA CADUS WINES (CADUS), CASA PIRQUE (ALTALAND, LA POSTA, LUCA, ARUMA, PETIT CARO, MALBEC/CABERNET FRANC CASA DE HERRERO, MALBEC OJO DE BUEN CUBERO, MALBEC/CABERNET FRANC/PINOT NOIR CUCHILLO DE PALO, MALBEC RÍO DE LOS CIERVOS ARAUCANA, MALBEC NICO Y BLEND BESO DE DANTE LUCA), BODEGA BIANCHI (VINO CHARDONNAY RESERVADO MARÍA CARMEN, VINO GRAN CORTE ENZO BIANCHI, VINOS MALBEC Y CABERNET SAUVIGNON PARTICULAR BIANCHI), BODEGA VALENTÍN BIANCHI (VINO TINTO CORTE Y MALBEC IV GENERACIÓN), BODEGA MONTEVIEJO (FESTIVO Y PETITE FLEUR), NI VINOS EN TETRABRIK NI GENEROSOS. EL DESCUENTO EN CHAMPAÑAS Y ESPUMANTES NO INCLUYE PRODUCTOS DE BODEGAS CHANDON, MERCIER, CATENA ZAPATA, BARÓN B, DOM PERIGNON, POMMERY, MÖET CHANDON, LA GRANDE DAME NI KRUG. NO INCLUYE CORTES DE CARNES DE NOVILLO, NOVILLITO, TERNERA, MENUDENCIAS NI CARNES ELABORADAS. NO INCLUYE POLLO ENTERO NI TROZADO, FRESCO NI CONGELADO. NO INCLUYE LECHES INFANTILES ETAPAS 1 Y 2 (FLUÍDAS NI EN POLVO), NI HARINAS EN TODAS SUS PRESENTACIONES, NI AZÚCAR EN TODAS SUS PRESENTACIONES, NI ACEITE DE GIRASOL Y MEZCLA GIRASOL-SOJA EN TODAS SUS PRESENTACIONES. NO INCLUYE TODAS LAS PRESENTACIONES DE LAS SIGUIENTES MARCAS: COCA COLA, COCA COLA LIGHT, COCA COLA SIN AZÚCAR, CRUSH, FANTA, FANTA SIN AZÚCAR, SCHWEPPES, SPRITE Y SPRITE SIN AZÚCAR, AQUARIUS, SMARTWATER, CEPITA, BENEDICTINO, POWERADE, ADES, HI-C NI MONSTER. NO INCLUYE CAJA NAVIDEÑA VERDE (COD. 179000), AZUL (COD. 179002), ROJA (COD. 179001) NI NEGRA (COD. 179003).",
     "paymentMethods": [
       [
         "Banco Ciudad",
@@ -32,8 +33,7 @@
       "explicitlyHasNoLimit": false
     },
     "where": [
-      "Coto",
-      "Online"
+      "Coto"
     ],
     "source": "coto",
     "url": "https://www.coto.com.ar/descuentos/index.asp"
@@ -74,7 +74,10 @@
     },
     "validFrom": "2026-01-01",
     "validUntil": "2026-01-31",
-    "restrictions": [],
+    "restrictions": [
+      "No válido para venta online.",
+      "Presentar DNI"
+    ],
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": false,
@@ -82,7 +85,7 @@
       "programaCiudadaniaPorteña": false
     },
     "limits": {
-      "explicitlyHasNoLimit": true
+      "explicitlyHasNoLimit": false
     },
     "where": [
       "Coto"
@@ -97,10 +100,11 @@
     },
     "validFrom": "2026-01-01",
     "validUntil": "2026-01-31",
-    "weekdays": [
-      "Lunes"
+    "restrictions": [
+      "No aplica a pagos a través de billeteras virtuales (excepto MODO), MPOS y/o plataformas de pago online",
+      "No aplica para pagos con dinero en cuenta y/o transferencia",
+      "Tope de reintegro $15.000 por usuario por semana."
     ],
-    "restrictions": [],
     "paymentMethods": [
       [
         "Banco Credicoop",
@@ -115,7 +119,7 @@
     ],
     "paymentRails": {
       "pagoConQR": true,
-      "telefonoContactless": true,
+      "telefonoContactless": false,
       "contactless": false
     },
     "unknownPaymentMethods": [],
@@ -158,7 +162,7 @@
       "type": "cuotas sin intereses",
       "value": 3
     },
-    "validFrom": "2026-01-01",
+    "validFrom": "2026-01-06",
     "validUntil": "2026-01-31",
     "restrictions": [],
     "paymentMethods": [
@@ -191,8 +195,11 @@
     "weekdays": [
       "Miercoles"
     ],
-    "restrictions": [],
-    "excludesProducts": "Electrodomésticos, Neumáticos ni Rodados. NO INCLUYE PRODUCTOS DE BODEGAS CATENA ZAPATA, NICOLA CATENA, BODEGA ERNESTO CATENA (ALMA NEGRA, PADRILLOS, ANIMAL, ENEMIGO Y GRAN ENEMIGO), MALBEC DV CATENA BOT X 1,5LT, MALBEC LA RIOJA DV CATENA, MALBEC SALTA DV CATENA, SAINT FELICIEN, NICASIA, TILIA, BODEGA LEONCIO ARIZU (LUIGI BOSCA), BODEGA LA RURAL (RUTINI, TRUMPETER, SAN FELIPE Y CEPA TRADICIONAL SEMILLON/MALBEC-MALBEC/TINTO BLEND), CHANDON Y TERRAZAS DE LOS ANDES (LATITUD 33°, CASTEL, ALTOS DEL PLATA, VALMONT, BELTOUR, CHEVAL Y CLOS DU MOULIN), BODEGA NORTON (LOTE NEGRO, QUORUM VI, PRIVADA FAMILY BLEND), BODEGA CADUS WINES (CADUS), CASA PIRQUE (ALTALAND, LA POSTA, LUCA, ARUMA, PETIT CARO, MALBEC/CABERNET FRANC CASA DE HERRERO, MALBEC OJO DE BUEN CUBERO, MALBEC/CABERNET FRANC/PINOT NOIR CUCHILLO DE PALO, MALBEC RÍO DE LOS CIERVOS ARAUCANA, MALBEC NICO Y BLEND BESO DE DANTE LUCA), BODEGA BIANCHI (VINO CHARDONNAY RESERVADO MARÍA CARMEN, VINO GRAN CORTE ENZO BIANCHI, VINOS MALBEC Y CABERNET SAUVIGNON PARTICULAR BIANCHI), BODEGA VALENTÍN BIANCHI (VINO TINTO CORTE Y MALBEC IV GENERACIÓN), BODEGA MONTEVIEJO (FESTIVO Y PETITE FLEUR), NI VINOS EN TETRABRIK NI GENEROSOS. EL DESCUENTO EN CHAMPAÑAS Y ESPUMANTES NO INCLUYE PRODUCTOS DE BODEGAS CHANDON, MERCIER, CATENA ZAPATA, BARÓN B, DOM PERIGNON, POMMERY, MÖET CHANDON, LA GRANDE DAME NI KRUG. NO INCLUYE CORTES DE CARNES DE NOVILLO, NOVILLITO, TERNERA, MENUDENCIAS NI CARNES ELABORADAS. NO INCLUYE POLLO ENTERO NI TROZADO, FRESCO NI CONGELADO. NO INCLUYE LECHES INFANTILES ETAPAS 1 Y 2 (FLUÍDAS NI EN POLVO), NI HARINAS EN TODAS SUS PRESENTACIONES, NI AZÚCAR EN TODAS SUS PRESENTACIONES, NI ACEITE DE GIRASOL Y MEZCLA GIRASOL-SOJA EN TODAS SUS PRESENTACIONES. NO INCLUYE TODAS LAS PRESENTACIONES DE LAS SIGUIENTES MARCAS: COCA COLA, COCA COLA LIGHT, COCA COLA SIN AZÚCAR, CRUSH, FANTA, FANTA SIN AZÚCAR, SCHWEPPES, SPRITE Y SPRITE SIN AZÚCAR AQUARIUS, SMARTWATER, CEPITA, BENEDICTINO, POWERADE, ADES, HI-C NI MONSTER. NO INCLUYE CAJA NAVIDEÑA VERDE (COD. 179000), AZUL (COD. 179002), ROJA (COD. 179001) NI NEGRA (COD. 179003).",
+    "restrictions": [
+      "Excluye tarjetas corporativas y/o prepagas",
+      "No válido para pagos con saldo en cuenta.",
+      "Tope de reintegro unificado: $12.000 por día Miércoles por cliente."
+    ],
     "paymentMethods": [
       [
         "Banco Nación",
@@ -205,7 +212,7 @@
     ],
     "paymentRails": {
       "pagoConQR": true,
-      "telefonoContactless": true,
+      "telefonoContactless": false,
       "contactless": false
     },
     "unknownPaymentMethods": [],
@@ -230,7 +237,7 @@
       "Martes"
     ],
     "restrictions": [],
-    "excludesProducts": "Electrodomésticos, Neumáticos ni Rodados. NO INCLUYE PRODUCTOS DE BODEGAS CATENA ZAPATA, NICOLA CATENA, BODEGA ERNESTO CATENA (ALMA NEGRA, PADRILLOS, ANIMAL, ENEMIGO Y GRAN ENEMIGO), MALBEC DV CATENA BOTELLA POR 1,5 L, MALBEC LA RIOJA DV CATENA, MALBEC SALTA DV CATENA, SAINT FELICIEN, NICASIA, TILIA, BODEGA LEONCIO ARIZU (LUIGI BOSCA), BODEGA LA RURAL (RUTINI, TRUMPETER, SAN FELIPE Y CEPA TRADICIONAL SEMILLON/MALBEC-MALBEC/TINTO BLEND), CHANDON Y TERRAZAS DE LOS ANDES (LATITUD 33°, CASTEL, ALTOS DEL PLATA, VALMONT, BELTOUR, CHEVAL Y CLOS DU MOULIN), BODEGA NORTON (LOTE NEGRO, QUORUM VI, PRIVADA FAMILY BLEND), BODEGA CADUS WINES (CADUS), CASA PIRQUE (ALTALAND, LA POSTA, LUCA, ARUMA, PETIT CARO, MALBEC/CABERNET FRANC CASA DE HERRERO, MALBEC OJO DE BUEN CUBERO, MALBEC/CABERNET FRANC/PINOT NOIR CUCHILLO DE PALO, MALBEC RÍO DE LOS CIERVOS ARAUCANA, MALBEC NICO Y BLEND BESO DE DANTE LUCA), BODEGA BIANCHI (VINO CHARDONNAY RESERVADO MARÍA CARMEN, VINO GRAN CORTE ENZO BIANCHI, VINOS MALBEC Y CABERNET SAUVIGNON PARTICULAR BIANCHI), BODEGA VALENTÍN BIANCHI (VINO TINTO CORTE Y MALBEC IV GENERACIÓN) BODEGA MONTEVIEJO (FESTIVO Y PETITE FLEUR) NI VINOS EN TETRABRIK NI GENEROSOS. EL DESCUENTO EN CHAMPAÑAS Y ESPUMANTES NO INCLUYE PRODUCTOS DE BODEGAS CHANDON, MERCIER, CATENA ZAPATA, BARÓN B, DOM PERIGNON, POMMERY, MÖET CHANDON, LA GRANDE DAME NI KRUG. NO INCLUYE CORTES DE CARNES DE NOVILLO, NOVILLITO, TERNERA, MENUDENCIAS NI CARNES ELABORADAS. NO INCLUYE POLLO ENTERO NI TROZADO, FRESCO NI CONGELADO. NO INCLUYE LECHES INFANTILES ETAPAS 1 Y 2 (FLUIDAS NI EN POLVO), NI YERBAS EN TODAS SUS PRESENTACIONES, NI HARINAS EN TODAS SUS PRESENTACIONES, NI AZÚCAR EN TODAS SUS PRESENTACIONES, NI ACEITE DE GIRASOL Y MEZCLA GIRASOL-SOJA EN TODAS SUS PRESENTACIONES. NO INCLUYE TODAS LAS PRESENTACIONES DE LAS SIGUIENTES MARCAS: COCA COLA, COCA COLA LIGHT, COCA COLA SIN AZÚCAR, CRUSH, FANTA, FANTA SIN AZÚCAR, SCHWEPPES, SPRITE, SPRITE SIN AZÚCAR, AQUARIUS, SMARTWATER, CEPITA, BENEDICTINO, POWERADE, ADES, HI-C NI MONSTER. NO INCLUYE CAJA NAVIDEÑA VERDE (COD. 179000), AZUL (COD. 179002), ROJA (COD. 179001) NI NEGRA (COD. 179003).",
+    "excludesProducts": "Electrodomésticos, Neumáticos, Rodados, Productos de bodegas Catena Zapata, Nicola Catena, Bodega Ernesto Catena (Alma Negra, Padillos, Animal, Enemigo y Gran Enemigo), Malbec DV Catena Bot X 1,5Lt, Malbec La Rioja DV Catena, Malbec Salta DV Catena, Saint Felicien, Nicasia, Tilia, Bodega Leoncio Arizu (Luigi Bosca), Bodega La Rural (Rutini, Trumpeter, San Felipe y Cepa Tradicional Semillon/Malbec-Malbec/Tinto Blend), Chandon y Terrazas de los Andes (Latitud 33°, Castel, Altos del Plata, Valmont, Beltour, Cheval y Clos du Moulin), Bodega Norton (Lote Negro, Quorum VI, Privada Family Blend), Bodega Cadus Wines (Cadus), Casa Pirque (Altaland, La Posta, Luca, Aruma, Petit Caro, Malbec/Cabernet Franc Casa de Herrero, Malbec Ojo de Buen Cubero, Malbec/Cabernet Franc/Pinot Noir Cuchillo de Palo, Malbec Río de los Ciervos Araucana, Malbec Nico y Blend Beso de Dante Luca), Bodega Bianchi (Vino Chardonnay Reservado María Carmen, Vino Gran Corte Enzo Bianchi, Vinos Malbec y Cabernet Sauvignon Particular Bianchi), Bodega Valentín Bianchi (Vino Tinto Corte y Malbec IV Generación) Bodega Monteviejo (Festivo y Petite Fleur) ni Vinos en Tetrabrik ni Generosos, Productos de bodegas Chandon, Mercier, Catena Zapata, Barón B, Dom Perignon, Pommery, Möet Chandon, La Grande Dame ni Krug, Cortes de carnes de novillo, novillito, ternera, menudencias ni carnes elaboradas, Pollo entero ni trozado, fresco ni congelado, Leches infantiles Etapas 1 y 2 (Fluidas ni en Polvo), Yerbas en todas sus presentaciones, Harinas en todas sus presentaciones, Azúcar en todas sus presentaciones, Aceite de Girasol y Mezcla Girasol-Soja en todas sus presentaciones, Todas las presentaciones de las siguientes marcas: Coca Cola, Coca Cola Light, Coca Cola Sin Azúcar, Crush, Fanta, Fanta Sin Azúcar, Schweppes, Sprite, Sprite Sin Azúcar, Aquarius, Smartwater, Cepita, Benedictino, Powerade, Ades, Hi-C ni Monster, Caja Navideña Verde (Cod. 179000), Azul (Cod. 179002), Roja (Cod. 179001) ni Negra (Cod. 179003).",
     "paymentMethods": [
       [
         "Banco Supervielle",
@@ -266,13 +273,14 @@
       "Martes"
     ],
     "restrictions": [],
-    "excludesProducts": "Electrodomésticos, Neumáticos ni Rodados. No incluye productos de Bodegas Catena Zapata, Nicola Catena, Bodega Ernesto Catena (Alma Negra, Padillos, Animal, Enemigo y Gran Enemigo), Malbec DV Catena Bot X 1,5Lt, Malbec La Rioja DV Catena, Malbec Salta DV Catena, Saint Felicien, Nicasia, Tilia, Bodega Leoncio Arizu (Luigi Bosca), Bodega La Rural (Rutini, Trumpeter, San Felipe y Cepa Tradicional Semillon/Malbec-Malbec/Tinto Blend), Chandon y Terrazas de los Andes (Latitud 33°, Castel, Altos del Plata, Valmont, Beltour, Cheval y Clos du Moulin), Bodega Norton (Lote Negro, Quorum VI, Privada Family Blend), Bodega Cadus Wines (Cadus), Casa Pirque (Altaland, La Posta, Luca, Aruma, Petit Caro, Malbec/Cabernet Franc Casa de Herrero, Malbec Ojo de Buen Cubero, Malbec/Cabernet Franc/Pinot Noir Cuchillo de Palo, Malbec Río de los Ciervos Araucana, Malbec Nico y Blend Beso de Dante Luca), Bodega Bianchi (Vino Chardonnay Reservado María Carmen, Vino Gran Corte Enzo Bianchi, Vinos Malbec y Cabernet Sauvignon Particular Bianchi), Bodega Valentín Bianchi (Vino Tinto Corte y Malbec IV Generación) Bodega Monteviejo (Festivo y Petite Fleur) ni Vinos en TetraBrik ni Generosos. El descuento en Champañas y Espumantes no incluye productos de Bodegas Chandon, Mercier, Catena Zapata, Barón B, Dom Perignon, Pommery, Möet Chandon, La Grande Dame ni Krug. No incluye cortes de carnes de novillo, novillito, ternera, menudencias ni carnes elaboradas. No incluye pollo entero ni trozado, fresco ni congelado. No incluye leches infantiles etapas 1 y 2 (fluidas ni en polvo), ni Yerbas en todas sus presentaciones, ni Harinas en todas sus presentaciones, ni Azúcar en todas sus presentaciones, ni Aceite de Girasol y mezcla Girasol-Soja en todas sus presentaciones. No incluye todas las presentaciones de las siguientes marcas: Coca Cola, Coca Cola Light, Coca Cola Sin Azúcar, Crush, Fanta, Fanta Sin Azúcar, Schweppes, Sprite, Sprite Sin Azúcar, Aquarius, Smartwater, Cepita, Benedictino, Powerade, Ades, Hi-C ni Monster. No incluye Caja Navideña Verde (Cod. 179000), Azul (Cod. 179002), Roja (Cod. 179001) ni Negra (Cod. 179003).",
     "paymentMethods": [
       [
+        "Banco Supervielle",
         "Banco Supervielle - Identité y Plan Sueldo",
         "Tarjeta de crédito Mastercard"
       ],
       [
+        "Banco Supervielle",
         "Banco Supervielle - Identité y Plan Sueldo",
         "Tarjeta de crédito VISA"
       ]
@@ -284,6 +292,9 @@
     "where": [
       "Coto"
     ],
+    "membership": [
+      "Comunidad Coto"
+    ],
     "source": "coto",
     "url": "https://www.coto.com.ar/descuentos/index.asp"
   },
@@ -294,7 +305,12 @@
     },
     "validFrom": "2026-01-01",
     "validUntil": "2026-01-31",
-    "restrictions": [],
+    "weekdays": [
+      "Martes"
+    ],
+    "restrictions": [
+      "Tope de reintegro: $6.000 por semana para clientes no adheridos a planes de suscripción NX."
+    ],
     "paymentMethods": [
       [
         "NaranjaX"
@@ -331,12 +347,10 @@
     },
     "validFrom": "2026-01-01",
     "validUntil": "2026-01-31",
-    "restrictions": [
-      "Tope de reintegro: $12.000 por semana para clientes adheridos a planes de suscripción (PLAN TURBO)."
-    ],
+    "restrictions": [],
     "paymentMethods": [
       [
-        "Cuenta DNI"
+        "NaranjaX"
       ],
       [
         "NaranjaX",
@@ -347,6 +361,11 @@
         "Tarjeta de débito VISA"
       ]
     ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
     "unknownPaymentMethods": [],
     "limits": {
       "maxDiscount": 12000,
@@ -370,10 +389,10 @@
       "Jueves"
     ],
     "restrictions": [],
-    "excludesProducts": "Electrodomésticos, Neumáticos ni Rodados, Productos de Bodegas Catena Zapata, Nicola Catena, Bodega Ernesto Catena (Alma Negra, Padriillos, Animal, Enemigo y Gran Enemigo), Malbec DV Catena Bot X 1,5Lt, Malbec La Rioja DV Catena, Malbec Salta DV Catena, Saint Felicien, Nicasia, Tilia, Bodega Leoncio Arizu (Luigi Bosca), Bodega La Rural (Rutini, Trumpeter, San Felipe y Cepa Tradicional Semillon/Malbec-Malbec/Tinto Blend), Chandon y Terrazas de los Andes (Latitud 33°, Castel, Altos del Plata, Valmont, Beltour, Cheval y Clos du Moulin), Bodega Norton (Lote Negro, Quorum VI, Privada Family Blend), Bodega Cadus Wines (Cadus), Casa Pirque (Altaland, La Posta, Luca, Aruma, Petit Caro, Malbec/Cabernet Franc Casa de Herrero, Malbec Ojo de Buen Cubero, Malbec/Cabernet Franc/Pinot Noir Cuchillo de Palo, Malbec Río de los Ciervos Araucana, Malbec Nico y Blend Beso de Dante Luca), Bodega Bianchi (Vino Chardonnay Reservado María Carmen, Vino Gran Corte Enzo Bianchi, Vinos Malbec y Cabernet Sauvignon Particular Bianchi), Bodega Valentín Bianchi (Vino Tinto Corte y Malbec IV Generación), Bodega Monteviejo (Festivo y Petite Fleur), Vinos en Tetrabrik ni Generosos, Champañas y Espumantes no incluye productos de Bodegas Chandon, Mercier, Catena Zapata, Barón B, Dom Perignon, Pommery, Möet Chandon, La Grande Dame ni Krug, Cortes de Carnes de Novillo, Novillito, Ternera, Menudencias ni Carnes Elaboradas, Pollo Entero ni Trozado, Fresco ni Congelado, Leches Infantiles Etapas 1 y 2 (Fluidas ni en Polvo), Harinas en Todas Sus Presentaciones, Azúcar en Todas Sus Presentaciones, Aceite de Girasol y Mezcla Girasol-Soja en Todas Sus Presentaciones, Todas las Presentaciones de las Siguientes Marcas: Coca Cola, Coca Cola Light, Coca Cola Sin Azúcar, Crush, Fanta, Fanta Sin Azúcar, Schweppes, Sprite y Sprite Sin Azúcar, Aquarius, Smartwater, Cepita, Benedictino, Powerade, Ades, Hi-C ni Monster, Caja Navideña Verde (Cod. 179000), Azul (Cod. 179002), Roja (Cod. 179001) ni Negra (Cod. 179003)",
+    "excludesProducts": "Electrodomésticos, Neumáticos ni Rodados. Productos de Bodegas Catena Zapata, Nicola Catena, Bodega Ernesto Catena (Alma Negra, Padillos, Animal, Enemigo y Gran Enemigo), Malbec DV Catena BOT X 1,5LT, Malbec La Rioja DV Catena, Malbec Salta DV Catena, Saint Felicien, Nicasia, Tilia, Bodega Leoncio Arizu (Luigi Bosca), Bodega La Rural (Rutini, Trumpeter, San Felipe y Cepa Tradicional Semillon/Malbec-Malbec/Tinto Blend), Chandon y Terrazas de los Andes (Latitud 33°, Castel, Altos del Plata, Valmont, Beltour, Cheval y Clos du Moulin), Bodega Norton (Lote Negro, Quorum VI, Privada Family Blend), Bodega Cadus Wines (Cadus), Casa Pirque (Altaland, La Posta, Luca, Aruma, Petit Caro, Malbec/Cabernet Franc Casa de Herrero, Malbec Ojo de Buen Cubero, Malbec/Cabernet Franc/Pinot Noir Cuchillo de Palo, Malbec Río de los Ciervos Araucana, Malbec Nico y Blend Beso de Dante Luca), Bodega Bianchi (Vino Chardonnay Reservado María Carmen, Vino Gran Corte Enzo Bianchi, Vinos Malbec y Cabernet Sauvignon Particular Bianchi), Bodega Valentín Bianchi (Vino Tinto Corte y Malbec IV Generación), Bodega Monteviejo (Festivo y Petite Fleur), ni Vinos en TetraBrik ni Generosos. El descuento en Champañas y Espumantes no incluye productos de Bodegas Chandon, Mercier, Catena Zapata, Barón B, Dom Perignon, Pommery, Möet Chandon, La Grande Dame ni Krug. Cortes de Carnes de Novillo, Novillito, Ternera, Menudencias ni Carnes Elaboradas. Pollo Entero ni Trozado, Fresco ni Congelado. Leches Infantiles Etapas 1 y 2 (Fluídas ni en Polvo), Harinas en todas sus presentaciones, Azúcar en todas sus presentaciones, Aceite de Girasol y Mezcla Girasol-Soja en todas sus presentaciones. Todas las presentaciones de las siguientes marcas: Coca Cola, Coca Cola Light, Coca Cola Sin Azúcar, Crush, Fanta, Fanta Sin Azúcar, Schweppes, Sprite y Sprite Sin Azúcar, Aquarius, Smartwater, Cepita, Benedictino, Powerade, Ades, Hi-C ni Monster. Caja Navideña Verde (Cod. 179000), Azul (Cod. 179002), Roja (Cod. 179001) ni Negra (Cod. 179003).",
     "paymentMethods": [
       [
-        "Tarjeta de Crédito Sol"
+        "Tarjeta de crédito Cabal"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -397,14 +416,20 @@
       "value": 10
     },
     "validFrom": "2026-01-01",
-    "validUntil": "2026-01-01",
+    "validUntil": "2026-01-08",
     "restrictions": [],
     "paymentMethods": [
+      [
+        "Tarjeta de crédito Cabal"
+      ],
       [
         "Tarjeta de crédito Mastercard"
       ],
       [
         "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de débito Cabal"
       ],
       [
         "Tarjeta de débito Mastercard"
@@ -457,6 +482,9 @@
     },
     "validFrom": "2026-01-01",
     "validUntil": "2026-01-31",
+    "weekdays": [
+      "Jueves"
+    ],
     "restrictions": [],
     "paymentMethods": [
       [
@@ -485,14 +513,10 @@
     },
     "validFrom": "2026-01-01",
     "validUntil": "2026-01-31",
-    "weekdays": [
-      "Jueves"
-    ],
     "restrictions": [
-      "Quedan excluidas todas aquellas tarjetas de débito emitidas a través de planes sociales ANSES.",
-      "Valido para clientes que sean además titulares de servicios de cuenta Comafi Ahorro, Global, Classic Premium y/o Platinum"
+      "No acumulable con otras promociones vigentes"
     ],
-    "excludesProducts": "Electrodomésticos, Neumáticos ni Rodados, Productos de Bodegas Catena Zapata, Nicola Catena, Bodega Ernesto Catena (Alma Negra, Padillos, Animal, Enemigo y Gran Enemigo), Malbec DV Catena Bot X 1,5Lt, Malbec La Rioja DV Catena, Malbec Salta DV Catena, Saint Felicien, Nicasia, Tilia, Bodega Leoncio Arizu (Luigi Bosca), Bodega La Rural (Rutini, Trumpeter, San Felipe y Cepa Tradicional Semillon/Malbec-Malbec/Tinto Blend), Chandon y Terrazas de los Andes (Latitud 33°, Castel, Altos del Plata, Valmont, Beltour, Cheval y Clos du Moulin), Bodega Norton (Lote Negro, Quorum VI, Privada Family Blend), Bodega Cadus Wines (Cadus), Casa Pirque (Altaland, La Posta, Luca, Aruma, Petit Caro, Malbec/Cabernet Franc Casa de Herrero, Malbec Ojo de Buen Cubero, Malbec/Cabernet Franc/Pinot Noir Cuchillo de Palo, Malbec Río de los Ciervos Araucana, Malbec Nico y Blend Beso de Dante Luca), Bodega Bianchi (Vino Chardonnay Reservado María Carmen, Vino Gran Corte Enzo Bianchi, Vinos Malbec y Cabernet Sauvignon Particular Bianchi), Bodega Valentín Bianchi (Vino Tinto Corte y Malbec IV Generación) Bodega Monteviejo (Festivo y Petite Fleur) ni Vinos en TetraBrik ni Generosos. El descuento en Champañas y Espumantes no incluye productos de Bodegas Chandon, Mercier, Catena Zapata, Barón B, Dom Perignon, Pommery, Möet Chandon, La Grande Dame ni Krug. No incluye cortes de carnes de novillo, novillito, ternera, menudencias ni carnes elaboradas. No incluye pollo entero ni trozado, fresco ni congelado. No incluye Leches Infantiles Etapas 1 y 2 (Fluidas ni en Polvo), ni Harinas en todas sus presentaciones, ni Azúcar en todas sus presentaciones, ni Aceite de Girasol y Mezcla Girasol-Soja en todas sus presentaciones. No incluye todas las presentaciones de las siguientes marcas: Coca Cola, Coca Cola Light, Coca Cola Sin Azúcar, Crush, Fanta, Fanta Sin Azúcar, Schweppes, Sprite, Sprite Sin Azúcar, Aquarius, Smartwater, Cepita, Benedictino, Powerade, Ades, Hi-C ni Monster. No incluye Caja Navideña Verde (Cod. 179000), Azul (Cod. 179002), Roja (Cod. 179001) ni Negra (Cod. 179003).",
+    "excludesProducts": "Electrodomésticos, Neumáticos ni Rodados. NO INCLUYE PRODUCTOS DE BODEGAS CATENA ZAPATA, NICOLA CATENA, BODEGA ERNESTO CATENA (ALMA NEGRA, PADRILLOS, ANIMAL, ENEMIGO Y GRAN ENEMIGO), MALBEC DV CATENA BOT X 1,5LT, MALBEC LA RIOJA DV CATENA, MALBEC SALTA DV CATENA, SAINT FELICIEN, NICASIA, TILIA, BODEGA LEONCIO ARIZU (LUIGI BOSCA), BODEGA LA RURAL (RUTINI, TRUMPETER, SAN FELIPE Y CEPA TRADICIONAL SEMILLON/MALBEC-MALBEC/TINTO BLEND), CHANDON Y TERRAZAS DE LOS ANDES (LATITUD 33°, CASTEL, ALTOS DEL PLATA, VALMONT, BELTOUR, CHEVAL Y CLOS DU MOULIN), BODEGA NORTON (LOTE NEGRO, QUORUM VI, PRIVADA FAMILY BLEND), BODEGA CADUS WINES (CADUS), CASA PIRQUE (ALTALAND, LA POSTA, LUCA, ARUMA, PETIT CARO, MALBEC/CABERNET FRANC CASA DE HERRERO, MALBEC OJO DE BUEN CUBERO, MALBEC/CABERNET FRANC/PINOT NOIR CUCHILLO DE PALO, MALBEC RÍO DE LOS CIERVOS ARAUCANA, MALBEC NICO Y BLEND BESO DE DANTE LUCA), BODEGA BIANCHI (VINO CHARDONNAY RESERVADO MARÍA CARMEN, VINO GRAN CORTE ENZO BIANCHI, VINOS MALBEC Y CABERNET SAUVIGNON PARTICULAR BIANCHI), BODEGA VALENTÍN BIANCHI (VINO TINTO CORTE Y MALBEC IV GENERACIÓN), BODEGA MONTEVIEJO (FESTIVO Y PETITE FLEUR), NI VINOS EN TETRABRIK NI GENEROSOS. EL DESCUENTO EN CHAMPAÑAS Y ESPUMANTES NO INCLUYE PRODUCTOS DE BODEGAS CHANDON, MERCIER, CATENA ZAPATA, BARÓN B, DOM PERIGNON, POMMERY, MÖET CHANDON, LA GRANDE DAME NI KRUG. NO INCLUYE CORTES DE CARNES DE NOVILLO, NOVILLITO, TERNERA, MENUDENCIAS NI CARNES ELABORADAS. NO INCLUYE POLLO ENTERO NI TROZADO, FRESCO NI CONGELADO. NO INCLUYE LECHES INFANTILES ETAPAS 1 Y 2 (FLUÍDAS NI EN POLVO), NI HARINAS EN TODAS SUS PRESENTACIONES, NI AZÚCAR EN TODAS SUS PRESENTACIONES, NI ACEITE DE GIRASOL Y MEZCLA GIRASOL-SOJA EN TODAS SUS PRESENTACIONES. NO INCLUYE TODAS LAS PRESENTACIONES DE LAS SIGUIENTES MARCAS: COCA COLA, COCA COLA LIGHT, COCA COLA SIN AZÚCAR, CRUSH, FANTA, FANTA SIN AZÚCAR, SCHWEPPES, SPRITE Y SPRITE SIN AZÚCAR, AQUARIUS, SMARTWATER, CEPITA, BENEDICTINO, POWERADE, ADES, HI-C NI MONSTER. NO INCLUYE CAJA NAVIDEÑA VERDE (COD. 179000), AZUL (COD. 179002), ROJA (COD. 179001) NI NEGRA (COD. 179003).",
     "paymentMethods": [
       [
         "Banco Comafi",
@@ -505,7 +529,8 @@
       "explicitlyHasNoLimit": false
     },
     "where": [
-      "Coto"
+      "Coto",
+      "Online"
     ],
     "source": "coto",
     "url": "https://www.coto.com.ar/descuentos/index.asp"
@@ -515,10 +540,10 @@
       "type": "porcentaje",
       "value": 25
     },
-    "validFrom": "2026-01-02",
-    "validUntil": "2026-01-02",
+    "validFrom": "2026-01-09",
+    "validUntil": "2026-01-09",
     "restrictions": [],
-    "excludesProducts": "Electrodomésticos, Neumáticos ni Rodados. No incluye productos de Bodegas Catena Zapata, Nicola Catena, Bodega Ernesto Catena (Alma Negra, Padillos, Animal, Enemigo y Gran Enemigo), Malbec DV Catena Bot x 1,5lt, Malbec La Rioja DV Catena, Malbec Salta DV Catena, Saint Felicien, Nicasia, Tilia, Bodega La Rural (Rutini, Trumpeter, San Felipe y Cepa Tradicional Semillon/Malbec-Malbec/Tinto Blend), Chandon y Terrazas de los Andes (Latitud 33°, Castel, Altos del Plata, Valmont, Beltour, Cheval y Clos du Moulin), Bodega Norton (Lote Negro, Quorum VI, Privada Family Blend), Bodega Cadus Wines (Cadus), Casa Pirque (Altaland, La Posta, Luca, Aruma, Petit Caro, Malbec/Cabernet Franc Casa de Herrero, Malbec Ojo de Buen Cubero, Malbec/Cabernet Franc/Pinot Noir Cuchillo de Palo, Malbec Río de los Ciervos Araucana, Malbec Nico y Blend Beso de Dante Luca), Bodega Bianchi (Vino Chardonnay Reservado María Carmen, Vino Gran Corte Enzo Bianchi, Vinos Malbec y Cabernet Sauvignon Particular Bianchi), Bodega Valentín Bianchi (Vino Tinto Corte y Malbec IV Generación) Bodega Monteviejo (Festivo y Petite Fleur) ni Vinos en TetraBrik ni Generosos. El descuento en Champañas y Espumantes no incluye productos de Bodegas Chandon, Mercier, Catena Zapata, Barón B, Dom Perignon, Pommery, Möet Chandon, La Grande Dame ni Krug. No incluye cortes de carnes de novillo, novillito, ternera, menudencias ni carnes elaboradas. No incluye pollo entero ni trozado, fresco ni congelado. No incluye leches infantiles etapas 1 y 2 (fluídas ni en polvo), ni harinas en todas sus presentaciones, ni azúcar en todas sus presentaciones, ni aceite de girasol y mezcla girasol-soja en todas sus presentaciones. No incluye todas las presentaciones de las siguientes marcas: Coca Cola, Coca Cola Light, Coca Cola Sin Azúcar, Crush, Fanta, Fanta Sin Azúcar, Schweppes, Sprite, Sprite Sin Azúcar, Aquarius, Smartwater, Cepita, Benedictino, Powerade, Ades, Hi-C ni Monster.",
+    "excludesProducts": "Electrodomésticos, Neumáticos ni Rodados. No incluye productos de Bodegas Catena Zapata, Nicola Catena, Bodega Ernesto Catena (Alma Negra, Padillos, Animal, Enemigo y Gran Enemigo), Malbec DV Catena Bot X 1,5Lt, Malbec La Rioja DV Catena, Malbec Salta DV Catena, Saint Felicien, Nicasia, Tilia, Bodega La Rural (Rutini, Trumpeter, San Felipe y Cepa Tradicional Semillon/Malbec-Malbec/Tinto Blend), Chandon y Terrazas de los Andes (Latitud 33°, Castel, Altos del Plata, Valmont, Beltour, Cheval y Clos du Moulin), Bodega Norton (Lote Negro, Quorum VI, Privada Family Blend), Bodega Cadus Wines (Cadus), Casa Pirque (Altaland, La Posta, Luca, Aruma, Petit Caro, Malbec/Cabernet Franc Casa de Herrero, Malbec Ojo de Buen Cubero, Malbec/Cabernet Franc/Pinot Noir Cuchillo de Palo, Malbec Río de los Ciervos Araucana, Malbec Nico y Blend Beso de Dante Luca), Bodega Bianchi (Vino Chardonnay Reservado María Carmen, Vino Gran Corte Enzo Bianchi, Vinos Malbec y Cabernet Sauvignon Particular Bianchi), Bodega Valentín Bianchi (Vino Tinto Corte y Malbec IV Generación) Bodega Monteviejo (Festivo y Petite Fleur) ni Vinos en TetraBrik ni Generosos. El descuento en Champañas y Espumantes no incluye productos de Bodegas Chandon, Mercier, Catena Zapata, Barón B, Dom Perignon, Pommery, Möet Chandon, La Grande Dame ni Krug.No incluye cortes de carnes de novillo, novillito, ternera, menudencias ni carnes elaboradas. No incluye pollo entero ni trozado, fresco ni congelado. No incluye leches infantiles etapas 1 y 2 (fluídas ni en polvo), ni harinas en todas sus presentaciones, ni azúcar en todas sus presentaciones, ni aceite de girasol y mezcla girasol-soja en todas sus presentaciones. No incluye todas las presentaciones de las siguientes marcas: Coca Cola, Coca Cola Light, Coca Cola Sin Azúcar, Crush, Fanta, Fanta Sin Azúcar, Schweppes, Sprite, Sprite Sin Azúcar, Aquarius, Smartwater, Cepita, Benedictino, Powerade, Ades, Hi-C ni Monster. No incluye Caja Navideña Verde (Cod. 179000), Azul (Cod. 179002), Roja (Cod. 179001) ni Negra (Cod. 179003).",
     "paymentMethods": [
       [
         "Mercado Pago"
@@ -544,12 +569,16 @@
       "type": "porcentaje",
       "value": 15
     },
-    "validFrom": "2026-01-02",
-    "validUntil": "2026-01-02",
+    "validFrom": "2026-01-09",
+    "validUntil": "2026-01-09",
     "restrictions": [
       "No valido para venta online (Coto Digital)."
     ],
+    "excludesProducts": "Electrodomésticos, Neumáticos ni Rodados. Productos de Bodegas Catena Zapata, Nicola Catena, Bodega Ernesto Catena (Alma Negra, Padillos, Animal, Enemigo y Gran Enemigo), Malbec DV Catena BOT X 1,5LT, Malbec La Rioja DV Catena, Malbec Salta DV Catena, Saint Felicien, Nicasia, Tilia, Bodega La Rural (Rutini, Trumpeter, San Felipe y Cepa Tradicional Semillon/Malbec-Malbec/Tinto Blend), Chandon y Terrazas de los Andes (Latitud 33°, Castel, Altos del Plata, Valmont, Beltour, Cheval y Clos du Moulin), Bodega Norton (Lote Negro, Quorum VI, Privada Family Blend), Bodega Cadus Wines (Cadus), Casa Pirque (Altaland, La Posta, Luca, Aruma, Petit Caro, Malbec/Cabernet Franc Casa de Herrero, Malbec Ojo de Buen Cubero, Malbec/Cabernet Franc/Pinot Noir Cuchillo de Palo, Malbec Río de los Ciervos Araucana, Malbec Nico y Blend Beso de Dante Luca), Bodega Bianchi (Vino Chardonnay Reservado María Carmen, Vino Gran Corte Enzo Bianchi, Vinos Malbec y Cabernet Sauvignon Particular Bianchi), Bodega Valentín Bianchi (Vino Tinto Corte y Malbec IV Generación) Bodega Monteviejo (Festivo y Petite Fleur) ni Vinos en TetraBrik ni Generosos. El descuento en Champañas y Espumantes no incluye productos de Bodegas Chandon, Mercier, Catena Zapata, Barón B, Dom Perignon, Pommery, Möet Chandon, La Grande Dame ni Krug. Cortes de Carnes de Novillo, Novillito, Ternera, Menudencias ni Carnes Elaboradas. Pollo Entero ni Trozado, Fresco ni Congelado. Leches Infantiles Etapas 1 y 2 (Fluidas ni en Polvo), ni Harinas en Todas Sus Presentaciones, ni Azúcar en Todas Sus Presentaciones, ni Aceite de Girasol y Mezcla Girasol-Soja en Todas Sus Presentaciones. Todas las Presentaciones de las Siguientes Marcas: Coca Cola, Coca Cola Light, Coca Cola Sin Azúcar, Crush, Fanta, Fanta Sin Azúcar, Schweppes, Sprite, Sprite Sin Azúcar, Aquarius, Smartwater, Cepita, Benedictino, Powerade, Ades, Hi-C ni Monster. Caja Navideña Verde (Cod. 179000), Azul (Cod. 179002), Roja (Cod. 179001) ni Negra (Cod. 179003).",
     "paymentMethods": [
+      [
+        "Tarjeta de débito Cabal"
+      ],
       [
         "Tarjeta de débito Mastercard"
       ],
@@ -569,34 +598,15 @@
   },
   {
     "discount": {
-      "type": "porcentaje",
-      "value": 20
+      "type": "cuotas sin intereses",
+      "value": 3
     },
-    "validFrom": "2026-01-03",
-    "validUntil": "2026-01-04",
-    "restrictions": [],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Coto"
+    "validFrom": "2026-01-09",
+    "validUntil": "2026-01-09",
+    "restrictions": [
+      "No valido para venta online (Coto Digital).",
+      "Valido en compras a partir de $30.000"
     ],
-    "membership": [
-      "Comunidad Coto"
-    ],
-    "source": "coto",
-    "url": "https://www.coto.com.ar/descuentos/index.asp"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2026-01-03",
-    "validUntil": "2026-01-04",
-    "restrictions": [],
-    "excludesProducts": "Electrodomésticos, Neumáticos ni Rodados. No incluye productos de Bodegas Catena Zapata, Nicola Catena, Bodega Ernesto Catena (Alma Negra, Padriillos, Animal, Enemigo y Gran Enemigo), Malbec DV Catena Bot x 1,5lt, Malbec La Rioja DV Catena, Malbec Salta DV Catena, Saint Felicien, Nicasia, Tilia, Bodega La Rural (Rutini, Trumpeter, San Felipe y Cepa Tradicional Semillon/Malbec-Malbec/Tinto Blend), Chandon y Terrazas de los Andes (Latitud 33°, Castel, Altos del Plata, Valmont, Beltour, Cheval y Clos du Moulin), Bodega Norton (Lote Negro, Quorum VI, Privada Family Blend), Bodega Cadus Wines (Cadus), Casa Pirque (Altaland, La Posta, Luca, Aruma, Petit Caro, Malbec/Cabernet Franc Casa de Herrero, Malbec Ojo de Buen Cubero, Malbec/Cabernet Franc/Pinot Noir Cuchillo de Palo, Malbec Río de los Ciervos Araucana, Malbec Nico y Blend Beso de Dante Luca), Bodega Bianchi (Vino Chardonnay Reservado María Carmen, Vino Gran Corte Enzo Bianchi, Vinos Malbec y Cabernet Sauvignon Particular Bianchi), Bodega Valentín Bianchi (Vino Tinto Corte y Malbec IV Generación) Bodega Monteviejo (Festivo y Petite Fleur) ni Vinos en TetraBrik ni Generosos. El descuento en Champañas y Espumantes no incluye productos de Bodegas Chandon, Mercier, Catena Zapata, Barón B, Dom Perignon, Pommery, Möet Chandon, La Grande Dame ni Krug. No incluye cortes de Carnes de Novillo, Novillito, Ternera, Menudencias ni Carnes Elaboradas. No incluye Pollo Entero ni Trozado, Fresco ni Congelado. No incluye Leches Infantiles Etapas 1 y 2 (Fluídas ni en Polvo), ni Harinas en todas sus presentaciones, ni Azúcar en todas sus presentaciones, ni Aceite de Girasol y Mezcla Girasol-Soja en todas sus presentaciones. No incluye todas las presentaciones de las siguientes marcas: Coca Cola, Coca Cola Light, Coca Cola Sin Azúcar, Crush, Fanta, Fanta Sin Azúcar, Schweppes, Sprite, Sprite Sin Azúcar, Aquarius, Smartwater, Cepita, Benedictino, Powerade, Ades, Hi-C ni Monster. No incluye Caja Navideña Verde (Cod. 179000), Azul (Cod. 179002), Roja (Cod. 179001) ni Negra (Cod. 179003).",
     "paymentMethods": [
       [
         "Mercado Pago"
@@ -609,77 +619,7 @@
     },
     "unknownPaymentMethods": [],
     "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Coto"
-    ],
-    "source": "coto",
-    "url": "https://www.coto.com.ar/descuentos/index.asp"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2026-01-03",
-    "validUntil": "2026-01-04",
-    "restrictions": [
-      "No acumulable con otras promociones vigentes"
-    ],
-    "excludesProducts": "Electrodomésticos, Neumáticos ni Rodados, Productos de bodegas Catena Zapata, Nicola Catena, Bodega Ernesto Catena (Alma Negra, Padillos, Animal, Enemigo y Gran Enemigo), Malbec DV Catena Bot X 1,5Lt, Malbec La Rioja DV Catena, Malbec Salta DV Catena, Saint Felicien, Nicasia, Tilia, Bodega Leoncio Arizu (Luigi Bosca), Bodega La Rural (Rutini, Trumpeter, San Felipe y Cepa Tradicional Semillon/Malbec-Malbec/Tinto Blend), Chandon y Terrazas de los Andes (Latitud 33°, Castel, Altos del Plata, Valmont, Beltour, Cheval y Clos du Moulin), Bodega Norton (Lote Negro, Quorum VI, Privada Family Blend), Bodega Cadus Wines (Cadus), Casa Pirque (Altaland, La Posta, Luca, Aruma, Petit Caro, Malbec/Cabernet Franc Casa de Herrero, Malbec Ojo de Buen Cubero, Malbec/Cabernet Franc/Pinot Noir Cuchillo de Palo, Malbec Río de los Ciervos Araucana, Malbec Nico y Blend Beso de Dante Luca), Bodega Bianchi (Vino Chardonnay Reservado María Carmen, Vino Gran Corte Enzo Bianchi, Vinos Malbec y Cabernet Sauvignon Particular Bianchi), Bodega Valentín Bianchi (Vino Tinto Corte y Malbec IV Generación), Bodega Monteviejo (Festivo y Petite Fleur), Vinos en Tetra brik ni Generosos, Chandon, Mercier, Catena Zapata, Barón B, Dom Perignon, Pommery, Möet Chandon, La Grande Dame ni Krug, Cortes de carnes de novillo, novillito, ternera, menudencias ni carnes elaboradas, Pollo entero ni trozado, fresco ni congelado, Leches infantiles Etapas 1 y 2 (Fluidas ni en Polvo), Harinas en todas sus presentaciones, Azúcar en todas sus presentaciones, Aceite de Girasol y Mezcla Girasol-Soja en todas sus presentaciones, Coca Cola, Coca Cola Light, Coca Cola Sin Azúcar, Crush, Fanta, Fanta Sin Azúcar, Schweppes, Sprite y Sprite Sin Azúcar Aquarius, Smartwater, Cepita, Benedictino, Powerade, Ades, Hi-C ni Monster, Caja Navideña Verde (Cod. 179000), Azul (Cod. 179002), Roja (Cod. 179001) ni Negra (Cod. 179003).",
-    "paymentMethods": [
-      [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Supervielle",
-        "MODO",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": true,
-      "telefonoContactless": true,
-      "contactless": false
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 10000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "source": "coto",
-    "url": "https://www.coto.com.ar/descuentos/index.asp"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2026-01-03",
-    "validUntil": "2026-01-04",
-    "restrictions": [
-      "No acumulable con otras promociones",
-      "Válido para consumos de tipo familiar"
-    ],
-    "paymentMethods": [
-      [
-        "Banco Supervielle",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Supervielle",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 15000,
+      "maxDiscount": 0,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -693,44 +633,8 @@
       "type": "cuotas sin intereses",
       "value": 3
     },
-    "validFrom": "2026-01-02",
-    "validUntil": "2026-01-02",
-    "restrictions": [
-      "No valido para venta online (Coto Digital).",
-      "Valido en compras a partir de $30.000"
-    ],
-    "paymentMethods": [
-      [
-        "Mercado Pago",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Mercado Pago",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": true,
-      "telefonoContactless": false,
-      "contactless": false
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Coto"
-    ],
-    "source": "coto",
-    "url": "https://www.coto.com.ar/descuentos/index.asp"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2026-01-02",
-    "validUntil": "2026-01-02",
+    "validFrom": "2026-01-09",
+    "validUntil": "2026-01-09",
     "restrictions": [],
     "paymentMethods": [
       [
