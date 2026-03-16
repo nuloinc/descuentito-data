@@ -11,7 +11,8 @@
     ],
     "restrictions": [
       "Aplicable a la primera compra del día",
-      "Válido 1 vez por usuario, por Martes"
+      "Válido 1 vez por usuario, por martes",
+      "La tarjeta debe ser ingresada como débito"
     ],
     "paymentMethods": [
       [
@@ -38,8 +39,9 @@
     "validFrom": "2024-01-01",
     "validUntil": "2024-01-31",
     "restrictions": [
-      "Primer pago con Dinero en Cuenta y Mercado Credito",
-      "Primer pago con Mercado Credito"
+      "Primer pago con Mercado Crédito",
+      "Hasta agotar stock de 500 cupones",
+      "Hasta alcanzar la suma de $500000 en concepto de descuentos otorgados a los usuarios"
     ],
     "paymentMethods": [
       [
@@ -80,7 +82,7 @@
       "No acumulable con otras promociones vigentes.",
       "El beneficio no aplica a las categorías: Tecnología, Bazar, Textil y Electro.",
       "La promoción no aplica a pagos a través de billeteras virtuales (excepto MODO), MPOS y/o plataformas de pago online.",
-      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
+      "Sólo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
     ],
     "paymentMethods": [
       [
@@ -114,7 +116,7 @@
       "No acumulable con otras promociones vigentes.",
       "El beneficio no aplica a las categorías: Tecnología, Bazar, Textil y Electro.",
       "La promoción no aplica a pagos a través de billeteras virtuales (excepto MODO), MPOS y/o plataformas de pago online.",
-      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
+      "Sólo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
     ],
     "paymentMethods": [
       [
@@ -145,10 +147,10 @@
     ],
     "restrictions": [
       "Promoción válida únicamente para compras realizadas en 1 pago.",
-      "El beneficio no aplica a las categorías: Tecnología, Bazar, Textil y Electro.",
       "La promoción no aplica a pagos a través de billeteras virtuales (excepto MODO), MPOS y/o plataformas de pago online.",
       "Sólo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
     ],
+    "excludesProducts": "Tecnología, Bazar, Textil, Electro",
     "paymentMethods": [
       [
         "Banco Galicia - Eminent",
@@ -214,7 +216,9 @@
       "Lunes",
       "Viernes"
     ],
-    "restrictions": [],
+    "restrictions": [
+      "No acumulable con otros descuentos."
+    ],
     "paymentMethods": [
       [
         "Banco Columbia",
@@ -248,10 +252,10 @@
     ],
     "restrictions": [
       "Exclusivo para cartera de consumo",
-      "Para compras de la canasta familiar",
-      "Excluye versiones corporativas",
-      "Se excluye el rubro electro"
+      "Para las compras de la canasta familiar",
+      "Aplica en la primera compra en alguno de los comercios del rubro supermercados /hipermercados y afines al sector alimenticios adheridos a la promoción"
     ],
+    "excludesProducts": "Electro",
     "paymentMethods": [
       [
         "Banco Nación",
@@ -286,7 +290,9 @@
     "validFrom": "2024-01-01",
     "validUntil": "2024-01-31",
     "restrictions": [
-      "Primer pago con Mercado Crédito"
+      "Primer pago con Mercado Crédito",
+      "Hasta agotar stock de 500 cupones",
+      "Hasta alcanzar la suma de $500000 en concepto de descuentos otorgados a los usuarios"
     ],
     "paymentMethods": [
       [
@@ -322,8 +328,12 @@
     "weekdays": [
       "Martes"
     ],
-    "restrictions": [],
-    "excludesProducts": "Electro",
+    "restrictions": [
+      "Exclusivo para usuarios de Tarjetas Cabal Débito emitidas por Banco Credicoop CL, excepto Agrocabal y Cabal Mayorista",
+      "No participan productos del rubro electro",
+      "No participan consumos realizados a través de billeteras virtuales y/o POS móviles",
+      "La cuenta bancaria vinculada a la tarjeta debe encontrarse abierta al momento del reintegro"
+    ],
     "paymentMethods": [
       [
         "Banco Credicoop",
@@ -353,17 +363,10 @@
       "Martes"
     ],
     "restrictions": [
-      "Válido para todas las tiendas DIA del país excepto las franquicias tradicionales",
-      "Promoción acumulable con los descuentos de fidelización",
-      "El descuento no se realiza en la línea de cajas sino que se reintegrará en la tarjeta dentro de los 10 días hábiles desde la fecha de compra",
-      "ANSES limitará su responsabilidad exclusivamente a la promoción, publicidad y difusión de productos y/o servicios ofertados por los comercios adheridos al programa de beneficios ANSES",
-      "ANSES no es intermediario de la oferta y no será responsable por los daños y perjuicios que pudieran sufrir los beneficiarios del programa",
-      "ANSES pondrá a disposición del comercio adherido una herramienta exclusivamente promocional para la promoción de sus productos y/o servicios; y para la validación de sus clientes como beneficiarios del programa",
-      "ANSES no será responsable por la aplicación de los descuentos promocionados. Dicha responsabilidad será exclusiva de las administradoras de medios de pago electrónico y/o bancos , según la modalidad de descuento en la que los comercios adheridos se hubiesen adherido al programa",
-      "Franquicias tradicionales no incluidas: SAN MARTIN 399 - CALLE 158 N° 589/91 ENTRE 7 Y 8 - SAN PABLO 670 - MINISTRO SOJO 3228 - MANUEL BELGRANO 110 - URUGUAY 125",
-      "Exclusiones: prestaciones de pago único, a saber: sucesiones mayores a $1000 o haberes devengados por sucesión (haberes depositados correspondientes al acervo hereditario del titular fallecido); ;RVP anexo III (aquellas cuentas de capitalización cuyos beneficiarios hayan optado por la renta vitalicia previsional; ;CAPRECOM (prestación complementaria personal de comunicaciones CN N° 07/99) ; ; AAFF 614/13 (asignaciones familiares derivadas por oficio judicial; ;subsidio de contención familiar I (cobro de subsidio por fallecimiento del titular por terceros) ; ;subsidio de contención familiar II (cobro de subsidio por fallecimiento del titular por terceros); ;IAF provincias no transferidas ( beneficios correspondientes a provincias con régimen previsional provincial)"
+      "Válido en todas las tiendas físicas, excepto franquicias tradicionales",
+      "El descuento se reintegra en la tarjeta dentro de los 10 días hábiles desde la fecha de compra",
+      "Exclusiones: Prestaciones de pago único, RVP Anexo III, CAPRECOM, AAFF 614/13, Subsidio de Contención Familiar I y II, IAF Provincias no transferidas"
     ],
-    "paymentMethods": [],
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": true,
@@ -385,7 +388,7 @@
       "type": "porcentaje",
       "value": 100
     },
-    "validFrom": "2023-01-01",
+    "validFrom": "2024-01-01",
     "validUntil": "2024-01-31",
     "weekdays": [
       "Lunes",
@@ -445,6 +448,7 @@
       "No acumulable con otras promociones y/o descuentos vigentes",
       "No aplica a compras realizadas con Cuenta DNI mediante tarjeta de crédito VISA y/o Mastercard y/o VISA débito o transferencias realizadas a través de la aplicación"
     ],
+    "excludesProducts": "Bebidas con alcohol, Electrodomésticos",
     "paymentMethods": [
       [
         "Cuenta DNI"
@@ -483,10 +487,10 @@
       "Martes"
     ],
     "restrictions": [
-      "Válido únicamente para venta minorista",
+      "Válida únicamente para venta minorista",
       "No acumulable con otras promociones y/o descuentos vigentes",
-      "No aplica a compras realizadas con CDNI mediante la lectura del código QR de Mercado Pago u otras billeteras digitales",
-      "No aplica a compras abonadas con Tarjeta de crédito VISA y/o Mastercard y/o VISA débito o transferencias a través de la aplicación"
+      "No aplica a compras realizadas con Cuenta DNI mediante la lectura del código QR de Mercado Pago u otras billeteras digitales",
+      "No aplica a compras abonadas con Tarjeta de Crédito VISA y/o Mastercard y/o VISA Débito o transferencias a través de la aplicación"
     ],
     "excludesProducts": "Bebidas con alcohol, Electrodomésticos",
     "paymentMethods": [
@@ -522,10 +526,10 @@
       "Martes"
     ],
     "restrictions": [
-      "Válido únicamente para venta minorista",
+      "Válida únicamente para venta minorista",
       "No acumulable con otras promociones y/o descuentos vigentes",
-      "No aplica a compras realizadas con CDNI mediante la lectura del código QR de Mercado Pago u otras billeteras digitales",
-      "No aplica a compras abonadas con Tarjeta de crédito VISA y/o Mastercard y/o VISA débito o transferencias a través de la aplicación"
+      "No aplica a compras realizadas con Cuenta DNI mediante la lectura del código QR de Mercado Pago u otras billeteras digitales",
+      "No aplica a compras abonadas con Tarjeta de Crédito VISA y/o Mastercard y/o VISA Débito o transferencias a través de la aplicación"
     ],
     "excludesProducts": "Bebidas con alcohol, Electrodomésticos",
     "paymentMethods": [
@@ -563,13 +567,11 @@
       "Solo para clientes que al momento de operar se encuentren al día con sus productos, sin morosidad, con límite de compra suficiente, en tanto su situación de revista laboral/administrativa resulte adecuada al resto de las condiciones de la operatoria.",
       "No acumulable con otras promociones vigentes aplicables por SI.DE.CRE.E.R. S.A."
     ],
+    "excludesProducts": "Operaciones realizadas con Tarjetas Sidecreer Cabal (BIN 604216), Operaciones realizadas con Tarjetas Sidecreer (BIN 504962) vinculadas a programas socio asistenciales administrados por el Ministerio de Desarrollo Social de Entre Ríos, Operaciones realizadas a través de billeteras virtuales y/o plataformas de pago online, Compras efectuadas en https://diaonline.supermercadosdia.com.ar/",
     "paymentMethods": [
       [
         "Sidecreer",
         "Tarjeta de crédito Cabal"
-      ],
-      [
-        "Sidecreer"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -597,13 +599,11 @@
       "Solo para clientes que al momento de operar se encuentren al día con sus productos, sin morosidad, con límite de compra suficiente, en tanto su situación de revista laboral/administrativa resulte adecuada al resto de las condiciones de la operatoria.",
       "No acumulable con otras promociones vigentes aplicables por SI.DE.CRE.E.R. S.A."
     ],
+    "excludesProducts": "Operaciones realizadas con Tarjetas Sidecreer Cabal (BIN 604216), Operaciones realizadas con Tarjetas Sidecreer (BIN 504962) vinculadas a programas socio asistenciales administrados por el Ministerio de Desarrollo Social de Entre Ríos, Operaciones realizadas a través de billeteras virtuales y/o plataformas de pago online, Compras efectuadas en https://diaonline.supermercadosdia.com.ar/",
     "paymentMethods": [
       [
         "Sidecreer",
         "Tarjeta de crédito Cabal"
-      ],
-      [
-        "Sidecreer"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -627,49 +627,29 @@
       "Viernes"
     ],
     "restrictions": [
-      "Válido únicamente para compras presenciales realizadas a través de terminales en los establecimientos participantes en los rubros de supermercados y farmacias de Pinamar, Cariló y Mar del Plata",
-      "No válido para compras realizadas a través de plataformas de pago y/o agregadores"
+      "Válido únicamente para compras presenciales realizadas a través de terminales en los establecimientos participantes en los rubros de supermercados y farmacias de Pinamar, Cariló y Mar del Plata que figuren en beneficiosamex.com.ar.",
+      "No válido para compras realizadas a través de plataformas de pago y/o agregadores."
     ],
     "paymentMethods": [
       [
         ".Reba",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        ".Reba",
-        "Tarjeta de crédito VISA"
+        "Tarjeta American Express"
       ],
       [
         "Banco Galicia",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito VISA"
+        "Tarjeta American Express"
       ],
       [
         "Banco Macro",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Macro",
-        "Tarjeta de crédito VISA"
+        "Tarjeta American Express"
       ],
       [
         "Banco Patagonia",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Patagonia",
-        "Tarjeta de crédito VISA"
+        "Tarjeta American Express"
       ],
       [
         "Banco Santander",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Santander",
-        "Tarjeta de crédito VISA"
+        "Tarjeta American Express"
       ],
       [
         "Tarjeta American Express"
@@ -695,10 +675,11 @@
     "validUntil": "2025-09-30",
     "weekdays": [],
     "restrictions": [
-      "No acumulable con otras promociones vigentes",
-      "Solo para clientes al día con sus productos"
+      "Promoción válida únicamente para compras realizadas en 1 pago.",
+      "El beneficio no aplica a las categorías: Tecnología, Bazar, Textil y Electro.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto MODO), MPOS y/o plataformas de pago online.",
+      "Sólo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
     ],
-    "excludesProducts": "Tecnología, Bazar, Textil, Electro",
     "paymentMethods": [
       [
         "Banco Galicia",
@@ -712,7 +693,7 @@
       ]
     ],
     "paymentRails": {
-      "pagoConQR": false,
+      "pagoConQR": true,
       "telefonoContactless": false,
       "contactless": false
     },
@@ -736,12 +717,11 @@
     "validUntil": "2025-09-30",
     "weekdays": [],
     "restrictions": [
-      "Solo para clientes Eminent",
-      "No acumulable con otras promociones",
-      "El beneficio no aplica a las categorías: Tecnología, Bazar, Textil y Electro",
-      "Solo para compras realizadas en 1 pago",
-      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos"
+      "Promoción válida únicamente para compras realizadas en 1 pago.",
+      "La promoción no aplica a pagos a través de billeteras virtuales (excepto MODO), MPOS y/o plataformas de pago online.",
+      "Solo podrán participar de la promoción aquellos clientes que al momento de comprar se encuentren al día con sus productos."
     ],
+    "excludesProducts": "Tecnología, Bazar, Textil, Electro",
     "paymentMethods": [
       [
         "Banco Galicia - Eminent",
@@ -754,11 +734,6 @@
         "Tarjeta de débito VISA"
       ]
     ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": false
-    },
     "unknownPaymentMethods": [],
     "limits": {
       "maxDiscount": 20000,
@@ -783,13 +758,13 @@
     "restrictions": [
       "El reintegro aplicará únicamente a la primera transacción del día promocionado",
       "Válido 1 (una) vez por usuario, por martes",
-      "El beneficio es válido exclusivamente para consumos de tipo familiar",
-      "Será condición para la aplicación del reintegro que, al momento del pago con la Tarjeta Mastercard Prex en el sitio web, el usuario elija “Tarjeta de débito” como forma de pago de su compra."
+      "El reintegro se verá reflejado en el estado de cuenta dentro de los (5) cinco días hábiles siguientes a la fecha de compra",
+      "Será condición para la aplicación del reintegro que, al momento del pago con la Tarjeta Mastercard Prex en el sitio web, el usuario elija “Tarjeta de débito” como forma de pago de su compra"
     ],
     "paymentMethods": [
       [
         "Prex",
-        "Tarjeta de débito Mastercard"
+        "Tarjeta Prepaga Mastercard"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -812,16 +787,16 @@
     "validUntil": "2026-02-26",
     "weekdays": [],
     "restrictions": [
-      "Compra mínima de $25.000"
+      "Monto Mínimo: $25.000"
     ],
     "paymentMethods": [
       [
         "Personal Pay",
-        "Tarjeta de crédito VISA"
+        "Tarjeta Prepaga Mastercard"
       ],
       [
         "Personal Pay",
-        "Tarjeta Prepaga Mastercard"
+        "Tarjeta de crédito VISA"
       ]
     ],
     "paymentRails": {
@@ -853,10 +828,11 @@
       "Sabado"
     ],
     "restrictions": [
-      "Monto Mínimo: $30.000",
-      "El pago debe ser realizado escaneando un código QR o mediante el botón de pago de MODO que permita pagar con tarjetas a través de MODO.",
-      "Tener una cuenta abierta en la entidad adherida emisora de la tarjeta con la que se realice el pago, y que dicha cuenta se encuentre asociada a MODO dentro de los quince días de realizado el pago.",
-      "No registrar deuda o mora en ningún producto de la entidad adherida con la que se realice el pago."
+      "Monto mínimo de compra de $30.000",
+      "El pago debe ser realizado escaneando un código QR que permita pagar con tarjetas a través de MODO o mediante el botón de pago de MODO que permita pagar con tarjetas",
+      "No aplica para pagos con transferencia desde cuenta bancaria",
+      "Tener una cuenta abierta en la entidad adherida emisora de la tarjeta con la que se realice el pago, y que dicha cuenta se encuentre asociada a MODO dentro de los quince días de realizado el pago",
+      "No registrar deuda o mora en ningún producto de la entidad adherida con la que se realice el pago"
     ],
     "paymentMethods": [
       [
@@ -901,42 +877,42 @@
       ],
       [
         "MODO",
-        "Banco Columbia",
+        "Banco Comafi",
         "Tarjeta de crédito VISA"
       ],
       [
         "MODO",
-        "Banco Columbia",
+        "Banco Comafi",
         "Tarjeta de débito VISA"
       ],
       [
         "MODO",
-        "Banco Columbia",
+        "Banco Comafi",
         "Tarjeta de crédito Mastercard"
       ],
       [
         "MODO",
-        "Banco Columbia",
+        "Banco Comafi",
         "Tarjeta de débito Mastercard"
       ],
       [
         "MODO",
-        "Banco Comafi",
+        "Banco Columbia",
         "Tarjeta de crédito VISA"
       ],
       [
         "MODO",
-        "Banco Comafi",
+        "Banco Columbia",
         "Tarjeta de débito VISA"
       ],
       [
         "MODO",
-        "Banco Comafi",
+        "Banco Columbia",
         "Tarjeta de crédito Mastercard"
       ],
       [
         "MODO",
-        "Banco Comafi",
+        "Banco Columbia",
         "Tarjeta de débito Mastercard"
       ],
       [
@@ -1221,8 +1197,8 @@
       "explicitlyHasNoLimit": false
     },
     "where": [
-      "Online",
-      "Dia"
+      "Dia",
+      "Online"
     ],
     "source": "dia",
     "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
@@ -1263,7 +1239,12 @@
     "validFrom": "2025-06-11",
     "validUntil": "2025-10-31",
     "weekdays": [],
-    "restrictions": [],
+    "restrictions": [
+      "Exclusivo clientes SORPRESA!",
+      "No acumulable con otras promociones.",
+      "El ahorro se hará efectivo vía reintegro dentro de los 30 días de efectuado el consumo en la cuenta asociada del cliente.",
+      "Es necesario que previo a realizarse el reintegro tengas asociada a MODO la cuenta que sea del mismo banco que la tarjeta con la que realizaste la compra."
+    ],
     "paymentMethods": [
       [
         "MODO",
@@ -1276,6 +1257,11 @@
         "Tarjeta de débito VISA"
       ]
     ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
     "unknownPaymentMethods": [],
     "limits": {
       "maxDiscount": 20000,
@@ -1301,13 +1287,13 @@
     ],
     "paymentMethods": [
       [
-        "Banco Nación",
         "MODO",
+        "Banco Nación",
         "Tarjeta de crédito VISA"
       ],
       [
-        "Banco Nación",
         "MODO",
+        "Banco Nación",
         "Tarjeta de crédito Mastercard"
       ]
     ],
@@ -1368,14 +1354,11 @@
     "validUntil": "2026-02-28",
     "weekdays": [],
     "restrictions": [
-      "Válido para clientes/usuarios registrados en MODO",
-      "No incluye productos de electro",
-      "No incluye productos del convenio Precios Cuidados/Esenciales",
-      "No aplica para compra en cuotas",
-      "No válido tarjeta de crédito empresa o agro",
-      "No acumula con otra promoción",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0"
+      "No acumulable con otras promociones",
+      "No válido para compra en cuotas",
+      "No válido para Tarjeta de crédito Empresa o Agro"
     ],
+    "excludesProducts": "Electro, Productos del convenio Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
         "Banco Macro",
@@ -1419,16 +1402,12 @@
     "validUntil": "2026-02-28",
     "weekdays": [],
     "restrictions": [
-      "Válido para clientes/usuarios registrados en MODO",
       "No válido para compra telefónica",
-      "No incluye cortes de carnes, pollo, pescado",
-      "No incluye productos de electro",
-      "No incluye productos del convenio Precios Cuidados/Esenciales",
-      "No aplica para compra en cuotas",
-      "No válido tarjeta de crédito empresa o agro",
-      "No acumula con otra promoción",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0"
+      "No acumulable con otras promociones",
+      "No válido para compra en cuotas",
+      "No válido para Tarjeta de crédito Empresa o Agro"
     ],
+    "excludesProducts": "Cortes de carnes, Pollo, Pescado, Electro, Productos del convenio Precios Cuidados/Esenciales",
     "paymentMethods": [
       [
         "Banco Macro",
@@ -1467,22 +1446,13 @@
     "validUntil": "2026-02-28",
     "weekdays": [],
     "restrictions": [
-      "Válido para clientes/usuarios registrados en MODO",
       "No válido para compra telefónica",
-      "No incluye cortes de carnes, pollo, pescado",
-      "No incluye productos de electro",
-      "No incluye productos del convenio Precios Cuidados/Esenciales",
-      "No aplica para compra en cuotas",
-      "No válido tarjeta de crédito empresa o agro",
-      "No acumula con otra promoción",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0"
+      "No acumulable con otras promociones",
+      "No válido para compra en cuotas",
+      "No válido para Tarjeta de crédito Empresa o Agro"
     ],
+    "excludesProducts": "Cortes de carnes, Pollo, Pescado, Electro, Productos del convenio Precios Cuidados/Esenciales",
     "paymentMethods": [
-      [
-        "Banco Macro",
-        "MODO",
-        "Tarjeta American Express"
-      ],
       [
         "Banco Macro",
         "MODO",
@@ -1492,157 +1462,10 @@
         "Banco Macro",
         "MODO",
         "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": true,
-      "telefonoContactless": false,
-      "contactless": false
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 25000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Dia",
-      "Online"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2025-09-03",
-    "validUntil": "2026-02-28",
-    "weekdays": [],
-    "restrictions": [
-      "Válido para compras en un pago con QR",
-      "No incluye productos de electro",
-      "No incluye productos del convenio Precios Cuidados/Esenciales",
-      "No aplica para compra en cuotas",
-      "No válido tarjeta de crédito empresa o agro",
-      "No acumula con otra promoción",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0"
-    ],
-    "paymentMethods": [
-      [
-        "MODO",
-        "Banco Macro",
-        "Tarjeta de crédito VISA"
       ],
       [
-        "MODO",
         "Banco Macro",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
         "MODO",
-        "Banco Macro",
-        "Tarjeta American Express"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": true,
-      "telefonoContactless": false,
-      "contactless": false
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 15000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Dia",
-      "Online"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2025-09-03",
-    "validUntil": "2026-02-28",
-    "weekdays": [],
-    "restrictions": [
-      "Válido para compras en un pago con QR",
-      "No válido para compra telefónica",
-      "No incluye cortes de carnes, pollo, pescado",
-      "No incluye productos de electro",
-      "No incluye productos del convenio Precios Cuidados/Esenciales",
-      "No aplica para compra en cuotas",
-      "No válido tarjeta de crédito empresa o agro",
-      "No acumula con otra promoción",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0"
-    ],
-    "paymentMethods": [
-      [
-        "MODO",
-        "Banco Macro",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "MODO",
-        "Banco Macro",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": true,
-      "telefonoContactless": false,
-      "contactless": false
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 20000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Dia",
-      "Online"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 30
-    },
-    "validFrom": "2025-09-03",
-    "validUntil": "2026-02-28",
-    "weekdays": [],
-    "restrictions": [
-      "Válido para compras en un pago con QR",
-      "No válido para compra telefónica",
-      "No incluye cortes de carnes, pollo, pescado",
-      "No incluye productos de electro",
-      "No incluye productos del convenio Precios Cuidados/Esenciales",
-      "No aplica para compra en cuotas",
-      "No válido tarjeta de crédito empresa o agro",
-      "No acumula con otra promoción",
-      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, Transferencia 3.0"
-    ],
-    "paymentMethods": [
-      [
-        "MODO",
-        "Banco Macro - Tarjeta Selecta",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "MODO",
-        "Banco Macro - Tarjeta Selecta",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "MODO",
-        "Banco Macro - Tarjeta Selecta",
         "Tarjeta American Express"
       ]
     ],
@@ -1672,6 +1495,7 @@
     "validUntil": "2026-02-28",
     "weekdays": [],
     "restrictions": [
+      "Para clientes/usuarios registrados en MODO",
       "Válido para compras en un pago con QR",
       "No incluye productos de electro",
       "No incluye productos del convenio Precios Cuidados/Esenciales",
@@ -1723,6 +1547,7 @@
     "validUntil": "2026-02-28",
     "weekdays": [],
     "restrictions": [
+      "Para clientes/usuarios registrados en MODO",
       "Válido para compras en un pago con QR",
       "No válido para compra telefónica",
       "No incluye cortes de carnes, pollo, pescado",
@@ -1771,6 +1596,7 @@
     "validUntil": "2026-02-28",
     "weekdays": [],
     "restrictions": [
+      "Para clientes/usuarios registrados en MODO",
       "Válido para compras en un pago con QR",
       "No válido para compra telefónica",
       "No incluye cortes de carnes, pollo, pescado",
@@ -1784,18 +1610,171 @@
     "paymentMethods": [
       [
         "MODO",
-        "Banco Macro - Tarjeta Selecta",
+        "Banco Macro",
         "Tarjeta de crédito VISA"
       ],
       [
         "MODO",
-        "Banco Macro - Tarjeta Selecta",
+        "Banco Macro",
         "Tarjeta de crédito Mastercard"
       ],
       [
         "MODO",
-        "Banco Macro - Tarjeta Selecta",
+        "Banco Macro",
         "Tarjeta American Express"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 25000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Dia",
+      "Online"
+    ],
+    "source": "dia",
+    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 20
+    },
+    "validFrom": "2025-09-03",
+    "validUntil": "2026-02-28",
+    "weekdays": [],
+    "restrictions": [
+      "Válido para clientes/usuarios registrados en MODO",
+      "No incluye productos de electro",
+      "No incluye productos del convenio Precios Cuidados/Esenciales",
+      "No aplica para compra en cuotas",
+      "No válido tarjeta de crédito empresa o agro",
+      "No acumula con otra promoción",
+      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0"
+    ],
+    "paymentMethods": [
+      [
+        "Banco Macro",
+        "MODO",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Macro",
+        "MODO",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Macro",
+        "MODO",
+        "Tarjeta American Express"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 15000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Dia",
+      "Online"
+    ],
+    "source": "dia",
+    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2025-09-03",
+    "validUntil": "2026-02-28",
+    "weekdays": [],
+    "restrictions": [
+      "Válido para clientes/usuarios registrados en MODO",
+      "No válido para compra telefónica",
+      "No incluye cortes de carnes, pollo, pescado",
+      "No incluye productos de electro",
+      "No incluye productos del convenio Precios Cuidados/Esenciales",
+      "No aplica para compra en cuotas",
+      "No válido tarjeta de crédito empresa o agro",
+      "No acumula con otra promoción",
+      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0"
+    ],
+    "paymentMethods": [
+      [
+        "Banco Macro",
+        "MODO",
+        "Tarjeta de crédito Mastercard",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Macro",
+        "MODO",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 20000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Dia",
+      "Online"
+    ],
+    "source": "dia",
+    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 30
+    },
+    "validFrom": "2025-09-03",
+    "validUntil": "2026-02-28",
+    "weekdays": [],
+    "restrictions": [
+      "Válido para clientes/usuarios registrados en MODO",
+      "No válido para compra telefónica",
+      "No incluye cortes de carnes, pollo, pescado",
+      "No incluye productos de electro",
+      "No incluye productos del convenio Precios Cuidados/Esenciales",
+      "No aplica para compra en cuotas",
+      "No válido tarjeta de crédito empresa o agro",
+      "No acumula con otra promoción",
+      "No aplica para pago a través de Mercado Pago, otro pago electrónico inmediato, transferencia 3.0"
+    ],
+    "paymentMethods": [
+      [
+        "Banco Macro",
+        "MODO",
+        "Tarjeta American Express"
+      ],
+      [
+        "Banco Macro",
+        "MODO",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Macro",
+        "MODO",
+        "Tarjeta de crédito VISA"
       ]
     ],
     "paymentRails": {
@@ -1863,18 +1842,19 @@
       "Promoción exclusiva para clientes de Banco del Sol que se hayan registrado a través de la aplicación del banco",
       "No acumulable con otros beneficios y/o promociones vigentes",
       "No aplica sobre productos incluidos en programas gubernamentales",
-      "No aplica a pagos realizados a través de billeteras virtuales, plataformas de pago y/o portales de pago online, excepto pagos efectuados mediante MODO, ya sea desde la billetera virtual de MODO o desde la aplicación del banco escaneando el QR"
+      "No aplica a pagos realizados a través de billeteras virtuales, plataformas de pago y/o portales de pago online, excepto pagos efectuados mediante MODO, ya sea desde la billetera virtual de MODO o desde la aplicación del banco escaneando el QR",
+      "Quedan excluidos de participar, aquellos clientes cuyas cuentas se encuentren en mora y/o bloqueadas por cualquier motivo"
     ],
     "paymentMethods": [
       [
-        "Banco del Sol",
         "MODO",
-        "Tarjeta de crédito Mastercard"
+        "Banco del Sol",
+        "Tarjeta de débito VISA"
       ],
       [
-        "Banco del Sol",
         "MODO",
-        "Tarjeta de débito VISA"
+        "Banco del Sol",
+        "Tarjeta de crédito Mastercard"
       ]
     ],
     "paymentRails": {
@@ -1902,7 +1882,9 @@
     "validFrom": "2025-01-01",
     "validUntil": "2025-12-31",
     "weekdays": [],
-    "restrictions": [],
+    "restrictions": [
+      "No aplica para pagos en cuotas."
+    ],
     "paymentMethods": [
       [
         "Banco Entre Ríos",
@@ -1936,7 +1918,10 @@
     "validUntil": "2025-12-31",
     "weekdays": [],
     "restrictions": [
-      "No aplica para compras en cuotas"
+      "Válido para cartera consumo",
+      "No aplica para compras en cuotas",
+      "Es necesario que previo a realizar el pago el usuario tenga asociada a MODO la cuenta y tarjeta del Nuevo Banco Santa Fe S.A. con la que realizará la compra",
+      "Los beneficios informados no aplican a otras billeteras o plataformas de pago"
     ],
     "paymentMethods": [
       [
@@ -1967,7 +1952,7 @@
       "type": "cuotas sin intereses",
       "value": 3
     },
-    "validFrom": "2026-01-01",
+    "validFrom": "2025-11-01",
     "validUntil": "2026-03-31",
     "weekdays": [
       "Sabado"
@@ -2016,103 +2001,12 @@
       "Martes"
     ],
     "restrictions": [
-      "Tope: $6.000 por cuenta por semana",
-      "Vigencia: Todos los martes",
-      "Hasta agotar 80.000 reintegros",
-      "Reintegro se acreditará únicamente en tu cuenta Naranja X dentro de los 10 días posteriores a la compra",
-      "Promoción válida únicamente en los comercios adheridos",
-      "Beneficio no válido para compras realizadas con Tarjetas de Crédito Naranja VISA, Naranja Mastercard, Naranja AMEX",
-      "Beneficio no válido para transacciones realizadas en agrupadores y billeteras virtuales que no sean NX"
-    ],
-    "paymentMethods": [
-      [
-        "NaranjaX",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "NaranjaX",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": true,
-      "telefonoContactless": false,
-      "contactless": false
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 6000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Online",
-      "Dia"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2026-01-01",
-    "validUntil": "2026-03-31",
-    "weekdays": [
-      "Martes"
-    ],
-    "restrictions": [
-      "Exclusivo para clientes suscritos al Plan Turbo",
-      "Tope: $12.000 por cuenta por semana",
-      "Vigencia: Todos los martes",
-      "Hasta agotar 80.000 reintegros",
-      "Reintegro se acreditará únicamente en tu cuenta Naranja X dentro de los 10 días posteriores a la compra",
-      "Promoción válida únicamente en los comercios adheridos",
-      "Beneficio no válido para compras realizadas con Tarjetas de Crédito Naranja VISA, Naranja Mastercard, Naranja AMEX",
-      "Beneficio no válido para transacciones realizadas en agrupadores y billeteras virtuales que no sean NX"
-    ],
-    "paymentMethods": [
-      [
-        "NaranjaX",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "NaranjaX",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": true,
-      "telefonoContactless": false,
-      "contactless": false
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 12000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Online",
-      "Dia"
-    ],
-    "source": "dia",
-    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 15
-    },
-    "validFrom": "2026-01-01",
-    "validUntil": "2026-03-31",
-    "weekdays": [
-      "Martes"
-    ],
-    "restrictions": [
-      "Tope: $6.000 por cuenta por semana",
-      "Reintegro: Se acreditará únicamente en tu cuenta Naranja X dentro de los 10 días posteriores a la compra",
-      "Promoción válida únicamente en los comercios adheridos",
-      "Beneficio no válido para compras realizadas con Tarjetas de Crédito Naranja VISA, Naranja Mastercard, Naranja Amex, ni para transacciones realizadas en agrupadores y billeteras virtuales que no sean NX"
+      "Tope: $6.000 por cuenta por semana.",
+      "Válido hasta agotar 80.000 reintegros.",
+      "Reintegro se acreditará únicamente en tu cuenta Naranja X dentro de los 10 días posteriores a la compra.",
+      "Promoción válida únicamente en los comercios adheridos.",
+      "No válido para compras realizadas con Tarjetas de Crédito Naranja VISA, Naranja Mastercard, Naranja Amex.",
+      "No válido para transacciones realizadas en agrupadores y billeteras virtuales que no sean Naranja X."
     ],
     "paymentMethods": [
       [
@@ -2152,11 +2046,102 @@
       "Martes"
     ],
     "restrictions": [
-      "Exclusivo para clientes suscritos al Plan Turbo",
-      "Tope: $12.000 por cuenta por semana",
-      "Reintegro: Se acreditará únicamente en tu cuenta Naranja X dentro de los 10 días posteriores a la compra",
-      "Promoción válida únicamente en los comercios adheridos",
-      "Beneficio no válido para compras realizadas con Tarjetas de Crédito Naranja VISA, Naranja Mastercard, Naranja Amex, ni para transacciones realizadas en agrupadores y billeteras virtuales que no sean NX"
+      "Exclusivo para clientes suscritos al Plan Turbo.",
+      "Tope: $12.000 por cuenta por semana.",
+      "Válido hasta agotar 80.000 reintegros.",
+      "Reintegro se acreditará únicamente en tu cuenta Naranja X dentro de los 10 días posteriores a la compra.",
+      "Promoción válida únicamente en los comercios adheridos.",
+      "No válido para compras realizadas con Tarjetas de Crédito Naranja VISA, Naranja Mastercard, Naranja Amex.",
+      "No válido para transacciones realizadas en agrupadores y billeteras virtuales que no sean Naranja X."
+    ],
+    "paymentMethods": [
+      [
+        "NaranjaX",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "NaranjaX",
+        "Tarjeta de débito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 12000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Dia",
+      "Online"
+    ],
+    "source": "dia",
+    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 15
+    },
+    "validFrom": "2026-01-01",
+    "validUntil": "2026-03-31",
+    "weekdays": [
+      "Martes"
+    ],
+    "restrictions": [
+      "Tope: $6.000 por cuenta por semana.",
+      "Válido hasta agotar 80.000 reintegros.",
+      "Reintegro se acreditará únicamente en tu cuenta Naranja X dentro de los 10 días posteriores a la compra.",
+      "Promoción válida únicamente en los comercios adheridos.",
+      "No válido para compras realizadas con Tarjetas de Crédito Naranja VISA, Naranja Mastercard, Naranja AMEX, ni para transacciones realizadas en agrupadores y billeteras virtuales que no sean NX."
+    ],
+    "paymentMethods": [
+      [
+        "NaranjaX",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "NaranjaX",
+        "Tarjeta de débito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 6000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Dia",
+      "Online"
+    ],
+    "source": "dia",
+    "url": "https://diaonline.supermercadosdia.com.ar/medios-de-pago-y-promociones"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2026-01-01",
+    "validUntil": "2026-03-31",
+    "weekdays": [
+      "Martes"
+    ],
+    "restrictions": [
+      "Exclusivo para clientes suscritos al Plan Turbo.",
+      "Tope: $12.000 por cuenta por semana.",
+      "Válido hasta agotar 80.000 reintegros.",
+      "Reintegro se acreditará únicamente en tu cuenta Naranja X dentro de los 10 días posteriores a la compra.",
+      "Promoción válida únicamente en los comercios adheridos.",
+      "No válido para compras realizadas con Tarjetas de Crédito Naranja VISA, Naranja Mastercard, Naranja AMEX, ni para transacciones realizadas en agrupadores y billeteras virtuales que no sean NX."
     ],
     "paymentMethods": [
       [
@@ -2227,7 +2212,8 @@
     "validUntil": "2025-09-30",
     "weekdays": [],
     "restrictions": [
-      "El pago deberá ser realizado exclusivamente mediante MODO Contactless (NFC) -disponible sólo en dispositivos Android- en los Comercios Adheridos. La promoción no aplica en compras online ni pagos con QR.",
+      "El pago deberá ser realizado exclusivamente mediante MODO Contactless (NFC) -disponible sólo en dispositivos Android- en los Comercios Adheridos.",
+      "La promoción no aplica en compras online ni pagos con QR.",
       "Que tengan una cuenta abierta en la Entidad Adherida emisora de la tarjeta VISA con la que realicen el pago, y que dicha cuenta se encuentre asociada a MODO dentro de los quince días de realizado el pago",
       "No registren deuda o mora en ningún producto de la Entidad Adherida con la que realice el pago."
     ],
@@ -2394,16 +2380,16 @@
       ],
       [
         "MODO",
-        "Tarjeta de débito VISA"
-      ],
-      [
-        "MODO",
         "Yoy",
         "Tarjeta de crédito VISA"
       ],
       [
         "MODO",
         "Yoy",
+        "Tarjeta de débito VISA"
+      ],
+      [
+        "MODO",
         "Tarjeta de débito VISA"
       ]
     ],
@@ -2434,22 +2420,27 @@
       "Lunes"
     ],
     "restrictions": [
-      "Para compras realizadas por titulares de tarjetas adicionales, el tarjetahabiente adicional deberá poseer una caja de ahorro del Banco Ciudad asociada a MODO."
+      "Para compras realizadas por titulares de tarjetas adicionales, el tarjetahabiente adicional deberá poseer una caja de ahorro del Banco Ciudad asociada a MODO.",
+      "No aplica para tarjetas corporativas."
     ],
     "paymentMethods": [
       [
+        "MODO",
         "Banco Ciudad",
         "Tarjeta de débito VISA"
       ],
       [
+        "MODO",
         "Banco Ciudad",
         "Tarjeta de débito Mastercard"
       ],
       [
+        "MODO",
         "Banco Ciudad",
         "Tarjeta de crédito VISA"
       ],
       [
+        "MODO",
         "Banco Ciudad",
         "Tarjeta de crédito Mastercard"
       ]
@@ -2478,10 +2469,17 @@
     },
     "validFrom": "2026-01-01",
     "validUntil": "2026-06-30",
-    "restrictions": [],
+    "restrictions": [
+      "Monto mínimo de compra: $50.000"
+    ],
     "paymentMethods": [
       [
-        "Mercado Pago"
+        "Mercado Pago",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Mercado Pago",
+        "Tarjeta de crédito Mastercard"
       ]
     ],
     "paymentRails": {
@@ -2491,8 +2489,7 @@
     },
     "unknownPaymentMethods": [],
     "limits": {
-      "maxDiscount": 0,
-      "explicitlyHasNoLimit": false
+      "explicitlyHasNoLimit": true
     },
     "where": [
       "Online",
@@ -2521,11 +2518,11 @@
       "Lunes"
     ],
     "restrictions": [
-      "Mínimo de compra $25.000",
-      "No aplica a clientes con atraso en el pago de sus obligaciones con el banco",
+      "Mínimo de compra de $25.000",
+      "No aplica a clientes que registran atraso en el pago de sus obligaciones con el banco",
       "Válida únicamente para venta minorista",
       "No aplica a compras realizadas con Cuenta DNI mediante la lectura del código QR de Mercado Pago u otras billeteras digitales",
-      "No aplica a compras abonadas con Tarjeta de Crédito VISA y/o Mastercard y/o VISA Débito o transferencias a través de la aplicación"
+      "No aplica a compras abonadas con Tarjeta de crédito VISA y/o Mastercard y/o VISA Débito o transferencias a través de la aplicación"
     ],
     "paymentMethods": [
       [
@@ -2560,14 +2557,20 @@
     ],
     "restrictions": [
       "Beneficio exclusivo para jubilados que hayan percibido su haber entre el 1° y el 28 de febrero del 2026 en Banco Provincia.",
+      "Válido únicamente para ventas minoristas.",
       "El beneficio no aplica a clientes que registren atraso en el pago de sus obligaciones con el banco.",
-      "La promoción no aplica a compras realizadas con Cuenta DNI mediante Tarjeta de crédito VISA y/o Mastercard, VISA débito, transferencias realizadas a través de la aplicación, ni mediante la lectura del código QR de Mercado Pago u otras billeteras digitales."
+      "La promoción no aplica a compras realizadas con Cuenta DNI mediante tarjeta de crédito VISA y/o Mastercard, VISA débito, transferencias realizadas a través de la aplicación, ni mediante la lectura del código QR de Mercado Pago u otras billeteras digitales."
     ],
     "paymentMethods": [
       [
         "Cuenta DNI"
       ]
     ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": false,
@@ -2651,8 +2654,9 @@
     "validFrom": "2025-09-01",
     "validUntil": "2026-03-31",
     "restrictions": [
-      "Promoción acumulable con los descuentos de fidelización.",
-      "El descuento no se realiza en la línea de cajas sino que se reintegrará en la tarjeta dentro de los 10 días hábiles desde la fecha de compra."
+      "El descuento se reintegrará en la tarjeta dentro de los 10 días hábiles desde la fecha de compra.",
+      "Franquicias tradicionales no incluidas: SAN MARTIN 399 - CALLE 158 N° 589/91 ENTRE 7 Y 8 - SAN PABLO 670 - MINISTRO SOJO 3228 - MANUEL BELGRANO 110 - URUGUAY 125.",
+      "Exclusiones: Prestaciones de pago único, sucesiones mayores a $1000 o haberes devengados por sucesión, RVP Anexo III, CAPRECOM, AAFF 614/13, subsidio de contención familiar I y II, IAF provincias no transferidas."
     ],
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
@@ -2681,6 +2685,14 @@
     "validFrom": "2026-01-01",
     "validUntil": "2026-06-30",
     "restrictions": [],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
     "unknownPaymentMethods": [],
     "limits": {
       "maxDiscount": 2000,
@@ -2703,6 +2715,14 @@
     "validFrom": "2026-01-01",
     "validUntil": "2026-06-30",
     "restrictions": [],
+    "paymentMethods": [
+      [
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
     "unknownPaymentMethods": [],
     "limits": {
       "maxDiscount": 2000,
@@ -2759,6 +2779,7 @@
     ],
     "unknownPaymentMethods": [],
     "limits": {
+      "maxDiscount": 3000,
       "explicitlyHasNoLimit": false
     },
     "where": [
@@ -2778,6 +2799,16 @@
     "validFrom": "2026-01-01",
     "validUntil": "2026-06-30",
     "restrictions": [],
+    "paymentMethods": [
+      [
+        ".Reba - Black",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        ".Reba - Black",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
     "unknownPaymentMethods": [],
     "limits": {
       "maxDiscount": 5000,
@@ -2800,6 +2831,16 @@
     "validFrom": "2026-01-01",
     "validUntil": "2026-06-30",
     "restrictions": [],
+    "paymentMethods": [
+      [
+        ".Reba - Black",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        ".Reba - Black",
+        "Tarjeta de crédito Mastercard"
+      ]
+    ],
     "unknownPaymentMethods": [],
     "limits": {
       "maxDiscount": 5000,
@@ -2826,12 +2867,10 @@
       "Jueves"
     ],
     "restrictions": [
-      "No aplica para pagos realizados por vía QR."
-    ],
-    "paymentMethods": [
-      [
-        "Tarjeta Prepaga Mastercard"
-      ]
+      "Válida para Tarjeta Precargada Social perteneciente al Programa Ciudadanía Porteña del Gobierno de la Ciudad de Buenos Aires.",
+      "El reintegro se realizará en la tarjeta dentro de los siguientes 10 días hábiles.",
+      "Será condición esencial, al momento de efectuar el reintegro, que la tarjeta se encuentre vigente y en estado de cumplimiento normal.",
+      "Incluye todos los productos permitidos por el Programa Ciudadanía Porteña."
     ],
     "paymentRails": {
       "pagoConQR": false,
