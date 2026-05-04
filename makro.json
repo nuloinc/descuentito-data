@@ -4,8 +4,8 @@
       "type": "porcentaje",
       "value": 20
     },
-    "validFrom": "2026-04-01",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "weekdays": [
       "Jueves"
     ],
@@ -14,6 +14,10 @@
       "No válido en autopagos, ni pagos online."
     ],
     "paymentMethods": [
+      [
+        "Banco BBVA",
+        "MODO"
+      ],
       [
         "Banco Ciudad",
         "MODO"
@@ -96,26 +100,58 @@
       "type": "porcentaje",
       "value": 10
     },
-    "validFrom": "2026-04-01",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "weekdays": [
       "Viernes",
       "Sabado"
     ],
-    "restrictions": [
-      "Excluye operaciones facturadas en las oficinas de ventas de las tiendas.",
-      "No acumulable con otras promociones, beneficios y/u ofertas vigentes."
-    ],
+    "restrictions": [],
     "excludesProducts": "Achuras y Embutidos, Aves, Carnes, Cerdos, Carne envasada al vacío, Carne pre-empaquetada, Carne vacuna fresca",
     "paymentMethods": [
       [
         "Mercado Pago"
       ]
     ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados"
+    ],
+    "onlyForProducts": "Vajilla (platos, bowls, tazas)",
+    "paymentMethods": [
+      [
+        "Cencopay"
+      ]
+    ],
     "paymentRails": {
-      "pagoConQR": true,
+      "pagoConQR": false,
       "telefonoContactless": false,
-      "contactless": false
+      "contactless": true
     },
     "unknownPaymentMethods": [],
     "limits": {
@@ -132,8 +168,8 @@
       "type": "cuotas sin intereses",
       "value": 3
     },
-    "validFrom": "2026-04-01",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "weekdays": [
       "Lunes",
       "Martes",
@@ -146,11 +182,10 @@
     "restrictions": [
       "No aplica para clientes en mora o inhabilitados"
     ],
-    "onlyForProducts": "Vajilla (platos, bowls, tazas)",
+    "onlyForProducts": "Sillas, mesas y reposeras, herramientas eléctricas, artículos de cama, electro calefacción",
     "paymentMethods": [
       [
-        "Cencopay",
-        "Tarjeta de crédito Mastercard"
+        "Cencopay"
       ]
     ],
     "paymentRails": {
@@ -173,8 +208,8 @@
       "type": "cuotas sin intereses",
       "value": 6
     },
-    "validFrom": "2026-04-01",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "weekdays": [
       "Lunes",
       "Martes",
@@ -187,11 +222,90 @@
     "restrictions": [
       "No aplica para clientes en mora o inhabilitados"
     ],
-    "onlyForProducts": "Sillas, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
+    "onlyForProducts": "Sillas, mesas y reposeras, herramientas eléctricas, artículos de cama, electro calefacción",
     "paymentMethods": [
       [
-        "Cencopay",
-        "Tarjeta de crédito Mastercard"
+        "Cencopay"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados"
+    ],
+    "onlyForProducts": "Televisores, rodados, electro portátil, hornos eléctricos y microondas, aires acondicionados",
+    "paymentMethods": [
+      [
+        "Cencopay"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 6
+    },
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados"
+    ],
+    "onlyForProducts": "Televisores, rodados, electro portátil, hornos eléctricos y microondas, aires acondicionados",
+    "paymentMethods": [
+      [
+        "Cencopay"
       ]
     ],
     "paymentRails": {
@@ -214,8 +328,8 @@
       "type": "cuotas sin intereses",
       "value": 12
     },
-    "validFrom": "2026-04-01",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "weekdays": [
       "Lunes",
       "Martes",
@@ -231,8 +345,7 @@
     "onlyForProducts": "Televisores, rodados, electro portátil, hornos eléctricos y microondas, aires acondicionados",
     "paymentMethods": [
       [
-        "Cencopay",
-        "Tarjeta de crédito Mastercard"
+        "Cencopay"
       ]
     ],
     "paymentRails": {
@@ -255,12 +368,13 @@
       "type": "porcentaje",
       "value": 5
     },
-    "validFrom": "2026-04-01",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "restrictions": [
-      "Requiere completar formulario de registro y esperar confirmación."
+      "El alta puede demorar hasta 72hs hábiles",
+      "Requiere completar formulario de registro"
     ],
-    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores y tinturas capilares, Cremas corporales, faciales y para manos, Desodorante para pies y talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Demaquillantes y quitaesmaltes, Talcos, féculas y óleos para bebés, Jabón para la ropa en pan, líquido y en polvo",
+    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores y tinturas capilares, Cremas corporales, faciales y para manos, Desodorante para pies y talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Demaquillantes y quitaesmaltes, Talcos, Féculas y óleos para bebés, Jabón para la ropa en pan, líquido y en polvo",
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": false,
@@ -281,10 +395,10 @@
       "type": "porcentaje",
       "value": 5
     },
-    "validFrom": "2026-04-01",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "restrictions": [],
-    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores y tinturas capilares, Cremas corporales, faciales y para manos, Desodorante para pies y talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Demaquillantes y quitaesmaltes, Talcos, féculas y óleos para bebés, Jabón para la ropa en pan, líquido y en polvo",
+    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores, Tinturas capilares, Cremas corporales, Cremas faciales, Cremas para manos, Desodorante para pies, Talcos, Cremas de afeitar, Colonias, Productos depilatorios, Desmaquillantes, Quitaesmaltes, Talcos para bebés, Féculas para bebés, Oleos para bebés, Jabón para la ropa en pan, Jabón para la ropa líquido, Jabón para la ropa en polvo",
     "unknownPaymentMethods": [],
     "appliesOnlyTo": {
       "anses": false,
@@ -342,18 +456,19 @@
       "type": "porcentaje",
       "value": 25
     },
-    "validFrom": "2026-04-01",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "weekdays": [
       "Martes",
       "Jueves"
     ],
     "restrictions": [
-      "No aplica para clientes en mora o inhabilitados."
+      "No aplica para clientes en mora o inhabilitados"
     ],
     "paymentMethods": [
       [
-        "Cencopay"
+        "Cencopay",
+        "Tarjeta de crédito Cencosud Mastercard"
       ]
     ],
     "paymentRails": {
@@ -377,17 +492,55 @@
       "type": "porcentaje",
       "value": 25
     },
-    "validFrom": "2026-04-01",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "weekdays": [
       "Martes"
     ],
     "restrictions": [
-      "No acumulable con cartera de clientes que acrediten planes sociales",
       "No acumulable con otras promociones",
+      "No aplica a cartera de clientes que acrediten planes sociales",
       "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
-      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)",
-      "No aplica para los consumos efectuados a través de la plataforma Mercado Pago"
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
+    ],
+    "paymentMethods": [
+      [
+        "Banco Hipotecario",
+        "MODO",
+        "Tarjeta de débito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": true,
+      "telefonoContactless": false,
+      "contactless": false
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 10000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 25
+    },
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
+    "weekdays": [
+      "Martes"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones",
+      "No aplica a cartera de clientes que acrediten planes sociales",
+      "No aplica a las operaciones de extracción de dinero en efectivo realizadas a través de Extra Cash",
+      "No aplica a los pagos realizados por la plataforma de pagos móviles (POS móvil, botón de pago y billetera electrónica)"
     ],
     "paymentMethods": [
       [
@@ -417,36 +570,34 @@
       "type": "porcentaje",
       "value": 20
     },
-    "validFrom": "2026-03-25",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "weekdays": [
       "Miercoles"
     ],
     "restrictions": [
-      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago.",
-      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno.",
-      "No acumulable con otras promociones ni entre sí.",
-      "Sólo válido para aquellos clientes que se encuentren al día en sus productos y sean titulares de una caja de ahorro en pesos en Banco Comafi."
+      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago",
+      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
+      "Oferta exclusiva para la cartera de consumo",
+      "Quedan excluidas aquellas tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
+      "Solo válido para aquellos clientes que se encuentren al día en sus productos y sean titulares de una caja de ahorro en pesos en Banco Comafi"
     ],
     "paymentMethods": [
       [
         "Banco Comafi",
-        "MODO",
         "Tarjeta de crédito Mastercard"
       ],
       [
         "Banco Comafi",
-        "MODO",
         "Tarjeta de crédito VISA"
       ],
       [
         "Banco Comafi",
-        "MODO",
         "Tarjeta de débito VISA"
       ]
     ],
     "paymentRails": {
-      "pagoConQR": true,
+      "pagoConQR": false,
       "telefonoContactless": false,
       "contactless": false
     },
@@ -466,12 +617,11 @@
       "type": "cuotas sin intereses",
       "value": 3
     },
-    "validFrom": "2026-04-01",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "restrictions": [
-      "No acumulable con otras promociones",
-      "No aplica a pagos realizados mediante billeteras virtuales",
-      "No aplica para Tarjetas de Crédito Visa Business, Visa Rural"
+      "No acumulable con otras promociones.",
+      "No aplica para Tarjetas de Crédito Visa Business, Visa Rural, ni tarjetas de débito emitidas por ANSES para AUH o Progresar, ni a pagos realizados mediante billeteras virtuales."
     ],
     "onlyForProducts": "vajilla (platos, bowls, tazas)",
     "excludesProducts": "productos comestibles",
@@ -504,12 +654,11 @@
       "type": "cuotas sin intereses",
       "value": 6
     },
-    "validFrom": "2026-04-01",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "restrictions": [
-      "No acumulable con otras promociones",
-      "No aplica a pagos realizados mediante billeteras virtuales",
-      "No aplica para Tarjetas de Crédito Visa Business, Visa Rural"
+      "No acumulable con otras promociones.",
+      "No aplica para Tarjetas de Crédito Visa Business, Visa Rural, ni tarjetas de débito emitidas por ANSES para AUH o Progresar, ni a pagos realizados mediante billeteras virtuales."
     ],
     "onlyForProducts": "silla, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
     "excludesProducts": "productos comestibles",
@@ -542,12 +691,11 @@
       "type": "cuotas sin intereses",
       "value": 12
     },
-    "validFrom": "2026-04-01",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "restrictions": [
-      "No acumulable con otras promociones",
-      "No aplica a pagos realizados mediante billeteras virtuales",
-      "No aplica para Tarjetas de Crédito Visa Business, Visa Rural"
+      "No acumulable con otras promociones.",
+      "No aplica para Tarjetas de Crédito Visa Business, Visa Rural, ni tarjetas de débito emitidas por ANSES para AUH o Progresar, ni a pagos realizados mediante billeteras virtuales."
     ],
     "onlyForProducts": "televisores, rodados, electro portátil, hornos eléctricos y microondas, aires acondicionados",
     "excludesProducts": "productos comestibles",
@@ -580,17 +728,16 @@
       "type": "cuotas sin intereses",
       "value": 3
     },
-    "validFrom": "2026-04-06",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "restrictions": [
-      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago",
-      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
-      "No acumulable con otras promociones ni entre sí",
+      "No aplica a compras realizadas a través de MercadoPago",
+      "No aplica a compras realizadas con Plan Gobierno",
       "Oferta exclusiva para la cartera de consumo",
-      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
+      "Solo válido para aquellos clientes que se encuentren al día en sus productos"
     ],
-    "onlyForProducts": "vajilla (platos, bowls, tazas)",
-    "excludesProducts": "aquellas tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
+    "onlyForProducts": "Vajilla (platos, bowls, tazas)",
+    "excludesProducts": "Tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
     "paymentMethods": [
       [
         "Banco Comafi",
@@ -616,17 +763,16 @@
       "type": "cuotas sin intereses",
       "value": 3
     },
-    "validFrom": "2026-04-06",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "restrictions": [
-      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago",
-      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
-      "No acumulable con otras promociones ni entre sí",
+      "No aplica a compras realizadas a través de MercadoPago",
+      "No aplica a compras realizadas con Plan Gobierno",
       "Oferta exclusiva para la cartera de consumo",
-      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
+      "Solo válido para aquellos clientes que se encuentren al día en sus productos"
     ],
-    "onlyForProducts": "silla, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
-    "excludesProducts": "aquellas tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
+    "onlyForProducts": "Sillas, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
+    "excludesProducts": "Tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
     "paymentMethods": [
       [
         "Banco Comafi",
@@ -652,17 +798,16 @@
       "type": "cuotas sin intereses",
       "value": 6
     },
-    "validFrom": "2026-04-06",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "restrictions": [
-      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago",
-      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
-      "No acumulable con otras promociones ni entre sí",
+      "No aplica a compras realizadas a través de MercadoPago",
+      "No aplica a compras realizadas con Plan Gobierno",
       "Oferta exclusiva para la cartera de consumo",
-      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
+      "Solo válido para aquellos clientes que se encuentren al día en sus productos"
     ],
-    "onlyForProducts": "silla, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
-    "excludesProducts": "aquellas tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
+    "onlyForProducts": "Sillas, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
+    "excludesProducts": "Tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
     "paymentMethods": [
       [
         "Banco Comafi",
@@ -688,17 +833,16 @@
       "type": "cuotas sin intereses",
       "value": 3
     },
-    "validFrom": "2026-04-06",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "restrictions": [
-      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago",
-      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
-      "No acumulable con otras promociones ni entre sí",
+      "No aplica a compras realizadas a través de MercadoPago",
+      "No aplica a compras realizadas con Plan Gobierno",
       "Oferta exclusiva para la cartera de consumo",
-      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
+      "Solo válido para aquellos clientes que se encuentren al día en sus productos"
     ],
-    "onlyForProducts": "televisores, rodados, electro portátil, hornos eléctricos y microondas, aires acondicionados",
-    "excludesProducts": "aquellas tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
+    "onlyForProducts": "Televisores, rodados, electro portátil, hornos eléctricos y microondas, aires acondicionados",
+    "excludesProducts": "Tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
     "paymentMethods": [
       [
         "Banco Comafi",
@@ -724,17 +868,16 @@
       "type": "cuotas sin intereses",
       "value": 6
     },
-    "validFrom": "2026-04-06",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "restrictions": [
-      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago",
-      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
-      "No acumulable con otras promociones ni entre sí",
+      "No aplica a compras realizadas a través de MercadoPago",
+      "No aplica a compras realizadas con Plan Gobierno",
       "Oferta exclusiva para la cartera de consumo",
-      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
+      "Solo válido para aquellos clientes que se encuentren al día en sus productos"
     ],
-    "onlyForProducts": "televisores, rodados, electro portátil, hornos eléctricos y microondas, aires acondicionados",
-    "excludesProducts": "aquellas tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
+    "onlyForProducts": "Televisores, rodados, electro portátil, hornos eléctricos y microondas, aires acondicionados",
+    "excludesProducts": "Tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
     "paymentMethods": [
       [
         "Banco Comafi",
@@ -760,17 +903,16 @@
       "type": "cuotas sin intereses",
       "value": 12
     },
-    "validFrom": "2026-04-06",
-    "validUntil": "2026-04-30",
+    "validFrom": "2026-05-01",
+    "validUntil": "2026-05-31",
     "restrictions": [
-      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago",
-      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
-      "No acumulable con otras promociones ni entre sí",
+      "No aplica a compras realizadas a través de MercadoPago",
+      "No aplica a compras realizadas con Plan Gobierno",
       "Oferta exclusiva para la cartera de consumo",
-      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
+      "Solo válido para aquellos clientes que se encuentren al día en sus productos"
     ],
-    "onlyForProducts": "televisores, rodados, electro portátil, hornos eléctricos y microondas, aires acondicionados",
-    "excludesProducts": "aquellas tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
+    "onlyForProducts": "Televisores, rodados, electro portátil, hornos eléctricos y microondas, aires acondicionados",
+    "excludesProducts": "Tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
     "paymentMethods": [
       [
         "Banco Comafi",
