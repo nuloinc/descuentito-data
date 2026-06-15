@@ -14,13 +14,13 @@
       "Domingo"
     ],
     "restrictions": [
-      "No acumulable con otras promociones vigentes.",
       "El descuento aplica únicamente abonando la compra con un único medio de pago adherido a la promoción. No aplica en operaciones realizadas con dos o más medios de pago combinados."
     ],
-    "excludesProducts": "Electrodomésticos y Tecnología; Frutas y Verduras; Carnicería: Carne de vaca, cerdo, pollo, achuras y embutidos; Leches infantiles y maternizadas etapa 1 y 2; Envases; Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7. No válido para aquellos productos cuya leyenda indique que son vendidos y entregados directamente por el distribuidor/fabricante, a través de la plataforma Marketplace de Carrefour.",
+    "excludesProducts": "Electrodomésticos y tecnología; Frutas y verduras; Carnicería: carne de vaca, cerdo, pollo, achuras y embutidos; Leches infantiles y maternizadas etapa 1 y 2; Envases; Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7. No válido para aquellos productos cuya leyenda indique que son vendidos y entregados directamente por el distribuidor/fabricante, a través de la plataforma Marketplace de Carrefour.",
     "paymentMethods": [
       [
-        "Tarjeta Carrefour Crédito"
+        "Tarjeta Carrefour Crédito",
+        "Tarjeta de crédito Mastercard"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -52,6 +52,9 @@
       [
         "Tarjeta Carrefour Crédito",
         "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Tarjeta Carrefour Prepaga"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -76,14 +79,14 @@
       "Martes"
     ],
     "restrictions": [
+      "El descuento aplica únicamente abonando la compra con un único medio de pago adherido a la promoción. No aplica en operaciones realizadas con dos o más medios de pago combinados.",
       "No acumulable con otras promociones vigentes.",
-      "El descuento aplica únicamente abonando la compra con un único medio de pago adherido a la promoción. No aplica en operaciones realizadas con dos o más medios de pago combinados."
+      "No válido para aquellos productos cuya leyenda indique que son vendidos y entregados directamente por el distribuidor/fabricante, a través de la plataforma Marketplace de Carrefour."
     ],
-    "excludesProducts": "Electrodomésticos y tecnología; Frutas y verduras; Carnicería: carne de vaca, cerdo, pollo, achuras y embutidos; Leches infantiles y maternizadas etapa 1 y 2; Envases; Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Grupo Clos de los 7. No válido para aquellos productos cuya leyenda indique que son vendidos y entregados directamente por el distribuidor/fabricante, a través de la plataforma Marketplace de Carrefour.",
+    "excludesProducts": "Electrodomésticos y Tecnología; Frutas y Verduras; Carnicería: Carne de vaca, cerdo, pollo, achuras y embutidos; Leches infantiles y maternizadas etapa 1 y 2; Envases; Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7.",
     "paymentMethods": [
       [
-        "Tarjeta Carrefour Crédito",
-        "Tarjeta de crédito Mastercard"
+        "Tarjeta Carrefour Crédito"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -101,6 +104,37 @@
   },
   {
     "discount": {
+      "type": "porcentaje",
+      "value": 20
+    },
+    "validFrom": "2026-06-15",
+    "validUntil": "2026-06-15",
+    "weekdays": [
+      "Lunes"
+    ],
+    "restrictions": [
+      "Válido para una compra por usuario.",
+      "No válido para aquellos productos cuya leyenda indique que son vendidos y entregados directamente por el distribuidor/fabricante, a través de la plataforma Marketplace de Carrefour."
+    ],
+    "excludesProducts": "Electrodomésticos, Tecnología, Carnicería: carne de vaca, cerdo, pollo, achuras y embutidos, Frutas y verduras, Bazar, Textil, Productos de venta al bulto y pack familiar",
+    "paymentMethods": [
+      [
+        "Mercado Pago"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 15000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Online"
+    ],
+    "url": "https://www.carrefour.com.ar/descuentos-bancarios",
+    "source": "carrefour"
+  },
+  {
+    "discount": {
       "type": "cuotas sin intereses",
       "value": 6
     },
@@ -111,7 +145,7 @@
       "Miercoles"
     ],
     "restrictions": [
-      "Financiación sujeta a revisión crediticia, comercial y de riesgos de Mercado Libre al momento de la solicitud efectuada por el usuario.",
+      "Sujeta a revisión crediticia, comercial, y de riesgos de Mercado Libre al momento de la solicitud efectuada por el usuario.",
       "No válido en comerciante.carrefour.com.ar.",
       "No válido para aquellos productos cuya leyenda indique que son vendidos y entregados directamente por el distribuidor/fabricante, a través de la plataforma Marketplace de Carrefour."
     ],
@@ -120,11 +154,6 @@
         "Mercado Pago"
       ]
     ],
-    "paymentRails": {
-      "pagoConQR": true,
-      "telefonoContactless": false,
-      "contactless": false
-    },
     "unknownPaymentMethods": [],
     "limits": {
       "explicitlyHasNoLimit": true
@@ -152,9 +181,8 @@
       "Miercoles"
     ],
     "restrictions": [
-      "Solo para compras de clientes minoristas",
-      "No válido en comerciante.carrefour.com.ar",
-      "No acumulable con otras promociones vigentes",
+      "No acumulable con otras promociones vigentes.",
+      "Exclusivo solo para consumo familiar.",
       "No válido para aquellos productos cuya leyenda indique que son vendidos y entregados directamente por el distribuidor/fabricante, a través de la plataforma Marketplace de Carrefour."
     ],
     "excludesProducts": "Electrodomésticos y tecnología; Carnicería: carne de vaca, cerdo, pollo, achuras y embutidos; Leches infantiles y maternizadas etapa 1 y 2; Envases; Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7.",
@@ -197,13 +225,10 @@
       "Domingo"
     ],
     "restrictions": [
-      "Exclusivo para clientes de Club La Nación",
-      "Registrado en Club La Nación al menos 24 horas antes del comienzo del beneficio",
-      "Ingresando el cupón de descuento obtenido en Club La Nación",
-      "Un uso por cliente por día",
-      "No acumulable con otras promociones vigentes"
+      "DESCUENTO EXCLUSIVO PARA CLIENTES DE CLUB LA NACION. LAS PERSONAS QUE QUIERAN ACCEDER AL BENEFICIO DEBEN ESTAR REGISTRADAS AL PROGRAMA DE CLUB LA NACION AL MENOS 24 HORAS ANTES DEL COMIENZO DEL MISMO.",
+      "UN USO POR CLIENTE POR DÍA."
     ],
-    "excludesProducts": "Electrodomésticos, Telefonía, Fotografía, Informática, Imagen, Sonido, Vinos (Álamos, Altaland, Angélica Zapata, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, D.V. Catena, El Enemigo, La Posta, Luca, Luigi Bosca, Nicasia, Ojo de Buen Cubero, Ribera del Cuarzo, Rutini, Saint Felicien, San Felipe y Valmont), Leches infantiles y maternizadas etapas 1 y 2, Carnicería (carne vacuna, pollo, cerdo y embutidos), Conservadoras de cerveza, Productos vendidos y entregados directamente por el distribuidor/fabricante a través de la plataforma Marketplace de Carrefour",
+    "excludesProducts": "Electrodomésticos, Telefonía, Fotografía, Informática, Imagen, Sonido, Productos de las siguientes bodegas y marcas: Álamos, Altaland, Angélica Zapata, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, D.V. Catena, El Enemigo, La Posta, Luca, Luigi Bosca, Nicasia, Ojo de Buen Cubero, Ribera del Cuarzo, Rutini, Saint Felicien, San Felipe y Valmont, Leches infantiles y maternizadas etapas 1 y 2, Carnicería (carne vacuna, pollo, cerdo y embutidos) y Conservadoras de cerveza. No válido para aquellos productos cuya leyenda indique que son vendidos y entregados directamente por el distribuidor/fabricante, a través de la plataforma Marketplace de Carrefour.",
     "unknownPaymentMethods": [],
     "limits": {
       "explicitlyHasNoLimit": true
@@ -227,23 +252,23 @@
     "restrictions": [
       "Exclusivo para clientes Singular."
     ],
-    "excludesProducts": "Electrodomésticos, Tecnología, Carne de vaca, Cerdo, Pollo, Achuras, Embutidos, Leches infantiles y maternizadas etapa 1 y 2, Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata, Grupo Clos de los 7, Productos de la marca Carrefour",
+    "excludesProducts": "Electrodomésticos, Tecnología, Carnicería: Carne de vaca, Cerdo, Pollo, Achuras y Embutidos, Leches infantiles y maternizadas etapa 1 y 2, Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7, Productos de la marca Carrefour.",
     "paymentMethods": [
-      [
-        "Banco Patagonia",
-        "Tarjeta de débito VISA"
-      ],
       [
         "Banco Patagonia",
         "Tarjeta de crédito VISA"
       ],
       [
         "Banco Patagonia",
-        "Tarjeta de débito Mastercard"
+        "Tarjeta de débito VISA"
       ],
       [
         "Banco Patagonia",
         "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Patagonia",
+        "Tarjeta de débito Mastercard"
       ],
       [
         "Banco Patagonia",
@@ -274,7 +299,7 @@
     "restrictions": [
       "Exclusivo para clientes Singular."
     ],
-    "excludesProducts": "Electrodomésticos, Tecnología, Carne de vaca, Cerdo, Pollo, Achuras, Embutidos, Leches infantiles y maternizadas etapa 1 y 2, Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata, Grupo Clos de los 7, Productos de la marca Carrefour",
+    "excludesProducts": "Electrodomésticos, Tecnología, Carnicería (Carne de vaca, cerdo, pollo, achuras y embutidos), Leches infantiles y maternizadas etapa 1 y 2, Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7, Productos de la marca Carrefour.",
     "paymentMethods": [
       [
         "Banco Patagonia",
@@ -322,7 +347,7 @@
       "Exclusivo para clientes con Plan Sueldo Clásico.",
       "Exclusivo para clientes con cuenta Clásica y Plus."
     ],
-    "excludesProducts": "Electrodomésticos, Tecnología, Carnicería (carne de vaca, cerdo, pollo, achuras y embutidos), Leches infantiles y maternizadas etapa 1 y 2, Bodegas Chandon (Afincado, Baron B, Beltour, Belverde, Castel Chandon, Chandon, Cheval Des Andes, Clos Du Moulin, Dom Perignon, Glenmorangie, Hennessy, Latitud 33, Mercier, Moet, Single Vineyard, Terrazas y Veuve Clicquot), Casa de Herrero, La Posta, Luca, Rutini, San Felipe, Nicolas Catena, Araucana, Atlaland, Aruma, Caro, Cuchillo de Palo, Ojo de Buen Cubero, Valmont, Ribera y Saint Felicien",
+    "excludesProducts": "Electrodomésticos, Tecnología, Carnicería (carne de vaca, cerdo, pollo, achuras y embutidos), Leches infantiles y maternizadas etapa 1 y 2, Bodegas Chandon (Afincado, Baron B, Beltour, Belverde, Castel Chandon, Chandon, Cheval des Andes, Clos Du Moulin, Dom Perignon, Glenmorangie, Hennessy, Latitud 33, Mercier, Moet, Single Vineyard, Terrazas y Veuve Clicquot), Casa de Herrero, La Posta, Luca, Rutini, San Felipe, Nicolas Catena, Araucana, Atlaland, Aruma, Caro, Cuchillo de Palo, Ojo de Buen Cubero, Valmont, Ribera y Saint Felicien",
     "paymentMethods": [
       [
         "Banco Patagonia",
@@ -354,7 +379,7 @@
       "Exclusivo para clientes con Plan Sueldo Plus.",
       "Exclusivo para clientes con Cuenta Plus."
     ],
-    "excludesProducts": "Electrodomésticos, Tecnología, Carne de vaca, Cerdo, Pollo, Achuras, Embutidos, Leches infantiles y maternizadas etapa 1 y 2, Bodegas Chandon, Leoncio Arizu, Terrazas de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata, Grupo Clos de los 7, Productos de la marca Carrefour",
+    "excludesProducts": "Electrodomésticos, Tecnología, Carnicería (carne de vaca, cerdo, pollo, achuras y embutidos), Leches infantiles y maternizadas etapa 1 y 2, Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7, Productos de la marca Carrefour.",
     "paymentMethods": [
       [
         "Banco Patagonia",
@@ -383,9 +408,10 @@
       "Miercoles"
     ],
     "restrictions": [
-      "Exclusivo para clientes Singular."
+      "Exclusivo para clientes Singular.",
+      "No incluye productos de la marca Carrefour."
     ],
-    "excludesProducts": "Electrodomésticos, Tecnología, Carnicería (Carne de vaca, cerdo, pollo, achuras y embutidos), Leches infantiles y maternizadas etapa 1 y 2, Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7, Productos de la marca Carrefour.",
+    "excludesProducts": "Electrodomésticos, Tecnología, Carnicería (carne de vaca, cerdo, pollo, achuras y embutidos), Leches infantiles y maternizadas etapa 1 y 2, Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7.",
     "paymentMethods": [
       [
         "Banco Patagonia",
@@ -431,11 +457,10 @@
     ],
     "restrictions": [
       "Exclusivo para clientes con plan sueldo singular",
-      "Tope de devolución por mes y por cuenta",
-      "No acumulable con otras promociones y/o descuentos",
-      "Válido para compras realizadas en 1 pago"
+      "Tope de devolución (POR MES Y POR CUENTA) $ 25.000",
+      "Exclusivo para clientes singular"
     ],
-    "excludesProducts": "Electrodomésticos, Tecnología, Carnicería (carne de vaca, cerdo, pollo, achuras y embutidos), Leches infantiles y maternizadas etapa 1 y 2, Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7, Productos de la marca Carrefour",
+    "excludesProducts": "Electrodomésticos, Tecnología, Carnicería (Carne de vaca, cerdo, pollo, achuras y embutidos), Leches infantiles y maternizadas etapa 1 y 2, Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7, Productos de la marca Carrefour",
     "paymentMethods": [
       [
         "Banco Patagonia",
@@ -460,6 +485,15 @@
     },
     "validFrom": "2026-06-01",
     "validUntil": "2026-06-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
     "restrictions": [
       "En compras a partir de $150.000"
     ],
@@ -510,8 +544,9 @@
     ],
     "restrictions": [
       "No válido para compras en www.carrefour.com.ar",
-      "Beneficio válido para titulares y adicionales de Tarjeta de Crédito Naranja X de todo el país que compren en plan 4 cuotas cero interés",
-      "No válido para compras realizadas con Naranja VISA, Naranja Mastercard, Naranja AMEX ni para transacciones realizadas en agrupadores y billeteras virtuales"
+      "Beneficio válido para titulares y adicionales de Tarjeta de Crédito Naranja X de todo el país",
+      "No válido para compras realizadas con Naranja VISA, Naranja Mastercard, Naranja AMEX",
+      "No válido para transacciones realizadas en agrupadores y billeteras virtuales"
     ],
     "paymentMethods": [
       [
@@ -578,10 +613,16 @@
       "Jueves"
     ],
     "restrictions": [
-      "Válido para empleadas/os públicos que trabajen en: Educación, Justicia, Registro, Energía, Cultura, Salud, Turismo, Prefectura, Tránsito, Deporte, Transporte, Desarrollo Social, cualquier dependencia nacional, provincial o municipal."
+      "Válido para empleadas/os públicos que trabajen en: Educación, Justicia, Registro, Energía, Cultura, Salud, Turismo, Prefectura, Tránsito, Deporte, Transporte, Desarrollo Social, cualquier dependencia nacional, provincial o municipal.",
+      "No acumulable con otras promociones vigentes."
     ],
-    "onlyForProducts": "Alimentos secos, Congelados, Lácteos, Fiambres, Bebidas, Limpieza y Perfumería.",
+    "onlyForProducts": "Alimentos secos, Congelados, Lácteos, Fiambres, Bebidas, Limpieza y Perfumería",
     "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": false,
+      "programaCiudadaniaPorteña": false
+    },
     "limits": {
       "maxDiscount": 20000,
       "explicitlyHasNoLimit": false
@@ -607,9 +648,15 @@
       "Jueves"
     ],
     "restrictions": [
-      "El descuento aplica únicamente abonando la compra con un único medio de pago adherido a la promoción. No aplica en operaciones realizadas con dos o más medios de pago combinados."
+      "Descuento exclusivo abonando con Cuenta Digital de Carrefour Banco.",
+      "Válido para compras online en carrefour.com.ar y en la App de Carrefour.",
+      "Aplicable tanto a compras con entrega inmediata como a compras con entrega programada.",
+      "No válido en las tiendas Hipermercados Carrefour, Carrefour Market, Carrefour Express, Carrefour Maxi ni en comerciante.carrefour.com.ar.",
+      "Exclusivo solo para consumo familiar.",
+      "El descuento aplica únicamente abonando la compra con un único medio de pago adherido a la promoción.",
+      "No aplica en operaciones realizadas con dos o más medios de pago combinados."
     ],
-    "excludesProducts": "Electrodomésticos, Tecnología, Carnes (vaca, cerdo, pollo, achuras, embutidos), Leches infantiles y maternizadas etapa 1 y 2, Frutas y verduras, Bazar, Textil, Productos de venta al bulto y pack familiar, Envases, Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7, Productos cuya leyenda indique que son vendidos y entregados directamente por el distribuidor/fabricante a través de la plataforma Marketplace de Carrefour.",
+    "excludesProducts": "Electrodomésticos y tecnología; Carnicería: carne de vaca, cerdo, pollo, achuras y embutidos; Leches infantiles y maternizadas etapa 1 y 2; Frutas y verduras; Bazar; Textil; Productos de venta al bulto y pack familiar; Envases; Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7. No válido para aquellos productos cuya leyenda indique que son vendidos y entregados directamente por el distribuidor/fabricante, a través de la plataforma Marketplace de Carrefour.",
     "paymentMethods": [
       [
         "Tarjeta Carrefour Crédito"
@@ -637,13 +684,11 @@
       "Lunes"
     ],
     "restrictions": [
-      "Exclusivo para clientes de Club La Nación",
-      "Registrado en Club La Nación al menos 24 horas antes del comienzo del beneficio",
-      "Un uso por cliente por semana",
-      "No acumulable con otras promociones vigentes",
-      "Ingresando el cupón de descuento obtenido en Club La Nación"
+      "DESCUENTO EXCLUSIVO PARA CLIENTES DE CLUB LA NACION. LAS PERSONAS QUE QUIERAN ACCEDER AL BENEFICIO DE CLUB LA NACION DEBEN ESTAR REGISTRADAS AL PROGRAMA AL MENOS 24 HORAS ANTES DEL COMIENZO DEL MISMO.",
+      "UN USO POR CLIENTE POR SEMANA.",
+      "NO ACUMULABLE CON OTRAS PROMOCIONES VIGENTES."
     ],
-    "excludesProducts": "Electrodomésticos, Telefonía, Fotografía, Informática, Imagen, Sonido, Productos de las bodegas y marcas: Álamos, Altaland, Angélica Zapata, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, D.V. Catena, El Enemigo, La Posta, Luca, Luigi Bosca, Nicasia, Ojo de Buen Cubero, Ribera del Cuarzo, Rutini, Saint Felicien, San Felipe y Valmont, Leches infantiles y maternizadas etapas 1 y 2, Carnicería (carne vacuna, pollo, cerdo y embutidos), Conservadoras de cerveza, Productos vendidos y entregados directamente por el distribuidor/fabricante a través de la plataforma Marketplace de Carrefour.",
+    "excludesProducts": "Electrodomésticos, Telefonía, Fotografía, Informática, Imagen, Sonido, Productos de las siguientes bodegas y marcas: Álamos, Altaland, Angélica Zapata, Aruma, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, D.V. Catena, El Enemigo, La Posta, Luca, Luigi Bosca, Nicasia, Ojo de Buen Cubero, Ribera del Cuarzo, Rutini, Saint Felicien, San Felipe y Valmont, Leches infantiles y maternizadas etapas 1 y 2, Carnicería (carne vacuna, pollo, cerdo y embutidos) y Conservadoras de cerveza. No válido para aquellos productos cuya leyenda indique que son vendidos y entregados directamente por el distribuidor/fabricante, a través de la plataforma Marketplace de Carrefour.",
     "unknownPaymentMethods": [],
     "limits": {
       "explicitlyHasNoLimit": true
@@ -668,11 +713,10 @@
       "Miercoles"
     ],
     "restrictions": [
-      "Válida únicamente para venta minorista",
-      "No aplica a compras realizadas con Cuenta DNI mediante la lectura del código QR de Mercado Pago u otras billeteras digitales",
-      "No aplica a compras abonadas con tarjeta de crédito VISA y/o Mastercard y/o VISA débito o transferencias a través de la aplicación"
+      "Válida únicamente para venta minorista.",
+      "No aplica a compras realizadas con Cuenta DNI mediante la lectura del código QR de Mercado Pago u otras billeteras digitales, ni las abonadas con tarjeta de crédito VISA y/o Mastercard y/o VISA débito o transferencias a través de la aplicación."
     ],
-    "excludesProducts": "Carnicería, Frutas, Verduras, Electrodomésticos, Quesos y fiambres, Pescadería fresca, Panadería, Platos preparados",
+    "excludesProducts": "Carnicería, frutas, verduras, electrodomésticos, quesos, fiambres, pescadería fresca, panadería, platos preparados",
     "paymentMethods": [
       [
         "Cuenta DNI"
@@ -707,9 +751,11 @@
       "Miercoles"
     ],
     "restrictions": [
-      "Exclusivo para clientes con plan sueldo."
+      "Exclusivo para clientes con plan sueldo.",
+      "No incluye electrodomésticos, electrónica, telefonía celular ni carnicería.",
+      "No acumulable con otras promociones vigentes.",
+      "Quedan excluidos de los descuentos: telefonía, fotografía, informática, imagen y sonido, motos, cuatriciclos, bicicletas motorizadas, tractores, las siguientes bodegas y marcas: Álamos, Altaland, Angélica Zapata, Aruma, Birth of Cabernet, Caro, Casa de Herrero, Cuchillo de Palo, D.V. Catena, El Enemigo, La Posta, Luca Beso de Dante, Luigi Bosca, Nicasia, Nico by Luca, Ojo de Buen Cubero, Rutini, Saint Felicien, San Felipe y Valmont, leches infantiles y maternizadas etapa 1 y 2, carnicería ni conservadoras de cerveza: carne vacuna, pollo, cortes de cerdos y embutido."
     ],
-    "excludesProducts": "Electrodomésticos, electrónica, telefonía celular, carnicería, fotografía, informática, imagen y sonido, motos, cuatriciclos, bicicletas motorizadas, tractores, las siguientes bodegas y marcas: Álamos, Altaland, Angélica Zapata, Aruma, Birth of Cabernet, Caro, Casa de Herrero, Chandon, Cuchillo de Palo, D.V. Catena, El Enemigo, La Posta, Luca Beso de Dante, Luigi Bosca, Nicasia, Nico By Luca, Ojo de Buen Cubero, Rutini, Saint Felicien, San Felipe y Valmont, leches infantiles y maternizadas etapa 1 y 2, carnicería ni conservadoras de cerveza: carne vacuna, pollo, cortes de cerdos y embutido.",
     "paymentMethods": [
       [
         "Banco Patagonia",
@@ -747,7 +793,7 @@
     "restrictions": [
       "Válido para empleadas/os públicos que trabajen en: Educación, Justicia, Registro, Energía, Cultura, Salud, Turismo, Prefectura, Tránsito, Deporte, Transporte, Desarrollo Social, cualquier dependencia nacional, provincial o municipal."
     ],
-    "onlyForProducts": "Alimentos secos, Congelados, Lácteos, Fiambres, Bebidas, Limpieza y Perfumería.",
+    "onlyForProducts": "Alimentos secos, Congelados, Lácteos, Fiambres, Bebidas, Limpieza y Perfumería",
     "unknownPaymentMethods": [],
     "limits": {
       "maxDiscount": 20000,
@@ -774,10 +820,13 @@
     "restrictions": [
       "El descuento aplica únicamente abonando la compra con un único medio de pago adherido a la promoción. No aplica en operaciones realizadas con dos o más medios de pago combinados."
     ],
-    "excludesProducts": "Electrodomésticos y tecnología; Carnicería: carne de vaca, cerdo, pollo, achuras y embutidos; Leches infantiles y maternizadas etapa 1 y 2; Frutas y verduras; Bazar; Textil; Productos de venta al bulto y pack familiar; Envases; Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7. No válido para aquellos productos cuya leyenda indique que son vendidos y entregados directamente por el distribuidor/fabricante, a través de la plataforma Marketplace de Carrefour. La promoción no aplica a pagos a través de billeteras virtuales y/o plataformas de pago online (por ejemplo, PayPal, Todo Pago, Mercado Pago, Ualá, etc.)",
+    "excludesProducts": "Electrodomésticos y tecnología; Carnicería: carne de vaca, cerdo, pollo, achuras y embutidos; Leches infantiles y maternizadas etapa 1 y 2; Frutas y verduras; Bazar; Textil; Productos de venta al bulto y pack familiar; Envases; Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7. No válido para aquellos productos cuya leyenda indique que son vendidos y entregados directamente por el distribuidor/fabricante, a través de la plataforma Marketplace de Carrefour.",
     "paymentMethods": [
       [
         "Tarjeta Carrefour Crédito"
+      ],
+      [
+        "Tarjeta Carrefour Prepaga"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -807,11 +856,13 @@
     ],
     "restrictions": [
       "No válido para productos cuya leyenda indique que son vendidos y entregados directamente por el distribuidor/fabricante, a través de la plataforma Marketplace de Carrefour.",
+      "No aplica a pagos a través de billeteras virtuales y/o plataformas de pago online (por ejemplo, PayPal, Todo Pago, Mercado Pago, Ualá, etc.).",
       "El descuento aplica únicamente abonando la compra con un único medio de pago adherido a la promoción. No aplica en operaciones realizadas con dos o más medios de pago combinados."
     ],
     "paymentMethods": [
       [
-        "Tarjeta Carrefour Crédito"
+        "Tarjeta Carrefour Crédito",
+        "Tarjeta de crédito Mastercard"
       ]
     ],
     "unknownPaymentMethods": [],
@@ -841,13 +892,13 @@
     "restrictions": [
       "El descuento aplica únicamente abonando la compra con un único medio de pago adherido a la promoción. No aplica en operaciones realizadas con dos o más medios de pago combinados."
     ],
-    "excludesProducts": "Carnicería, Frutas, Verduras, Electrodomésticos, Bazar, Textil, Productos de venta por bulto y en pack familiar, Leches infantiles y maternizadas etapa 1 y 2, Envases, Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7, Productos cuya leyenda indique que son vendidos y entregados directamente por el distribuidor/fabricante, a través de la plataforma Marketplace de Carrefour.",
+    "excludesProducts": "Carnicería: carne de vaca, cerdo, pollo, achuras y embutidos; Leches infantiles y maternizadas etapa 1 y 2; Frutas y verduras; Bazar; Textil; Productos de venta al bulto y pack familiar; Envases; Bodegas Chandon, Leoncio Arizu, Terraza de los Andes, Trumpeter, La Rural, Rutini Wines, Bodega 33 Sur, Catena Zapata y Grupo Clos de los 7; Electrodomésticos y Tecnología; Productos cuya leyenda indique que son vendidos y entregados directamente por el distribuidor/fabricante, a través de la plataforma Marketplace de Carrefour.",
     "paymentMethods": [
       [
-        "Tarjeta Carrefour Prepaga"
+        "Tarjeta Carrefour Crédito"
       ],
       [
-        "Tarjeta Carrefour Crédito"
+        "Tarjeta Carrefour Prepaga"
       ]
     ],
     "unknownPaymentMethods": [],
