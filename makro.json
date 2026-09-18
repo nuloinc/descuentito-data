@@ -2,32 +2,1194 @@
   {
     "discount": {
       "type": "porcentaje",
-      "value": 10
+      "value": 25
     },
     "validFrom": "2026-09-01",
     "validUntil": "2026-09-30",
     "weekdays": [
-      "Viernes",
-      "Sabado"
+      "Martes",
+      "Jueves"
     ],
     "restrictions": [
-      "Exclusivo pagando con dinero en cuenta de Mercado Pago",
-      "No acumulable con otras promociones, beneficios y/u ofertas vigentes"
+      "No aplica para clientes en mora o inhabilitados."
     ],
-    "excludesProducts": "Achuras y Embutidos, Aves, Carnes, Cerdos, Carne envasada al vacío, Carne pre-empaquetada, Carne vacuna fresca",
     "paymentMethods": [
       [
-        "Mercado Pago"
+        "Cencopay",
+        "Tarjeta de crédito Cencosud Mastercard"
       ]
     ],
     "paymentRails": {
       "pagoConQR": false,
       "telefonoContactless": false,
-      "contactless": false
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 20000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 20
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "weekdays": [
+      "Miercoles"
+    ],
+    "restrictions": [
+      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago",
+      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
+      "No acumulable con otras promociones ni entre sí",
+      "Oferta exclusiva para la cartera de consumo",
+      "Sólo válido para aquellos clientes que se encuentren al día en sus productos y sean titulares de una caja de ahorro en pesos en Banco Comafi"
+    ],
+    "excludesProducts": "Tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
+    "paymentMethods": [
+      [
+        "Banco Comafi",
+        "MODO",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Comafi",
+        "MODO",
+        "Tarjeta de crédito VISA"
+      ],
+      [
+        "Banco Comafi",
+        "MODO",
+        "Tarjeta de débito VISA"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "maxDiscount": 15000,
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 5
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "restrictions": [],
+    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores y tinturas capilares, Cremas corporales, faciales y para manos, Desodorante para pies y talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Demaquillantes y quitaesmaltes, Talcos, Féculas y oleos para bebés, Jabón para la ropa en pan, líquido y en polvo",
+    "unknownPaymentMethods": [],
+    "appliesOnlyTo": {
+      "anses": false,
+      "jubilados": true,
+      "programaCiudadaniaPorteña": false
+    },
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "membership": [
+      "Club +Simple"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "porcentaje",
+      "value": 5
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "restrictions": [
+      "Exclusivo para familia militar",
+      "Requiere inscripción previa en el formulario provisto"
+    ],
+    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores y tinturas capilares, Cremas corporales, faciales y para manos, Desodorante para pies y talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Demaquillantes y quitaesmaltes, Talcos, féculas y óleos para bebés, Jabón para la ropa en pan, líquido y en polvo",
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No aplica a ventas mediante Todo Pago, Mercado Pago y NPOS."
+    ],
+    "onlyForProducts": "",
+    "excludesProducts": "",
+    "paymentMethods": [
+      [
+        "NaranjaX"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 4
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No aplica a ventas mediante Todo Pago, Mercado Pago y NPOS."
+    ],
+    "onlyForProducts": "",
+    "excludesProducts": "",
+    "paymentMethods": [
+      [
+        "NaranjaX"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 0
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes"
+    ],
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados"
+    ],
+    "paymentMethods": [
+      [
+        "Cencopay"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
     },
     "unknownPaymentMethods": [],
     "limits": {
       "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "restrictions": [
+      "Oferta exclusiva para la cartera de consumo",
+      "Tarjetas de crédito pertenecientes a servicios de Cuenta Global, Classic, Premium y Único emitidos por Banco Comafi"
+    ],
+    "paymentMethods": [
+      [
+        "Banco Comafi",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Comafi",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados"
+    ],
+    "onlyForProducts": "Vajilla (platos, bowls, tazas)",
+    "paymentMethods": [
+      [
+        "Cencopay",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Cencopay",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 6
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados"
+    ],
+    "onlyForProducts": "Sillas, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
+    "paymentMethods": [
+      [
+        "Cencopay",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Cencopay",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 12
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No aplica para clientes en mora o inhabilitados"
+    ],
+    "onlyForProducts": "Televisores, rodados, electro portátil, electro cocinas y hornos, aires acondicionados, refrigeradores y congeladoras, parrillas y fogoneros",
+    "paymentMethods": [
+      [
+        "Cencopay",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Cencopay",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "restrictions": [],
+    "onlyForProducts": "vajilla (platos, bowls, tazas)",
+    "paymentMethods": [
+      [
+        "Banco Nación",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Nación",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 6
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "restrictions": [],
+    "onlyForProducts": "silla, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
+    "paymentMethods": [
+      [
+        "Banco Nación",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Nación",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 12
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "restrictions": [],
+    "onlyForProducts": "televisores, rodados, electro portátil, electro cocinas y hornos, aires acondicionados, refrigeradores y congeladoras, parrillas y fogoneros",
+    "paymentMethods": [
+      [
+        "Banco Nación",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Nación",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones."
+    ],
+    "onlyForProducts": "vajilla (platos, bowls, tazas)",
+    "excludesProducts": "comestibles",
+    "paymentMethods": [
+      [
+        "Banco Galicia",
+        "Tarjeta American Express"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 6
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones."
+    ],
+    "onlyForProducts": "silla, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
+    "excludesProducts": "comestibles",
+    "paymentMethods": [
+      [
+        "Banco Galicia",
+        "Tarjeta American Express"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 12
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "No acumulable con otras promociones."
+    ],
+    "onlyForProducts": "televisores, rodados, electro portátil, electro cocinas y hornos, aires acondicionados, refrigeradores y congeladoras, parrillas y fogoneros",
+    "excludesProducts": "comestibles",
+    "paymentMethods": [
+      [
+        "Banco Galicia",
+        "Tarjeta American Express"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Galicia",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "restrictions": [
+      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago.",
+      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno.",
+      "No acumulable con otras promociones ni entre sí.",
+      "Oferta exclusiva para la cartera de consumo.",
+      "Sólo válido para aquellos clientes que se encuentren al día en sus productos."
+    ],
+    "onlyForProducts": "vajilla (platos, bowls, tazas)",
+    "excludesProducts": "Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
+    "paymentMethods": [
+      [
+        "Banco Comafi",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Comafi",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "restrictions": [
+      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago.",
+      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno.",
+      "No acumulable con otras promociones ni entre sí.",
+      "Oferta exclusiva para la cartera de consumo.",
+      "Sólo válido para aquellos clientes que se encuentren al día en sus productos."
+    ],
+    "onlyForProducts": "silla, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
+    "excludesProducts": "Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
+    "paymentMethods": [
+      [
+        "Banco Comafi",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Comafi",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 6
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "restrictions": [
+      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago.",
+      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno.",
+      "No acumulable con otras promociones ni entre sí.",
+      "Oferta exclusiva para la cartera de consumo.",
+      "Sólo válido para aquellos clientes que se encuentren al día en sus productos."
+    ],
+    "onlyForProducts": "silla, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
+    "excludesProducts": "Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
+    "paymentMethods": [
+      [
+        "Banco Comafi",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Comafi",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "restrictions": [
+      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago.",
+      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno.",
+      "No acumulable con otras promociones ni entre sí.",
+      "Oferta exclusiva para la cartera de consumo.",
+      "Sólo válido para aquellos clientes que se encuentren al día en sus productos."
+    ],
+    "onlyForProducts": "televisores, rodados, electro portátil, electro cocinas y hornos, aires acondicionados, refrigeradores y congeladoras, parrillas y fogoneros",
+    "excludesProducts": "Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
+    "paymentMethods": [
+      [
+        "Banco Comafi",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Comafi",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 6
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "restrictions": [
+      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago.",
+      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno.",
+      "No acumulable con otras promociones ni entre sí.",
+      "Oferta exclusiva para la cartera de consumo.",
+      "Sólo válido para aquellos clientes que se encuentren al día en sus productos."
+    ],
+    "onlyForProducts": "televisores, rodados, electro portátil, electro cocinas y hornos, aires acondicionados, refrigeradores y congeladoras, parrillas y fogoneros",
+    "excludesProducts": "Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
+    "paymentMethods": [
+      [
+        "Banco Comafi",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Comafi",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 12
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "restrictions": [
+      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago.",
+      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno.",
+      "No acumulable con otras promociones ni entre sí.",
+      "Oferta exclusiva para la cartera de consumo.",
+      "Sólo válido para aquellos clientes que se encuentren al día en sus productos."
+    ],
+    "onlyForProducts": "televisores, rodados, electro portátil, electro cocinas y hornos, aires acondicionados, refrigeradores y congeladoras, parrillas y fogoneros",
+    "excludesProducts": "Credial, Business y Corporativas emitidas en Argentina por Banco Comafi",
+    "paymentMethods": [
+      [
+        "Banco Comafi",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Comafi",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": true
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
+      "No acumulable con otras promociones ni entre sí",
+      "Oferta exclusiva para la cartera de consumo",
+      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
+    ],
+    "onlyForProducts": "vajilla (platos, bowls, tazas)",
+    "excludesProducts": "Credial, Business y Corporativas emitidas en Argentina por Banco Macro",
+    "paymentMethods": [
+      [
+        "Banco Macro",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Macro",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
+      "No acumulable con otras promociones ni entre sí",
+      "Oferta exclusiva para la cartera de consumo",
+      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
+    ],
+    "onlyForProducts": "silla, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
+    "excludesProducts": "Credial, Business y Corporativas emitidas en Argentina por Banco Macro",
+    "paymentMethods": [
+      [
+        "Banco Macro",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Macro",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 6
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
+      "No acumulable con otras promociones ni entre sí",
+      "Oferta exclusiva para la cartera de consumo",
+      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
+    ],
+    "onlyForProducts": "silla, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
+    "excludesProducts": "Credial, Business y Corporativas emitidas en Argentina por Banco Macro",
+    "paymentMethods": [
+      [
+        "Banco Macro",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Macro",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 3
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
+      "No acumulable con otras promociones ni entre sí",
+      "Oferta exclusiva para la cartera de consumo",
+      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
+    ],
+    "onlyForProducts": "televisores, rodados, electro portátil, electro cocinas y hornos, aires acondicionados, refrigeradores y congeladoras, parrillas y fogoneros",
+    "excludesProducts": "Credial, Business y Corporativas emitidas en Argentina por Banco Macro",
+    "paymentMethods": [
+      [
+        "Banco Macro",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Macro",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 6
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
+      "No acumulable con otras promociones ni entre sí",
+      "Oferta exclusiva para la cartera de consumo",
+      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
+    ],
+    "onlyForProducts": "televisores, rodados, electro portátil, electro cocinas y hornos, aires acondicionados, refrigeradores y congeladoras, parrillas y fogoneros",
+    "excludesProducts": "Credial, Business y Corporativas emitidas en Argentina por Banco Macro",
+    "paymentMethods": [
+      [
+        "Banco Macro",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Macro",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
+    },
+    "where": [
+      "Makro"
+    ],
+    "url": "https://makro.com.ar/beneficios-bancarios/",
+    "source": "makro"
+  },
+  {
+    "discount": {
+      "type": "cuotas sin intereses",
+      "value": 12
+    },
+    "validFrom": "2026-09-01",
+    "validUntil": "2026-09-30",
+    "weekdays": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes",
+      "Sabado",
+      "Domingo"
+    ],
+    "restrictions": [
+      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
+      "No acumulable con otras promociones ni entre sí",
+      "Oferta exclusiva para la cartera de consumo",
+      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
+    ],
+    "onlyForProducts": "televisores, rodados, electro portátil, electro cocinas y hornos, aires acondicionados, refrigeradores y congeladoras, parrillas y fogoneros",
+    "excludesProducts": "Credial, Business y Corporativas emitidas en Argentina por Banco Macro",
+    "paymentMethods": [
+      [
+        "Banco Macro",
+        "Tarjeta de crédito Mastercard"
+      ],
+      [
+        "Banco Macro",
+        "Tarjeta de crédito VISA"
+      ]
+    ],
+    "paymentRails": {
+      "pagoConQR": false,
+      "telefonoContactless": false,
+      "contactless": true
+    },
+    "unknownPaymentMethods": [],
+    "limits": {
+      "explicitlyHasNoLimit": false
     },
     "where": [
       "Makro"
@@ -204,1199 +1366,6 @@
     "limits": {
       "maxDiscount": 30000,
       "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 25
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Martes",
-      "Jueves"
-    ],
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados"
-    ],
-    "paymentMethods": [
-      [
-        "Cencopay",
-        "Tarjeta de crédito Mastercard"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 20000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 20
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Miercoles"
-    ],
-    "restrictions": [
-      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago.",
-      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno.",
-      "No acumulable con otras promociones ni entre sí.",
-      "Oferta exclusiva para la cartera de consumo.",
-      "Para compras realizadas por adicionales con tarjeta de débito y/o crédito de Banco Comafi, el reintegro siempre se acreditará en la caja de ahorro en pesos que el titular principal de la tarjeta de débito y/o crédito tenga en Banco Comafi.",
-      "Quedan excluidas aquellas tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Comafi.",
-      "Sólo válido para aquellos clientes que se encuentren al día en sus productos y sean titulares de una caja de ahorro en pesos en Banco Comafi."
-    ],
-    "paymentMethods": [
-      [
-        "Banco Comafi",
-        "MODO",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Comafi",
-        "MODO",
-        "Tarjeta de crédito VISA"
-      ],
-      [
-        "Banco Comafi",
-        "MODO",
-        "Tarjeta de débito VISA"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "maxDiscount": 15000,
-      "explicitlyHasNoLimit": false
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 5
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "restrictions": [],
-    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores y tinturas capilares, Cremas corporales, faciales y para manos, Desodorante para pies y talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Demaquillantes y quitaesmaltes, Talcos, Féculas y óleos para bebés, Jabón para la ropa en pan, líquido y en polvo",
-    "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": false,
-      "jubilados": true,
-      "programaCiudadaniaPorteña": false
-    },
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "porcentaje",
-      "value": 5
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "restrictions": [
-      "Requiere registro previo en el formulario provisto. El alta puede demorar hasta 72hs hábiles."
-    ],
-    "onlyForProducts": "Fideos, Derivados de tomate (triturado, extracto, puré, pulpa y salsas listas), Carne fresca en bandeja, Carne envasada al vacío, Pollos en general, Shampoo, Acondicionador, Tratamiento capilar, Cremas de peinar, Fijadores y tinturas capilares, Cremas corporales, faciales y para manos, Desodorante para pies y talcos, Cremas de afeitar y derivados, Colonias, Productos depilatorios, Demaquillantes y quitaesmaltes, Talcos, féculas y óleos para bebés, Jabón para la ropa en pan, líquido y en polvo.",
-    "unknownPaymentMethods": [],
-    "appliesOnlyTo": {
-      "anses": false,
-      "jubilados": false,
-      "programaCiudadaniaPorteña": false
-    },
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No aplica a ventas mediante Todo Pago, Mercado Pago y NPOS."
-    ],
-    "paymentMethods": [
-      [
-        "NaranjaX"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 4
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No aplica a ventas mediante Todo Pago, Mercado Pago y NPOS."
-    ],
-    "paymentMethods": [
-      [
-        "NaranjaX"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 0
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes"
-    ],
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados"
-    ],
-    "paymentMethods": [
-      [
-        "Cencopay"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "restrictions": [
-      "Oferta exclusiva para la cartera de consumo",
-      "Tarjetas de crédito pertenecientes a servicios de Cuenta Global, Classic, Premium y Único emitidos por Banco Comafi"
-    ],
-    "paymentMethods": [
-      [
-        "Banco Comafi",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Comafi",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados"
-    ],
-    "onlyForProducts": "vajilla (platos, bowls, tazas)",
-    "paymentMethods": [
-      [
-        "Cencopay"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 6
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados"
-    ],
-    "onlyForProducts": "silla, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
-    "paymentMethods": [
-      [
-        "Cencopay"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 12
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No aplica para clientes en mora o inhabilitados"
-    ],
-    "onlyForProducts": "televisores, rodados, electro portátil, electro cocinas y hornos, aires acondicionados, refrigeradores y congeladoras, parrillas y fogoneros",
-    "paymentMethods": [
-      [
-        "Cencopay"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "restrictions": [],
-    "onlyForProducts": "vajilla (platos, bowls, tazas)",
-    "paymentMethods": [
-      [
-        "Banco Nación",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Nación",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "restrictions": [],
-    "onlyForProducts": "silla, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
-    "paymentMethods": [
-      [
-        "Banco Nación",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Nación",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 6
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "restrictions": [],
-    "onlyForProducts": "silla, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
-    "paymentMethods": [
-      [
-        "Banco Nación",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Nación",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "restrictions": [],
-    "onlyForProducts": "televisores, rodados, electro portátil, electro cocinas y hornos, aires acondicionados, refrigeradores y congeladoras, parrillas y fogoneros",
-    "paymentMethods": [
-      [
-        "Banco Nación",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Nación",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 6
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "restrictions": [],
-    "onlyForProducts": "televisores, rodados, electro portátil, electro cocinas y hornos, aires acondicionados, refrigeradores y congeladoras, parrillas y fogoneros",
-    "paymentMethods": [
-      [
-        "Banco Nación",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Nación",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 12
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "restrictions": [],
-    "onlyForProducts": "televisores, rodados, electro portátil, electro cocinas y hornos, aires acondicionados, refrigeradores y congeladoras, parrillas y fogoneros",
-    "paymentMethods": [
-      [
-        "Banco Nación",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Nación",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No acumulable con otras promociones.",
-      "No aplica para pagos realizados mediante billeteras virtuales."
-    ],
-    "onlyForProducts": "vajilla (platos, bowls, tazas)",
-    "excludesProducts": "productos comestibles",
-    "paymentMethods": [
-      [
-        "Banco Galicia",
-        "Tarjeta American Express"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 6
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No acumulable con otras promociones.",
-      "No aplica para pagos realizados mediante billeteras virtuales."
-    ],
-    "onlyForProducts": "silla, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
-    "excludesProducts": "productos comestibles",
-    "paymentMethods": [
-      [
-        "Banco Galicia",
-        "Tarjeta American Express"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 12
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "No acumulable con otras promociones.",
-      "No aplica para pagos realizados mediante billeteras virtuales."
-    ],
-    "onlyForProducts": "televisores, rodados, electro portátil, electro cocinas y hornos, aires acondicionados, refrigeradores y congeladoras, parrillas y fogoneros",
-    "excludesProducts": "productos comestibles",
-    "paymentMethods": [
-      [
-        "Banco Galicia",
-        "Tarjeta American Express"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Galicia",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago",
-      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
-      "No acumulable con otras promociones ni entre sí",
-      "Oferta exclusiva para la cartera de consumo",
-      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
-    ],
-    "onlyForProducts": "Vajilla (platos, bowls, tazas)",
-    "paymentMethods": [
-      [
-        "Banco Comafi",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Comafi",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 6
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago",
-      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
-      "No acumulable con otras promociones ni entre sí",
-      "Oferta exclusiva para la cartera de consumo",
-      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
-    ],
-    "onlyForProducts": "Sillas, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
-    "paymentMethods": [
-      [
-        "Banco Comafi",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Comafi",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 12
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago",
-      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
-      "No acumulable con otras promociones ni entre sí",
-      "Oferta exclusiva para la cartera de consumo",
-      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
-    ],
-    "onlyForProducts": "Televisores, rodados, electro portátil, electro cocinas y hornos, aires acondicionados, refrigeradores y congeladoras, parrillas y fogoneros",
-    "paymentMethods": [
-      [
-        "Banco Comafi",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Comafi",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago",
-      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
-      "No acumulable con otras promociones ni entre sí",
-      "Oferta exclusiva para la cartera de consumo",
-      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
-    ],
-    "onlyForProducts": "Vajilla (platos, bowls, tazas)",
-    "excludesProducts": "Tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Macro",
-    "paymentMethods": [
-      [
-        "Banco Macro",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Macro",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago",
-      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
-      "No acumulable con otras promociones ni entre sí",
-      "Oferta exclusiva para la cartera de consumo",
-      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
-    ],
-    "onlyForProducts": "Sillas, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
-    "excludesProducts": "Tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Macro",
-    "paymentMethods": [
-      [
-        "Banco Macro",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Macro",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 6
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago",
-      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
-      "No acumulable con otras promociones ni entre sí",
-      "Oferta exclusiva para la cartera de consumo",
-      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
-    ],
-    "onlyForProducts": "Sillas, mesas y reposeras; herramientas eléctricas; artículos de cama; electro calefacción",
-    "excludesProducts": "Tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Macro",
-    "paymentMethods": [
-      [
-        "Banco Macro",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Macro",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 3
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago",
-      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
-      "No acumulable con otras promociones ni entre sí",
-      "Oferta exclusiva para la cartera de consumo",
-      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
-    ],
-    "onlyForProducts": "Televisores, rodados, electro portátil, electro cocinas y hornos, aires acondicionados, refrigeradores y congeladoras, parrillas y fogoneros",
-    "excludesProducts": "Tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Macro",
-    "paymentMethods": [
-      [
-        "Banco Macro",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Macro",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 6
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago",
-      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
-      "No acumulable con otras promociones ni entre sí",
-      "Oferta exclusiva para la cartera de consumo",
-      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
-    ],
-    "onlyForProducts": "Televisores, rodados, electro portátil, electro cocinas y hornos, aires acondicionados, refrigeradores y congeladoras, parrillas y fogoneros",
-    "excludesProducts": "Tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Macro",
-    "paymentMethods": [
-      [
-        "Banco Macro",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Macro",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
-    },
-    "where": [
-      "Makro"
-    ],
-    "url": "https://makro.com.ar/beneficios-bancarios/",
-    "source": "makro"
-  },
-  {
-    "discount": {
-      "type": "cuotas sin intereses",
-      "value": 12
-    },
-    "validFrom": "2026-09-01",
-    "validUntil": "2026-09-30",
-    "weekdays": [
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado",
-      "Domingo"
-    ],
-    "restrictions": [
-      "El beneficio no será aplicado en aquellas compras realizadas a través de MercadoPago",
-      "El beneficio no será aplicado para aquellas compras realizadas con Plan Gobierno",
-      "No acumulable con otras promociones ni entre sí",
-      "Oferta exclusiva para la cartera de consumo",
-      "Sólo válido para aquellos clientes que se encuentren al día en sus productos"
-    ],
-    "onlyForProducts": "Televisores, rodados, electro portátil, electro cocinas y hornos, aires acondicionados, refrigeradores y congeladoras, parrillas y fogoneros",
-    "excludesProducts": "Tarjetas de crédito Credial, Business y Corporativas emitidas en Argentina por Banco Macro",
-    "paymentMethods": [
-      [
-        "Banco Macro",
-        "Tarjeta de crédito Mastercard"
-      ],
-      [
-        "Banco Macro",
-        "Tarjeta de crédito VISA"
-      ]
-    ],
-    "paymentRails": {
-      "pagoConQR": false,
-      "telefonoContactless": false,
-      "contactless": true
-    },
-    "unknownPaymentMethods": [],
-    "limits": {
-      "explicitlyHasNoLimit": true
     },
     "where": [
       "Makro"
